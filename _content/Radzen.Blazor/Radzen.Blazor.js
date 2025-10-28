@@ -366,7 +366,7 @@ window.Radzen = {
               var value = e.clipboardData.getData('text');
 
               if (value) {
-                  for (var i = 0; i < value.length; i++) {
+                  for (var i = 0; i < Math.min(value.length, Radzen[id].inputs.length); i++) {
                       if (isNumber && isNaN(+value[i])) {
                           continue;
                       }
@@ -980,9 +980,9 @@ window.Radzen = {
           return;
     }
 
-    var ch = String.fromCharCode(e.charCode);
+    var ch = e.key;
 
-    if ((isInteger ? /^[-\d]$/ : /^[-\d,.]$/).test(ch)) {
+    if (/\p{Nd}/u.test(ch) || ch === '-' || (!isInteger && ch === decimalSeparator)) {
       return;
     }
 
@@ -2011,6 +2011,18 @@ window.Radzen = {
       } else if (paste) {
         e.preventDefault();
         var data = e.clipboardData.getData('text/html') || e.clipboardData.getData('text/plain');
+        
+        const startMarker = "<!--StartFragment-->";
+        const endMarker = "<!--EndFragment-->";
+
+        const startIndex = data.indexOf(startMarker);
+        const endIndex = data.indexOf(endMarker);
+
+        // check if the pasted data contains fragment markers
+        if (startIndex != -1 || endIndex != -1 || endIndex > startIndex) {
+            // only paste the fragment
+            data = data.substring(startIndex + startMarker.length, endIndex).trim();
+        }
 
         instance.invokeMethodAsync('OnPaste', data)
           .then(function (html) {
@@ -2070,7 +2082,11 @@ window.Radzen = {
       if (target.nodeType == 3) {
         target = target.parentElement;
       } else {
-        target = target.childNodes[selection.focusOffset];
+        if (img) {
+          target = target.childNodes[range.startOffset]
+        } else {
+          target = target.childNodes[selection.focusOffset];
+        }
         if (target) {
           innerHTML = target.outerHTML;
         }
@@ -2576,5 +2592,64 @@ window.Radzen = {
     unregisterScrollListener: function (element) {
       document.removeEventListener('scroll', element.scrollHandler, true);
       window.removeEventListener('resize', element.scrollHandler, true);
+    },
+    setTheme: function (href, wcagHref) {
+      const theme = document.getElementById('radzen-theme-link');
+      if (theme && theme.href != href) {
+        theme.href = href;
+      }
+
+      let wcagTheme = document.getElementById('radzen-wcag-theme-link');
+
+      if (!wcagTheme && wcagHref) {
+        wcagTheme = document.createElement('link');
+        wcagTheme.id = 'radzen-wcag-theme-link';
+        wcagTheme.rel = 'stylesheet';
+        wcagTheme.href = wcagHref;
+        theme.parentNode.insertBefore(wcagTheme, theme.nextSibling);
+      } else if (wcagTheme && wcagTheme.href != wcagHref) {
+        if (!wcagHref) {
+          wcagTheme.parentNode.removeChild(wcagTheme);
+          return;
+        } else {
+          wcagTheme.href = wcagHref;
+        }
+      }
+    },
+    createDraggable: function(element, ref, onDragStart) {
+      function handleDragStart(e) {
+        e.dataTransfer.setData('', e.target.id);
+        ref.invokeMethodAsync(onDragStart);
+      }
+      element.draggable = true;
+      element.addEventListener('dragstart', handleDragStart);
+      return {
+        dispose() {
+          element.removeEventListener('dragstart', handleDragStart);
+        }
+      };
     }
+};
+
+Radzen.registerFabMenu = function(element, dotnet){
+  if(!element) return;
+  if(element.__rzOutsideClickHandler){
+    document.removeEventListener('click', element.__rzOutsideClickHandler);
+    delete element.__rzOutsideClickHandler;
+  }
+  const handler = function(e){
+    if(!element.contains(e.target)){
+      dotnet.invokeMethodAsync('CloseAsync');
+    }
+  };
+  element.__rzOutsideClickHandler = handler;
+  document.addEventListener('click', handler);
+};
+Radzen.unregisterFabMenu = function(element){
+  if(!element) return;
+  const handler = element.__rzOutsideClickHandler;
+  if(handler){
+    document.removeEventListener('click', handler);
+    delete element.__rzOutsideClickHandler;
+  }
 };
