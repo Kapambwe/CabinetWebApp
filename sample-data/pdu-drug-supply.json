@@ -1,0 +1,154 @@
+{
+  "essentialDrugAvailability": 82,
+  "baselineAvailability": 35,
+  "targetAvailability": 70,
+  "healthBudgetKwacha": 26200000000,
+  "medicineBudgetKwacha": 4900000000,
+  "previousMedicineBudgetKwacha": 1400000000,
+  "medicineBudgetIncreasePercentage": 250,
+  "zammsaOnTimeDeliveryRate": 95,
+  "healthFacilitiesServed": 3200,
+  "localPharmaceuticalProduction": 12,
+  "importedMedicinesPercentage": 72,
+  "categoryAvailability": [
+    {
+      "category": "Antimalarials",
+      "availabilityPercentage": 92,
+      "baselinePercentage": 45,
+      "targetPercentage": 85,
+      "status": 6
+    },
+    {
+      "category": "Antibiotics",
+      "availabilityPercentage": 85,
+      "baselinePercentage": 38,
+      "targetPercentage": 75,
+      "status": 6
+    },
+    {
+      "category": "Maternal Health",
+      "availabilityPercentage": 78,
+      "baselinePercentage": 30,
+      "targetPercentage": 70,
+      "status": 6
+    },
+    {
+      "category": "Chronic Disease",
+      "availabilityPercentage": 75,
+      "baselinePercentage": 28,
+      "targetPercentage": 65,
+      "status": 6
+    },
+    {
+      "category": "HIV/AIDS",
+      "availabilityPercentage": 88,
+      "baselinePercentage": 42,
+      "targetPercentage": 80,
+      "status": 6
+    }
+  ],
+  "provincialData": [
+    {
+      "province": "Central",
+      "essentialDrugAvailability": 80,
+      "healthFacilities": 142,
+      "facilitiesWithFullStock": 108,
+      "lastDeliveryDate": "2025-11-28"
+    },
+    {
+      "province": "Copperbelt",
+      "essentialDrugAvailability": 88,
+      "healthFacilities": 198,
+      "facilitiesWithFullStock": 168,
+      "lastDeliveryDate": "2025-12-01"
+    },
+    {
+      "province": "Eastern",
+      "essentialDrugAvailability": 78,
+      "healthFacilities": 165,
+      "facilitiesWithFullStock": 122,
+      "lastDeliveryDate": "2025-11-25"
+    },
+    {
+      "province": "Luapula",
+      "essentialDrugAvailability": 72,
+      "healthFacilities": 118,
+      "facilitiesWithFullStock": 80,
+      "lastDeliveryDate": "2025-11-20"
+    },
+    {
+      "province": "Lusaka",
+      "essentialDrugAvailability": 92,
+      "healthFacilities": 225,
+      "facilitiesWithFullStock": 200,
+      "lastDeliveryDate": "2025-12-03"
+    },
+    {
+      "province": "Muchinga",
+      "essentialDrugAvailability": 70,
+      "healthFacilities": 95,
+      "facilitiesWithFullStock": 62,
+      "lastDeliveryDate": "2025-11-18"
+    },
+    {
+      "province": "Northern",
+      "essentialDrugAvailability": 75,
+      "healthFacilities": 155,
+      "facilitiesWithFullStock": 110,
+      "lastDeliveryDate": "2025-11-22"
+    },
+    {
+      "province": "North-Western",
+      "essentialDrugAvailability": 76,
+      "healthFacilities": 105,
+      "facilitiesWithFullStock": 75,
+      "lastDeliveryDate": "2025-11-19"
+    },
+    {
+      "province": "Southern",
+      "essentialDrugAvailability": 85,
+      "healthFacilities": 185,
+      "facilitiesWithFullStock": 150,
+      "lastDeliveryDate": "2025-11-30"
+    },
+    {
+      "province": "Western",
+      "essentialDrugAvailability": 68,
+      "healthFacilities": 130,
+      "facilitiesWithFullStock": 82,
+      "lastDeliveryDate": "2025-11-15"
+    }
+  ],
+  "milestones": [
+    {
+      "responsibleOfficer": "Director General - MCAZ",
+      "description": "Increased essential drug availability from 65% to 78%.",
+      "status": 5,
+      "completedDate": "2025-12-10T00:00:00",
+      "dueDate": "2025-12-31T00:00:00",
+      "department": "Medical Stores Limited",
+      "milestoneId": "drug-milestone-1",
+      "title": "Essential Drug Availability Improved"
+    },
+    {
+      "responsibleOfficer": "Hon. Elijah Muchima",
+      "description": "Reach 90% availability of essential medicines nationwide.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2026-12-31T00:00:00",
+      "department": "Ministry of Health",
+      "milestoneId": "drug-milestone-2",
+      "title": "Achieve 90% Drug Availability"
+    },
+    {
+      "responsibleOfficer": "PS Health",
+      "description": "Reduce stock-out facilities to below 5% nationwide.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2026-06-30T00:00:00",
+      "department": "Ministry of Health",
+      "milestoneId": "drug-milestone-3",
+      "title": "Eliminate Stock-Outs"
+    }
+  ]
+}

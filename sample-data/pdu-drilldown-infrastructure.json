@@ -1,0 +1,321 @@
+{
+  "quarterlyData": {
+    "year": 2025,
+    "quarters": [
+      {
+        "quarterName": "Q1 2025 (Jan-Mar)",
+        "budgetDisbursed": 950000000,
+        "projectsStarted": 12,
+        "projectsCompleted": 8,
+        "kilometersCompleted": 125,
+        "quarter": 1
+      },
+      {
+        "quarterName": "Q2 2025 (Apr-Jun)",
+        "budgetDisbursed": 1100000000,
+        "projectsStarted": 15,
+        "projectsCompleted": 10,
+        "kilometersCompleted": 145,
+        "quarter": 2
+      },
+      {
+        "quarterName": "Q3 2025 (Jul-Sep)",
+        "budgetDisbursed": 1200000000,
+        "projectsStarted": 18,
+        "projectsCompleted": 12,
+        "kilometersCompleted": 165,
+        "quarter": 3
+      },
+      {
+        "quarterName": "Q4 2025 (Oct-Dec)",
+        "budgetDisbursed": 1000000000,
+        "projectsStarted": 10,
+        "projectsCompleted": 15,
+        "kilometersCompleted": 180,
+        "quarter": 4
+      }
+    ]
+  },
+  "nationalData": {
+    "locationCode": "ZM",
+    "dataDate": "2026-02-19T00:00:00",
+    "budgetSpent": 4250000000,
+    "locationName": "Zambia",
+    "metricName": "Infrastructure Projects",
+    "level": 0,
+    "inProgressProjects": 55,
+    "completedProjects": 73,
+    "canDrillDown": true,
+    "budgetAllocated": 8500000000,
+    "notStartedProjects": 17,
+    "totalProjects": 145
+  },
+  "priorityName": "Infrastructure Development",
+  "priorityArea": 10,
+  "projectsData": [
+    {
+      "projectType": "Road Construction",
+      "provinceCode": "ZM-02",
+      "timeline": {
+        "startDate": "2024-04-23T00:00:00",
+        "plannedEndDate": "2026-04-23T00:00:00",
+        "currentProgress": 50.0,
+        "milestones": [
+          {
+            "status": "Completed",
+            "plannedDate": "2024-05-01T00:00:00",
+            "actualDate": "2024-04-28T00:00:00",
+            "name": "Mobilization"
+          },
+          {
+            "status": "Completed",
+            "plannedDate": "2024-10-01T00:00:00",
+            "actualDate": "2024-10-05T00:00:00",
+            "name": "25% Completion"
+          },
+          {
+            "status": "Completed (Delayed)",
+            "plannedDate": "2025-04-01T00:00:00",
+            "actualDate": "2025-04-10T00:00:00",
+            "name": "50% Completion"
+          },
+          {
+            "status": "Pending",
+            "plannedDate": "2025-10-01T00:00:00",
+            "actualDate": null,
+            "name": "75% Completion"
+          },
+          {
+            "status": "Pending",
+            "plannedDate": "2026-04-23T00:00:00",
+            "actualDate": null,
+            "name": "Project Completion"
+          }
+        ],
+        "status": "On Track"
+      },
+      "districtCode": "ZM-02-01",
+      "projectId": "INFRA-2024-001",
+      "budgetAllocated": 450000000,
+      "budgetSpent": 225000000,
+      "supportingOfficers": [
+        {
+          "type": 6,
+          "role": "Daily Site Supervision",
+          "name": "Site Engineer - John Mwanza",
+          "email": "john.mwanza@csec.com"
+        },
+        {
+          "type": 4,
+          "role": "Quality Assurance",
+          "name": "Resident Engineer - Grace Banda",
+          "email": "grace.banda@infrastructure.gov.zm"
+        }
+      ],
+      "contractors": [
+        {
+          "localContent": 45.0,
+          "contractValue": 450000000,
+          "name": "China State Construction Engineering Corporation",
+          "paidToDate": 225000000
+        }
+      ],
+      "provinceName": "Copperbelt",
+      "districtName": "Ndola District",
+      "projectName": "Ndola-Sakania-Mufulira Road Rehabilitation",
+      "responsibleOfficer": {
+        "position": "Senior Engineer",
+        "name": "Eng. Michael Zulu",
+        "email": "eng.michael.zulu@infrastructure.gov.zm",
+        "title": "Regional Engineer - Copperbelt",
+        "officerId": "OFC-ROAD-CP-001",
+        "type": 3,
+        "ministry": "Ministry of Infrastructure",
+        "phone": "+260 212 789 001",
+        "department": "Roads - Copperbelt Region"
+      }
+    },
+    {
+      "districtName": "Lusaka District",
+      "budgetSpent": 340000000,
+      "timeline": {
+        "startDate": "2025-01-15T00:00:00",
+        "plannedEndDate": "2027-01-15T00:00:00",
+        "currentProgress": 40.0,
+        "milestones": [
+          {
+            "status": "Completed",
+            "plannedDate": "2025-02-01T00:00:00",
+            "actualDate": "2025-01-28T00:00:00",
+            "name": "Mobilization"
+          },
+          {
+            "status": "Completed (Delayed)",
+            "plannedDate": "2025-06-01T00:00:00",
+            "actualDate": "2025-06-10T00:00:00",
+            "name": "20% Completion"
+          },
+          {
+            "status": "Completed (Delayed)",
+            "plannedDate": "2025-11-01T00:00:00",
+            "actualDate": "2025-11-15T00:00:00",
+            "name": "40% Completion"
+          }
+        ],
+        "status": "On Track"
+      },
+      "districtCode": "ZM-05-01",
+      "provinceCode": "ZM-05",
+      "projectType": "Road Construction",
+      "projectId": "INFRA-2025-015",
+      "provinceName": "Lusaka",
+      "budgetAllocated": 850000000,
+      "contractors": [
+        {
+          "localContent": 40.0,
+          "contractValue": 850000000,
+          "name": "Avic International",
+          "paidToDate": 340000000
+        }
+      ],
+      "responsibleOfficer": {
+        "position": "Senior Engineer",
+        "name": "Eng. Sarah Phiri",
+        "email": "eng.sarah.phiri@infrastructure.gov.zm",
+        "title": "Regional Engineer - Lusaka",
+        "officerId": "OFC-ROAD-LK-001",
+        "type": 3,
+        "ministry": "Ministry of Infrastructure",
+        "phone": "+260 211 789 002",
+        "department": "Roads - Lusaka Region"
+      },
+      "projectName": "Lusaka-Kafue Road Dualization"
+    }
+  ],
+  "projectTypeData": [
+    {
+      "budgetAllocated": 4500000000,
+      "totalKilometers": 2500,
+      "completedKilometers": 1250,
+      "projectType": "Road Construction",
+      "budgetSpent": 2250000000,
+      "inProgressProjects": 25,
+      "completedProjects": 35,
+      "responsibleOfficer": {
+        "performance": {
+          "completedActivities": 30,
+          "budgetUtilization": 82.0,
+          "overdueActivities": 2,
+          "pendingActivities": 3,
+          "totalActivities": 35,
+          "daysAverageDelay": 10,
+          "completionRate": 85.7,
+          "performanceRating": "Good"
+        },
+        "position": "Chief Engineer - Roads",
+        "name": "Eng. George Mwale",
+        "email": "eng.george.mwale@infrastructure.gov.zm",
+        "title": "Director of Roads",
+        "officerId": "OFC-INFRA-ROAD-001",
+        "type": 2,
+        "ministry": "Ministry of Infrastructure",
+        "phone": "+260 211 678 001",
+        "department": "Roads Department"
+      },
+      "totalProjects": 65
+    },
+    {
+      "budgetAllocated": 2500000000,
+      "totalKilometers": 1860,
+      "completedKilometers": 650,
+      "projectType": "Railway Development",
+      "budgetSpent": 1000000000,
+      "inProgressProjects": 8,
+      "completedProjects": 5,
+      "responsibleOfficer": {
+        "performance": {
+          "completedActivities": 15,
+          "budgetUtilization": 70.0,
+          "overdueActivities": 2,
+          "pendingActivities": 3,
+          "totalActivities": 20,
+          "daysAverageDelay": 15,
+          "completionRate": 75.0,
+          "performanceRating": "Satisfactory"
+        },
+        "position": "Chief Engineer - Railways",
+        "name": "Eng. Patricia Chanda",
+        "email": "eng.patricia.chanda@infrastructure.gov.zm",
+        "title": "Director of Railways",
+        "officerId": "OFC-INFRA-RAIL-001",
+        "type": 2,
+        "ministry": "Ministry of Infrastructure",
+        "phone": "+260 211 678 002",
+        "department": "Railways Department"
+      },
+      "totalProjects": 15
+    },
+    {
+      "budgetAllocated": 1200000000,
+      "completedStructures": 50,
+      "responsibleOfficer": {
+        "performance": {
+          "completedActivities": 27,
+          "budgetUtilization": 88.0,
+          "overdueActivities": 1,
+          "pendingActivities": 2,
+          "totalActivities": 30,
+          "daysAverageDelay": 5,
+          "completionRate": 90.0,
+          "performanceRating": "Excellent"
+        },
+        "position": "Chief Engineer - Bridges",
+        "name": "Eng. Francis Tembo",
+        "email": "eng.francis.tembo@infrastructure.gov.zm",
+        "title": "Director of Bridges",
+        "officerId": "OFC-INFRA-BRG-001",
+        "type": 2,
+        "ministry": "Ministry of Infrastructure",
+        "phone": "+260 211 678 003",
+        "department": "Bridges Department"
+      },
+      "projectType": "Bridges & Culverts",
+      "budgetSpent": 700000000,
+      "inProgressProjects": 15,
+      "totalStructures": 85,
+      "completedProjects": 25,
+      "totalProjects": 45
+    },
+    {
+      "budgetAllocated": 300000000,
+      "totalKilometers": 450,
+      "completedKilometers": 180,
+      "projectType": "Power Transmission",
+      "budgetSpent": 300000000,
+      "inProgressProjects": 7,
+      "completedProjects": 8,
+      "responsibleOfficer": {
+        "performance": {
+          "completedActivities": 20,
+          "budgetUtilization": 75.0,
+          "overdueActivities": 2,
+          "pendingActivities": 3,
+          "totalActivities": 25,
+          "daysAverageDelay": 12,
+          "completionRate": 80.0,
+          "performanceRating": "Good"
+        },
+        "position": "Chief Engineer - Power",
+        "name": "Eng. James Banda",
+        "email": "eng.james.banda@energy.gov.zm",
+        "title": "Director of Power Infrastructure",
+        "officerId": "OFC-INFRA-PWR-001",
+        "type": 2,
+        "ministry": "Ministry of Energy",
+        "phone": "+260 211 678 004",
+        "department": "Power Infrastructure"
+      },
+      "totalProjects": 20
+    }
+  ]
+}

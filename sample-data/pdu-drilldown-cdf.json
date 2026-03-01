@@ -1,0 +1,334 @@
+{
+  "priorityName": "Constituency Development Fund (CDF)",
+  "constituencyData": [
+    {
+      "locationName": "Lusaka Central Constituency",
+      "districtCode": "ZM-05-01",
+      "locationCode": "ZM-05-01-C01",
+      "responsibleOfficer": {
+        "province": "Lusaka",
+        "name": "Mary Mwamba",
+        "phone": "+260 211 345 001",
+        "officerId": "OFC-CDF-LC-001",
+        "responsibilities": [
+          "CDF Project Management",
+          "Budget Oversight",
+          "Community Engagement"
+        ],
+        "department": "CDF - Lusaka Central",
+        "constituency": "Lusaka Central",
+        "title": "CDF Constituency Manager",
+        "email": "mary.mwamba@mlg.gov.zm",
+        "position": "Project Manager",
+        "performance": {
+          "completionRate": 83.3,
+          "completedActivities": 25,
+          "daysAverageDelay": 5,
+          "overdueActivities": 2,
+          "totalActivities": 30,
+          "performanceRating": "Good",
+          "budgetUtilization": 75.0,
+          "pendingActivities": 3
+        },
+        "ministry": "Ministry of Local Government",
+        "type": 3,
+        "district": "Lusaka"
+      },
+      "provinceName": "Lusaka Province",
+      "level": 3,
+      "budgetSpent": 30000000,
+      "budgetAllocated": 40000000,
+      "projectsCompleted": 52,
+      "provinceCode": "ZM-05",
+      "districtName": "Lusaka District"
+    },
+    {
+      "locationName": "Kabwe Central Constituency",
+      "districtCode": "ZM-01-01",
+      "locationCode": "ZM-01-01-C01",
+      "responsibleOfficer": {
+        "province": "Central",
+        "name": "Joseph Mulenga",
+        "phone": "+260 211 345 002",
+        "officerId": "OFC-CDF-KC-001",
+        "responsibilities": [
+          "CDF Project Management",
+          "Budget Oversight",
+          "Infrastructure Development"
+        ],
+        "department": "CDF - Kabwe Central",
+        "constituency": "Kabwe Central",
+        "title": "CDF Constituency Manager",
+        "email": "joseph.mulenga@mlg.gov.zm",
+        "position": "Project Manager",
+        "performance": {
+          "completionRate": 85.7,
+          "completedActivities": 24,
+          "daysAverageDelay": 4,
+          "overdueActivities": 2,
+          "totalActivities": 28,
+          "performanceRating": "Good",
+          "budgetUtilization": 70.0,
+          "pendingActivities": 2
+        },
+        "ministry": "Ministry of Local Government",
+        "type": 3,
+        "district": "Kabwe"
+      },
+      "provinceName": "Central Province",
+      "level": 3,
+      "budgetSpent": 28000000,
+      "budgetAllocated": 40000000,
+      "projectsCompleted": 45,
+      "provinceCode": "ZM-01",
+      "districtName": "Kabwe District"
+    },
+    {
+      "locationName": "Ndola Central Constituency",
+      "districtCode": "ZM-02-01",
+      "locationCode": "ZM-02-01-C01",
+      "responsibleOfficer": {
+        "province": "Copperbelt",
+        "name": "Patricia Chilufya",
+        "phone": "+260 212 345 003",
+        "officerId": "OFC-CDF-NC-001",
+        "responsibilities": [
+          "CDF Project Management",
+          "Education Infrastructure",
+          "Health Facilities"
+        ],
+        "department": "CDF - Ndola Central",
+        "constituency": "Ndola Central",
+        "title": "CDF Constituency Manager",
+        "email": "patricia.chilufya@mlg.gov.zm",
+        "position": "Project Manager",
+        "performance": {
+          "completionRate": 87.5,
+          "completedActivities": 28,
+          "daysAverageDelay": 3,
+          "overdueActivities": 1,
+          "totalActivities": 32,
+          "performanceRating": "Good",
+          "budgetUtilization": 80.0,
+          "pendingActivities": 3
+        },
+        "ministry": "Ministry of Local Government",
+        "type": 3,
+        "district": "Ndola"
+      },
+      "provinceName": "Copperbelt Province",
+      "level": 3,
+      "budgetSpent": 32000000,
+      "budgetAllocated": 40000000,
+      "projectsCompleted": 48,
+      "provinceCode": "ZM-02",
+      "districtName": "Ndola District"
+    }
+  ],
+  "nationalData": {
+    "locationName": "Zambia",
+    "canDrillDown": true,
+    "dataDate": "2026-02-19T00:00:00",
+    "budgetAllocated": 6245000000,
+    "locationCode": "ZM",
+    "level": 0,
+    "unit": "Projects",
+    "totalValue": 2850,
+    "budgetSpent": 3935000000,
+    "metricName": "CDF Projects Completed"
+  },
+  "priorityArea": 2,
+  "wardData": [
+    {
+      "locationName": "Kaunda Square Ward",
+      "constituencyName": "Lusaka Central",
+      "locationCode": "ZM-05-01-C01-W01",
+      "level": 4,
+      "budgetAllocated": 8000000,
+      "projectsCompleted": 12,
+      "budgetSpent": 6000000,
+      "wardCouncilor": {
+        "name": "Michael Zulu",
+        "officerId": "COUN-KS-001",
+        "phone": "+260 966 456 789",
+        "title": "Ward Councilor",
+        "email": "michael.zulu@lusaka.council.gov.zm",
+        "position": "Elected Councilor",
+        "ward": "Kaunda Square",
+        "type": 4
+      },
+      "constituencyCode": "ZM-05-01-C01"
+    },
+    {
+      "locationName": "Chainda Ward",
+      "constituencyName": "Lusaka Central",
+      "locationCode": "ZM-05-01-C01-W02",
+      "level": 4,
+      "budgetAllocated": 7000000,
+      "projectsCompleted": 10,
+      "budgetSpent": 5500000,
+      "wardCouncilor": {
+        "name": "Susan Mwale",
+        "officerId": "COUN-CH-001",
+        "phone": "+260 955 567 890",
+        "title": "Ward Councilor",
+        "email": "susan.mwale@lusaka.council.gov.zm",
+        "position": "Elected Councilor",
+        "ward": "Chainda",
+        "type": 4
+      },
+      "constituencyCode": "ZM-05-01-C01"
+    }
+  ],
+  "projectData": [
+    {
+      "supportingOfficers": [
+        {
+          "name": "Peter Phiri",
+          "officerId": "CON-LC-001",
+          "phone": "+260 977 123 456",
+          "title": "Building Contractor",
+          "email": "peter.phiri@phiriconstruction.com",
+          "position": "Project Contractor",
+          "company": "Phiri Construction Ltd",
+          "type": 6
+        },
+        {
+          "name": "Grace Banda",
+          "officerId": "SUP-LC-001",
+          "phone": "+260 966 789 012",
+          "title": "Materials Supplier",
+          "email": "grace.banda@bandasupplies.com",
+          "position": "Supplier",
+          "company": "Banda Building Supplies",
+          "type": 6
+        }
+      ],
+      "projectId": "CDF-LC-2025-001",
+      "milestones": [
+        {
+          "name": "Foundation Completed",
+          "status": "Completed",
+          "dueDate": "2025-07-15T00:00:00",
+          "completedDate": "2025-07-10T00:00:00"
+        },
+        {
+          "name": "Walls Erected",
+          "status": "Completed",
+          "dueDate": "2025-09-30T00:00:00",
+          "completedDate": "2025-09-28T00:00:00"
+        },
+        {
+          "name": "Roofing Completed",
+          "status": "Completed (Delayed)",
+          "dueDate": "2025-11-30T00:00:00",
+          "completedDate": "2025-12-05T00:00:00"
+        },
+        {
+          "name": "Finishing Works",
+          "status": "In Progress",
+          "dueDate": "2026-01-15T00:00:00",
+          "completedDate": null
+        }
+      ],
+      "projectType": "Education Infrastructure",
+      "constituencyCode": "ZM-05-01-C01",
+      "value": 500000,
+      "level": 4,
+      "progress": 90.0,
+      "budgetSpent": 450000,
+      "startDate": "2025-06-01T00:00:00",
+      "projectName": "Classroom Construction - Chainda Basic School",
+      "status": "In Progress",
+      "completionDate": "2026-01-15T00:00:00",
+      "constituencyName": "Lusaka Central",
+      "responsibleOfficer": {
+        "name": "Mary Mwamba",
+        "officerId": "OFC-CDF-LC-001",
+        "phone": "+260 211 345 001",
+        "title": "CDF Constituency Manager",
+        "email": "mary.mwamba@mlg.gov.zm",
+        "position": "Project Manager",
+        "ministry": "Ministry of Local Government",
+        "type": 3
+      },
+      "budgetAllocated": 500000
+    },
+    {
+      "constituencyName": "Lusaka Central",
+      "beneficiariesUnit": "People",
+      "budgetAllocated": 150000,
+      "value": 150000,
+      "projectName": "Borehole Drilling - Kaunda Square Ward",
+      "responsibleOfficer": {
+        "name": "Mary Mwamba",
+        "officerId": "OFC-CDF-LC-001",
+        "phone": "+260 211 345 001",
+        "title": "CDF Constituency Manager",
+        "email": "mary.mwamba@mlg.gov.zm",
+        "position": "Project Manager",
+        "ministry": "Ministry of Local Government",
+        "type": 3
+      },
+      "startDate": "2025-04-01T00:00:00",
+      "progress": 100.0,
+      "projectId": "CDF-LC-2025-002",
+      "level": 4,
+      "constituencyCode": "ZM-05-01-C01",
+      "completionDate": "2025-08-30T00:00:00",
+      "supportingOfficers": [
+        {
+          "name": "James Sakala",
+          "officerId": "CON-LC-002",
+          "phone": "+260 955 234 567",
+          "title": "Drilling Contractor",
+          "email": "james.sakala@sakaladrilling.com",
+          "position": "Project Contractor",
+          "company": "Sakala Drilling Services",
+          "type": 6
+        }
+      ],
+      "status": "Completed",
+      "budgetSpent": 150000,
+      "beneficiaries": 5000,
+      "projectType": "Water Infrastructure"
+    },
+    {
+      "supportingOfficers": [
+        {
+          "name": "Ruth Tembo",
+          "officerId": "CON-KC-001",
+          "phone": "+260 977 345 678",
+          "title": "Building Contractor",
+          "email": "ruth.tembo@tembobuilders.com",
+          "position": "Project Contractor",
+          "company": "Tembo Builders",
+          "type": 6
+        }
+      ],
+      "projectId": "CDF-KC-2025-001",
+      "projectType": "Health Infrastructure",
+      "constituencyCode": "ZM-01-01-C01",
+      "value": 800000,
+      "level": 4,
+      "progress": 85.0,
+      "budgetSpent": 720000,
+      "startDate": "2025-05-01T00:00:00",
+      "projectName": "Health Post Construction - Makululu",
+      "status": "In Progress",
+      "completionDate": "2026-03-31T00:00:00",
+      "constituencyName": "Kabwe Central",
+      "responsibleOfficer": {
+        "name": "Joseph Mulenga",
+        "officerId": "OFC-CDF-KC-001",
+        "phone": "+260 211 345 002",
+        "title": "CDF Constituency Manager",
+        "email": "joseph.mulenga@mlg.gov.zm",
+        "position": "Project Manager",
+        "ministry": "Ministry of Local Government",
+        "type": 3
+      },
+      "budgetAllocated": 800000
+    }
+  ]
+}

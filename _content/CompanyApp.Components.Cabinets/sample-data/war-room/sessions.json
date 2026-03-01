@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "title": "Weekly PDU Review - Week 05",
+    "sessionType": "WeeklyPDUReview",
+    "scheduledDate": "2026-01-31T09:00:00Z",
+    "durationMinutes": 120,
+    "attendees": [
+      "PDU Director",
+      "PDU Coordinators",
+      "Data Analytics Team",
+      "Delivery Advisors"
+    ],
+    "ministriesPresent": [],
+    "agendaItems": [
+      {
+        "id": 1,
+        "sessionId": 1,
+        "title": "Critical Alerts Review",
+        "description": "Review all critical and high severity alerts across systems.",
+        "ragStatus": "Red",
+        "responsibleMinistry": "All",
+        "timeAllottedMinutes": 30,
+        "outcome": null
+      },
+      {
+        "id": 2,
+        "sessionId": 1,
+        "title": "Treasury Cash Management",
+        "description": "Agree on liquidity recovery actions.",
+        "ragStatus": "Red",
+        "responsibleMinistry": "Ministry of Finance",
+        "timeAllottedMinutes": 25,
+        "outcome": null
+      },
+      {
+        "id": 3,
+        "sessionId": 1,
+        "title": "Contractor Payment Turnaround",
+        "description": "Confirm backlog clearance plan for payment approvals.",
+        "ragStatus": "Amber",
+        "responsibleMinistry": "Public Works and Infrastructure",
+        "timeAllottedMinutes": 20,
+        "outcome": null
+      }
+    ],
+    "decisionsMade": [],
+    "actionItems": [],
+    "notes": null,
+    "isCompleted": false,
+    "actualStartTime": null,
+    "actualEndTime": null,
+    "facilitator": "PDU Director"
+  },
+  {
+    "id": 2,
+    "title": "Monthly Ministerial Review - January",
+    "sessionType": "MonthlyMinisterialReview",
+    "scheduledDate": "2026-01-29T14:00:00Z",
+    "durationMinutes": 180,
+    "attendees": [],
+    "ministriesPresent": [
+      "Ministry of Agriculture",
+      "Ministry of Local Government and Rural Development",
+      "Ministry of Mines and Mineral Development",
+      "Ministry of Health",
+      "Ministry of Education",
+      "Ministry of Finance"
+    ],
+    "agendaItems": [],
+    "decisionsMade": [],
+    "actionItems": [],
+    "notes": null,
+    "isCompleted": false,
+    "actualStartTime": null,
+    "actualEndTime": null,
+    "facilitator": "Cabinet Secretary"
+  },
+  {
+    "id": 3,
+    "title": "Quarterly Assessment - Q1",
+    "sessionType": "QuarterlyAssessment",
+    "scheduledDate": "2026-03-15T09:30:00Z",
+    "durationMinutes": 240,
+    "attendees": [
+      "PDU Director",
+      "Cabinet Secretary",
+      "Permanent Secretaries",
+      "Delivery Coordinators"
+    ],
+    "ministriesPresent": [
+      "Ministry of Finance",
+      "Ministry of Local Government and Rural Development",
+      "Ministry of Agriculture",
+      "Ministry of Home Affairs and Internal Security"
+    ],
+    "agendaItems": [],
+    "decisionsMade": [],
+    "actionItems": [],
+    "notes": "Quarterly performance review across PDU priorities.",
+    "isCompleted": false,
+    "actualStartTime": null,
+    "actualEndTime": null,
+    "facilitator": "Cabinet Secretary"
+  },
+  {
+    "id": 4,
+    "title": "Weekly PDU Review - Week 04",
+    "sessionType": "WeeklyPDUReview",
+    "scheduledDate": "2026-01-24T09:00:00Z",
+    "durationMinutes": 120,
+    "attendees": [
+      "PDU Director",
+      "PDU Coordinators",
+      "Data Analytics Team"
+    ],
+    "ministriesPresent": [
+      "Ministry of Health",
+      "Ministry of Infrastructure"
+    ],
+    "agendaItems": [],
+    "decisionsMade": [
+      "Deploy rapid response team to medical equipment procurement delays.",
+      "Escalate police station construction delays to ministerial level."
+    ],
+    "actionItems": [
+      {
+        "id": 1,
+        "sessionId": 4,
+        "action": "Establish task force for medical equipment procurement",
+        "assignedTo": "PS - Health",
+        "ministry": "Ministry of Health",
+        "dueDate": "2026-01-24T00:00:00Z",
+        "isCompleted": true,
+        "completedDate": "2026-01-20T00:00:00Z",
+        "completionNotes": "Task force formed and first meeting held."
+      }
+    ],
+    "notes": "Focus on critical procurement and construction delays.",
+    "isCompleted": true,
+    "actualStartTime": "2026-01-24T09:00:00Z",
+    "actualEndTime": "2026-01-24T11:10:00Z",
+    "facilitator": "PDU Director"
+  }
+]

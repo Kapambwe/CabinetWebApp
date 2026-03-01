@@ -1,0 +1,194 @@
+{
+  "railwayKmCompleted": 280,
+  "railwayTargetKm": 1860,
+  "roadKmCompleted": 650,
+  "roadTargetKm": 2500,
+  "aviationPassengers": 850000,
+  "aviationTargetPassengers": 1700000,
+  "ongoingActivities": 152,
+  "completedActivities": 38,
+  "budgetKwacha": 8500000000,
+  "budgetSpentKwacha": 2550000000,
+  "bridgesConstructed": 18,
+  "bridgesTargeted": 45,
+  "airportsUpgraded": 2,
+  "airportsTargeted": 5,
+  "housingUnitsConstructed": 3200,
+  "housingTargetUnits": 15000,
+  "projects": [
+    {
+      "name": "Ndola-Sakania Road Rehabilitation",
+      "type": "Road",
+      "province": "Copperbelt / Northern",
+      "lengthKm": 250,
+      "completionPercentage": 45,
+      "investmentKwacha": 1850000000,
+      "contractor": "China Jiangxi Corporation",
+      "expectedCompletionDate": "2028-06-30",
+      "status": "Under Construction",
+      "employmentCreated": 2800
+    },
+    {
+      "name": "Kasama-Luwingu Road",
+      "type": "Road",
+      "province": "Northern",
+      "lengthKm": 185,
+      "completionPercentage": 55,
+      "investmentKwacha": 980000000,
+      "contractor": "AVIC International",
+      "expectedCompletionDate": "2027-12-31",
+      "status": "Under Construction",
+      "employmentCreated": 1500
+    },
+    {
+      "name": "Harry Mwanga Nkumbula International Airport Expansion",
+      "type": "Aviation",
+      "province": "Southern",
+      "lengthKm": null,
+      "completionPercentage": 75,
+      "investmentKwacha": 1200000000,
+      "contractor": "China State Construction",
+      "expectedCompletionDate": "2026-09-30",
+      "status": "Under Construction",
+      "employmentCreated": 1200
+    },
+    {
+      "name": "Tanzania-Zambia Railway Extension",
+      "type": "Railway",
+      "province": "Muchinga / Northern",
+      "lengthKm": 620,
+      "completionPercentage": 5,
+      "investmentKwacha": 3500000000,
+      "contractor": "To Be Determined",
+      "expectedCompletionDate": "2031-12-31",
+      "status": "Feasibility Complete",
+      "employmentCreated": 0
+    },
+    {
+      "name": "Lusaka-Ndola Dual Carriageway",
+      "type": "Road",
+      "province": "Central / Copperbelt",
+      "lengthKm": 327,
+      "completionPercentage": 32,
+      "investmentKwacha": 4200000000,
+      "contractor": "China Civil Engineering Construction",
+      "expectedCompletionDate": "2029-12-31",
+      "status": "Under Construction",
+      "employmentCreated": 4500
+    }
+  ],
+  "provincialBreakdown": [
+    {
+      "province": "Central",
+      "roadKmCompleted": 85,
+      "ongoingProjects": 18,
+      "completedProjects": 5,
+      "budgetAllocatedKwacha": 1100000000
+    },
+    {
+      "province": "Copperbelt",
+      "roadKmCompleted": 95,
+      "ongoingProjects": 22,
+      "completedProjects": 8,
+      "budgetAllocatedKwacha": 1450000000
+    },
+    {
+      "province": "Eastern",
+      "roadKmCompleted": 72,
+      "ongoingProjects": 15,
+      "completedProjects": 4,
+      "budgetAllocatedKwacha": 680000000
+    },
+    {
+      "province": "Luapula",
+      "roadKmCompleted": 48,
+      "ongoingProjects": 10,
+      "completedProjects": 2,
+      "budgetAllocatedKwacha": 420000000
+    },
+    {
+      "province": "Lusaka",
+      "roadKmCompleted": 110,
+      "ongoingProjects": 25,
+      "completedProjects": 9,
+      "budgetAllocatedKwacha": 1650000000
+    },
+    {
+      "province": "Muchinga",
+      "roadKmCompleted": 38,
+      "ongoingProjects": 8,
+      "completedProjects": 1,
+      "budgetAllocatedKwacha": 350000000
+    },
+    {
+      "province": "Northern",
+      "roadKmCompleted": 65,
+      "ongoingProjects": 16,
+      "completedProjects": 3,
+      "budgetAllocatedKwacha": 750000000
+    },
+    {
+      "province": "North-Western",
+      "roadKmCompleted": 52,
+      "ongoingProjects": 12,
+      "completedProjects": 2,
+      "budgetAllocatedKwacha": 520000000
+    },
+    {
+      "province": "Southern",
+      "roadKmCompleted": 55,
+      "ongoingProjects": 14,
+      "completedProjects": 3,
+      "budgetAllocatedKwacha": 850000000
+    },
+    {
+      "province": "Western",
+      "roadKmCompleted": 30,
+      "ongoingProjects": 12,
+      "completedProjects": 1,
+      "budgetAllocatedKwacha": 730000000
+    }
+  ],
+  "milestones": [
+    {
+      "milestoneId": "infra-milestone-1",
+      "status": 5,
+      "dueDate": "2025-04-30T00:00:00",
+      "completedDate": "2025-04-23T00:00:00",
+      "title": "Ndola-Sakania-Mufulira Road Project Launch",
+      "description": "Northern region transportation corridor project initiated.",
+      "responsibleOfficer": "Hon. Charles Milupi",
+      "department": "Ministry of Infrastructure"
+    },
+    {
+      "milestoneId": "infra-milestone-2",
+      "status": 5,
+      "dueDate": "2025-04-30T00:00:00",
+      "completedDate": "2025-04-17T00:00:00",
+      "title": "East Africa Power Interconnector Planning",
+      "description": "Planning phase for East Africa Power Interconnector to reduce load-shedding.",
+      "responsibleOfficer": "Director - Infrastructure Planning",
+      "department": "Ministry of Infrastructure"
+    },
+    {
+      "milestoneId": "infra-milestone-3",
+      "status": 1,
+      "dueDate": "2026-12-31T00:00:00",
+      "completedDate": null,
+      "title": "Complete 1,860 KM Railway Development",
+      "description": "Achieve railway development target of 1,860 kilometers.",
+      "responsibleOfficer": "CEO - Zambia Railways",
+      "department": "Zambia Railways Limited"
+    },
+    {
+      "milestoneId": "infra-milestone-4",
+      "status": 1,
+      "dueDate": "2026-12-31T00:00:00",
+      "completedDate": null,
+      "title": "Complete 2,500 KM Road Development",
+      "description": "Achieve road development target of 2,500 kilometers.",
+      "responsibleOfficer": "Director - Road Development Agency",
+      "department": "Road Development Agency"
+    }
+  ]
+}

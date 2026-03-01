@@ -1,0 +1,131 @@
+{
+  "totalRegistered": 3500000,
+  "targetPopulation": 10000000,
+  "registrationPercentage": 35,
+  "inrisSystemStatus": "Operational - Phase 2",
+  "dailyRegistrations": 8500,
+  "registrationCenters": 450,
+  "targetRegistrationCenters": 1000,
+  "mobileRegistrationUnits": 50,
+  "birthsRegistered": 1850000,
+  "deathsRegistered": 420000,
+  "nationalIdCardsIssued": 2800000,
+  "budgetKwacha": 800000000,
+  "budgetSpentKwacha": 280000000,
+  "systemUptime": 99.2,
+  "averageProcessingTimeDays": 5,
+  "provincialData": [
+    {
+      "province": "Central",
+      "registered": 340000,
+      "registrationCenters": 42,
+      "registrationPercentage": 28,
+      "dailyRegistrations": 750,
+      "nationalIdCardsIssued": 265000
+    },
+    {
+      "province": "Copperbelt",
+      "registered": 580000,
+      "registrationCenters": 65,
+      "registrationPercentage": 42,
+      "dailyRegistrations": 1200,
+      "nationalIdCardsIssued": 485000
+    },
+    {
+      "province": "Eastern",
+      "registered": 310000,
+      "registrationCenters": 48,
+      "registrationPercentage": 25,
+      "dailyRegistrations": 680,
+      "nationalIdCardsIssued": 240000
+    },
+    {
+      "province": "Luapula",
+      "registered": 195000,
+      "registrationCenters": 28,
+      "registrationPercentage": 22,
+      "dailyRegistrations": 420,
+      "nationalIdCardsIssued": 150000
+    },
+    {
+      "province": "Lusaka",
+      "registered": 850000,
+      "registrationCenters": 85,
+      "registrationPercentage": 52,
+      "dailyRegistrations": 2100,
+      "nationalIdCardsIssued": 720000
+    },
+    {
+      "province": "Muchinga",
+      "registered": 165000,
+      "registrationCenters": 25,
+      "registrationPercentage": 20,
+      "dailyRegistrations": 350,
+      "nationalIdCardsIssued": 125000
+    },
+    {
+      "province": "Northern",
+      "registered": 285000,
+      "registrationCenters": 45,
+      "registrationPercentage": 24,
+      "dailyRegistrations": 620,
+      "nationalIdCardsIssued": 220000
+    },
+    {
+      "province": "North-Western",
+      "registered": 210000,
+      "registrationCenters": 32,
+      "registrationPercentage": 26,
+      "dailyRegistrations": 480,
+      "nationalIdCardsIssued": 165000
+    },
+    {
+      "province": "Southern",
+      "registered": 380000,
+      "registrationCenters": 52,
+      "registrationPercentage": 32,
+      "dailyRegistrations": 1050,
+      "nationalIdCardsIssued": 295000
+    },
+    {
+      "province": "Western",
+      "registered": 185000,
+      "registrationCenters": 28,
+      "registrationPercentage": 19,
+      "dailyRegistrations": 850,
+      "nationalIdCardsIssued": 135000
+    }
+  ],
+  "milestones": [
+    {
+      "responsibleOfficer": "PS Home Affairs",
+      "description": "Launch comprehensive digital identity card system nationwide.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2026-06-30T00:00:00",
+      "department": "Ministry of Home Affairs",
+      "milestoneId": "id-milestone-1",
+      "title": "Launch National Digital ID System"
+    },
+    {
+      "responsibleOfficer": "Registrar - National Registration",
+      "description": "Issue digital identity cards to 10 million citizens.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2027-12-31T00:00:00",
+      "department": "Department of National Registration",
+      "milestoneId": "id-milestone-2",
+      "title": "10 Million Digital IDs Issued"
+    },
+    {
+      "responsibleOfficer": "Director - Smart Zambia",
+      "description": "Integrate digital ID with all government service platforms.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2028-12-31T00:00:00",
+      "department": "Smart Zambia Institute",
+      "milestoneId": "id-milestone-3",
+      "title": "Full Integration with Government Services"
+    }
+  ]
+}

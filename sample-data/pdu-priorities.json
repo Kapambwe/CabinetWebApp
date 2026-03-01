@@ -1,0 +1,682 @@
+[
+  {
+    "priorityId": "pdu-priority-1",
+    "priorityNumber": 1,
+    "area": 0,
+    "title": "Produce 1 million tonnes of wheat and soybeans and 10 million tonnes of maize annually by 2030/2031",
+    "description": "Increase national food production through FISP reform, irrigation expansion, and diversified agriculture to achieve food self-sufficiency by 2031.",
+    "leadMinistry": "Ministry of Agriculture (with Ministry of Water Development)",
+    "responsibleMinister": "Hon. Reuben Mtolo Phiri",
+    "budgetAllocatedKwacha": 1900000000,
+    "budgetSpentKwacha": 855000000,
+    "overallProgress": 45,
+    "status": 1,
+    "targetDate": "2031-12-31T00:00:00",
+    "lastUpdated": "2026-02-19T00:00:00",
+    "targets": [
+      {
+        "targetId": "fs-target-1",
+        "indicator": "Maize Production",
+        "baselineValue": 3400000,
+        "currentValue": 3400000,
+        "targetValue": 10000000,
+        "unit": "Metric Tonnes",
+        "targetDate": "2031-12-31T00:00:00",
+        "progressPercentage": 34,
+        "status": 1
+      },
+      {
+        "targetId": "fs-target-2",
+        "indicator": "Wheat Production",
+        "baselineValue": 200000,
+        "currentValue": 350000,
+        "targetValue": 1000000,
+        "unit": "Metric Tonnes",
+        "targetDate": "2031-12-31T00:00:00",
+        "progressPercentage": 35,
+        "status": 1
+      }
+    ],
+    "milestones": [
+      {
+        "status": 5,
+        "dueDate": "2024-09-01T00:00:00",
+        "title": "FISP E-Voucher System Rollout",
+        "completedDate": "2024-09-15T00:00:00",
+        "milestoneId": "fs-milestone-1",
+        "description": "Nationwide deployment of electronic voucher system with 98.5% redemption rate."
+      },
+      {
+        "status": 5,
+        "dueDate": "2026-01-31T00:00:00",
+        "title": "1 Million Farmers Redeemed E-Vouchers",
+        "completedDate": "2026-01-20T00:00:00",
+        "milestoneId": "fs-milestone-2",
+        "description": "Over 1 million farmers redeemed inputs by January 2026 with nearly 100% redemption rate."
+      },
+      {
+        "status": 5,
+        "dueDate": "2025-12-31T00:00:00",
+        "title": "FISP Expansion to All 116 Districts",
+        "completedDate": "2025-11-01T00:00:00",
+        "milestoneId": "fs-milestone-3",
+        "description": "Expanded FISP coverage from 74 to all 116 districts nationwide."
+      },
+      {
+        "status": 5,
+        "dueDate": "2025-06-30T00:00:00",
+        "title": "Presidential Irrigation Programme Launch",
+        "completedDate": "2025-06-15T00:00:00",
+        "milestoneId": "fs-milestone-4",
+        "description": "Launched irrigation programme targeting 340,000 tonnes of maize production in 2025."
+      }
+    ],
+    "risks": [
+      {
+        "riskId": "fs-risk-1",
+        "description": "Climate variability and drought risk threatening rain-fed agriculture production targets.",
+        "likelihood": "High",
+        "impact": "High",
+        "mitigationStrategy": "Accelerate irrigation expansion and promote drought-resistant crop varieties.",
+        "owner": "Ministry of Agriculture",
+        "priorityArea": 0
+      }
+    ],
+    "recentActivities": [
+      {
+        "activityId": "fs-activity-1",
+        "description": "Over 1 million farmers redeemed inputs by January 2026",
+        "date": "2026-01-20T00:00:00",
+        "actor": "Ministry of Agriculture",
+        "type": "Achievement",
+        "priorityArea": 0
+      }
+    ]
+  },
+  {
+    "priorityId": "pdu-priority-2",
+    "priorityNumber": 2,
+    "area": 1,
+    "title": "Reduce maternal mortality from 278 to 100 deaths per 100,000 live births by 2026",
+    "description": "Reduce maternal mortality through expanded healthcare infrastructure, trained workforce, and blood supply strengthening.",
+    "leadMinistry": "Ministry of Health",
+    "responsibleMinister": "Hon. Elijah Muchima",
+    "budgetAllocatedKwacha": 26200000000,
+    "budgetSpentKwacha": 17030000000,
+    "overallProgress": 70,
+    "status": 1,
+    "targetDate": "2026-12-31T00:00:00",
+    "lastUpdated": "2026-02-19T00:00:00",
+    "targets": [
+      {
+        "targetId": "hc-target-1",
+        "indicator": "Maternal Mortality Ratio",
+        "baselineValue": 278,
+        "currentValue": 195,
+        "targetValue": 100,
+        "unit": "Per 100,000 Live Births",
+        "targetDate": "2026-12-31T00:00:00",
+        "progressPercentage": 47,
+        "status": 1
+      }
+    ],
+    "milestones": [
+      {
+        "status": 5,
+        "dueDate": "2024-12-31T00:00:00",
+        "title": "Maternal Mortality Reduction Achievement",
+        "completedDate": "2024-12-15T00:00:00",
+        "milestoneId": "hc-milestone-1",
+        "description": "Reduced maternal mortality to 195 per 100,000 - a 29.9% reduction year-over-year."
+      },
+      {
+        "status": 5,
+        "dueDate": "2024-12-31T00:00:00",
+        "title": "Blood Collection Capacity Increase",
+        "completedDate": "2024-11-30T00:00:00",
+        "milestoneId": "hc-milestone-2",
+        "description": "National blood collection rose to 190,479 litres from 130,661 litres in 2023."
+      },
+      {
+        "status": 5,
+        "dueDate": "2025-05-31T00:00:00",
+        "title": "School Health Providers Graduation",
+        "completedDate": "2025-05-01T00:00:00",
+        "milestoneId": "hc-milestone-3",
+        "description": "1,500+ school health providers graduated to improve child health services."
+      }
+    ],
+    "risks": [],
+    "recentActivities": [
+      {
+        "activityId": "hc-activity-1",
+        "description": "Maternal deaths fell to 195 per 100,000 - a 29.9% reduction",
+        "date": "2024-12-15T00:00:00",
+        "actor": "Ministry of Health",
+        "type": "Achievement",
+        "priorityArea": 1
+      }
+    ]
+  },
+  {
+    "priorityId": "pdu-priority-3",
+    "priorityNumber": 3,
+    "area": 2,
+    "title": "Achieve a minimum of 85% CDF utilisation by 2026",
+    "description": "Empower local communities through the Constituency Development Fund for infrastructure, education, and economic development.",
+    "leadMinistry": "Ministry of Local Government and Rural Development",
+    "responsibleMinister": "Hon. Gary Nkombo",
+    "budgetAllocatedKwacha": 6245000000,
+    "budgetSpentKwacha": 3934350000,
+    "overallProgress": 63,
+    "status": 1,
+    "targetDate": "2026-12-31T00:00:00",
+    "lastUpdated": "2026-02-19T00:00:00",
+    "targets": [
+      {
+        "targetId": "cdf-target-1",
+        "indicator": "CDF Utilisation Rate",
+        "baselineValue": 45,
+        "currentValue": 63,
+        "targetValue": 85,
+        "unit": "Percent",
+        "targetDate": "2026-12-31T00:00:00",
+        "progressPercentage": 45,
+        "status": 1
+      }
+    ],
+    "milestones": [
+      {
+        "milestoneId": "cdf-milestone-1",
+        "status": 5,
+        "dueDate": "2026-01-31T00:00:00",
+        "completedDate": "2026-01-15T00:00:00",
+        "title": "CDF Budget Increase to K40M per Constituency",
+        "description": "CDF allocation increased from K1.6M (2021) to K40M per constituency."
+      },
+      {
+        "milestoneId": "cdf-milestone-2",
+        "status": 5,
+        "dueDate": "2025-09-30T00:00:00",
+        "completedDate": "2025-09-29T00:00:00",
+        "title": "63% Mid-Year Performance Rate",
+        "description": "Achieved 63% CDF utilization rate by September 2025 milestone."
+      },
+      {
+        "milestoneId": "cdf-milestone-3",
+        "status": 1,
+        "dueDate": "2025-12-31T00:00:00",
+        "completedDate": null,
+        "title": "130,627 Secondary School Bursaries Awarded",
+        "description": "Distribute 130,627 bursaries with near gender parity achievement."
+      }
+    ],
+    "risks": [],
+    "recentActivities": [
+      {
+        "activityId": "cdf-activity-1",
+        "description": "63,388 grant beneficiaries from community groups, women's cooperatives, and youth initiatives",
+        "date": "2025-12-01T00:00:00",
+        "actor": "Ministry of Local Government",
+        "type": "Achievement",
+        "priorityArea": 2
+      }
+    ]
+  },
+  {
+    "priorityId": "pdu-priority-4",
+    "priorityNumber": 4,
+    "area": 3,
+    "title": "Increase copper production to 3 million tonnes by 2031",
+    "description": "Revitalize the mining sector through investment, regulation reform, and local content development.",
+    "leadMinistry": "Ministry of Mines and Minerals Development",
+    "responsibleMinister": "Hon. Paul Kabuswe",
+    "budgetAllocatedKwacha": 500000000,
+    "budgetSpentKwacha": 325000000,
+    "overallProgress": 30,
+    "status": 1,
+    "targetDate": "2031-12-31T00:00:00",
+    "lastUpdated": "2026-02-19T00:00:00",
+    "targets": [
+      {
+        "targetId": "mining-target-1",
+        "indicator": "Copper Production",
+        "baselineValue": 750000,
+        "currentValue": 890000,
+        "targetValue": 3000000,
+        "unit": "Metric Tonnes",
+        "targetDate": "2031-12-31T00:00:00",
+        "progressPercentage": 6,
+        "status": 1
+      }
+    ],
+    "milestones": [
+      {
+        "milestoneId": "mining-milestone-1",
+        "status": 5,
+        "dueDate": "2025-06-30T00:00:00",
+        "completedDate": "2025-06-20T00:00:00",
+        "title": "Geological and Minerals Development Act 2025",
+        "description": "New legislation modernizes mining sector framework and oversight."
+      },
+      {
+        "milestoneId": "mining-milestone-2",
+        "status": 5,
+        "dueDate": "2025-12-31T00:00:00",
+        "completedDate": "2025-12-31T00:00:00",
+        "title": "890,000 Tonnes Copper Production",
+        "description": "Achieved over 890,000 tonnes of copper production in 2025 (8% increase)."
+      },
+      {
+        "milestoneId": "mining-milestone-3",
+        "status": 1,
+        "dueDate": "2026-01-01T00:00:00",
+        "completedDate": null,
+        "title": "Local Content Regulations Effective",
+        "description": "Implementation of local content regulations to enhance Zambian participation."
+      }
+    ],
+    "risks": [],
+    "recentActivities": [
+      {
+        "activityId": "mining-activity-1",
+        "description": "2025 Output: Over 890,000 tonnes (8% increase)",
+        "date": "2025-12-31T00:00:00",
+        "actor": "Ministry of Mines",
+        "type": "Achievement",
+        "priorityArea": 3
+      }
+    ]
+  },
+  {
+    "priorityId": "pdu-priority-5",
+    "priorityNumber": 5,
+    "area": 4,
+    "title": "Ensure 80% of the population is included in the digital economy by 2026",
+    "description": "Expand digital infrastructure and services to connect 800,000 Zambians through last-mile connectivity.",
+    "leadMinistry": "Ministry of Technology and Science",
+    "responsibleMinister": "Hon. Felix Mutati",
+    "budgetAllocatedKwacha": 1500000000,
+    "budgetSpentKwacha": 750000000,
+    "overallProgress": 50,
+    "status": 1,
+    "targetDate": "2026-12-31T00:00:00",
+    "lastUpdated": "2026-02-19T00:00:00",
+    "targets": [
+      {
+        "targetId": "digital-target-1",
+        "indicator": "Digital Economy Inclusion",
+        "baselineValue": 40,
+        "currentValue": 60,
+        "targetValue": 80,
+        "unit": "Percent",
+        "targetDate": "2026-12-31T00:00:00",
+        "progressPercentage": 50,
+        "status": 1
+      }
+    ],
+    "milestones": [
+      {
+        "milestoneId": "di-milestone-1",
+        "status": 5,
+        "dueDate": "2025-12-31T00:00:00",
+        "completedDate": "2025-11-01T00:00:00",
+        "title": "109 ZAMPOST Digital Transformation Centres",
+        "description": "Converted 109 post offices into Digital Transformation Centres with modern ICT."
+      },
+      {
+        "milestoneId": "di-milestone-2",
+        "status": 1,
+        "dueDate": "2026-06-30T00:00:00",
+        "completedDate": null,
+        "title": "Last-Mile Connectivity Expansion",
+        "description": "Connect 800,000 Zambians through last-mile connectivity infrastructure."
+      }
+    ],
+    "risks": [],
+    "recentActivities": [
+      {
+        "activityId": "digital-activity-1",
+        "description": "109 post offices converted into Digital Transformation Centres",
+        "date": "2025-11-01T00:00:00",
+        "actor": "ZAMPOST",
+        "type": "Achievement",
+        "priorityArea": 4
+      }
+    ]
+  },
+  {
+    "priorityId": "pdu-priority-6",
+    "priorityNumber": 6,
+    "area": 5,
+    "title": "Increase live animal population to 7 million by 2026",
+    "description": "Unlock $1 billion in livestock exports by 2031 through beef sector development and disease control.",
+    "leadMinistry": "Ministry of Fisheries and Livestock",
+    "responsibleMinister": "Hon. Makozo Chikote",
+    "budgetAllocatedKwacha": 151500000,
+    "budgetSpentKwacha": 90900000,
+    "overallProgress": 60,
+    "status": 1,
+    "targetDate": "2026-12-31T00:00:00",
+    "lastUpdated": "2026-02-19T00:00:00",
+    "targets": [
+      {
+        "targetId": "livestock-target-1",
+        "indicator": "Live Animal Population",
+        "baselineValue": 5500000,
+        "currentValue": 6200000,
+        "targetValue": 7000000,
+        "unit": "Animals",
+        "targetDate": "2026-12-31T00:00:00",
+        "progressPercentage": 47,
+        "status": 1
+      }
+    ],
+    "milestones": [
+      {
+        "status": 5,
+        "dueDate": "2025-10-31T00:00:00",
+        "title": "First Beef Export to DRC",
+        "completedDate": "2025-10-15T00:00:00",
+        "milestoneId": "ls-milestone-1",
+        "description": "First official beef export to SADC region from Namwala farmers (55 animals)."
+      },
+      {
+        "status": 5,
+        "dueDate": "2025-09-30T00:00:00",
+        "title": "Five Disease-Free Compartments Certified",
+        "completedDate": "2025-09-20T00:00:00",
+        "milestoneId": "ls-milestone-2",
+        "description": "Operational compartments: Chikankata, Chipata, Chisamba, Mumbwa, and Namwala."
+      }
+    ],
+    "risks": [],
+    "recentActivities": [
+      {
+        "activityId": "livestock-activity-1",
+        "description": "First official beef export to DRC from Namwala farmers",
+        "date": "2025-10-15T00:00:00",
+        "actor": "Ministry of Fisheries and Livestock",
+        "type": "Achievement",
+        "priorityArea": 5
+      }
+    ]
+  },
+  {
+    "priorityId": "pdu-priority-7",
+    "priorityNumber": 7,
+    "area": 6,
+    "title": "Provide all citizens over the age of 16 with a digital identity",
+    "description": "Implement Integrated National Registration Information System (INRIS) for digital identity cards.",
+    "leadMinistry": "Ministry of Home Affairs",
+    "responsibleMinister": "Hon. Jack Mwiimbu",
+    "budgetAllocatedKwacha": 800000000,
+    "budgetSpentKwacha": 400000000,
+    "overallProgress": 50,
+    "status": 1,
+    "targetDate": "2027-12-31T00:00:00",
+    "lastUpdated": "2026-02-19T00:00:00",
+    "targets": [
+      {
+        "targetId": "digitalid-target-1",
+        "indicator": "Digital ID Coverage",
+        "baselineValue": 30,
+        "currentValue": 50,
+        "targetValue": 100,
+        "unit": "Percent",
+        "targetDate": "2027-12-31T00:00:00",
+        "progressPercentage": 29,
+        "status": 1
+      }
+    ],
+    "milestones": [
+      {
+        "milestoneId": "did-milestone-1",
+        "status": 1,
+        "dueDate": "2026-06-30T00:00:00",
+        "completedDate": null,
+        "title": "INRIS System Implementation Phase 1",
+        "description": "Integrated National Registration Information System enrollment phase 1."
+      },
+      {
+        "milestoneId": "did-milestone-2",
+        "status": 1,
+        "dueDate": "2027-06-30T00:00:00",
+        "completedDate": null,
+        "title": "Nationwide Enrollment Campaign",
+        "description": "Nationwide digital ID enrollment for all citizens over age 16."
+      }
+    ],
+    "risks": [],
+    "recentActivities": []
+  },
+  {
+    "priorityId": "pdu-priority-8",
+    "priorityNumber": 8,
+    "area": 7,
+    "title": "Increase national essential drug availability from 35% to 70% of primary health centres",
+    "description": "Improve medicine supply chain and logistics to meet WHO standards for drug availability.",
+    "leadMinistry": "Ministry of Health",
+    "responsibleMinister": "Hon. Elijah Muchima",
+    "budgetAllocatedKwacha": 4900000000,
+    "budgetSpentKwacha": 3920000000,
+    "overallProgress": 80,
+    "status": 6,
+    "targetDate": "2024-12-31T00:00:00",
+    "lastUpdated": "2026-02-19T00:00:00",
+    "targets": [
+      {
+        "targetId": "drug-target-1",
+        "indicator": "Essential Drug Availability",
+        "baselineValue": 35,
+        "currentValue": 82,
+        "targetValue": 70,
+        "unit": "Percent",
+        "targetDate": "2024-12-31T00:00:00",
+        "progressPercentage": 134,
+        "status": 6
+      }
+    ],
+    "milestones": [
+      {
+        "status": 6,
+        "dueDate": "2024-12-31T00:00:00",
+        "title": "Essential Drug Availability 80%+",
+        "completedDate": "2024-12-01T00:00:00",
+        "milestoneId": "ds-milestone-1",
+        "description": "Exceeded WHO standard - availability rose from 35% in 2021 to over 80% by 2024."
+      },
+      {
+        "status": 5,
+        "dueDate": "2024-12-31T00:00:00",
+        "title": "Medicine Financing Increase to K4.9B",
+        "completedDate": "2024-11-30T00:00:00",
+        "milestoneId": "ds-milestone-2",
+        "description": "Increased medicine financing from K1.4 billion to K4.9 billion."
+      }
+    ],
+    "risks": [],
+    "recentActivities": [
+      {
+        "activityId": "drug-activity-1",
+        "description": "Availability rose from 35% in 2021 to over 80% by 2024 - exceeding WHO standards",
+        "date": "2024-12-01T00:00:00",
+        "actor": "Ministry of Health",
+        "type": "Achievement",
+        "priorityArea": 7
+      }
+    ]
+  },
+  {
+    "priorityId": "pdu-priority-9",
+    "priorityNumber": 9,
+    "area": 8,
+    "title": "Reduce the time and cost of trade by at least 50% by 2026",
+    "description": "Streamline border management and implement One Stop Border Posts (OSBP) for efficient trade facilitation.",
+    "leadMinistry": "Ministry of Commerce, Trade and Industry",
+    "responsibleMinister": "Hon. Chipoka Mulenga",
+    "budgetAllocatedKwacha": 300000000,
+    "budgetSpentKwacha": 180000000,
+    "overallProgress": 60,
+    "status": 1,
+    "targetDate": "2026-12-31T00:00:00",
+    "lastUpdated": "2026-02-19T00:00:00",
+    "targets": [
+      {
+        "targetId": "trade-target-1",
+        "indicator": "Trade Time Reduction",
+        "baselineValue": 100,
+        "currentValue": 70,
+        "targetValue": 50,
+        "unit": "Percent",
+        "targetDate": "2026-12-31T00:00:00",
+        "progressPercentage": 60,
+        "status": 1
+      }
+    ],
+    "milestones": [
+      {
+        "milestoneId": "tf-milestone-1",
+        "status": 5,
+        "dueDate": "2025-12-31T00:00:00",
+        "completedDate": "2025-08-01T00:00:00",
+        "title": "SimpliClear and TLS Digital Border Systems",
+        "description": "Implemented digital transformation systems at border posts."
+      },
+      {
+        "milestoneId": "tf-milestone-2",
+        "status": 1,
+        "dueDate": "2026-12-31T00:00:00",
+        "completedDate": null,
+        "title": "Four OSBP Locations Development",
+        "description": "One Stop Border Posts under development: Kipushi, Mokamboa, Sakania, Nakonde."
+      }
+    ],
+    "risks": [],
+    "recentActivities": []
+  },
+  {
+    "priorityId": "pdu-priority-10",
+    "priorityNumber": 10,
+    "area": 9,
+    "title": "Deliver sufficient, reliable, and low-cost electricity to 66% of Zambians by 2030",
+    "description": "Increase energy generation to 9,000MW by 2030 through solar expansion and grid improvements.",
+    "leadMinistry": "Ministry of Energy",
+    "responsibleMinister": "Hon. Peter Chibwe Kapala",
+    "budgetAllocatedKwacha": 5700000000,
+    "budgetSpentKwacha": 2850000000,
+    "overallProgress": 50,
+    "status": 1,
+    "targetDate": "2030-12-31T00:00:00",
+    "lastUpdated": "2026-02-19T00:00:00",
+    "targets": [
+      {
+        "targetId": "energy-target-1",
+        "indicator": "Energy Generation Capacity",
+        "baselineValue": 3000,
+        "currentValue": 4500,
+        "targetValue": 9000,
+        "unit": "MW",
+        "targetDate": "2030-12-31T00:00:00",
+        "progressPercentage": 25,
+        "status": 1
+      }
+    ],
+    "milestones": [
+      {
+        "milestoneId": "er-milestone-1",
+        "status": 5,
+        "dueDate": "2025-12-31T00:00:00",
+        "completedDate": "2025-12-01T00:00:00",
+        "title": "521 Prosumers Enrolled in Net Metering",
+        "description": "Net metering programme with 15.345 MW installed capacity."
+      },
+      {
+        "milestoneId": "er-milestone-2",
+        "status": 5,
+        "dueDate": "2025-06-30T00:00:00",
+        "completedDate": "2025-06-15T00:00:00",
+        "title": "Solar Tax Incentives Elimination",
+        "description": "Eliminated taxes on solar equipment including batteries, inverters, and efficient lighting."
+      },
+      {
+        "milestoneId": "er-milestone-3",
+        "status": 1,
+        "dueDate": "2025-12-31T00:00:00",
+        "completedDate": null,
+        "title": "1,000 MW Solar Expansion",
+        "description": "Target to add 1,000 MW of solar capacity in 2025."
+      }
+    ],
+    "risks": [],
+    "recentActivities": [
+      {
+        "activityId": "energy-activity-1",
+        "description": "521 prosumers enrolled in Net Metering Programme with 15.345 MW installed capacity",
+        "date": "2025-12-01T00:00:00",
+        "actor": "ZESCO",
+        "type": "Achievement",
+        "priorityArea": 9
+      }
+    ]
+  },
+  {
+    "priorityId": "pdu-priority-11",
+    "priorityNumber": 11,
+    "area": 10,
+    "title": "Develop 1,860km of railway, 2,500km of road, and aviation infrastructure by 2026",
+    "description": "Support economic growth through infrastructure development to accommodate 1.7 million annual passengers.",
+    "leadMinistry": "Ministry of Infrastructure, Housing and Urban Development",
+    "responsibleMinister": "Hon. Charles Milupi",
+    "budgetAllocatedKwacha": 8500000000,
+    "budgetSpentKwacha": 4250000000,
+    "overallProgress": 50,
+    "status": 1,
+    "targetDate": "2026-12-31T00:00:00",
+    "lastUpdated": "2026-02-19T00:00:00",
+    "targets": [
+      {
+        "targetId": "infra-target-1",
+        "indicator": "Railway Development",
+        "baselineValue": 0,
+        "currentValue": 930,
+        "targetValue": 1860,
+        "unit": "Kilometers",
+        "targetDate": "2026-12-31T00:00:00",
+        "progressPercentage": 50,
+        "status": 1
+      },
+      {
+        "targetId": "infra-target-2",
+        "indicator": "Road Development",
+        "baselineValue": 0,
+        "currentValue": 1250,
+        "targetValue": 2500,
+        "unit": "Kilometers",
+        "targetDate": "2026-12-31T00:00:00",
+        "progressPercentage": 50,
+        "status": 1
+      }
+    ],
+    "milestones": [
+      {
+        "status": 5,
+        "dueDate": "2025-04-30T00:00:00",
+        "title": "Ndola-Sakania-Mufulira Road Project Launch",
+        "completedDate": "2025-04-23T00:00:00",
+        "milestoneId": "infra-milestone-1",
+        "description": "Northern region transportation corridor project initiated."
+      },
+      {
+        "status": 5,
+        "dueDate": "2025-04-30T00:00:00",
+        "title": "East Africa Power Interconnector Planning",
+        "completedDate": "2025-04-17T00:00:00",
+        "milestoneId": "infra-milestone-2",
+        "description": "Planning phase for East Africa Power Interconnector to reduce load-shedding."
+      }
+    ],
+    "risks": [],
+    "recentActivities": []
+  }
+]

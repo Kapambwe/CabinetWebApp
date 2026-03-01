@@ -1,0 +1,279 @@
+{
+  "priorityName": "Quality Healthcare (Maternal Health)",
+  "nationalData": {
+    "locationName": "Zambia",
+    "canDrillDown": true,
+    "dataDate": "2026-02-19T00:00:00",
+    "baselineValue": 278,
+    "currentValue": 195,
+    "locationCode": "ZM",
+    "level": 0,
+    "budgetAllocated": 26200000000,
+    "targetValue": 100,
+    "unit": "Per 100,000 Live Births",
+    "budgetSpent": 17030000000,
+    "metricName": "Maternal Mortality Ratio"
+  },
+  "priorityArea": 1,
+  "provincialHealthData": [
+    {
+      "locationName": "Lusaka Province",
+      "responsibleOfficer": {
+        "title": "Provincial Medical Officer",
+        "phone": "+260 211 456 001",
+        "type": 2,
+        "department": "Lusaka Provincial Health Office",
+        "province": "Lusaka",
+        "email": "dr.sarah.banda@moh.gov.zm",
+        "ministry": "Ministry of Health",
+        "name": "Dr. Sarah Banda",
+        "performance": {
+          "completionRate": 88.9,
+          "completedActivities": 40,
+          "daysAverageDelay": 3,
+          "overdueActivities": 2,
+          "totalActivities": 45,
+          "performanceRating": "Good",
+          "budgetUtilization": 85.0,
+          "pendingActivities": 3
+        },
+        "position": "Chief Medical Officer",
+        "officerId": "OFC-HEALTH-LK-001"
+      },
+      "maternalMortalityRatio": 165,
+      "healthFacilities": 85,
+      "locationCode": "ZM-05",
+      "level": 1,
+      "midwives": 450,
+      "budgetAllocated": 5200000000,
+      "budgetSpent": 3400000000,
+      "liveBirths": 27273,
+      "maternalDeaths": 45
+    },
+    {
+      "locationName": "Copperbelt Province",
+      "responsibleOfficer": {
+        "title": "Provincial Medical Officer",
+        "phone": "+260 212 456 002",
+        "type": 2,
+        "department": "Copperbelt Provincial Health Office",
+        "province": "Copperbelt",
+        "email": "dr.james.mwamba@moh.gov.zm",
+        "ministry": "Ministry of Health",
+        "name": "Dr. James Mwamba",
+        "performance": {
+          "completionRate": 85.7,
+          "completedActivities": 36,
+          "daysAverageDelay": 4,
+          "overdueActivities": 2,
+          "totalActivities": 42,
+          "performanceRating": "Good",
+          "budgetUtilization": 80.0,
+          "pendingActivities": 4
+        },
+        "position": "Chief Medical Officer",
+        "officerId": "OFC-HEALTH-CB-001"
+      },
+      "maternalMortalityRatio": 180,
+      "healthFacilities": 78,
+      "locationCode": "ZM-02",
+      "level": 1,
+      "midwives": 420,
+      "budgetAllocated": 4800000000,
+      "budgetSpent": 3100000000,
+      "liveBirths": 28889,
+      "maternalDeaths": 52
+    }
+  ],
+  "facilityData": [
+    {
+      "facilityType": "Tertiary Hospital",
+      "facilityCode": "FAC-LK-001",
+      "districtCode": "ZM-05-01",
+      "level": 5,
+      "supportingStaff": [
+        {
+          "name": "Nurse Elizabeth Mulenga",
+          "department": "Maternity",
+          "phone": "+260 977 678 901",
+          "title": "Maternity Ward Head"
+        },
+        {
+          "name": "Dr. Peter Phiri",
+          "department": "Obstetrics & Gynecology",
+          "phone": "+260 966 789 012",
+          "title": "Obstetrician"
+        }
+      ],
+      "midwives": 85,
+      "bloodUnitsAvailable": 1500,
+      "districtName": "Lusaka District",
+      "liveBirths": 8500,
+      "responsibleOfficer": {
+        "title": "Hospital Superintendent",
+        "phone": "+260 211 567 001",
+        "facility": "University Teaching Hospital",
+        "department": "University Teaching Hospital",
+        "type": 2,
+        "email": "dr.grace.tembo@uth.gov.zm",
+        "ministry": "Ministry of Health",
+        "name": "Dr. Grace Tembo",
+        "performance": {
+          "completionRate": 92.0,
+          "completedActivities": 46,
+          "daysAverageDelay": 2,
+          "overdueActivities": 2,
+          "totalActivities": 50,
+          "performanceRating": "Excellent",
+          "budgetUtilization": 88.0,
+          "pendingActivities": 2
+        },
+        "position": "Medical Director",
+        "officerId": "OFC-UTH-001"
+      },
+      "obstetricians": 15,
+      "maternalDeaths": 12,
+      "maternalMortalityRatio": 141,
+      "provinceCode": "ZM-05",
+      "facilityName": "University Teaching Hospital"
+    },
+    {
+      "facilityType": "Health Centre",
+      "facilityCode": "FAC-LK-002",
+      "districtCode": "ZM-05-01",
+      "level": 5,
+      "midwives": 6,
+      "bloodUnitsAvailable": 10,
+      "districtName": "Lusaka District",
+      "liveBirths": 450,
+      "responsibleOfficer": {
+        "title": "Health Centre In-Charge",
+        "phone": "+260 211 567 002",
+        "facility": "Chainda Health Centre",
+        "department": "Chainda Health Centre",
+        "type": 4,
+        "email": "mary.zulu@chaindahc.gov.zm",
+        "ministry": "Ministry of Health",
+        "name": "Nurse Mary Zulu",
+        "performance": {
+          "completionRate": 80.0,
+          "completedActivities": 20,
+          "daysAverageDelay": 5,
+          "overdueActivities": 2,
+          "totalActivities": 25,
+          "performanceRating": "Satisfactory",
+          "budgetUtilization": 72.0,
+          "pendingActivities": 3
+        },
+        "position": "Senior Nurse",
+        "officerId": "OFC-CHC-001"
+      },
+      "obstetricians": 0,
+      "maternalDeaths": 2,
+      "maternalMortalityRatio": 444,
+      "provinceCode": "ZM-05",
+      "facilityName": "Chainda Health Centre"
+    }
+  ],
+  "temporalData": {
+    "monthlyData": [
+      {
+        "maternalMortalityRatio": 72,
+        "liveBirths": 25000,
+        "maternalDeaths": 18,
+        "monthName": "January",
+        "bloodCollectionLitres": 15500,
+        "month": 1
+      },
+      {
+        "maternalMortalityRatio": 67,
+        "liveBirths": 24000,
+        "maternalDeaths": 16,
+        "monthName": "February",
+        "bloodCollectionLitres": 14800,
+        "month": 2
+      },
+      {
+        "maternalMortalityRatio": 65,
+        "liveBirths": 26000,
+        "maternalDeaths": 17,
+        "monthName": "March",
+        "bloodCollectionLitres": 16200,
+        "month": 3
+      },
+      {
+        "maternalMortalityRatio": 59,
+        "liveBirths": 25500,
+        "maternalDeaths": 15,
+        "monthName": "April",
+        "bloodCollectionLitres": 15800,
+        "month": 4
+      },
+      {
+        "maternalMortalityRatio": 61,
+        "liveBirths": 26200,
+        "maternalDeaths": 16,
+        "monthName": "May",
+        "bloodCollectionLitres": 16500,
+        "month": 5
+      },
+      {
+        "maternalMortalityRatio": 54,
+        "liveBirths": 25800,
+        "maternalDeaths": 14,
+        "monthName": "June",
+        "bloodCollectionLitres": 16000,
+        "month": 6
+      },
+      {
+        "maternalMortalityRatio": 57,
+        "liveBirths": 26500,
+        "maternalDeaths": 15,
+        "monthName": "July",
+        "bloodCollectionLitres": 16800,
+        "month": 7
+      },
+      {
+        "maternalMortalityRatio": 63,
+        "liveBirths": 27000,
+        "maternalDeaths": 17,
+        "monthName": "August",
+        "bloodCollectionLitres": 17200,
+        "month": 8
+      },
+      {
+        "maternalMortalityRatio": 60,
+        "liveBirths": 26800,
+        "maternalDeaths": 16,
+        "monthName": "September",
+        "bloodCollectionLitres": 17000,
+        "month": 9
+      },
+      {
+        "maternalMortalityRatio": 65,
+        "liveBirths": 27500,
+        "maternalDeaths": 18,
+        "monthName": "October",
+        "bloodCollectionLitres": 17500,
+        "month": 10
+      },
+      {
+        "maternalMortalityRatio": 56,
+        "liveBirths": 26900,
+        "maternalDeaths": 15,
+        "monthName": "November",
+        "bloodCollectionLitres": 17100,
+        "month": 11
+      },
+      {
+        "maternalMortalityRatio": 61,
+        "liveBirths": 28000,
+        "maternalDeaths": 17,
+        "monthName": "December",
+        "bloodCollectionLitres": 17800,
+        "month": 12
+      }
+    ],
+    "year": 2025
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "totalLiveAnimals": 5200000,
+  "targetLiveAnimals": 7000000,
+  "beefExportValueUsd": 45000000,
+  "beefExportTargetUsd": 1000000000,
+  "diseaseFreeCompartments": 5,
+  "animalMortalityRate": 10.2,
+  "targetMortalityRate": 5.0,
+  "calvingRate": 32,
+  "targetCalvingRate": 40,
+  "budgetKwacha": 151500000,
+  "budgetSpentKwacha": 60600000,
+  "cattlePopulation": 4200000,
+  "goatPopulation": 3800000,
+  "pigPopulation": 1200000,
+  "poultryPopulation": 42000000,
+  "vaccinatedAnimals": 2100000,
+  "artificialInseminationServices": 45000,
+  "compartments": [
+    {
+      "name": "Chikankata",
+      "province": "Southern",
+      "cattleCount": 85000,
+      "status": "Certified Disease-Free",
+      "areaHectares": 120000,
+      "exportReady": true,
+      "lastInspectionDate": "2025-10-15"
+    },
+    {
+      "name": "Chipata",
+      "province": "Eastern",
+      "cattleCount": 62000,
+      "status": "Certified Disease-Free",
+      "areaHectares": 95000,
+      "exportReady": true,
+      "lastInspectionDate": "2025-09-20"
+    },
+    {
+      "name": "Chisamba",
+      "province": "Central",
+      "cattleCount": 78000,
+      "status": "Certified Disease-Free",
+      "areaHectares": 110000,
+      "exportReady": true,
+      "lastInspectionDate": "2025-11-01"
+    },
+    {
+      "name": "Mumbwa",
+      "province": "Central",
+      "cattleCount": 92000,
+      "status": "Certified Disease-Free",
+      "areaHectares": 135000,
+      "exportReady": false,
+      "lastInspectionDate": "2025-10-28"
+    },
+    {
+      "name": "Namwala",
+      "province": "Southern",
+      "cattleCount": 105000,
+      "status": "Certified Disease-Free",
+      "areaHectares": 150000,
+      "exportReady": true,
+      "lastInspectionDate": "2025-11-05"
+    }
+  ],
+  "provincialData": [
+    {
+      "province": "Central",
+      "cattlePopulation": 620000,
+      "goatPopulation": 380000,
+      "animalMortalityRate": 8.5,
+      "vaccinatedAnimals": 310000,
+      "vetClinics": 28
+    },
+    {
+      "province": "Copperbelt",
+      "cattlePopulation": 180000,
+      "goatPopulation": 220000,
+      "animalMortalityRate": 9.8,
+      "vaccinatedAnimals": 95000,
+      "vetClinics": 15
+    },
+    {
+      "province": "Eastern",
+      "cattlePopulation": 520000,
+      "goatPopulation": 480000,
+      "animalMortalityRate": 11.5,
+      "vaccinatedAnimals": 260000,
+      "vetClinics": 32
+    },
+    {
+      "province": "Luapula",
+      "cattlePopulation": 145000,
+      "goatPopulation": 280000,
+      "animalMortalityRate": 12.0,
+      "vaccinatedAnimals": 72000,
+      "vetClinics": 12
+    },
+    {
+      "province": "Lusaka",
+      "cattlePopulation": 210000,
+      "goatPopulation": 185000,
+      "animalMortalityRate": 7.5,
+      "vaccinatedAnimals": 145000,
+      "vetClinics": 18
+    },
+    {
+      "province": "Muchinga",
+      "cattlePopulation": 280000,
+      "goatPopulation": 350000,
+      "animalMortalityRate": 11.8,
+      "vaccinatedAnimals": 140000,
+      "vetClinics": 14
+    },
+    {
+      "province": "Northern",
+      "cattlePopulation": 320000,
+      "goatPopulation": 420000,
+      "animalMortalityRate": 10.5,
+      "vaccinatedAnimals": 175000,
+      "vetClinics": 22
+    },
+    {
+      "province": "North-Western",
+      "cattlePopulation": 250000,
+      "goatPopulation": 310000,
+      "animalMortalityRate": 10.0,
+      "vaccinatedAnimals": 130000,
+      "vetClinics": 16
+    },
+    {
+      "province": "Southern",
+      "cattlePopulation": 1150000,
+      "goatPopulation": 520000,
+      "animalMortalityRate": 9.2,
+      "vaccinatedAnimals": 520000,
+      "vetClinics": 38
+    },
+    {
+      "province": "Western",
+      "cattlePopulation": 525000,
+      "goatPopulation": 655000,
+      "animalMortalityRate": 12.5,
+      "vaccinatedAnimals": 253000,
+      "vetClinics": 20
+    }
+  ],
+  "milestones": [
+    {
+      "responsibleOfficer": "Hon. Reuben Mtolo Phiri",
+      "description": "Resumed beef exports, unlocking \\ billion livestock industry potential.",
+      "status": 5,
+      "completedDate": "2025-12-03T00:00:00",
+      "dueDate": "2025-12-31T00:00:00",
+      "department": "Ministry of Agriculture",
+      "milestoneId": "ls-milestone-1",
+      "title": "Beef Export Resumption"
+    },
+    {
+      "responsibleOfficer": "Director - Livestock Development",
+      "description": "Grow national cattle herd to 5 million heads.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2026-12-31T00:00:00",
+      "department": "Ministry of Agriculture",
+      "milestoneId": "ls-milestone-2",
+      "title": "National Cattle Herd 5 Million"
+    },
+    {
+      "responsibleOfficer": "PS Agriculture",
+      "description": "Achieve annual beef production of 200,000 tonnes.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2027-12-31T00:00:00",
+      "department": "Ministry of Agriculture",
+      "milestoneId": "ls-milestone-3",
+      "title": "200,000 Tonnes Beef Production"
+    }
+  ]
+}

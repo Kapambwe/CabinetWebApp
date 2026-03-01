@@ -1,0 +1,146 @@
+{
+  "copperProductionTonnes": 890000,
+  "copperTargetTonnes": 3000000,
+  "previousYearCopperTonnes": 825000,
+  "goldProductionKg": 4500,
+  "manganeseProductionTonnes": 120000,
+  "emeraldProductionKg": 35000,
+  "activeMiningLicenses": 1250,
+  "artisanalMiningRights": 1000,
+  "localContentPercentage": 35,
+  "targetLocalContentPercentage": 60,
+  "miningRevenueKwacha": 18500000000,
+  "mineralRoyaltiesKwacha": 8200000000,
+  "miningEmployment": 92000,
+  "topProducers": [
+    {
+      "name": "Konkola Copper Mines (KCM)",
+      "productionTonnes": 85000,
+      "previousYearTonnes": 18250,
+      "productionChangePercentage": 366,
+      "province": "Copperbelt",
+      "employees": 12000,
+      "status": "Ramping Up"
+    },
+    {
+      "name": "Mopani Copper Mines",
+      "productionTonnes": 95000,
+      "previousYearTonnes": 67850,
+      "productionChangePercentage": 40,
+      "province": "Copperbelt",
+      "employees": 10500,
+      "status": "Expanding"
+    },
+    {
+      "name": "First Quantum Minerals (FQM)",
+      "productionTonnes": 285000,
+      "previousYearTonnes": 275000,
+      "productionChangePercentage": 3.6,
+      "province": "North-Western",
+      "employees": 18000,
+      "status": "Stable"
+    },
+    {
+      "name": "Barrick Gold (Lumwana)",
+      "productionTonnes": 145000,
+      "previousYearTonnes": 138000,
+      "productionChangePercentage": 5.1,
+      "province": "North-Western",
+      "employees": 8500,
+      "status": "Expansion Planned"
+    },
+    {
+      "name": "Lumwana Mining Company",
+      "productionTonnes": 130000,
+      "previousYearTonnes": 125000,
+      "productionChangePercentage": 4.0,
+      "province": "North-Western",
+      "employees": 7500,
+      "status": "Super Pit Development"
+    }
+  ],
+  "expansionProjects": [
+    {
+      "name": "Kansanshi S3 Expansion",
+      "company": "First Quantum Minerals",
+      "investmentUsd": 1250000000,
+      "province": "North-Western",
+      "expectedAdditionalTonnes": 250000,
+      "completionPercentage": 40,
+      "expectedCompletionYear": 2027,
+      "status": "Under Construction"
+    },
+    {
+      "name": "Lumwana Super Pit",
+      "company": "Barrick Gold",
+      "investmentUsd": 2000000000,
+      "province": "North-Western",
+      "expectedAdditionalTonnes": 240000,
+      "completionPercentage": 15,
+      "expectedCompletionYear": 2028,
+      "status": "Early Works"
+    },
+    {
+      "name": "Sinomine Kitumba Copper Project",
+      "company": "Sinomine Resource Group",
+      "investmentUsd": 600000000,
+      "province": "Copperbelt",
+      "expectedAdditionalTonnes": 80000,
+      "completionPercentage": 10,
+      "expectedCompletionYear": 2028,
+      "status": "Phase 1 Construction"
+    },
+    {
+      "name": "KCM Rehabilitation Programme",
+      "company": "Vedanta Resources",
+      "investmentUsd": 1500000000,
+      "province": "Copperbelt",
+      "expectedAdditionalTonnes": 200000,
+      "completionPercentage": 25,
+      "expectedCompletionYear": 2029,
+      "status": "Rehabilitation Ongoing"
+    },
+    {
+      "name": "Mopani Synclinorium Expansion",
+      "company": "ZCCM-IH / International Resource Holdings",
+      "investmentUsd": 800000000,
+      "province": "Copperbelt",
+      "expectedAdditionalTonnes": 100000,
+      "completionPercentage": 20,
+      "expectedCompletionYear": 2028,
+      "status": "Feasibility Complete"
+    }
+  ],
+  "milestones": [
+    {
+      "responsibleOfficer": "Hon. Paul Kabuswe",
+      "description": "Reach annual copper production target of 1 million tonnes.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2026-12-31T00:00:00",
+      "department": "Ministry of Mines",
+      "milestoneId": "mining-milestone-1",
+      "title": "Achieve 1 Million Tonnes Copper Production"
+    },
+    {
+      "responsibleOfficer": "PS Mines",
+      "description": "Scale production to 3 million tonnes annually by 2031.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2031-12-31T00:00:00",
+      "department": "Ministry of Mines",
+      "milestoneId": "mining-milestone-2",
+      "title": "Achieve 3 Million Tonnes Copper by 2031"
+    },
+    {
+      "responsibleOfficer": "Director - Mining Development",
+      "description": "Establish copper value-addition processing facilities.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2026-06-30T00:00:00",
+      "department": "Ministry of Mines",
+      "milestoneId": "mining-milestone-3",
+      "title": "Value Addition Infrastructure"
+    }
+  ]
+}

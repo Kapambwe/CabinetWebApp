@@ -1,0 +1,117 @@
+{
+  "tradeTimeReductionPercentage": 28,
+  "tradeCostReductionPercentage": 22,
+  "targetReductionPercentage": 50,
+  "oneStopBorderPosts": 4,
+  "targetOneStopBorderPosts": 4,
+  "tradeVolumeUsd": 12500000000,
+  "exportsUsd": 7800000000,
+  "importsUsd": 4700000000,
+  "copperExportsUsd": 5200000000,
+  "nonTraditionalExportsUsd": 2600000000,
+  "budgetKwacha": 950000000,
+  "budgetSpentKwacha": 380000000,
+  "averageClearanceTimeHours": 18,
+  "previousClearanceTimeHours": 48,
+  "targetClearanceTimeHours": 8,
+  "borderPosts": [
+    {
+      "name": "Kipushi One-Stop Border Post",
+      "neighboringCountry": "Democratic Republic of Congo",
+      "province": "Copperbelt",
+      "completionPercentage": 60,
+      "investmentKwacha": 185000000,
+      "status": "Under Construction",
+      "expectedCompletionDate": "2027-06-30",
+      "dailyTrucksCrossing": 120,
+      "targetDailyTrucks": 350
+    },
+    {
+      "name": "Mokamboa One-Stop Border Post",
+      "neighboringCountry": "Democratic Republic of Congo",
+      "province": "Luapula",
+      "completionPercentage": 35,
+      "investmentKwacha": 150000000,
+      "status": "Under Construction",
+      "expectedCompletionDate": "2027-12-31",
+      "dailyTrucksCrossing": 45,
+      "targetDailyTrucks": 150
+    },
+    {
+      "name": "Sakania One-Stop Border Post",
+      "neighboringCountry": "Democratic Republic of Congo",
+      "province": "Copperbelt",
+      "completionPercentage": 45,
+      "investmentKwacha": 170000000,
+      "status": "Under Construction",
+      "expectedCompletionDate": "2027-09-30",
+      "dailyTrucksCrossing": 85,
+      "targetDailyTrucks": 250
+    },
+    {
+      "name": "Nakonde One-Stop Border Post",
+      "neighboringCountry": "Tanzania",
+      "province": "Muchinga",
+      "completionPercentage": 55,
+      "investmentKwacha": 200000000,
+      "status": "Under Construction",
+      "expectedCompletionDate": "2027-03-31",
+      "dailyTrucksCrossing": 180,
+      "targetDailyTrucks": 400
+    },
+    {
+      "name": "Kasumbalesa Border Post",
+      "neighboringCountry": "Democratic Republic of Congo",
+      "province": "Copperbelt",
+      "completionPercentage": 100,
+      "investmentKwacha": 120000000,
+      "status": "Operational - Upgraded",
+      "expectedCompletionDate": null,
+      "dailyTrucksCrossing": 350,
+      "targetDailyTrucks": 500
+    },
+    {
+      "name": "Chirundu One-Stop Border Post",
+      "neighboringCountry": "Zimbabwe",
+      "province": "Southern",
+      "completionPercentage": 100,
+      "investmentKwacha": 95000000,
+      "status": "Operational",
+      "expectedCompletionDate": null,
+      "dailyTrucksCrossing": 420,
+      "targetDailyTrucks": 600
+    }
+  ],
+  "milestones": [
+    {
+      "milestoneId": "tf-milestone-1",
+      "status": 5,
+      "dueDate": "2025-12-31T00:00:00",
+      "completedDate": "2025-08-01T00:00:00",
+      "title": "SimpliClear and TLS Digital Border Systems",
+      "description": "Implemented digital transformation systems at border posts.",
+      "responsibleOfficer": "Commissioner General - ZRA",
+      "department": "Zambia Revenue Authority"
+    },
+    {
+      "milestoneId": "tf-milestone-2",
+      "status": 1,
+      "dueDate": "2026-12-31T00:00:00",
+      "completedDate": null,
+      "title": "Four OSBP Locations Development",
+      "description": "One Stop Border Posts under development: Kipushi, Mokamboa, Sakania, Nakonde.",
+      "responsibleOfficer": "PS Infrastructure",
+      "department": "Ministry of Infrastructure"
+    },
+    {
+      "milestoneId": "tf-milestone-3",
+      "status": 1,
+      "dueDate": "2027-12-31T00:00:00",
+      "completedDate": null,
+      "title": "Reduce Border Crossing Time by 50%",
+      "description": "Achieve average crossing time of under 4 hours.",
+      "responsibleOfficer": "Director - Trade Facilitation",
+      "department": "Zambia Revenue Authority"
+    }
+  ]
+}
