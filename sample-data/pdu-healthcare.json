@@ -1,0 +1,183 @@
+{
+  "maternalMortalityRatio": 195,
+  "baselineMortalityRatio": 278,
+  "targetMortalityRatio": 100,
+  "bloodCollectionLitres": 190479,
+  "previousBloodCollectionLitres": 130661,
+  "bloodCollectionTargetLitres": 250000,
+  "schoolHealthRooms": 850,
+  "trainedHealthProviders": 1500,
+  "trainedMidwives": 3200,
+  "healthBudgetKwacha": 26200000000,
+  "healthBudgetSpentKwacha": 17030000000,
+  "neonatalMortalityRate": 24,
+  "targetNeonatalMortalityRate": 12,
+  "under5MortalityRate": 61,
+  "targetUnder5MortalityRate": 25,
+  "provincialData": [
+    {
+      "province": "Central",
+      "maternalMortalityRatio": 93,
+      "bloodCollectionLitres": 15200,
+      "schoolHealthRooms": 78,
+      "trainedMidwives": 285,
+      "healthFacilities": 142
+    },
+    {
+      "province": "Copperbelt",
+      "maternalMortalityRatio": 112,
+      "bloodCollectionLitres": 28500,
+      "schoolHealthRooms": 105,
+      "trainedMidwives": 420,
+      "healthFacilities": 198
+    },
+    {
+      "province": "Eastern",
+      "maternalMortalityRatio": 74,
+      "bloodCollectionLitres": 12800,
+      "schoolHealthRooms": 92,
+      "trainedMidwives": 310,
+      "healthFacilities": 165
+    },
+    {
+      "province": "Luapula",
+      "maternalMortalityRatio": 185,
+      "bloodCollectionLitres": 9500,
+      "schoolHealthRooms": 65,
+      "trainedMidwives": 195,
+      "healthFacilities": 118
+    },
+    {
+      "province": "Lusaka",
+      "maternalMortalityRatio": 145,
+      "bloodCollectionLitres": 42000,
+      "schoolHealthRooms": 120,
+      "trainedMidwives": 580,
+      "healthFacilities": 225
+    },
+    {
+      "province": "Muchinga",
+      "maternalMortalityRatio": 210,
+      "bloodCollectionLitres": 8200,
+      "schoolHealthRooms": 55,
+      "trainedMidwives": 175,
+      "healthFacilities": 95
+    },
+    {
+      "province": "Northern",
+      "maternalMortalityRatio": 198,
+      "bloodCollectionLitres": 14500,
+      "schoolHealthRooms": 82,
+      "trainedMidwives": 265,
+      "healthFacilities": 155
+    },
+    {
+      "province": "North-Western",
+      "maternalMortalityRatio": 220,
+      "bloodCollectionLitres": 10200,
+      "schoolHealthRooms": 60,
+      "trainedMidwives": 185,
+      "healthFacilities": 105
+    },
+    {
+      "province": "Southern",
+      "maternalMortalityRatio": 97,
+      "bloodCollectionLitres": 25800,
+      "schoolHealthRooms": 98,
+      "trainedMidwives": 395,
+      "healthFacilities": 185
+    },
+    {
+      "province": "Western",
+      "maternalMortalityRatio": 245,
+      "bloodCollectionLitres": 23779,
+      "schoolHealthRooms": 95,
+      "trainedMidwives": 290,
+      "healthFacilities": 130
+    }
+  ],
+  "facilityUpgrades": [
+    {
+      "name": "Levy Mwanawasa University Teaching Hospital - Maternity Wing",
+      "province": "Copperbelt",
+      "type": "Level 3 Hospital Upgrade",
+      "budgetKwacha": 85000000,
+      "completionPercentage": 92,
+      "status": 1
+    },
+    {
+      "name": "Chipata Central Hospital - Surgical Theatre",
+      "province": "Eastern",
+      "type": "Level 2 Hospital Upgrade",
+      "budgetKwacha": 42000000,
+      "completionPercentage": 100,
+      "status": 5
+    },
+    {
+      "name": "Mansa General Hospital - Blood Bank",
+      "province": "Luapula",
+      "type": "Blood Storage Facility",
+      "budgetKwacha": 18000000,
+      "completionPercentage": 78,
+      "status": 1
+    },
+    {
+      "name": "Solwezi General Hospital - Maternity Ward",
+      "province": "North-Western",
+      "type": "Level 2 Hospital Upgrade",
+      "budgetKwacha": 35000000,
+      "completionPercentage": 65,
+      "status": 1
+    },
+    {
+      "name": "Mongu General Hospital - Neonatal ICU",
+      "province": "Western",
+      "type": "Neonatal Care Facility",
+      "budgetKwacha": 52000000,
+      "completionPercentage": 45,
+      "status": 2
+    }
+  ],
+  "milestones": [
+    {
+      "responsibleOfficer": "Hon. Elijah Muchima",
+      "description": "Reduced maternal mortality to 195 per 100,000 - a 29.9% reduction year-over-year.",
+      "status": 5,
+      "completedDate": "2024-12-15T00:00:00",
+      "dueDate": "2024-12-31T00:00:00",
+      "department": "Ministry of Health",
+      "milestoneId": "hc-milestone-1",
+      "title": "Maternal Mortality Reduction Achievement"
+    },
+    {
+      "responsibleOfficer": "Director - ZNBTS",
+      "description": "National blood collection rose to 190,479 litres from 130,661 litres in 2023.",
+      "status": 5,
+      "completedDate": "2024-11-30T00:00:00",
+      "dueDate": "2024-12-31T00:00:00",
+      "department": "Zambia National Blood Transfusion Service",
+      "milestoneId": "hc-milestone-2",
+      "title": "Blood Collection Capacity Increase"
+    },
+    {
+      "responsibleOfficer": "PS Health",
+      "description": "1,500+ school health providers graduated and deployed to schools.",
+      "status": 5,
+      "completedDate": "2025-05-01T00:00:00",
+      "dueDate": "2025-05-31T00:00:00",
+      "department": "Ministry of Health",
+      "milestoneId": "hc-milestone-3",
+      "title": "School Health Providers Graduation"
+    },
+    {
+      "responsibleOfficer": "Hon. Elijah Muchima",
+      "description": "Reduce maternal mortality to 100 per 100,000 live births.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2026-12-31T00:00:00",
+      "department": "Ministry of Health",
+      "milestoneId": "hc-milestone-4",
+      "title": "Achieve Maternal Mortality Target"
+    }
+  ]
+}

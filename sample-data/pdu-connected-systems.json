@@ -1,0 +1,301 @@
+[
+  {
+    "nextScheduledSync": "2026-02-19T09:30:00",
+    "lastSync": "2026-02-19T08:30:00",
+    "mappedPriorities": [
+      0
+    ],
+    "status": 0,
+    "description": "Agricultural extension services, FISP management, and farmer support",
+    "contactEmail": "it@moagric.gov.zm",
+    "apiEndpoint": "/api/v1/data",
+    "systemCode": "MIN-AGRIC",
+    "syncIntervalMinutes": 60,
+    "health": {
+      "failedSyncs": 2,
+      "lastHealthCheck": "2026-02-19T08:00:00",
+      "recordsProcessed": 125000,
+      "uptimePercentage": 98.5,
+      "averageResponseTime": 450,
+      "successfulSyncs": 145
+    },
+    "responsibleOfficers": [
+      "Hon. Reuben Mtolo Phiri",
+      "PS Agriculture"
+    ],
+    "systemId": "sys-001",
+    "type": 4,
+    "baseUrl": "https://agric.gov.zm",
+    "isActive": true,
+    "systemName": "Ministry of Agriculture App",
+    "contactPhone": "+260 211 XXX XXX"
+  },
+  {
+    "contactEmail": "it@cdf.gov.zm",
+    "mappedPriorities": [
+      2
+    ],
+    "nextScheduledSync": "2026-02-19T09:15:00",
+    "health": {
+      "failedSyncs": 1,
+      "lastHealthCheck": "2026-02-19T08:00:00",
+      "recordsProcessed": 85000,
+      "uptimePercentage": 99.2,
+      "averageResponseTime": 380,
+      "successfulSyncs": 200
+    },
+    "responsibleOfficers": [
+      "Hon. Gary Nkombo",
+      "PS Local Government"
+    ],
+    "systemCode": "CDF",
+    "lastSync": "2026-02-19T08:15:00",
+    "apiEndpoint": "/api/v1/data",
+    "systemId": "sys-002",
+    "syncIntervalMinutes": 60,
+    "systemName": "CDF Web App",
+    "status": 0,
+    "baseUrl": "https://cdf.gov.zm",
+    "description": "Constituency Development Fund management and monitoring",
+    "isActive": true,
+    "type": 1
+  },
+  {
+    "contactEmail": "it@mofnp.gov.zm",
+    "mappedPriorities": [
+      0,
+      2,
+      3,
+      10
+    ],
+    "nextScheduledSync": "2026-02-19T09:45:00",
+    "health": {
+      "failedSyncs": 4,
+      "lastHealthCheck": "2026-02-19T08:30:00",
+      "recordsProcessed": 95000,
+      "uptimePercentage": 97.8,
+      "averageResponseTime": 520,
+      "successfulSyncs": 180
+    },
+    "responsibleOfficers": [
+      "Hon. Situmbeko Musokotwane",
+      "PS Finance"
+    ],
+    "systemCode": "MIN-FINANCE",
+    "lastSync": "2026-02-19T08:45:00",
+    "apiEndpoint": "/api/v1/data",
+    "systemId": "sys-003",
+    "syncIntervalMinutes": 60,
+    "systemName": "Ministry of Finance Web App",
+    "status": 0,
+    "baseUrl": "https://finance.gov.zm",
+    "description": "Budget management, revenue collection, and financial reporting",
+    "isActive": true,
+    "type": 9
+  },
+  {
+    "contactEmail": "it@mines.gov.zm",
+    "mappedPriorities": [
+      3
+    ],
+    "nextScheduledSync": "2026-02-19T08:30:00",
+    "health": {
+      "failedSyncs": 6,
+      "lastHealthCheck": "2026-02-19T07:00:00",
+      "recordsProcessed": 45000,
+      "uptimePercentage": 96.5,
+      "averageResponseTime": 680,
+      "successfulSyncs": 165
+    },
+    "responsibleOfficers": [
+      "Hon. Paul Kabuswe",
+      "PS Mines"
+    ],
+    "systemCode": "MINING",
+    "lastSync": "2026-02-19T07:30:00",
+    "apiEndpoint": "/api/v1/data",
+    "systemId": "sys-004",
+    "syncIntervalMinutes": 60,
+    "systemName": "Mining Management System",
+    "status": 0,
+    "baseUrl": "https://mining.gov.zm",
+    "description": "Mining production tracking, licensing, and compliance",
+    "isActive": true,
+    "type": 5
+  },
+  {
+    "contactEmail": "it@zra.org.zm",
+    "mappedPriorities": [
+      8
+    ],
+    "nextScheduledSync": "2026-02-19T09:00:00",
+    "health": {
+      "failedSyncs": 1,
+      "lastHealthCheck": "2026-02-19T08:00:00",
+      "recordsProcessed": 110000,
+      "uptimePercentage": 99.5,
+      "averageResponseTime": 320,
+      "successfulSyncs": 220
+    },
+    "responsibleOfficers": [
+      "Commissioner General ZRA"
+    ],
+    "systemCode": "CUSTOMS",
+    "lastSync": "2026-02-19T08:00:00",
+    "apiEndpoint": "/api/v1/data",
+    "systemId": "sys-005",
+    "syncIntervalMinutes": 60,
+    "systemName": "Custom Border Web App",
+    "status": 0,
+    "baseUrl": "https://customs.gov.zm",
+    "description": "Border management, customs processing, and trade facilitation",
+    "isActive": true,
+    "type": 2
+  },
+  {
+    "contactEmail": "it@infrastructure.gov.zm",
+    "mappedPriorities": [
+      10
+    ],
+    "nextScheduledSync": "2026-02-19T09:20:00",
+    "health": {
+      "failedSyncs": 7,
+      "lastHealthCheck": "2026-02-19T08:00:00",
+      "recordsProcessed": 35000,
+      "uptimePercentage": 95.8,
+      "averageResponseTime": 750,
+      "successfulSyncs": 155
+    },
+    "responsibleOfficers": [
+      "Hon. Charles Milupi",
+      "PS Infrastructure"
+    ],
+    "systemCode": "INFRASTRUCTURE",
+    "lastSync": "2026-02-19T08:20:00",
+    "apiEndpoint": "/api/v1/data",
+    "systemId": "sys-006",
+    "syncIntervalMinutes": 60,
+    "systemName": "Infrastructure Web App",
+    "status": 0,
+    "baseUrl": "https://infrastructure.gov.zm",
+    "description": "Infrastructure project tracking and monitoring",
+    "isActive": true,
+    "type": 3
+  },
+  {
+    "contactEmail": "it@councils.gov.zm",
+    "mappedPriorities": [
+      2
+    ],
+    "nextScheduledSync": "2026-02-19T09:10:00",
+    "health": {
+      "failedSyncs": 5,
+      "lastHealthCheck": "2026-02-19T08:00:00",
+      "recordsProcessed": 65000,
+      "uptimePercentage": 97.2,
+      "averageResponseTime": 480,
+      "successfulSyncs": 175
+    },
+    "responsibleOfficers": [
+      "PS Local Government"
+    ],
+    "systemCode": "COUNCILS",
+    "lastSync": "2026-02-19T08:10:00",
+    "apiEndpoint": "/api/v1/data",
+    "systemId": "sys-007",
+    "syncIntervalMinutes": 60,
+    "systemName": "Council Web App",
+    "status": 0,
+    "baseUrl": "https://councils.gov.zm",
+    "description": "Local council operations and service delivery monitoring",
+    "isActive": true,
+    "type": 1
+  },
+  {
+    "contactEmail": "it@lands.gov.zm",
+    "mappedPriorities": [
+      0
+    ],
+    "nextScheduledSync": "2026-02-19T09:25:00",
+    "health": {
+      "failedSyncs": 7,
+      "lastHealthCheck": "2026-02-19T08:00:00",
+      "recordsProcessed": 55000,
+      "uptimePercentage": 96.0,
+      "averageResponseTime": 620,
+      "successfulSyncs": 160
+    },
+    "responsibleOfficers": [
+      "PS Lands"
+    ],
+    "systemCode": "LANDS",
+    "lastSync": "2026-02-19T08:25:00",
+    "apiEndpoint": "/api/v1/data",
+    "systemId": "sys-008",
+    "syncIntervalMinutes": 60,
+    "systemName": "Land Web App",
+    "status": 0,
+    "baseUrl": "https://lands.gov.zm",
+    "description": "Land administration, titling, and revenue collection",
+    "isActive": true,
+    "type": 12
+  },
+  {
+    "contactEmail": "it@homeaffairs.gov.zm",
+    "mappedPriorities": [
+      6
+    ],
+    "nextScheduledSync": "2026-02-19T09:35:00",
+    "health": {
+      "failedSyncs": 2,
+      "lastHealthCheck": "2026-02-19T08:30:00",
+      "recordsProcessed": 78000,
+      "uptimePercentage": 98.8,
+      "averageResponseTime": 410,
+      "successfulSyncs": 195
+    },
+    "responsibleOfficers": [
+      "PS Home Affairs"
+    ],
+    "systemCode": "DOCS",
+    "lastSync": "2026-02-19T08:35:00",
+    "apiEndpoint": "/api/v1/data",
+    "systemId": "sys-009",
+    "syncIntervalMinutes": 60,
+    "systemName": "Document Issuer Web App",
+    "status": 0,
+    "baseUrl": "https://docs.gov.zm",
+    "description": "National registration and document issuance system",
+    "isActive": true,
+    "type": 12
+  },
+  {
+    "contactEmail": "it@tracktrace.gov.zm",
+    "mappedPriorities": [
+      8
+    ],
+    "nextScheduledSync": "2026-02-19T09:40:00",
+    "health": {
+      "failedSyncs": 8,
+      "lastHealthCheck": "2026-02-19T08:30:00",
+      "recordsProcessed": 42000,
+      "uptimePercentage": 94.5,
+      "averageResponseTime": 820,
+      "successfulSyncs": 140
+    },
+    "responsibleOfficers": [
+      "Director Supply Chain"
+    ],
+    "systemCode": "TRACKTRACE",
+    "lastSync": "2026-02-19T08:40:00",
+    "apiEndpoint": "/api/v1/data",
+    "systemId": "sys-010",
+    "syncIntervalMinutes": 60,
+    "systemName": "Track & Trace App",
+    "status": 0,
+    "baseUrl": "https://tracktrace.gov.zm",
+    "description": "Supply chain tracking and logistics monitoring",
+    "isActive": true,
+    "type": 10
+  }
+]

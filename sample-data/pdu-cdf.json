@@ -1,0 +1,173 @@
+{
+  "nationalBudgetKwacha": 6245000000,
+  "allocationPerConstituency": 40000000,
+  "totalConstituencies": 156,
+  "utilizationPercentage": 63,
+  "targetUtilization": 85,
+  "totalGrantsIssued": 63388,
+  "totalLoansIssued": 20021,
+  "totalBursariesIssued": 130627,
+  "maleBursaries": 66620,
+  "femaleBursaries": 64007,
+  "skillsDevelopmentBeneficiaries": 195422,
+  "staffHousesBuilt": 374,
+  "classroomsConstructed": 520,
+  "healthPostsBuilt": 45,
+  "youthEmpowermentGrants": 12500,
+  "womenEmpowermentGrants": 15800,
+  "communityProjectsCompleted": 890,
+  "constituencyBreakdown": [
+    {
+      "constituency": "Kabwata",
+      "province": "Lusaka",
+      "allocationKwacha": 40000000,
+      "disbursedKwacha": 32000000,
+      "utilizationPercentage": 80,
+      "grantsIssued": 520,
+      "loansIssued": 185,
+      "bursariesIssued": 1250,
+      "classroomsBuilt": 4,
+      "staffHousesBuilt": 3
+    },
+    {
+      "constituency": "Mandevu",
+      "province": "Lusaka",
+      "allocationKwacha": 40000000,
+      "disbursedKwacha": 28500000,
+      "utilizationPercentage": 71,
+      "grantsIssued": 480,
+      "loansIssued": 165,
+      "bursariesIssued": 1450,
+      "classroomsBuilt": 5,
+      "staffHousesBuilt": 2
+    },
+    {
+      "constituency": "Nkana",
+      "province": "Copperbelt",
+      "allocationKwacha": 40000000,
+      "disbursedKwacha": 30200000,
+      "utilizationPercentage": 75,
+      "grantsIssued": 410,
+      "loansIssued": 142,
+      "bursariesIssued": 980,
+      "classroomsBuilt": 3,
+      "staffHousesBuilt": 4
+    },
+    {
+      "constituency": "Chipata Central",
+      "province": "Eastern",
+      "allocationKwacha": 40000000,
+      "disbursedKwacha": 25800000,
+      "utilizationPercentage": 64,
+      "grantsIssued": 390,
+      "loansIssued": 120,
+      "bursariesIssued": 1100,
+      "classroomsBuilt": 6,
+      "staffHousesBuilt": 3
+    },
+    {
+      "constituency": "Monze Central",
+      "province": "Southern",
+      "allocationKwacha": 40000000,
+      "disbursedKwacha": 27000000,
+      "utilizationPercentage": 67,
+      "grantsIssued": 350,
+      "loansIssued": 115,
+      "bursariesIssued": 850,
+      "classroomsBuilt": 4,
+      "staffHousesBuilt": 2
+    },
+    {
+      "constituency": "Kasama Central",
+      "province": "Northern",
+      "allocationKwacha": 40000000,
+      "disbursedKwacha": 22000000,
+      "utilizationPercentage": 55,
+      "grantsIssued": 310,
+      "loansIssued": 98,
+      "bursariesIssued": 920,
+      "classroomsBuilt": 3,
+      "staffHousesBuilt": 2
+    },
+    {
+      "constituency": "Solwezi West",
+      "province": "North-Western",
+      "allocationKwacha": 40000000,
+      "disbursedKwacha": 24500000,
+      "utilizationPercentage": 61,
+      "grantsIssued": 280,
+      "loansIssued": 105,
+      "bursariesIssued": 780,
+      "classroomsBuilt": 5,
+      "staffHousesBuilt": 3
+    },
+    {
+      "constituency": "Mongu Central",
+      "province": "Western",
+      "allocationKwacha": 40000000,
+      "disbursedKwacha": 20000000,
+      "utilizationPercentage": 50,
+      "grantsIssued": 245,
+      "loansIssued": 88,
+      "bursariesIssued": 720,
+      "classroomsBuilt": 2,
+      "staffHousesBuilt": 1
+    },
+    {
+      "constituency": "Mansa Central",
+      "province": "Luapula",
+      "allocationKwacha": 40000000,
+      "disbursedKwacha": 21500000,
+      "utilizationPercentage": 54,
+      "grantsIssued": 265,
+      "loansIssued": 92,
+      "bursariesIssued": 810,
+      "classroomsBuilt": 3,
+      "staffHousesBuilt": 2
+    },
+    {
+      "constituency": "Chinsali",
+      "province": "Muchinga",
+      "allocationKwacha": 40000000,
+      "disbursedKwacha": 19800000,
+      "utilizationPercentage": 49,
+      "grantsIssued": 230,
+      "loansIssued": 78,
+      "bursariesIssued": 690,
+      "classroomsBuilt": 4,
+      "staffHousesBuilt": 2
+    }
+  ],
+  "milestones": [
+    {
+      "responsibleOfficer": "Hon. Gary Nkombo",
+      "description": "Achieved 63% performance rate at mid-year assessment.",
+      "status": 5,
+      "completedDate": "2025-09-15T00:00:00",
+      "dueDate": "2025-09-30T00:00:00",
+      "department": "Ministry of Local Government",
+      "milestoneId": "cdf-milestone-1",
+      "title": "CDF Mid-Year Performance: 63%"
+    },
+    {
+      "responsibleOfficer": "PS Local Government",
+      "description": "K25.7 million allocated to each of 156 constituencies.",
+      "status": 5,
+      "completedDate": "2025-12-20T00:00:00",
+      "dueDate": "2025-12-31T00:00:00",
+      "department": "Ministry of Local Government",
+      "milestoneId": "cdf-milestone-2",
+      "title": "All Constituencies Allocated Funds"
+    },
+    {
+      "responsibleOfficer": "Hon. Gary Nkombo",
+      "description": "Improve CDF utilization to 80% across all constituencies.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2026-12-31T00:00:00",
+      "department": "Ministry of Local Government",
+      "milestoneId": "cdf-milestone-3",
+      "title": "Achieve 80% Utilization Rate"
+    }
+  ]
+}
