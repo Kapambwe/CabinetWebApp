@@ -1,0 +1,289 @@
+{
+  "provincialData": [
+    {
+      "budgetAllocated": 350000000,
+      "revenueCollected": 9500000000,
+      "locationCode": "ZM-02",
+      "copperProduction": 650000,
+      "activeMines": 12,
+      "responsibleOfficer": {
+        "performance": {
+          "completionRate": 87.5,
+          "budgetUtilization": 75.0,
+          "daysAverageDelay": 3,
+          "overdueActivities": 2,
+          "totalActivities": 40,
+          "performanceRating": "Good",
+          "completedActivities": 35,
+          "pendingActivities": 3
+        },
+        "email": "eng.patrick.musonda@mines.gov.zm",
+        "type": 2,
+        "phone": "+260 212 567 001",
+        "department": "Copperbelt Provincial Mines Office",
+        "position": "Chief Mines Inspector",
+        "name": "Eng. Patrick Musonda",
+        "officerId": "OFC-MIN-CB-001",
+        "title": "Provincial Mines Officer",
+        "province": "Copperbelt",
+        "ministry": "Ministry of Mines and Minerals Development"
+      },
+      "level": 1,
+      "budgetSpent": 105000000,
+      "locationName": "Copperbelt Province"
+    },
+    {
+      "budgetAllocated": 120000000,
+      "revenueCollected": 2500000000,
+      "locationCode": "ZM-08",
+      "copperProduction": 180000,
+      "activeMines": 5,
+      "responsibleOfficer": {
+        "performance": {
+          "completionRate": 83.3,
+          "budgetUtilization": 70.0,
+          "daysAverageDelay": 4,
+          "overdueActivities": 2,
+          "totalActivities": 30,
+          "performanceRating": "Good",
+          "completedActivities": 25,
+          "pendingActivities": 3
+        },
+        "email": "eng.ruth.chanda@mines.gov.zm",
+        "type": 2,
+        "phone": "+260 218 567 002",
+        "department": "North-Western Provincial Mines Office",
+        "position": "Chief Mines Inspector",
+        "name": "Eng. Ruth Chanda",
+        "officerId": "OFC-MIN-NW-001",
+        "title": "Provincial Mines Officer",
+        "province": "North-Western",
+        "ministry": "Ministry of Mines and Minerals Development"
+      },
+      "level": 1,
+      "budgetSpent": 36000000,
+      "locationName": "North-Western Province"
+    },
+    {
+      "budgetAllocated": 30000000,
+      "revenueCollected": 500000000,
+      "locationCode": "ZM-07",
+      "copperProduction": 60000,
+      "activeMines": 2,
+      "responsibleOfficer": {
+        "performance": {
+          "completionRate": 88.0,
+          "budgetUtilization": 78.0,
+          "daysAverageDelay": 2,
+          "overdueActivities": 1,
+          "totalActivities": 25,
+          "performanceRating": "Good",
+          "completedActivities": 22,
+          "pendingActivities": 2
+        },
+        "email": "eng.david.zulu@mines.gov.zm",
+        "type": 2,
+        "phone": "+260 213 567 003",
+        "department": "Northern Provincial Mines Office",
+        "position": "Chief Mines Inspector",
+        "name": "Eng. David Zulu",
+        "officerId": "OFC-MIN-NP-001",
+        "title": "Provincial Mines Officer",
+        "province": "Northern",
+        "ministry": "Ministry of Mines and Minerals Development"
+      },
+      "level": 1,
+      "budgetSpent": 9000000,
+      "locationName": "Northern Province"
+    }
+  ],
+  "nationalData": {
+    "metricName": "Copper Production",
+    "budgetAllocated": 500000000,
+    "revenueCollected": 12500000000,
+    "locationCode": "ZM",
+    "currentValue": 890000,
+    "canDrillDown": true,
+    "targetValue": 3000000,
+    "budgetSpent": 150000000,
+    "dataDate": "2026-02-19T00:00:00",
+    "level": 0,
+    "unit": "Metric Tonnes",
+    "locationName": "Zambia"
+  },
+  "mineData": [
+    {
+      "facilityName": "Konkola Copper Mines",
+      "budgetSpent": 35000000,
+      "taxesPaid": 450000000,
+      "revenueGenerated": 3500000000,
+      "provinceCode": "ZM-02",
+      "mineType": "Underground Mine",
+      "responsibleOfficer": {
+        "performance": {
+          "completionRate": 93.3,
+          "budgetUtilization": 88.0,
+          "daysAverageDelay": 1,
+          "overdueActivities": 1,
+          "totalActivities": 30,
+          "performanceRating": "Excellent",
+          "completedActivities": 28,
+          "pendingActivities": 1
+        },
+        "email": "john.mwanza@kcm.com",
+        "company": "Konkola Copper Mines PLC",
+        "phone": "+260 212 678 001",
+        "position": "General Manager",
+        "name": "John Mwanza",
+        "officerId": "OFC-KCM-001",
+        "title": "Mine Manager",
+        "type": 3,
+        "mine": "Konkola Copper Mines"
+      },
+      "localContentPercentage": 65.0,
+      "districtName": "Kitwe District",
+      "employees": 8500,
+      "level": 5,
+      "safetyOfficer": {
+        "title": "Safety Officer",
+        "email": "sarah.banda@kcm.com",
+        "name": "Sarah Banda",
+        "phone": "+260 212 678 002"
+      },
+      "facilityCode": "MINE-CB-001",
+      "provinceName": "Copperbelt",
+      "districtCode": "ZM-02-03",
+      "copperProduction": 250000,
+      "budgetAllocated": 120000000
+    },
+    {
+      "copperProduction": 200000,
+      "mineType": "Open Pit & Underground",
+      "provinceCode": "ZM-02",
+      "taxesPaid": 380000000,
+      "revenueGenerated": 2800000000,
+      "employees": 7200,
+      "responsibleOfficer": {
+        "performance": {
+          "completionRate": 89.3,
+          "budgetUtilization": 85.0,
+          "daysAverageDelay": 2,
+          "overdueActivities": 1,
+          "totalActivities": 28,
+          "performanceRating": "Good",
+          "completedActivities": 25,
+          "pendingActivities": 2
+        },
+        "email": "michael.tembo@kcm.com",
+        "company": "Konkola Copper Mines PLC",
+        "phone": "+260 212 678 003",
+        "position": "General Manager",
+        "name": "Michael Tembo",
+        "officerId": "OFC-NCH-001",
+        "title": "Mine Manager",
+        "type": 3,
+        "mine": "Nchanga Mines"
+      },
+      "budgetSpent": 28000000,
+      "localContentPercentage": 70.0,
+      "level": 5,
+      "provinceName": "Copperbelt",
+      "districtName": "Chingola District",
+      "districtCode": "ZM-02-02",
+      "facilityCode": "MINE-CB-002",
+      "budgetAllocated": 95000000,
+      "facilityName": "Nchanga Mines"
+    }
+  ],
+  "priorityName": "Mining",
+  "priorityArea": 3,
+  "financialData": {
+    "budgetCategories": [
+      {
+        "allocated": 150000000,
+        "commitments": 30000000,
+        "available": 75000000,
+        "category": "Geological Surveys",
+        "transactions": [
+          {
+            "amount": 12000000,
+            "description": "Geological survey - Luanshya area",
+            "vendor": "Zambia Geological Survey",
+            "paymentStatus": "Paid",
+            "date": "2025-11-15T00:00:00",
+            "transactionId": "TRX-MIN-001",
+            "approvedBy": "PS Mines"
+          },
+          {
+            "amount": 18000000,
+            "description": "Mineral exploration - North-Western Province",
+            "vendor": "Exploration Services Ltd",
+            "paymentStatus": "Paid",
+            "date": "2025-12-20T00:00:00",
+            "transactionId": "TRX-MIN-002",
+            "approvedBy": "PS Mines"
+          }
+        ],
+        "spent": 45000000,
+        "utilizationRate": 30.0
+      },
+      {
+        "allocated": 200000000,
+        "commitments": 50000000,
+        "available": 90000000,
+        "category": "Mining Infrastructure",
+        "transactions": [
+          {
+            "amount": 35000000,
+            "description": "Road construction to mine sites",
+            "vendor": "National Road Construction",
+            "paymentStatus": "Paid",
+            "date": "2025-10-10T00:00:00",
+            "transactionId": "TRX-MIN-003",
+            "approvedBy": "PS Mines"
+          }
+        ],
+        "spent": 60000000,
+        "utilizationRate": 30.0
+      },
+      {
+        "allocated": 100000000,
+        "commitments": 20000000,
+        "available": 50000000,
+        "category": "Compliance & Monitoring",
+        "spent": 30000000,
+        "utilizationRate": 30.0
+      },
+      {
+        "allocated": 50000000,
+        "commitments": 10000000,
+        "available": 25000000,
+        "category": "Capacity Building",
+        "spent": 15000000,
+        "utilizationRate": 30.0
+      }
+    ]
+  },
+  "revenueData": {
+    "sources": [
+      {
+        "collected": 8500000000,
+        "source": "Mineral Royalties",
+        "target": 12000000000,
+        "collectionRate": 70.8
+      },
+      {
+        "collected": 2500000000,
+        "source": "Mining Licenses",
+        "target": 3000000000,
+        "collectionRate": 83.3
+      },
+      {
+        "collected": 1500000000,
+        "source": "Corporate Tax (Mining)",
+        "target": 2000000000,
+        "collectionRate": 75.0
+      }
+    ]
+  }
+}

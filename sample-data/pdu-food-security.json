@@ -1,0 +1,196 @@
+{
+  "maizeProductionTonnes": 3400000,
+  "maizeTargetTonnes": 10000000,
+  "wheatProductionTonnes": 180000,
+  "wheatTargetTonnes": 1000000,
+  "soybeanProductionTonnes": 420000,
+  "soybeanTargetTonnes": 1000000,
+  "budgetKwacha": 1900000000,
+  "budgetSpentKwacha": 855000000,
+  "fispBeneficiaries": 1000000,
+  "fispRedemptionRate": 98.5,
+  "irrigationHectares": 85000,
+  "irrigationTargetHectares": 500000,
+  "agroDealers": 973,
+  "milestones": [
+    {
+      "milestoneId": "fs-milestone-1",
+      "status": 5,
+      "dueDate": "2024-09-01T00:00:00",
+      "completedDate": "2024-09-15T00:00:00",
+      "title": "FISP E-Voucher System Rollout",
+      "description": "Nationwide deployment of electronic voucher system with 98.5% redemption rate.",
+      "responsibleOfficer": "Director - FISP Implementation",
+      "department": "Ministry of Agriculture"
+    },
+    {
+      "milestoneId": "fs-milestone-2",
+      "status": 5,
+      "dueDate": "2026-01-31T00:00:00",
+      "completedDate": "2026-01-20T00:00:00",
+      "title": "1 Million Farmers Redeemed E-Vouchers",
+      "description": "Over 1 million farmers redeemed inputs by January 2026 with nearly 100% redemption rate.",
+      "responsibleOfficer": "Hon. Reuben Mtolo Phiri",
+      "department": "Ministry of Agriculture"
+    },
+    {
+      "milestoneId": "fs-milestone-3",
+      "status": 5,
+      "dueDate": "2025-12-31T00:00:00",
+      "completedDate": "2025-11-01T00:00:00",
+      "title": "FISP Expansion to All 116 Districts",
+      "description": "Expanded FISP coverage from 74 to all 116 districts nationwide.",
+      "responsibleOfficer": "PS Agriculture",
+      "department": "Ministry of Agriculture"
+    },
+    {
+      "milestoneId": "fs-milestone-4",
+      "status": 5,
+      "dueDate": "2025-06-30T00:00:00",
+      "completedDate": "2025-06-15T00:00:00",
+      "title": "Presidential Irrigation Programme Launch",
+      "description": "Launched irrigation programme targeting 340,000 tonnes of maize production in 2025.",
+      "responsibleOfficer": "Director - Irrigation Development",
+      "department": "Ministry of Water Development"
+    },
+    {
+      "milestoneId": "fs-milestone-5",
+      "status": 1,
+      "dueDate": "2026-12-31T00:00:00",
+      "completedDate": null,
+      "title": "Achieve 500,000 Hectares Irrigation",
+      "description": "Expand irrigated land to 500,000 hectares across all provinces.",
+      "responsibleOfficer": "PS Water Development",
+      "department": "Ministry of Water Development"
+    },
+    {
+      "milestoneId": "fs-milestone-6",
+      "status": 1,
+      "dueDate": "2028-12-31T00:00:00",
+      "completedDate": null,
+      "title": "Wheat Self-Sufficiency",
+      "description": "Achieve 1 million tonnes of wheat production annually.",
+      "responsibleOfficer": "Director - Crop Development",
+      "department": "Ministry of Agriculture"
+    }
+  ],
+  "catspProgrammes": [
+    {
+      "name": "Central Province Climate-Smart Agriculture",
+      "province": "Central",
+      "budget": 120000000,
+      "beneficiaries": 45000,
+      "status": 1
+    },
+    {
+      "name": "Eastern Province Drought-Resistant Crops",
+      "province": "Eastern",
+      "budget": 95000000,
+      "beneficiaries": 38000,
+      "status": 1
+    },
+    {
+      "name": "Southern Province Irrigation Expansion",
+      "province": "Southern",
+      "budget": 150000000,
+      "beneficiaries": 52000,
+      "status": 2
+    },
+    {
+      "name": "Northern Province Cassava Value Chain",
+      "province": "Northern",
+      "budget": 80000000,
+      "beneficiaries": 30000,
+      "status": 1
+    },
+    {
+      "name": "Luapula Province Fisheries and Crops Integration",
+      "province": "Luapula",
+      "budget": 70000000,
+      "beneficiaries": 25000,
+      "status": 0
+    }
+  ],
+  "provincialBreakdown": [
+    {
+      "province": "Central",
+      "maizeProductionTonnes": 620000,
+      "wheatProductionTonnes": 45000,
+      "soybeanProductionTonnes": 85000,
+      "irrigationHectares": 18000,
+      "fispBeneficiaries": 125000
+    },
+    {
+      "province": "Copperbelt",
+      "maizeProductionTonnes": 280000,
+      "wheatProductionTonnes": 12000,
+      "soybeanProductionTonnes": 35000,
+      "irrigationHectares": 5500,
+      "fispBeneficiaries": 78000
+    },
+    {
+      "province": "Eastern",
+      "maizeProductionTonnes": 580000,
+      "wheatProductionTonnes": 18000,
+      "soybeanProductionTonnes": 95000,
+      "irrigationHectares": 12000,
+      "fispBeneficiaries": 145000
+    },
+    {
+      "province": "Luapula",
+      "maizeProductionTonnes": 195000,
+      "wheatProductionTonnes": 5000,
+      "soybeanProductionTonnes": 15000,
+      "irrigationHectares": 3500,
+      "fispBeneficiaries": 68000
+    },
+    {
+      "province": "Lusaka",
+      "maizeProductionTonnes": 210000,
+      "wheatProductionTonnes": 22000,
+      "soybeanProductionTonnes": 28000,
+      "irrigationHectares": 8500,
+      "fispBeneficiaries": 55000
+    },
+    {
+      "province": "Muchinga",
+      "maizeProductionTonnes": 245000,
+      "wheatProductionTonnes": 8000,
+      "soybeanProductionTonnes": 20000,
+      "irrigationHectares": 4500,
+      "fispBeneficiaries": 82000
+    },
+    {
+      "province": "Northern",
+      "maizeProductionTonnes": 320000,
+      "wheatProductionTonnes": 10000,
+      "soybeanProductionTonnes": 45000,
+      "irrigationHectares": 6000,
+      "fispBeneficiaries": 110000
+    },
+    {
+      "province": "North-Western",
+      "maizeProductionTonnes": 185000,
+      "wheatProductionTonnes": 8000,
+      "soybeanProductionTonnes": 30000,
+      "irrigationHectares": 5000,
+      "fispBeneficiaries": 72000
+    },
+    {
+      "province": "Southern",
+      "maizeProductionTonnes": 480000,
+      "wheatProductionTonnes": 35000,
+      "soybeanProductionTonnes": 48000,
+      "irrigationHectares": 15000,
+      "fispBeneficiaries": 135000
+    },
+    {
+      "province": "Western",
+      "maizeProductionTonnes": 285000,
+      "wheatProductionTonnes": 17000,
+      "soybeanProductionTonnes": 19000,
+      "irrigationHectares": 7000,
+      "fispBeneficiaries": 130000
+    }
+  ]
+}

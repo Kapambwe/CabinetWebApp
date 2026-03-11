@@ -1,0 +1,202 @@
+{
+  "electrificationPercentage": 42,
+  "targetElectrification": 66,
+  "installedCapacityMW": 3800,
+  "targetCapacityMW": 9000,
+  "solarCapacityMW": 350,
+  "solarTargetMW": 1000,
+  "hydroCapacityMW": 2800,
+  "thermalCapacityMW": 650,
+  "netMeteringProsumers": 521,
+  "netMeteringInstalledMW": 15.345,
+  "netMeteringExportedMWh": 12228.4,
+  "netMeteringCreditsKwacha": 3685032,
+  "energyBudgetKwacha": 5700000000,
+  "electricityFundKwacha": 500000000,
+  "energyBudgetSpentKwacha": 1995000000,
+  "peakDemandMW": 3200,
+  "loadSheddingHoursPerDay": 4,
+  "ruralElectrificationPercentage": 14,
+  "urbanElectrificationPercentage": 72,
+  "ongoingProjects": [
+    {
+      "name": "Batoka Gorge Hydroelectric Station",
+      "type": "Hydropower",
+      "capacityMW": 2400,
+      "investmentUsd": 4000000000,
+      "province": "Southern",
+      "completionPercentage": 12,
+      "expectedCompletionYear": 2032,
+      "status": "Preparatory Works",
+      "developer": "Zambia-Zimbabwe Joint Authority"
+    },
+    {
+      "name": "Ngonye Falls Solar Park",
+      "type": "Solar PV",
+      "capacityMW": 100,
+      "investmentUsd": 85000000,
+      "province": "Western",
+      "completionPercentage": 100,
+      "expectedCompletionYear": 2025,
+      "status": "Commissioned",
+      "developer": "ZESCO / Independent Power Producer"
+    },
+    {
+      "name": "Maamba Coal Power Plant Phase 2",
+      "type": "Thermal Coal",
+      "capacityMW": 300,
+      "investmentUsd": 500000000,
+      "province": "Southern",
+      "completionPercentage": 8,
+      "expectedCompletionYear": 2029,
+      "status": "Financial Close",
+      "developer": "Maamba Collieries Limited"
+    },
+    {
+      "name": "Kafue Gorge Lower Extension",
+      "type": "Hydropower",
+      "capacityMW": 150,
+      "investmentUsd": 280000000,
+      "province": "Southern",
+      "completionPercentage": 35,
+      "expectedCompletionYear": 2028,
+      "status": "Under Construction",
+      "developer": "ZESCO"
+    },
+    {
+      "name": "Serenje Solar Farm",
+      "type": "Solar PV",
+      "capacityMW": 50,
+      "investmentUsd": 42000000,
+      "province": "Central",
+      "completionPercentage": 55,
+      "expectedCompletionYear": 2026,
+      "status": "Under Construction",
+      "developer": "GET FiT Zambia / Private Developer"
+    }
+  ],
+  "provincialData": [
+    {
+      "province": "Central",
+      "electrificationPercentage": 38,
+      "installedCapacityMW": 120,
+      "solarInstallations": 85,
+      "householdsConnected": 95000,
+      "miniGrids": 4
+    },
+    {
+      "province": "Copperbelt",
+      "electrificationPercentage": 68,
+      "installedCapacityMW": 450,
+      "solarInstallations": 120,
+      "householdsConnected": 285000,
+      "miniGrids": 2
+    },
+    {
+      "province": "Eastern",
+      "electrificationPercentage": 25,
+      "installedCapacityMW": 45,
+      "solarInstallations": 65,
+      "householdsConnected": 62000,
+      "miniGrids": 6
+    },
+    {
+      "province": "Luapula",
+      "electrificationPercentage": 18,
+      "installedCapacityMW": 35,
+      "solarInstallations": 42,
+      "householdsConnected": 38000,
+      "miniGrids": 5
+    },
+    {
+      "province": "Lusaka",
+      "electrificationPercentage": 78,
+      "installedCapacityMW": 580,
+      "solarInstallations": 210,
+      "householdsConnected": 420000,
+      "miniGrids": 1
+    },
+    {
+      "province": "Muchinga",
+      "electrificationPercentage": 15,
+      "installedCapacityMW": 25,
+      "solarInstallations": 38,
+      "householdsConnected": 28000,
+      "miniGrids": 7
+    },
+    {
+      "province": "Northern",
+      "electrificationPercentage": 22,
+      "installedCapacityMW": 55,
+      "solarInstallations": 52,
+      "householdsConnected": 48000,
+      "miniGrids": 8
+    },
+    {
+      "province": "North-Western",
+      "electrificationPercentage": 28,
+      "installedCapacityMW": 65,
+      "solarInstallations": 48,
+      "householdsConnected": 52000,
+      "miniGrids": 5
+    },
+    {
+      "province": "Southern",
+      "electrificationPercentage": 45,
+      "installedCapacityMW": 2100,
+      "solarInstallations": 95,
+      "householdsConnected": 125000,
+      "miniGrids": 3
+    },
+    {
+      "province": "Western",
+      "electrificationPercentage": 12,
+      "installedCapacityMW": 325,
+      "solarInstallations": 35,
+      "householdsConnected": 25000,
+      "miniGrids": 9
+    }
+  ],
+  "milestones": [
+    {
+      "milestoneId": "er-milestone-1",
+      "status": 5,
+      "dueDate": "2025-12-31T00:00:00",
+      "completedDate": "2025-12-01T00:00:00",
+      "title": "521 Prosumers Enrolled in Net Metering",
+      "description": "Net metering programme with 15.345 MW installed capacity.",
+      "responsibleOfficer": "CEO - ZESCO",
+      "department": "ZESCO Limited"
+    },
+    {
+      "milestoneId": "er-milestone-2",
+      "status": 5,
+      "dueDate": "2025-06-30T00:00:00",
+      "completedDate": "2025-06-15T00:00:00",
+      "title": "Solar Tax Incentives Elimination",
+      "description": "Eliminated taxes on solar equipment including batteries, inverters, and efficient lighting.",
+      "responsibleOfficer": "Hon. Peter Chibwe Kapala",
+      "department": "Ministry of Energy"
+    },
+    {
+      "milestoneId": "er-milestone-3",
+      "status": 1,
+      "dueDate": "2026-12-31T00:00:00",
+      "completedDate": null,
+      "title": "1,000 MW Solar Expansion",
+      "description": "Add 1,000 MW of solar capacity in 2026.",
+      "responsibleOfficer": "Director - Renewable Energy",
+      "department": "Ministry of Energy"
+    },
+    {
+      "milestoneId": "er-milestone-4",
+      "status": 1,
+      "dueDate": "2030-12-31T00:00:00",
+      "completedDate": null,
+      "title": "Achieve 9,000 MW Generation Capacity",
+      "description": "Reach target of 9,000 MW total installed capacity.",
+      "responsibleOfficer": "PS Energy",
+      "department": "Ministry of Energy"
+    }
+  ]
+}
