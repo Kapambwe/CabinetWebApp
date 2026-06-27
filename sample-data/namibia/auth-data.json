@@ -1,0 +1,19 @@
+{
+  "countryName": "Namibia",
+  "roles": [
+    {
+      "roleId": "PRES",
+      "roleName": "President",
+      "users": [
+        { "userId": "NAM-001", "name": "Nangolo Mbumba", "email": "president@op.gov.na" }
+      ]
+    },
+    {
+      "roleId": "COS",
+      "roleName": "Chief of Staff",
+      "users": [
+        { "userId": "NAM-002", "name": "Barry Shimotwikeni", "email": "cos@op.gov.na" }
+      ]
+    }
+  ]
+}

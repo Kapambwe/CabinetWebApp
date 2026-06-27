@@ -1,0 +1,18 @@
+[
+  {
+    "countrySlug": "south-africa",
+    "countryName": "South Africa",
+    "institutionType": "presidency",
+    "folderName": "state-house",
+    "name": "The Presidency / State House",
+    "category": "Executive"
+  },
+  {
+    "countrySlug": "south-africa",
+    "countryName": "South Africa",
+    "institutionType": "cabinet",
+    "folderName": "cabinet-office",
+    "name": "Cabinet Office",
+    "category": "Executive"
+  }
+]

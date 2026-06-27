@@ -1,0 +1,101 @@
+{
+  "overallNdpProgress": 47.9,
+  "overallSdgProgress": 55.1,
+  "pillars": [
+    {
+      "pillarId": "zw-ndp-1",
+      "number": 1,
+      "title": "Food and Nutrition Security",
+      "description": "Strengthening grain production, irrigation, and climate resilience.",
+      "progress": 44.0,
+      "color": "#198754",
+      "icon": "bi bi-basket",
+      "objectives": [
+        {
+          "objectiveId": "zw-obj-1.1",
+          "title": "Scale irrigation and smallholder productivity",
+          "progress": 41.0,
+          "targets": [
+            { "targetId": "zw-tg-1.1.1", "title": "Irrigated hectares", "currentValue": 42000, "targetValue": 100000, "unit": "hectares", "deadline": "2027-12-31T00:00:00" }
+          ]
+        }
+      ]
+    },
+    {
+      "pillarId": "zw-ndp-2",
+      "number": 2,
+      "title": "Industrialisation and Value Addition",
+      "description": "Expanding manufacturing, beneficiation, and export capacity.",
+      "progress": 39.5,
+      "color": "#0d6efd",
+      "icon": "bi bi-building",
+      "objectives": []
+    },
+    {
+      "pillarId": "zw-ndp-3",
+      "number": 3,
+      "title": "Infrastructure and Energy",
+      "description": "Improving transport corridors, energy reliability, and urban services.",
+      "progress": 46.0,
+      "color": "#fd7e14",
+      "icon": "bi bi-lightning-charge",
+      "objectives": []
+    },
+    {
+      "pillarId": "zw-ndp-4",
+      "number": 4,
+      "title": "Human Capital and Social Services",
+      "description": "Health, education, and social protection delivery improvements.",
+      "progress": 52.0,
+      "color": "#6610f2",
+      "icon": "bi bi-people",
+      "objectives": []
+    }
+  ],
+  "sdgGoals": [
+    { "number": 1, "title": "No Poverty", "icon": "bi bi-wallet2", "color": "#E5243B", "progress": 42.0, "targetsOnTrack": 4, "totalTargets": 8 },
+    { "number": 2, "title": "Zero Hunger", "icon": "bi bi-basket", "color": "#DDA63A", "progress": 51.0, "targetsOnTrack": 5, "totalTargets": 9 },
+    { "number": 6, "title": "Clean Water and Sanitation", "icon": "bi bi-droplet", "color": "#26BDE2", "progress": 57.0, "targetsOnTrack": 6, "totalTargets": 10 }
+  ],
+  "provinceScores": [
+    {
+      "provinceName": "Harare",
+      "ndpAlignment": 69.0,
+      "sdgProgress": 63.0,
+      "totalContributors": 104,
+      "districts": [
+        {
+          "districtName": "Harare",
+          "progress": 71.0,
+          "constituencies": []
+        }
+      ]
+    },
+    {
+      "provinceName": "Midlands",
+      "ndpAlignment": 52.0,
+      "sdgProgress": 49.0,
+      "totalContributors": 77,
+      "districts": [
+        {
+          "districtName": "Gweru",
+          "progress": 55.0,
+          "constituencies": []
+        }
+      ]
+    },
+    {
+      "provinceName": "Masvingo",
+      "ndpAlignment": 48.0,
+      "sdgProgress": 46.0,
+      "totalContributors": 68,
+      "districts": [
+        {
+          "districtName": "Masvingo",
+          "progress": 50.0,
+          "constituencies": []
+        }
+      ]
+    }
+  ]
+}

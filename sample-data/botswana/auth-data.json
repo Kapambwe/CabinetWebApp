@@ -1,0 +1,19 @@
+{
+  "countryName": "Botswana",
+  "roles": [
+    {
+      "roleId": "PRES",
+      "roleName": "President",
+      "users": [
+        { "userId": "BWA-001", "name": "Mokgweetsi Masisi", "email": "president@gov.bw" }
+      ]
+    },
+    {
+      "roleId": "COS",
+      "roleName": "Chief of Staff",
+      "users": [
+        { "userId": "BWA-002", "name": "Matshidiso Bokowe", "email": "cos@gov.bw" }
+      ]
+    }
+  ]
+}

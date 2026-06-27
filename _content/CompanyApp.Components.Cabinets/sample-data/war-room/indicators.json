@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "indicatorName": "Rural Development Index",
+    "description": "Composite indicator of rural infrastructure, services, and economic activity.",
+    "involvedMinistries": [
+      "Ministry of Agriculture",
+      "Ministry of Local Government and Rural Development",
+      "Ministry of Infrastructure",
+      "Ministry of Health",
+      "Ministry of Education"
+    ],
+    "currentValue": 72,
+    "targetValue": 80,
+    "unit": "Index Score",
+    "ragStatus": "Amber",
+    "lastUpdated": "2026-01-21T07:00:00Z"
+  },
+  {
+    "id": 2,
+    "indicatorName": "Economic Diversification Score",
+    "description": "Measures progress in diversifying the economy beyond traditional sectors.",
+    "involvedMinistries": [
+      "Ministry of Mines and Mineral Development",
+      "Ministry of Agriculture",
+      "Ministry of Commerce",
+      "Ministry of Tourism"
+    ],
+    "currentValue": 65,
+    "targetValue": 75,
+    "unit": "Index Score",
+    "ragStatus": "Amber",
+    "lastUpdated": "2026-01-20T18:00:00Z"
+  },
+  {
+    "id": 3,
+    "indicatorName": "Public Service Delivery Quality",
+    "description": "Citizen satisfaction with government services across sectors.",
+    "involvedMinistries": [
+      "Ministry of Health",
+      "Ministry of Education",
+      "Ministry of Local Government and Rural Development",
+      "Ministry of Home Affairs and Internal Security"
+    ],
+    "currentValue": 68,
+    "targetValue": 75,
+    "unit": "Percent",
+    "ragStatus": "Amber",
+    "lastUpdated": "2026-01-21T05:00:00Z"
+  },
+  {
+    "id": 4,
+    "indicatorName": "Infrastructure Development Progress",
+    "description": "Overall progress in national infrastructure development.",
+    "involvedMinistries": [
+      "Ministry of Infrastructure",
+      "Ministry of Energy",
+      "Ministry of Water Development"
+    ],
+    "currentValue": 88,
+    "targetValue": 85,
+    "unit": "Percent",
+    "ragStatus": "Green",
+    "lastUpdated": "2026-01-21T06:00:00Z"
+  },
+  {
+    "id": 5,
+    "indicatorName": "Budget Execution Efficiency",
+    "description": "Measures monthly budget execution versus targets across votes.",
+    "involvedMinistries": [
+      "Ministry of Finance",
+      "Ministry of Local Government and Rural Development"
+    ],
+    "currentValue": 68,
+    "targetValue": 80,
+    "unit": "Percent",
+    "ragStatus": "Amber",
+    "lastUpdated": "2026-01-21T07:15:00Z"
+  },
+  {
+    "id": 6,
+    "indicatorName": "Procurement Cycle Compliance",
+    "description": "Average tender cycle time compliance across councils.",
+    "involvedMinistries": [
+      "Ministry of Local Government and Rural Development",
+      "Local Government Procurement"
+    ],
+    "currentValue": 69,
+    "targetValue": 90,
+    "unit": "Percent",
+    "ragStatus": "Amber",
+    "lastUpdated": "2026-01-19T09:10:00Z"
+  },
+  {
+    "id": 7,
+    "indicatorName": "CDF Equity and Coverage",
+    "description": "Coverage of CDF projects and grant reviews across districts.",
+    "involvedMinistries": [
+      "Ministry of Local Government and Rural Development",
+      "CDF Secretariat"
+    ],
+    "currentValue": 74,
+    "targetValue": 85,
+    "unit": "Percent",
+    "ragStatus": "Amber",
+    "lastUpdated": "2026-01-20T09:00:00Z"
+  },
+  {
+    "id": 8,
+    "indicatorName": "SOE Performance Index",
+    "description": "Quarterly performance index for state owned enterprises.",
+    "involvedMinistries": [
+      "Ministry of Finance",
+      "SOE Oversight"
+    ],
+    "currentValue": 71,
+    "targetValue": 78,
+    "unit": "Index Score",
+    "ragStatus": "Amber",
+    "lastUpdated": "2026-01-20T11:30:00Z"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "schoolId": "SCH-003",
+    "type": "InfrastructureGap",
+    "severity": "High",
+    "description": "Delayed lab renovation affecting Grade 12 practicals.",
+    "detectedDate": "2026-06-04T00:00:00"
+  }
+]

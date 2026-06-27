@@ -1,0 +1,18 @@
+[
+  {
+    "officerId": "CO-001",
+    "officerName": "Controlling Officer - ZRA",
+    "institution": "Zambia Revenue Authority",
+    "openBreachCount": 1,
+    "riskLevel": 2,
+    "primaryRisk": "Contract variation approval evidence"
+  },
+  {
+    "officerId": "CO-002",
+    "officerName": "Permanent Secretary - Home Affairs",
+    "institution": "Ministry of Home Affairs",
+    "openBreachCount": 1,
+    "riskLevel": 1,
+    "primaryRisk": "Legal review sign-off delay"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "hotspotId": "HOT-001",
+    "name": "Kasumbalesa Border",
+    "province": "Copperbelt",
+    "riskType": "Contraband and congestion",
+    "incidentCount": 7,
+    "severity": 2,
+    "trend": "Worsening"
+  },
+  {
+    "hotspotId": "HOT-002",
+    "name": "Great North Road",
+    "province": "Central",
+    "riskType": "Cargo theft",
+    "incidentCount": 3,
+    "severity": 3,
+    "trend": "New cluster"
+  },
+  {
+    "hotspotId": "HOT-003",
+    "name": "Kafue Estates",
+    "province": "Lusaka",
+    "riskType": "Public order",
+    "incidentCount": 4,
+    "severity": 1,
+    "trend": "Rising"
+  }
+]

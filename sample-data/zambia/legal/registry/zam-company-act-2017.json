@@ -1,0 +1,63 @@
+{
+  "instrumentId": "ZAM-COMPANY-ACT-2017",
+  "title": "The Companies Act, 2017",
+  "category": "Corporate & Commercial",
+  "sponsoringMinistry": "Ministry of Commerce, Trade and Industry",
+  "effectiveDate": "2017-12-20T00:00:00Z",
+  "parts": [
+    {
+      "partNumber": "I",
+      "title": "Preliminary",
+      "sections": [
+        {
+          "sectionId": "s1",
+          "title": "Short title and commencement",
+          "content": "This Act may be cited as the Companies Act, 2017, and shall come into operation on the date appointed by the Minister by statutory instrument.",
+          "riskLevel": "Low"
+        }
+      ]
+    },
+    {
+      "partNumber": "II",
+      "title": "Incorporation of Companies",
+      "sections": [
+        {
+          "sectionId": "s11",
+          "title": "Types of companies",
+          "content": "A company may be incorporated under this Act as— (a) a private company limited by shares; (b) a public company; (c) a company limited by guarantee; or (d) an unlimited company.",
+          "riskLevel": "Medium"
+        },
+        {
+          "sectionId": "s12",
+          "title": "Application for incorporation",
+          "content": "An application for the incorporation of a company shall be made to the Registrar in the prescribed form and shall be accompanied by the prescribed fee.",
+          "riskLevel": "Medium"
+        }
+      ]
+    },
+    {
+      "partNumber": "VI",
+      "title": "Directors and Secretaries",
+      "sections": [
+        {
+          "sectionId": "s85",
+          "title": "Number of directors",
+          "content": "A private company shall have at least two directors, and a public company shall have at least three directors. At least half of the directors of a company shall be resident in Zambia.",
+          "rules": ["CORP-RES-001"],
+          "riskLevel": "High",
+          "jsonRule": "{\n  \"ruleId\": \"CORP-RES-001\",\n  \"targetEntity\": \"Company\",\n  \"condition\": {\n    \"operator\": \"OR\",\n    \"rules\": [\n      {\n        \"operator\": \"AND\",\n        \"rules\": [\n          { \"field\": \"companyType\", \"operator\": \"EQUAL\", \"value\": \"PRIVATE\" },\n          { \"field\": \"directorCount\", \"operator\": \"LESS_THAN\", \"value\": 2 }\n        ]\n      },\n      {\n        \"operator\": \"AND\",\n        \"rules\": [\n          { \"field\": \"companyType\", \"operator\": \"EQUAL\", \"value\": \"PUBLIC\" },\n          { \"field\": \"directorCount\", \"operator\": \"LESS_THAN\", \"value\": 3 }\n        ]\n      },\n      {\n        \"field\": \"residentDirectorRatio\",\n        \"operator\": \"LESS_THAN\",\n        \"value\": 0.5\n      }\n    ]\n  },\n  \"action\": \"FlagComplianceBreach\",\n  \"severity\": \"High\"\n}",
+          "evaluationCount": 15420
+        },
+        {
+          "sectionId": "s109",
+          "title": "Duties of directors",
+          "content": "A director of a company shall act in good faith, in the best interests of the company, and with the degree of care, diligence, and skill that a reasonably prudent person would exercise in comparable circumstances.",
+          "rules": ["CORP-DUTY-001"],
+          "riskLevel": "High",
+          "jsonRule": "{\n  \"ruleId\": \"CORP-DUTY-001\",\n  \"targetEntity\": \"Director\",\n  \"condition\": {\n    \"field\": \"hasConflictOfInterest\",\n    \"operator\": \"EQUAL\",\n    \"value\": true,\n    \"context\": \"unresolved\"\n  },\n  \"action\": \"TriggerAudit\",\n  \"severity\": \"Medium\"\n}",
+          "evaluationCount": 3210
+        }
+      ]
+    }
+  ]
+}

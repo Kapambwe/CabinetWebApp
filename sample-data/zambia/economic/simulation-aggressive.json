@@ -1,0 +1,39 @@
+{
+  "ScenarioName": "Aggressive",
+  "ScenarioDescription": "Higher import replacement with faster export and industrial expansion.",
+  "BaselineImportValueUsd": 250000000,
+  "ImportDependencyRate": 68,
+  "LocalProductionUpliftRate": 42,
+  "ExportValueUpliftUsd": 165000000,
+  "ExportGrowthRate": 22,
+  "AverageTaxRate": 20,
+  "NewSmeCount": 24,
+  "NewFarmerGroupCount": 16,
+  "NewFactoryCount": 7,
+  "StarterPacks": [
+    {
+      "PackType": "SME",
+      "Title": "Export-Ready SME Cluster",
+      "TargetRegion": "Urban and border markets",
+      "CapitalRequired": 980000,
+      "ExpectedJobs": 126,
+      "TaxRevenue": 7.8
+    },
+    {
+      "PackType": "Manufacturing",
+      "Title": "Industrial Scale Manufacturing Pack",
+      "TargetRegion": "Industrial zones",
+      "CapitalRequired": 7600000,
+      "ExpectedJobs": 245,
+      "TaxRevenue": 14.6
+    },
+    {
+      "PackType": "Agro-processing",
+      "Title": "National Farmer Aggregation Pack",
+      "TargetRegion": "Major crop belts",
+      "CapitalRequired": 2900000,
+      "ExpectedJobs": 112,
+      "TaxRevenue": 5.4
+    }
+  ]
+}

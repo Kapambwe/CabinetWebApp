@@ -1,0 +1,43 @@
+[
+  {
+    "tenderId": "TEN-2026-001",
+    "referenceNumber": "ZPPA/MOH/2026/01",
+    "title": "Procurement of MRI Diagnostic Equipment",
+    "description": "Supply, installation and commissioning of advanced MRI machines for provincial hospitals.",
+    "procuringEntity": "Ministry of Health",
+    "district": "Lusaka",
+    "estimatedValue": 45000000.0,
+    "currentStage": 3,
+    "status": 0,
+    "dateInitiated": "2026-01-15T00:00:00",
+    "plannedAwardDate": "2026-06-15T00:00:00",
+    "priorityArea": "Quality Healthcare",
+    "timeline": [
+      { "stage": 0, "plannedDate": "2026-01-15T00:00:00", "actualDate": "2026-01-15T00:00:00", "remarks": "Needs assessment completed" },
+      { "stage": 1, "plannedDate": "2026-02-15T00:00:00", "actualDate": "2026-02-20T00:00:00", "remarks": "Advertised in Daily Mail and Times of Zambia" },
+      { "stage": 2, "plannedDate": "2026-03-31T00:00:00", "actualDate": "2026-03-31T00:00:00", "remarks": "12 bids received" },
+      { "stage": 3, "plannedDate": "2026-05-15T00:00:00", "actualDate": null, "remarks": "Technical evaluation ongoing" }
+    ],
+    "bidders": [
+      { "name": "Global Medical Systems", "bidAmount": 42000000.0, "isTechnicalQualified": true, "technicalScore": 88.5, "isFinancialQualified": true },
+      { "name": "Zambia Health Tech Ltd", "bidAmount": 38500000.0, "isTechnicalQualified": true, "technicalScore": 75.0, "isFinancialQualified": true },
+      { "name": "Eastern Hospital Supplies", "bidAmount": 48000000.0, "isTechnicalQualified": false, "technicalScore": 55.0, "isFinancialQualified": false }
+    ],
+    "committeeMeetings": [
+      {
+        "meetingId": "MTG-MOH-01",
+        "meetingDate": "2026-04-10T10:00:00",
+        "subject": "Technical Evaluation Committee - MRI Tenders",
+        "venue": "Ministry of Health HQ, Room 4",
+        "minutesSummary": "Reviewed technical specifications of all 12 bidders.",
+        "decisionOutcome": "Shortlisted 5 bidders for financial evaluation.",
+        "quorumMet": true,
+        "attendees": [
+          { "name": "Dr. Sarah Phiri", "position": "Chief Medical Officer", "ministry": "MOH", "isPresent": true },
+          { "name": "John Banda", "position": "Procurement Specialist", "ministry": "ZPPA", "isPresent": true },
+          { "name": "Eng. Moses Zulu", "position": "Biomedical Engineer", "ministry": "MOH", "isPresent": true }
+        ]
+      }
+    ]
+  }
+]

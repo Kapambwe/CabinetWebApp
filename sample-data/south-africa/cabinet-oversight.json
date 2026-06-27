@@ -1,0 +1,88 @@
+{
+  "countryName": "Republic of South Africa",
+  "mandates": [
+    {
+      "functionId": "F1",
+      "title": "Presidential Facilitation",
+      "description": "Facilitating constitutional duties, state functions, and executive coordination.",
+      "icon": "account_balance",
+      "progress": 91.0,
+      "status": "Optimal"
+    },
+    {
+      "functionId": "F2",
+      "title": "Cabinet Secretariat",
+      "description": "Supporting Cabinet scheduling, minutes, decision tracking, and implementation follow-up.",
+      "icon": "history_edu",
+      "progress": 86.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F3",
+      "title": "Public Service Reform",
+      "description": "Driving professionalisation, ethics, and performance management across departments.",
+      "icon": "analytics",
+      "progress": 74.0,
+      "status": "In Progress"
+    },
+    {
+      "functionId": "F4",
+      "title": "Intergovernmental Coordination",
+      "description": "Aligning national, provincial, and municipal priorities for delivery acceleration.",
+      "icon": "policy",
+      "progress": 68.0,
+      "status": "Strategic"
+    },
+    {
+      "functionId": "F5",
+      "title": "Social Compact Coordination",
+      "description": "Supporting engagements on jobs, energy security, and logistics recovery.",
+      "icon": "psychology",
+      "progress": 63.0,
+      "status": "Regional"
+    },
+    {
+      "functionId": "F6",
+      "title": "Welfare and Protocol",
+      "description": "Managing ceremonial support and official welfare obligations.",
+      "icon": "family_restroom",
+      "progress": 97.0,
+      "status": "Compliant"
+    },
+    {
+      "functionId": "F7",
+      "title": "Commissions and Inquiries",
+      "description": "Coordinating inquiries, arbitration, and response tracking.",
+      "icon": "gavel",
+      "progress": 58.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F8",
+      "title": "Decentralisation Support",
+      "description": "Supporting provincial and local government coordination on devolved functions.",
+      "icon": "explore",
+      "progress": 55.0,
+      "status": "Regional"
+    }
+  ],
+  "publicServicePerformance": {
+    "overallRating": 79.6,
+    "activeReforms": 18,
+    "sectoralBreakdown": [
+      { "sectorName": "Health", "performance": 76.0 },
+      { "sectorName": "Education", "performance": 81.0 },
+      { "sectorName": "Transport", "performance": 72.0 }
+    ]
+  },
+  "decentralization": {
+    "functionsDevolved": 38.0,
+    "localAuthoritiesImpacted": 257,
+    "implementationPhase": "Phase 3"
+  },
+  "welfare": {
+    "estatesCompliant": true,
+    "healthcareProvisionsActive": true,
+    "familiesSupported": 4
+  }
+}

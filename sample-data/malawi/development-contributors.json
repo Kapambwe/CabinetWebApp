@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Illovo Sugar Malawi",
+    "type": 0,
+    "sector": "Agriculture",
+    "totalInvestmentKwacha": 760000000.0,
+    "province": "Southern Region",
+    "district": "Nchalo",
+    "constituency": "Chikwawa South",
+    "ward": "Nchalo",
+    "projects": [
+      { "title": "Irrigation and Outgrower Expansion", "linkedNdpPillarId": "mw-ndp-1", "linkedSdgNumber": 2, "progress": 67.0, "status": "Active" }
+    ]
+  },
+  {
+    "name": "National Economic Empowerment Fund",
+    "type": 4,
+    "sector": "SME Finance",
+    "totalInvestmentKwacha": 540000000.0,
+    "province": "Central Region",
+    "district": "Lilongwe",
+    "constituency": "Lilongwe City Centre",
+    "ward": "Area 18",
+    "projects": [
+      { "title": "Youth Enterprise Financing", "linkedNdpPillarId": "mw-ndp-2", "linkedSdgNumber": 8, "progress": 54.0, "status": "Active" }
+    ]
+  },
+  {
+    "name": "World Vision Malawi",
+    "type": 2,
+    "sector": "WASH",
+    "totalInvestmentKwacha": 230000000.0,
+    "province": "Northern Region",
+    "district": "Mzimba",
+    "constituency": "Mzimba Central",
+    "ward": "Mzalangwe",
+    "projects": [
+      { "title": "Rural Water and Sanitation", "linkedNdpPillarId": "mw-ndp-3", "linkedSdgNumber": 6, "progress": 81.0, "status": "Active" }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+[
+  { "interventionId": "INT-001", "facilityId": "HOS-003", "facilityName": "Chipata General Hospital", "sector": "Health", "actionRequired": "Emergency Insulin Procurement", "status": "In Progress", "assignedTo": "ZAMMSA", "deadline": "2026-05-30T17:00:00" },
+  { "interventionId": "INT-002", "facilityId": "SCH-003", "facilityName": "Kitwe Boys Secondary", "sector": "Education", "actionRequired": "Expedite Lab Renovation", "status": "Pending", "assignedTo": "Ministry of Infrastructure", "deadline": "2026-06-15T17:00:00" }
+]

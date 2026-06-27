@@ -1,0 +1,18 @@
+[
+  {
+    "clusterId": "CLU-001",
+    "name": "Copper haulage vulnerability",
+    "province": "Central",
+    "pattern": "Repeated theft near weighbridge bypass points",
+    "incidentCount": 3,
+    "severity": 3
+  },
+  {
+    "clusterId": "CLU-002",
+    "name": "Border manifest anomalies",
+    "province": "Copperbelt",
+    "pattern": "Recurring customs document mismatches",
+    "incidentCount": 5,
+    "severity": 2
+  }
+]

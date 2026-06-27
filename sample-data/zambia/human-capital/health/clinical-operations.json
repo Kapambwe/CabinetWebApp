@@ -1,0 +1,5 @@
+[
+  { "hospitalId": "HOS-001", "consultations": 450, "admissions": 120, "surgeries": 45, "theatreUtilization": 88.5, "avgWaitingTimeMinutes": 120, "date": "2026-05-25T00:00:00" },
+  { "hospitalId": "HOS-002", "consultations": 280, "admissions": 65, "surgeries": 18, "theatreUtilization": 72.0, "avgWaitingTimeMinutes": 85, "date": "2026-05-25T00:00:00" },
+  { "hospitalId": "HOS-003", "consultations": 180, "admissions": 42, "surgeries": 8, "theatreUtilization": 45.0, "avgWaitingTimeMinutes": 150, "date": "2026-05-25T00:00:00" }
+]

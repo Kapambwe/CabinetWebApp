@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Presidency</title>
+    <script>
+        var base = '/';
+        if (window.location.hostname.includes('github.io')) {
+            var path = window.location.pathname.split('/');
+            if (path[1] && path[1] !== 'index.html') {
+                base = '/' + path[1] + '/';
+            }
+        }
+        document.write('<base href="' + base + '" />');
+    </script>
+    <link href="_framework/dotnet.qo58vu62pr.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-ymVLFXmfZXsUru8gfcQqArd6YWxynBnhdCuWAPFnzAM=" />
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="CompanyApp.Government.NationalApp.styles.css" rel="stylesheet" />
+    <link href="_content/Radzen.Blazor/css/material-base.css" rel="stylesheet">
+
+    <!-- Leaflet Map Library -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="js/leaflet-map.js"></script>
+
+    <script type="importmap">{
+  "imports": {
+    "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.958z1vx7fr.js",
+    "./_framework/dotnet.native.js": "./_framework/dotnet.native.3bgnpaxcll.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.qo58vu62pr.js",
+    "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.a6jcqbs390.js"
+  },
+  "scopes": {},
+  "integrity": {
+    "./_framework/blazor.webassembly.958z1vx7fr.js": "sha256-A59Tr9HqEhHMu8kU7kruLI9ayw5MRS6Lvc6z7jCbghk=",
+    "./_framework/blazor.webassembly.js": "sha256-A59Tr9HqEhHMu8kU7kruLI9ayw5MRS6Lvc6z7jCbghk=",
+    "./_framework/dotnet.js": "sha256-ymVLFXmfZXsUru8gfcQqArd6YWxynBnhdCuWAPFnzAM=",
+    "./_framework/dotnet.native.3bgnpaxcll.js": "sha256-T+Pw0pqiwzghn9oIbHGTmy87j8Pg2k2RBdjQcb+oTQ4=",
+    "./_framework/dotnet.native.js": "sha256-T+Pw0pqiwzghn9oIbHGTmy87j8Pg2k2RBdjQcb+oTQ4=",
+    "./_framework/dotnet.qo58vu62pr.js": "sha256-ymVLFXmfZXsUru8gfcQqArd6YWxynBnhdCuWAPFnzAM=",
+    "./_framework/dotnet.runtime.a6jcqbs390.js": "sha256-7i3usfTrnzC/9qWO4si5Bw4w7D9fUSnSBdhQ47blX2M=",
+    "./_framework/dotnet.runtime.js": "sha256-7i3usfTrnzC/9qWO4si5Bw4w7D9fUSnSBdhQ47blX2M="
+  }
+}</script>
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">ðŸ—™</span>
+    </div>
+    <script src="_framework/blazor.webassembly.958z1vx7fr.js" autostart="false"></script>
+    <script>
+        Blazor.start({
+            loadBootResource: function (type, name, defaultUri, integrity) {
+                // Skip integrity check for all resources to avoid GitHub Pages deployment issues
+                return defaultUri;
+            }
+        });
+    </script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
+</body>
+
+</html>
+

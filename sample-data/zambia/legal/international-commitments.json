@@ -1,0 +1,26 @@
+[
+  {
+    "CommitmentId": "COM-001",
+    "Title": "Publish border facilitation status report",
+    "Forum": "SADC Trade Facilitation",
+    "ResponsibleInstitution": "Ministry of Commerce",
+    "DueDate": "2026-06-27T00:00:00Z",
+    "DeliveryStatus": "At Risk"
+  },
+  {
+    "CommitmentId": "COM-002",
+    "Title": "Submit cyber incident reporting baseline",
+    "Forum": "AU Digital Transformation",
+    "ResponsibleInstitution": "Ministry of Technology",
+    "DueDate": "2026-07-21T00:00:00Z",
+    "DeliveryStatus": "On Track"
+  },
+  {
+    "CommitmentId": "COM-003",
+    "Title": "Share annual critical infrastructure register update",
+    "Forum": "SADC Security Cooperation",
+    "ResponsibleInstitution": "Ministry of Home Affairs",
+    "DueDate": "2026-08-08T00:00:00Z",
+    "DeliveryStatus": "Pending"
+  }
+]

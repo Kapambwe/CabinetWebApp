@@ -1,0 +1,51 @@
+{
+  "impacts": [
+    {
+      "priorityArea": 0,
+      "totalBeneficiaries": 3200000,
+      "womenBeneficiaries": 1600000,
+      "youthBeneficiaries": 960000,
+      "pwdBeneficiaries": 128000,
+      "provincesReached": 10,
+      "districtsReached": 116
+    },
+    {
+      "priorityArea": 1,
+      "totalBeneficiaries": 8500000,
+      "womenBeneficiaries": 4500000,
+      "youthBeneficiaries": 2550000,
+      "pwdBeneficiaries": 340000,
+      "provincesReached": 10,
+      "districtsReached": 116
+    }
+  ],
+  "evidence": [
+    {
+      "priorityArea": 0,
+      "overallVerdict": "On Track",
+      "verdictRationale": "FISP distribution completed in 9 of 10 provinces. Maize production up 18% vs baseline."
+    },
+    {
+      "priorityArea": 1,
+      "overallVerdict": "On Track",
+      "verdictRationale": "48 health posts commissioned. Drug availability at 89% of target facilities."
+    }
+  ],
+  "milestoneEvidence": [
+    { "type": 3, "title": "Site Progress Photo", "isVerified": true },
+    { "type": 1, "title": "Quality Inspection Report", "isVerified": true }
+  ],
+  "milestoneActivities": [
+    { "description": "Contractor mobilised on site", "actorName": "Site Manager", "outcome": "All equipment on site" },
+    { "description": "Mid-term progress review conducted", "actorName": "PDU Officer", "outcome": "Progress confirmed at 65%" }
+  ],
+  "onTrackItems": [
+    { "type": 1, "title": "Monthly Field Inspection Report", "isVerified": true },
+    { "type": 2, "title": "Quarterly Progress Report Q4 2025", "isVerified": true }
+  ],
+  "progressTrends": [
+    { "date": "2026-02-25T00:00:00", "plannedProgress": 55, "actualProgress": 54 },
+    { "date": "2026-03-25T00:00:00", "plannedProgress": 65, "actualProgress": 63 },
+    { "date": "2026-05-25T00:00:00", "plannedProgress": 80, "actualProgress": 74 }
+  ]
+}

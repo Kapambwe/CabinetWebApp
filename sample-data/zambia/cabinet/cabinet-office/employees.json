@@ -1,0 +1,30 @@
+[
+  {
+    "employeeId": "ZAM-CAB-001",
+    "name": "Naomi Chanda",
+    "position": "Senior M&E Officer",
+    "email": "n.chanda@cabinet.gov.zm",
+    "department": "Policy Analysis & Coordination"
+  },
+  {
+    "employeeId": "ZAM-CAB-002",
+    "name": "Kelvin Musonda",
+    "position": "M&E Specialist",
+    "email": "k.musonda@cabinet.gov.zm",
+    "department": "Policy Analysis & Coordination"
+  },
+  {
+    "employeeId": "ZAM-CAB-003",
+    "name": "Patrick Kangwa",
+    "position": "Secretary to the Cabinet",
+    "email": "stc@cabinet.gov.zm",
+    "department": "Executive"
+  },
+  {
+    "employeeId": "ZAM-ADM",
+    "name": "Admin User",
+    "position": "System Administrator",
+    "email": "admin@gov.zm",
+    "department": "IT & Governance"
+  }
+]

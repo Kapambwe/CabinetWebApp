@@ -1,0 +1,31 @@
+{
+  "ScenarioName": "Conservative",
+  "ScenarioDescription": "Lower domestic substitution and slower export expansion.",
+  "BaselineImportValueUsd": 250000000,
+  "ImportDependencyRate": 68,
+  "LocalProductionUpliftRate": 12,
+  "ExportValueUpliftUsd": 28000000,
+  "ExportGrowthRate": 6.5,
+  "AverageTaxRate": 16,
+  "NewSmeCount": 6,
+  "NewFarmerGroupCount": 4,
+  "NewFactoryCount": 1,
+  "StarterPacks": [
+    {
+      "PackType": "SME",
+      "Title": "Basic Import Substitution SME",
+      "TargetRegion": "District trading hubs",
+      "CapitalRequired": 240000,
+      "ExpectedJobs": 28,
+      "TaxRevenue": 1.2
+    },
+    {
+      "PackType": "Agro-processing",
+      "Title": "Small Aggregation Support Pack",
+      "TargetRegion": "Crop-producing districts",
+      "CapitalRequired": 620000,
+      "ExpectedJobs": 24,
+      "TaxRevenue": 0.9
+    }
+  ]
+}

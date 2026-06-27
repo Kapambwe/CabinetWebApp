@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Delta Corporation",
+    "type": 0,
+    "sector": "Manufacturing",
+    "totalInvestmentKwacha": 980000000.0,
+    "province": "Harare",
+    "district": "Harare",
+    "constituency": "Mbare",
+    "ward": "Mbare East",
+    "projects": [
+      { "title": "Industrial Packaging Expansion", "linkedNdpPillarId": "zw-ndp-2", "linkedSdgNumber": 9, "progress": 61.0, "status": "Active" }
+    ]
+  },
+  {
+    "name": "Zimbabwe National Roads Administration",
+    "type": 4,
+    "sector": "Infrastructure",
+    "totalInvestmentKwacha": 1200000000.0,
+    "province": "Midlands",
+    "district": "Gweru",
+    "constituency": "Gweru Urban",
+    "ward": "Senga",
+    "projects": [
+      { "title": "Road Rehabilitation Programme", "linkedNdpPillarId": "zw-ndp-3", "linkedSdgNumber": 11, "progress": 57.0, "status": "Active" }
+    ]
+  },
+  {
+    "name": "World Vision Zimbabwe",
+    "type": 2,
+    "sector": "Community Development",
+    "totalInvestmentKwacha": 210000000.0,
+    "province": "Masvingo",
+    "district": "Masvingo",
+    "constituency": "Masvingo Urban",
+    "ward": "Rhodene",
+    "projects": [
+      { "title": "Water and Sanitation Access", "linkedNdpPillarId": "zw-ndp-4", "linkedSdgNumber": 6, "progress": 83.0, "status": "Active" }
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "overallNdpProgress": 44.8,
+  "overallSdgProgress": 61.3,
+  "pillars": [
+    {
+      "pillarId": "ndp-1",
+      "number": 1,
+      "title": "Sustainable Economic Growth",
+      "description": "Diversification, mining beneficiation, tourism and digital transformation.",
+      "progress": 41.2,
+      "color": "#007bff",
+      "icon": "bi bi-graph-up-arrow",
+      "objectives": [
+        {
+          "objectiveId": "obj-1.1",
+          "title": "Increase beneficiation and local value addition",
+          "progress": 29.0,
+          "targets": [
+            {
+              "targetId": "tg-1.1.1",
+              "title": "Value-added mineral exports",
+              "currentValue": 18,
+              "targetValue": 45,
+              "unit": "percent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pillarId": "ndp-2",
+      "number": 2,
+      "title": "Human Capital and Social Inclusion",
+      "description": "Education, health, jobs and poverty reduction.",
+      "progress": 66.4,
+      "color": "#28a745",
+      "icon": "bi bi-people-fill",
+      "objectives": []
+    }
+  ],
+  "sdgGoals": [
+    {
+      "number": 3,
+      "title": "Good Health and Well-being",
+      "icon": "bi bi-heart-pulse",
+      "color": "#4C9F38",
+      "progress": 73.0,
+      "targetsOnTrack": 8,
+      "totalTargets": 11
+    },
+    {
+      "number": 4,
+      "title": "Quality Education",
+      "icon": "bi bi-book",
+      "color": "#C5192D",
+      "progress": 64.5,
+      "targetsOnTrack": 7,
+      "totalTargets": 10
+    }
+  ],
+  "provinceScores": [
+    {
+      "provinceName": "South-East",
+      "ndpAlignment": 83.0,
+      "sdgProgress": 79.0,
+      "totalContributors": 112,
+      "districts": [
+        {
+          "districtName": "Gaborone",
+          "progress": 87.0,
+          "constituencies": [
+            {
+              "constituencyName": "Gaborone Central",
+              "progress": 89.0,
+              "wards": [
+                { "wardName": "Main Mall", "progress": 91.0, "activeProjects": 11 },
+                { "wardName": "Extension 10", "progress": 84.0, "activeProjects": 7 }
+              ]
+            }
+          ]
+        },
+        {
+          "districtName": "Lobatse",
+          "progress": 70.0,
+          "constituencies": []
+        }
+      ]
+    },
+    {
+      "provinceName": "Central",
+      "ndpAlignment": 71.0,
+      "sdgProgress": 63.0,
+      "totalContributors": 143,
+      "districts": []
+    }
+  ]
+}

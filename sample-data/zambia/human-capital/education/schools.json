@@ -1,0 +1,6 @@
+[
+  { "schoolId": "SCH-001", "name": "Lusaka Central High", "level": "High School", "province": "Lusaka", "district": "Lusaka", "constituency": "Lusaka Central", "ward": "Kamwala", "studentCount": 1200, "teacherCount": 45, "status": "Operational" },
+  { "schoolId": "SCH-002", "name": "Chipata Primary", "level": "Primary", "province": "Eastern", "district": "Chipata", "constituency": "Chipata Central", "ward": "Kapata", "studentCount": 850, "teacherCount": 18, "status": "Operational" },
+  { "schoolId": "SCH-003", "name": "Kitwe Boys Secondary", "level": "Secondary", "province": "Copperbelt", "district": "Kitwe", "constituency": "Kitwe South", "ward": "Nkana", "studentCount": 950, "teacherCount": 32, "status": "Under Renovation" },
+  { "schoolId": "SCH-004", "name": "Kafue River School", "level": "Secondary", "province": "Lusaka", "district": "Kafue", "constituency": "Kafue Central", "ward": "Shikoswe", "studentCount": 420, "teacherCount": 12, "status": "Operational" }
+]

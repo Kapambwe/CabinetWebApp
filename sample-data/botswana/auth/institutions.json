@@ -1,0 +1,18 @@
+[
+  {
+    "countrySlug": "botswana",
+    "countryName": "Botswana",
+    "institutionType": "presidency",
+    "folderName": "state-house",
+    "name": "The Presidency / State House",
+    "category": "Executive"
+  },
+  {
+    "countrySlug": "botswana",
+    "countryName": "Botswana",
+    "institutionType": "cabinet",
+    "folderName": "cabinet-office",
+    "name": "Cabinet Office",
+    "category": "Executive"
+  }
+]

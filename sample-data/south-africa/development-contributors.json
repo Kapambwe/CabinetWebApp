@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Eskom Transmission",
+    "type": 4,
+    "sector": "Energy",
+    "totalInvestmentKwacha": 1850000000.0,
+    "province": "Gauteng",
+    "district": "Johannesburg",
+    "constituency": "Johannesburg Central",
+    "ward": "Braamfontein",
+    "projects": [
+      { "title": "Grid Stabilisation Upgrades", "linkedNdpPillarId": "sa-ndp-3", "linkedSdgNumber": 7, "progress": 64.0, "status": "Active" }
+    ]
+  },
+  {
+    "name": "MTN South Africa Foundation",
+    "type": 2,
+    "sector": "Digital Inclusion",
+    "totalInvestmentKwacha": 420000000.0,
+    "province": "KwaZulu-Natal",
+    "district": "eThekwini",
+    "constituency": "Durban Central",
+    "ward": "Amahjuba",
+    "projects": [
+      { "title": "Community Connectivity Hubs", "linkedNdpPillarId": "sa-ndp-1", "linkedSdgNumber": 9, "progress": 71.0, "status": "Active" }
+    ]
+  },
+  {
+    "name": "Gauteng Department of Human Settlements",
+    "type": 4,
+    "sector": "Housing",
+    "totalInvestmentKwacha": 760000000.0,
+    "province": "Gauteng",
+    "district": "Tshwane",
+    "constituency": "Pretoria Central",
+    "ward": "Mamelodi West",
+    "projects": [
+      { "title": "Informal Settlement Upgrading", "linkedNdpPillarId": "sa-ndp-2", "linkedSdgNumber": 11, "progress": 58.0, "status": "Active" }
+    ]
+  }
+]

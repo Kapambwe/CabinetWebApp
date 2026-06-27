@@ -1,0 +1,5 @@
+[
+  { "schoolId": "SCH-001", "overallScore": 88.5, "rating": "Excellent" },
+  { "schoolId": "SCH-002", "overallScore": 65.2, "rating": "Average" },
+  { "schoolId": "SCH-003", "overallScore": 42.0, "rating": "Poor" }
+]

@@ -1,0 +1,40 @@
+{
+  "briefingRequests": [
+    { "subject": "Q3 Inflation Forecast", "deadline": "2026-06-06T16:00:00" },
+    { "subject": "Mining Tax Review", "deadline": "2026-06-07T12:00:00" }
+  ],
+  "securityIncidents": [
+    { "timestamp": "2026-06-06T09:00:00", "location": "Nakonde", "title": "Unauthorised Drone Activity", "severity": "Medium" },
+    { "timestamp": "2026-06-06T07:00:00", "location": "Copperbelt", "title": "Small-scale Mine Subsidence", "severity": "High" },
+    { "timestamp": "2026-06-06T05:00:00", "location": "Lusaka", "title": "Protest Gathering (Planned)", "severity": "Low" }
+  ],
+  "borderStatuses": [
+    { "name": "Chirundu", "status": "Operational", "trafficLevel": "High", "lastScanTime": "2026-06-06T09:15:00" },
+    { "name": "Nakonde", "status": "Restricted", "trafficLevel": "Moderate", "lastScanTime": "2026-06-06T08:45:00" },
+    { "name": "Kazungula", "status": "Operational", "trafficLevel": "Low", "lastScanTime": "2026-06-06T09:25:00" }
+  ],
+  "economicZones": [
+    { "name": "Chambishi MFEZ", "investmentValue": 850, "utilization": 82 },
+    { "name": "Lusaka South MFEZ", "investmentValue": 420, "utilization": 65 },
+    { "name": "Jiangxi Industrial Park", "investmentValue": 120, "utilization": 45 }
+  ],
+  "importOpportunities": [
+    { "product": "Synthetic Fertilizer", "annualLeakage": 450, "localProductionPotential": "High", "primaryDistrict": "Kafue" },
+    { "product": "Edible Oils", "annualLeakage": 280, "localProductionPotential": "Medium", "primaryDistrict": "Central" },
+    { "product": "Dairy Products", "annualLeakage": 120, "localProductionPotential": "High", "primaryDistrict": "Southern" }
+  ],
+  "bills": [
+    { "title": "Statutory Instrument: Mining Royalties", "currentStage": "Gazetting", "pfmCleared": true },
+    { "title": "Carbon Credit (Regulatory) Bill", "currentStage": "Committee Stage", "pfmCleared": true },
+    { "title": "Digital ID (Data Privacy) Amendment", "currentStage": "First Reading", "pfmCleared": false }
+  ],
+  "treaties": [
+    { "partner": "DRC", "subject": "Lobito Corridor Logistics Agreement", "implementationProgress": 42 },
+    { "partner": "China", "subject": "Zero-Tariff Export Framework", "implementationProgress": 88 },
+    { "partner": "EU", "subject": "Green Energy Investment Protocol", "implementationProgress": 15 }
+  ],
+  "governanceControls": [
+    { "lawSection": "s.30", "title": "Unauthorised Expenditure", "status": "Breach", "description": "Excessive spending on Lusaka-Ndola road variation." },
+    { "lawSection": "s.41", "title": "Missing Asset Titles", "status": "Warning", "description": "12 hospital sites in Eastern Province lack title deeds." }
+  ]
+}

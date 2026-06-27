@@ -1,0 +1,118 @@
+[
+  { "officerId": "min-001", "name": "Hon. Reuben Mtolo", "title": "Minister", "position": "Cabinet Minister", "ministry": "Lead Ministry", "type": 0, "performance": { "totalActivities": 12, "completedActivities": 10, "completionRate": 83.0, "budgetUtilization": 74.0 } },
+  { "officerId": "ps-001", "name": "Dr. Chileshe Mulenga", "title": "Permanent Secretary", "position": "Permanent Secretary", "ministry": "Lead Ministry", "type": 1, "performance": { "totalActivities": 45, "completedActivities": 38, "completionRate": 84.0, "budgetUtilization": 78.0 } },
+  { "officerId": "dir-001", "name": "Bwalya Luo", "title": "Director", "position": "Director of Programmes", "ministry": "Lead Ministry", "type": 2, "performance": { "totalActivities": 60, "completedActivities": 52, "completionRate": 87.0, "budgetUtilization": 80.0 } },
+  { "officerId": "mgr-001", "name": "Chilufya Mutale", "title": "Manager", "position": "Project Manager", "ministry": "Lead Ministry", "province": "Lusaka", "type": 3, "performance": { "totalActivities": 80, "completedActivities": 70, "completionRate": 88.0, "budgetUtilization": 82.0 } },
+  { "officerId": "fld-001", "name": "Sitwala Namutuwa", "title": "Field Officer", "position": "District Field Officer", "ministry": "Lead Ministry", "province": "Eastern", "district": "Chipata", "type": 4, "performance": { "totalActivities": 100, "completedActivities": 88, "completionRate": 88.0, "budgetUtilization": 76.0 } },
+  { "officerId": "fld-002", "name": "Mwansa Tembo", "title": "Field Officer", "position": "Provincial Coordinator", "ministry": "Lead Ministry", "province": "Copperbelt", "type": 4, "performance": { "totalActivities": 95, "completedActivities": 79, "completionRate": 83.0, "budgetUtilization": 74.0 } },
+  {
+    "officerId": "sou-ict-001",
+    "name": "Mutinta Mazoka",
+    "title": "Provincial ICT Coordinator",
+    "position": "Regional Digital Transformation Lead",
+    "ministry": "Ministry of Technology and Science",
+    "department": "Digital Infrastructure",
+    "email": "m.mazoka@mots.gov.zm",
+    "phone": "+260 977 443322",
+    "province": "Southern",
+    "type": 4,
+    "performance": {
+      "totalActivities": 45,
+      "completedActivities": 38,
+      "pendingActivities": 5,
+      "overdueActivities": 2,
+      "completionRate": 84.4,
+      "budgetUtilization": 91.0,
+      "daysAverageDelay": 4,
+      "performanceRating": "High Performer"
+    },
+    "responsibilities": [
+      "Regional broadband infrastructure rollout",
+      "District digital skills training coordination",
+      "e-Government service adoption monitoring"
+    ]
+  },
+  { "officerId": "stc-001", "name": "Mr. Patrick K. Kangwa", "title": "Secretary to the Cabinet", "position": "Head of Public Service", "ministry": "Cabinet Office", "type": 0, "performance": { "totalActivities": 150, "completedActivities": 142, "completionRate": 94.6, "budgetUtilization": 88.0 } },
+  { "officerId": "dstc-001", "name": "Dr. Oliver M. Kalabo", "title": "Deputy Secretary to Cabinet", "position": "Administration & Finance", "ministry": "Cabinet Office", "type": 1, "performance": { "totalActivities": 85, "completedActivities": 78, "completionRate": 91.7, "budgetUtilization": 82.0 } },
+  { "officerId": "dstc-002", "name": "Mr. Siazongo Siakalenge", "title": "Deputy Secretary to Cabinet", "position": "Policy & Programmes", "ministry": "Cabinet Office", "type": 1, "performance": { "totalActivities": 92, "completedActivities": 85, "completionRate": 92.3, "budgetUtilization": 84.0 } },
+  { "officerId": "cab-me-001",
+    "name": "Naomi Chanda",
+    "title": "Senior M&E Officer",
+    "position": "Lead Monitoring & Evaluation",
+    "ministry": "Cabinet Office",
+    "department": "Policy Analysis & Coordination",
+    "email": "n.chanda@cabinet.gov.zm",
+    "phone": "+260 977 112233",
+    "province": "Lusaka",
+    "type": 3,
+    "performance": {
+      "totalActivities": 120,
+      "completedActivities": 112,
+      "pendingActivities": 5,
+      "overdueActivities": 3,
+      "completionRate": 93.3,
+      "budgetUtilization": 88.0,
+      "daysAverageDelay": 2,
+      "performanceRating": "Exceptional"
+    },
+    "responsibilities": [
+      "National development plan tracking",
+      "Cabinet decision implementation oversight",
+      "Sectoral performance reporting"
+    ]
+  },
+  {
+    "officerId": "cab-me-002",
+    "name": "Kelvin Musonda",
+    "title": "M&E Specialist",
+    "position": "Data Analytics Lead",
+    "ministry": "Cabinet Office",
+    "department": "Policy Analysis & Coordination",
+    "email": "k.musonda@cabinet.gov.zm",
+    "phone": "+260 966 445566",
+    "province": "Lusaka",
+    "type": 4,
+    "performance": {
+      "totalActivities": 85,
+      "completedActivities": 78,
+      "pendingActivities": 4,
+      "overdueActivities": 3,
+      "completionRate": 91.7,
+      "budgetUtilization": 85.0,
+      "daysAverageDelay": 3,
+      "performanceRating": "High Performer"
+    },
+    "responsibilities": [
+      "Geospatial data integration",
+      "Interactive dashboard maintenance",
+      "Provincial data validation"
+    ]
+  },
+  {
+    "officerId": "cab-adm-001",
+    "name": "Misozi Phiri",
+    "title": "Assistant Secretary",
+    "position": "Cabinet Administration",
+    "ministry": "Cabinet Office",
+    "department": "Administration",
+    "email": "m.phiri@cabinet.gov.zm",
+    "phone": "+260 955 778899",
+    "province": "Lusaka",
+    "type": 2,
+    "performance": {
+      "totalActivities": 65,
+      "completedActivities": 60,
+      "pendingActivities": 5,
+      "overdueActivities": 0,
+      "completionRate": 92.3,
+      "budgetUtilization": 90.0,
+      "daysAverageDelay": 1,
+      "performanceRating": "Exceptional"
+    },
+    "responsibilities": [
+      "Memo and Directive orchestration",
+      "Inter-ministerial coordination",
+      "Executive meeting management"
+    ]
+  }
+]

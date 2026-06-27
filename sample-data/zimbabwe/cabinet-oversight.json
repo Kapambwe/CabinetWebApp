@@ -1,0 +1,88 @@
+{
+  "countryName": "Republic of Zimbabwe",
+  "mandates": [
+    {
+      "functionId": "F1",
+      "title": "Presidential Coordination",
+      "description": "Supporting the Presidency with executive coordination and national facilitation.",
+      "icon": "account_balance",
+      "progress": 89.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F2",
+      "title": "Cabinet Secretariat",
+      "description": "Managing Cabinet meetings, decisions, and implementation follow-up.",
+      "icon": "history_edu",
+      "progress": 82.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F3",
+      "title": "Public Sector Modernisation",
+      "description": "Driving digitisation, service delivery reform, and accountability.",
+      "icon": "analytics",
+      "progress": 69.0,
+      "status": "Strategic"
+    },
+    {
+      "functionId": "F4",
+      "title": "Economic Coordination",
+      "description": "Aligning agriculture, industry, and infrastructure programmes.",
+      "icon": "policy",
+      "progress": 66.0,
+      "status": "In Progress"
+    },
+    {
+      "functionId": "F5",
+      "title": "Decentralisation Support",
+      "description": "Supporting devolution and provincial coordination.",
+      "icon": "explore",
+      "progress": 61.0,
+      "status": "Regional"
+    },
+    {
+      "functionId": "F6",
+      "title": "Protocol and Welfare",
+      "description": "Supporting ceremonial obligations and welfare arrangements.",
+      "icon": "family_restroom",
+      "progress": 95.0,
+      "status": "Compliant"
+    },
+    {
+      "functionId": "F7",
+      "title": "Inquiries and Arbitration",
+      "description": "Providing coordination for commissions and inter-agency disputes.",
+      "icon": "gavel",
+      "progress": 53.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F8",
+      "title": "Performance Monitoring",
+      "description": "Monitoring delivery across ministries and agencies.",
+      "icon": "psychology",
+      "progress": 70.0,
+      "status": "Data-Driven"
+    }
+  ],
+  "publicServicePerformance": {
+    "overallRating": 76.4,
+    "activeReforms": 14,
+    "sectoralBreakdown": [
+      { "sectorName": "Health", "performance": 73.0 },
+      { "sectorName": "Education", "performance": 78.0 },
+      { "sectorName": "Transport", "performance": 69.0 }
+    ]
+  },
+  "decentralization": {
+    "functionsDevolved": 29.0,
+    "localAuthoritiesImpacted": 92,
+    "implementationPhase": "Phase 2"
+  },
+  "welfare": {
+    "estatesCompliant": true,
+    "healthcareProvisionsActive": true,
+    "familiesSupported": 5
+  }
+}

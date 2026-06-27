@@ -1,0 +1,201 @@
+[
+  {
+    "tenderId": "TEN-2026-004",
+    "referenceNumber": "ZPPA/MOE/2026/09",
+    "title": "Upgrade of Grid Substations",
+    "description": "Modernisation of distribution substations across high-loss corridors.",
+    "procuringEntity": "Ministry of Energy / ZESCO",
+    "district": "Lusaka",
+    "estimatedValue": 67000000.0,
+    "currentStage": 2,
+    "status": 1,
+    "dateInitiated": "2026-03-05T00:00:00",
+    "plannedAwardDate": "2026-07-10T00:00:00",
+    "priorityArea": "Energy Resilience",
+    "timeline": [
+      { "stage": 0, "plannedDate": "2026-03-05T00:00:00", "actualDate": "2026-03-05T00:00:00", "remarks": "Business case approved" },
+      { "stage": 1, "plannedDate": "2026-03-25T00:00:00", "actualDate": "2026-03-28T00:00:00", "remarks": "Advertised in national papers" },
+      { "stage": 2, "plannedDate": "2026-05-10T00:00:00", "actualDate": null, "remarks": "Bids being received" }
+    ],
+    "bidders": [
+      { "name": "Siemens Energy Zambia", "bidAmount": 64000000.0, "isTechnicalQualified": true, "technicalScore": 91.0, "isFinancialQualified": true },
+      { "name": "ZESCO Engineering Services", "bidAmount": 67500000.0, "isTechnicalQualified": true, "technicalScore": 86.0, "isFinancialQualified": true }
+    ],
+    "committeeMeetings": [
+      {
+        "meetingId": "MTG-MOE-09",
+        "meetingDate": "2026-05-14T14:00:00",
+        "subject": "Bid Opening",
+        "venue": "ZESCO HQ, Lusaka",
+        "minutesSummary": "Opened six bids for substation upgrade package.",
+        "decisionOutcome": "Proceed to detailed technical evaluation.",
+        "quorumMet": true,
+        "attendees": [
+          { "name": "Mary Tembo", "position": "Director of Energy", "ministry": "MOE", "isPresent": true },
+          { "name": "Peter Nkonde", "position": "Project Manager", "ministry": "ZESCO", "isPresent": true }
+        ]
+      }
+    ]
+  },
+  {
+    "tenderId": "TEN-2026-005",
+    "referenceNumber": "ZPPA/MOLG/2026/03",
+    "title": "District Market Shelter Package",
+    "description": "Construction of market shelters and sanitation blocks in ten districts.",
+    "procuringEntity": "Ministry of Local Government",
+    "district": "Kabwe",
+    "estimatedValue": 21500000.0,
+    "currentStage": 1,
+    "status": 0,
+    "dateInitiated": "2026-01-22T00:00:00",
+    "plannedAwardDate": "2026-05-30T00:00:00",
+    "priorityArea": "Local Service Delivery",
+    "timeline": [
+      { "stage": 0, "plannedDate": "2026-01-22T00:00:00", "actualDate": "2026-01-22T00:00:00", "remarks": "Council demand compiled" },
+      { "stage": 1, "plannedDate": "2026-02-15T00:00:00", "actualDate": "2026-02-19T00:00:00", "remarks": "Advertised to local contractors" }
+    ],
+    "bidders": [
+      { "name": "Urban Build Zambia", "bidAmount": 20500000.0, "isTechnicalQualified": true, "technicalScore": 79.0, "isFinancialQualified": true },
+      { "name": "Copperbelt Civil Works", "bidAmount": 19800000.0, "isTechnicalQualified": true, "technicalScore": 82.0, "isFinancialQualified": true },
+      { "name": "Kabwe Municipal Projects", "bidAmount": 22100000.0, "isTechnicalQualified": false, "technicalScore": 48.0, "isFinancialQualified": false }
+    ],
+    "committeeMeetings": [
+      {
+        "meetingId": "MTG-MOLG-03",
+        "meetingDate": "2026-03-01T10:30:00",
+        "subject": "Clarification Session",
+        "venue": "Cabinet Office Annex",
+        "minutesSummary": "Reviewed contractor eligibility and district coverage requirements.",
+        "decisionOutcome": "Issue clarifications to all bidders and extend closing by 7 days.",
+        "quorumMet": true,
+        "attendees": [
+          { "name": "Esther Phiri", "position": "Procurement Officer", "ministry": "MOLG", "isPresent": true },
+          { "name": "John Banda", "position": "ZPPA", "ministry": "ZPPA", "isPresent": true }
+        ]
+      }
+    ]
+  },
+  {
+    "tenderId": "TEN-2026-006",
+    "referenceNumber": "ZPPA/MOWS/2026/02",
+    "title": "Rural Borehole Drilling Programme",
+    "description": "Drilling and equipping boreholes across drought-prone districts.",
+    "procuringEntity": "Ministry of Water Development and Sanitation",
+    "district": "Choma",
+    "estimatedValue": 38000000.0,
+    "currentStage": 3,
+    "status": 1,
+    "dateInitiated": "2026-02-12T00:00:00",
+    "plannedAwardDate": "2026-06-20T00:00:00",
+    "priorityArea": "Water Security",
+    "timeline": [
+      { "stage": 0, "plannedDate": "2026-02-12T00:00:00", "actualDate": "2026-02-12T00:00:00", "remarks": "Need assessment across ten districts" },
+      { "stage": 1, "plannedDate": "2026-03-01T00:00:00", "actualDate": "2026-03-02T00:00:00", "remarks": "Advertised nationally" },
+      { "stage": 2, "plannedDate": "2026-04-12T00:00:00", "actualDate": "2026-04-12T00:00:00", "remarks": "Technical proposals received" },
+      { "stage": 3, "plannedDate": "2026-05-20T00:00:00", "actualDate": null, "remarks": "Technical scoring in progress" }
+    ],
+    "bidders": [
+      { "name": "AquaDrill Zambia", "bidAmount": 35500000.0, "isTechnicalQualified": true, "technicalScore": 89.0, "isFinancialQualified": true },
+      { "name": "HydroWorks Ltd", "bidAmount": 37200000.0, "isTechnicalQualified": true, "technicalScore": 83.0, "isFinancialQualified": true }
+    ],
+    "committeeMeetings": [
+      {
+        "meetingId": "MTG-MOWS-02",
+        "meetingDate": "2026-05-21T09:00:00",
+        "subject": "Technical Evaluation Committee",
+        "venue": "Water Development HQ",
+        "minutesSummary": "Reviewed borehole drilling methodology and district deployment plan.",
+        "decisionOutcome": "Shortlist two firms for financial review.",
+        "quorumMet": true,
+        "attendees": [
+          { "name": "Ruth Banda", "position": "Director", "ministry": "MOWS", "isPresent": true },
+          { "name": "David Phiri", "position": "Engineer", "ministry": "MOWS", "isPresent": true }
+        ]
+      }
+    ]
+  },
+  {
+    "tenderId": "TEN-2026-007",
+    "referenceNumber": "ZPPA/MOA/2026/11",
+    "title": "Agricultural Storage Silos",
+    "description": "Construction of grain silos and warehouse facilities in key maize belt districts.",
+    "procuringEntity": "Ministry of Agriculture",
+    "district": "Mkushi",
+    "estimatedValue": 49200000.0,
+    "currentStage": 0,
+    "status": 0,
+    "dateInitiated": "2026-04-03T00:00:00",
+    "plannedAwardDate": "2026-09-01T00:00:00",
+    "priorityArea": "Food Security",
+    "timeline": [
+      { "stage": 0, "plannedDate": "2026-04-03T00:00:00", "actualDate": "2026-04-03T00:00:00", "remarks": "Requirements collected from Food Reserve Agency" }
+    ],
+    "bidders": [],
+    "committeeMeetings": []
+  },
+  {
+    "tenderId": "TEN-2026-008",
+    "referenceNumber": "ZPPA/MINFRA/2025/17",
+    "title": "Kafue Township Drainage Works",
+    "description": "Drainage rehabilitation and culvert replacement for flood-prone township sections.",
+    "procuringEntity": "Ministry of Infrastructure",
+    "district": "Kafue",
+    "estimatedValue": 17800000.0,
+    "currentStage": 5,
+    "status": 3,
+    "dateInitiated": "2025-10-12T00:00:00",
+    "plannedAwardDate": "2026-02-20T00:00:00",
+    "actualAwardDate": "2026-02-28T00:00:00",
+    "priorityArea": "Flood Resilience",
+    "timeline": [
+      { "stage": 0, "plannedDate": "2025-10-12T00:00:00", "actualDate": "2025-10-12T00:00:00", "remarks": "Damage assessment completed" },
+      { "stage": 1, "plannedDate": "2025-11-01T00:00:00", "actualDate": "2025-11-03T00:00:00", "remarks": "Advertised after emergency approval" },
+      { "stage": 2, "plannedDate": "2025-12-05T00:00:00", "actualDate": "2025-12-05T00:00:00", "remarks": "Bids received" },
+      { "stage": 3, "plannedDate": "2026-01-10T00:00:00", "actualDate": "2026-01-16T00:00:00", "remarks": "Evaluations completed" },
+      { "stage": 4, "plannedDate": "2026-02-15T00:00:00", "actualDate": "2026-02-20T00:00:00", "remarks": "Award recommendation approved" },
+      { "stage": 5, "plannedDate": "2026-02-20T00:00:00", "actualDate": "2026-02-28T00:00:00", "remarks": "Contract signed and notice to proceed issued" }
+    ],
+    "bidders": [
+      { "name": "Kafue Civil Contractors", "bidAmount": 17200000.0, "isTechnicalQualified": true, "technicalScore": 90.0, "isFinancialQualified": true, "isSuccessful": true },
+      { "name": "Delta Roads & Works", "bidAmount": 18400000.0, "isTechnicalQualified": true, "technicalScore": 84.5, "isFinancialQualified": true }
+    ],
+    "committeeMeetings": [
+      {
+        "meetingId": "MTG-INFRA-17",
+        "meetingDate": "2026-02-18T11:00:00",
+        "subject": "Contract Award Meeting",
+        "venue": "Infrastructure Boardroom",
+        "minutesSummary": "Reviewed emergency procurement compliance and award recommendation.",
+        "decisionOutcome": "Approve Kafue Civil Contractors for execution.",
+        "quorumMet": true,
+        "attendees": [
+          { "name": "Ngosa Bwalya", "position": "Chief Engineer", "ministry": "MINFRA", "isPresent": true },
+          { "name": "Grace Tembo", "position": "Procurement Lead", "ministry": "MINFRA", "isPresent": true }
+        ]
+      }
+    ]
+  },
+  {
+    "tenderId": "TEN-2026-009",
+    "referenceNumber": "ZPPA/MOH/2026/14",
+    "title": "Provincial Ambulance Fleet",
+    "description": "Supply of ambulance fleet for provincial and district hospitals.",
+    "procuringEntity": "Ministry of Health",
+    "district": "Ndola",
+    "estimatedValue": 56000000.0,
+    "currentStage": 1,
+    "status": 1,
+    "dateInitiated": "2026-04-14T00:00:00",
+    "plannedAwardDate": "2026-08-22T00:00:00",
+    "priorityArea": "Quality Healthcare",
+    "timeline": [
+      { "stage": 0, "plannedDate": "2026-04-14T00:00:00", "actualDate": "2026-04-14T00:00:00", "remarks": "Health facilities needs assessment completed" },
+      { "stage": 1, "plannedDate": "2026-05-05T00:00:00", "actualDate": null, "remarks": "Advertisement awaiting publication" }
+    ],
+    "bidders": [
+      { "name": "Emergency Fleet Zambia", "bidAmount": 54500000.0, "isTechnicalQualified": true, "technicalScore": 87.0, "isFinancialQualified": true },
+      { "name": "Global Ambulance Solutions", "bidAmount": 57300000.0, "isTechnicalQualified": true, "technicalScore": 82.0, "isFinancialQualified": true }
+    ],
+    "committeeMeetings": []
+  }
+]

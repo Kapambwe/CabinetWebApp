@@ -1,0 +1,18 @@
+[
+  {
+    "countrySlug": "zimbabwe",
+    "countryName": "Zimbabwe",
+    "institutionType": "presidency",
+    "folderName": "state-house",
+    "name": "The Presidency / State House",
+    "category": "Executive"
+  },
+  {
+    "countrySlug": "zimbabwe",
+    "countryName": "Zimbabwe",
+    "institutionType": "cabinet",
+    "folderName": "cabinet-office",
+    "name": "Cabinet Office",
+    "category": "Executive"
+  }
+]

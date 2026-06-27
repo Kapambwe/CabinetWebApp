@@ -1,0 +1,92 @@
+{
+  "overallNdpProgress": 43.6,
+  "overallSdgProgress": 60.1,
+  "pillars": [
+    {
+      "pillarId": "ndp-1",
+      "number": 1,
+      "title": "Inclusive Economic Growth",
+      "description": "Mining beneficiation, fisheries, tourism and green industrialisation.",
+      "progress": 40.1,
+      "color": "#007bff",
+      "icon": "bi bi-graph-up-arrow",
+      "objectives": [
+        {
+          "objectiveId": "obj-1.1",
+          "title": "Expand local value addition and export earnings",
+          "progress": 31.0,
+          "targets": [
+            {
+              "targetId": "tg-1.1.1",
+              "title": "Share of processed exports",
+              "currentValue": 22,
+              "targetValue": 40,
+              "unit": "percent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pillarId": "ndp-2",
+      "number": 2,
+      "title": "Human Development and Equity",
+      "description": "Education, health, housing and social protection.",
+      "progress": 65.8,
+      "color": "#28a745",
+      "icon": "bi bi-people-fill",
+      "objectives": []
+    }
+  ],
+  "sdgGoals": [
+    {
+      "number": 3,
+      "title": "Good Health and Well-being",
+      "icon": "bi bi-heart-pulse",
+      "color": "#4C9F38",
+      "progress": 72.0,
+      "targetsOnTrack": 8,
+      "totalTargets": 12
+    },
+    {
+      "number": 4,
+      "title": "Quality Education",
+      "icon": "bi bi-book",
+      "color": "#C5192D",
+      "progress": 61.0,
+      "targetsOnTrack": 6,
+      "totalTargets": 10
+    }
+  ],
+  "provinceScores": [
+    {
+      "provinceName": "Khomas",
+      "ndpAlignment": 84.0,
+      "sdgProgress": 80.0,
+      "totalContributors": 128,
+      "districts": [
+        {
+          "districtName": "Windhoek",
+          "progress": 86.0,
+          "constituencies": [
+            {
+              "constituencyName": "Windhoek West",
+              "progress": 88.0,
+              "wards": [
+                { "wardName": "Pionierspark", "progress": 90.0, "activeProjects": 10 },
+                { "wardName": "Katutura Central", "progress": 83.0, "activeProjects": 9 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "provinceName": "Erongo",
+      "ndpAlignment": 72.0,
+      "sdgProgress": 64.0,
+      "totalContributors": 137,
+      "districts": []
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "assetId": "AST-001",
+    "name": "Kasumbalesa Border Post",
+    "assetType": "Border Post",
+    "province": "Copperbelt",
+    "district": "Chililabombwe",
+    "owningInstitution": "Zambia Revenue Authority",
+    "riskLevel": 2,
+    "operationalStatus": "Congested",
+    "dependencyCount": 3,
+    "lastInspected": "2026-05-29T00:00:00",
+    "dependencies": [
+      { "dependencyId": "DEP-001", "name": "ASYCUDA clearance node", "dependencyType": "Digital System", "status": "Degraded", "impactIfFailed": "Manual clearance backlog" },
+      { "dependencyId": "DEP-002", "name": "Border access road", "dependencyType": "Transport", "status": "Operational", "impactIfFailed": "Truck queue spillover" }
+    ]
+  },
+  {
+    "assetId": "AST-002",
+    "name": "Great North Road Mineral Corridor",
+    "assetType": "Transport Corridor",
+    "province": "Central",
+    "district": "Kabwe",
+    "owningInstitution": "Road Development Agency",
+    "riskLevel": 3,
+    "operationalStatus": "Operational with security restrictions",
+    "dependencyCount": 2,
+    "lastInspected": "2026-05-22T00:00:00",
+    "dependencies": [
+      { "dependencyId": "DEP-003", "name": "Weighbridge controls", "dependencyType": "Transport Control", "status": "Operational", "impactIfFailed": "Cargo diversion risk" },
+      { "dependencyId": "DEP-004", "name": "Police corridor patrol", "dependencyType": "Security", "status": "Under-resourced", "impactIfFailed": "Theft cluster escalation" }
+    ]
+  },
+  {
+    "assetId": "AST-003",
+    "name": "Copperbelt Bulk Power Substation",
+    "assetType": "Energy",
+    "province": "Copperbelt",
+    "district": "Kitwe",
+    "owningInstitution": "ZESCO",
+    "riskLevel": 1,
+    "operationalStatus": "Operational",
+    "dependencyCount": 2,
+    "lastInspected": "2026-05-16T00:00:00",
+    "dependencies": [
+      { "dependencyId": "DEP-005", "name": "Transmission line segment", "dependencyType": "Energy", "status": "Operational", "impactIfFailed": "Industrial power interruption" }
+    ]
+  },
+  {
+    "assetId": "AST-004",
+    "name": "Kafue Water Rehabilitation Works",
+    "assetType": "Water Infrastructure",
+    "province": "Lusaka",
+    "district": "Kafue",
+    "owningInstitution": "Local Authority",
+    "riskLevel": 1,
+    "operationalStatus": "Delayed works",
+    "dependencyCount": 2,
+    "lastInspected": "2026-05-26T00:00:00",
+    "dependencies": []
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "countryName": "Zambia",
+  "roles": [
+    {
+      "roleId": "PRES",
+      "roleName": "President",
+      "users": [
+        { "userId": "ZAM-001", "name": "His Excellency Hakainde Hichilema", "email": "president@statehouse.gov.zm" }
+      ]
+    },
+    {
+      "roleId": "COS",
+      "roleName": "Chief of Staff",
+      "users": [
+        { "userId": "ZAM-002", "name": "Hon. Bradford Machila", "email": "cos@statehouse.gov.zm" }
+      ]
+    },
+    {
+      "roleId": "STC",
+      "roleName": "Secretary to the Cabinet",
+      "users": [
+        { "userId": "ZAM-003", "name": "Mr. Patrick K. Kangwa", "email": "stc@cabinet.gov.zm" }
+      ]
+    },
+    {
+      "roleId": "DSTC1",
+      "roleName": "Deputy Secretary to Cabinet (A)",
+      "users": [
+        { "userId": "ZAM-008", "name": "Dr. Oliver M. Kalabo", "email": "oliver.kalabo@cabinet.gov.zm" }
+      ]
+    },
+    {
+      "roleId": "DSTC2",
+      "roleName": "Deputy Secretary to Cabinet (B)",
+      "users": [
+        { "userId": "ZAM-009", "name": "Mr. Siazongo Siakalenge", "email": "siazongo.siakalenge@cabinet.gov.zm" }
+      ]
+    },
+    {
+      "roleId": "PDU_DIR",
+      "roleName": "PDU Lead Officer",
+      "users": [
+        { "userId": "ZAM-004", "name": "Lead Delivery Officer", "email": "pdu.lead@pdu.gov.zm" }
+      ]
+    },
+    {
+      "roleId": "ECON_ADV",
+      "roleName": "Economic Advisor",
+      "users": [
+        { "userId": "ZAM-005", "name": "Dr. Jito Kayumba", "email": "jito.kayumba@statehouse.gov.zm" }
+      ]
+    },
+    {
+      "roleId": "LEGAL_ADV",
+      "roleName": "Legal Advisor",
+      "users": [
+        { "userId": "ZAM-006", "name": "Attorney General", "email": "legal@statehouse.gov.zm" }
+      ]
+    },
+    {
+      "roleId": "SEC_ADV",
+      "roleName": "Security Advisor",
+      "users": [
+        { "userId": "ZAM-007", "name": "National Security Advisor", "email": "security@statehouse.gov.zm" }
+      ]
+    },
+    {
+      "roleId": "SYS_ADM",
+      "roleName": "System Administrator",
+      "users": [
+        { "userId": "ZAM-ADM", "name": "Admin User", "email": "admin@gov.zm" }
+      ]
+    },
+    {
+      "roleId": "CAB_M&E",
+      "roleName": "Senior M&E Officer",
+      "users": [
+        { "userId": "ZAM-CAB-001", "name": "Naomi Chanda", "email": "n.chanda@cabinet.gov.zm" },
+        { "userId": "ZAM-CAB-002", "name": "Kelvin Musonda", "email": "k.musonda@cabinet.gov.zm" }
+      ]
+    }
+  ]
+}

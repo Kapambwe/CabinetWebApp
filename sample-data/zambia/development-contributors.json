@@ -1,0 +1,35 @@
+[
+  {
+    "name": "First Quantum Minerals (Kansanshi)",
+    "type": 0,
+    "sector": "Mining",
+    "totalInvestmentKwacha": 1200000000.0,
+    "province": "North-Western",
+    "district": "Solwezi",
+    "projects": [
+      { "title": "School Block Construction", "linkedNdpPillarId": "ndp-2", "linkedSdgNumber": 4, "progress": 85.0 }
+    ]
+  },
+  {
+    "name": "Zambeef Products PLC",
+    "type": 0,
+    "sector": "Agriculture",
+    "totalInvestmentKwacha": 450000000.0,
+    "province": "Central",
+    "district": "Mkushi",
+    "projects": [
+      { "title": "Smallholder Outgrower Scheme", "linkedNdpPillarId": "ndp-1", "linkedSdgNumber": 2, "progress": 62.0 }
+    ]
+  },
+  {
+    "name": "World Vision Zambia",
+    "type": 2,
+    "sector": "Social Protection",
+    "totalInvestmentKwacha": 85000000.0,
+    "province": "Southern",
+    "district": "Monze",
+    "projects": [
+      { "title": "Rural Water Sanitation", "linkedNdpPillarId": "ndp-2", "linkedSdgNumber": 6, "progress": 92.0 }
+    ]
+  }
+]

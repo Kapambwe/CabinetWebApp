@@ -1,0 +1,299 @@
+[
+  {
+    "area": 0,
+    "controllingOfficerId": "CO-Agriculture-001",
+    "controls": [
+      {
+        "lawSection": "s.10-13",
+        "title": "Controlling Officer Appointment",
+        "status": "Compliant",
+        "description": "Verified appointment of CO-Agriculture-001 as accountable officer.",
+        "lastVerified": "2026-01-15T00:00:00Z"
+      },
+      {
+        "lawSection": "s.30",
+        "title": "Warrant & Appropriation Check",
+        "status": "Compliant",
+        "description": "Funds released and reconciled for seasonal input procurement.",
+        "lastVerified": "2026-06-05T00:00:00Z"
+      },
+      {
+        "lawSection": "s.14-19",
+        "title": "Internal Audit Review",
+        "status": "Compliant",
+        "description": "Quarterly audit report submitted and reviewed.",
+        "lastVerified": "2026-05-10T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "area": 1,
+    "controllingOfficerId": "CO-Health-001",
+    "controls": [
+      {
+        "lawSection": "s.10-13",
+        "title": "Controlling Officer Appointment",
+        "status": "Compliant",
+        "description": "Verified appointment of CO-Health-001 as accountable officer.",
+        "lastVerified": "2026-01-10T00:00:00Z"
+      },
+      {
+        "lawSection": "s.30",
+        "title": "Warrant & Appropriation Check",
+        "status": "Compliant",
+        "description": "Health facility budget releases have been approved.",
+        "lastVerified": "2026-06-05T00:00:00Z"
+      },
+      {
+        "lawSection": "s.14-19",
+        "title": "Internal Audit Review",
+        "status": "Compliant",
+        "description": "Audit committee has reviewed quarterly spending.",
+        "lastVerified": "2026-05-12T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "area": 2,
+    "controllingOfficerId": "CO-LocalGov-001",
+    "controls": [
+      {
+        "lawSection": "s.10-13",
+        "title": "Controlling Officer Appointment",
+        "status": "Compliant",
+        "description": "Verified appointment of CO-LocalGov-001 as accountable officer.",
+        "lastVerified": "2026-01-12T00:00:00Z"
+      },
+      {
+        "lawSection": "s.30",
+        "title": "Warrant & Appropriation Check",
+        "status": "Compliant",
+        "description": "CDF appropriations released to districts.",
+        "lastVerified": "2026-06-04T00:00:00Z"
+      },
+      {
+        "lawSection": "s.14-19",
+        "title": "Internal Audit Review",
+        "status": "Compliant",
+        "description": "CDF portfolio reviewed by internal audit.",
+        "lastVerified": "2026-05-14T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "area": 3,
+    "controllingOfficerId": "CO-Mines-001",
+    "controls": [
+      {
+        "lawSection": "s.10-13",
+        "title": "Controlling Officer Appointment",
+        "status": "Compliant",
+        "description": "Verified appointment of CO-Mines-001 as accountable officer.",
+        "lastVerified": "2026-01-08T00:00:00Z"
+      },
+      {
+        "lawSection": "s.30",
+        "title": "Warrant & Appropriation Check",
+        "status": "Warning",
+        "description": "Some mineral monitoring funds still pending release.",
+        "lastVerified": "2026-06-03T00:00:00Z"
+      },
+      {
+        "lawSection": "s.41-48",
+        "title": "Asset Management Control",
+        "status": "Warning",
+        "description": "Mine-site title documentation needs reconciliation.",
+        "lastVerified": "2026-05-31T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "area": 4,
+    "controllingOfficerId": "CO-Digital-001",
+    "controls": [
+      {
+        "lawSection": "s.10-13",
+        "title": "Controlling Officer Appointment",
+        "status": "Compliant",
+        "description": "Verified appointment of CO-Digital-001 as accountable officer.",
+        "lastVerified": "2026-01-20T00:00:00Z"
+      },
+      {
+        "lawSection": "s.30",
+        "title": "Warrant & Appropriation Check",
+        "status": "Compliant",
+        "description": "Digital inclusion budget tracked through IFMIS.",
+        "lastVerified": "2026-06-05T00:00:00Z"
+      },
+      {
+        "lawSection": "s.14-19",
+        "title": "Internal Audit Review",
+        "status": "Compliant",
+        "description": "Quarterly audit accepted.",
+        "lastVerified": "2026-05-05T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "area": 5,
+    "controllingOfficerId": "CO-Livestock-001",
+    "controls": [
+      {
+        "lawSection": "s.10-13",
+        "title": "Controlling Officer Appointment",
+        "status": "Compliant",
+        "description": "Verified appointment of CO-Livestock-001 as accountable officer.",
+        "lastVerified": "2026-01-18T00:00:00Z"
+      },
+      {
+        "lawSection": "s.30",
+        "title": "Warrant & Appropriation Check",
+        "status": "Compliant",
+        "description": "Livestock support releases are up to date.",
+        "lastVerified": "2026-06-05T00:00:00Z"
+      },
+      {
+        "lawSection": "s.14-19",
+        "title": "Internal Audit Review",
+        "status": "Compliant",
+        "description": "Controls reviewed by audit team.",
+        "lastVerified": "2026-05-09T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "area": 6,
+    "controllingOfficerId": "CO-Identity-001",
+    "controls": [
+      {
+        "lawSection": "s.10-13",
+        "title": "Controlling Officer Appointment",
+        "status": "Compliant",
+        "description": "Verified appointment of CO-Identity-001 as accountable officer.",
+        "lastVerified": "2026-01-11T00:00:00Z"
+      },
+      {
+        "lawSection": "s.30",
+        "title": "Warrant & Appropriation Check",
+        "status": "Compliant",
+        "description": "Identity system releases approved.",
+        "lastVerified": "2026-06-04T00:00:00Z"
+      },
+      {
+        "lawSection": "s.14-19",
+        "title": "Internal Audit Review",
+        "status": "Compliant",
+        "description": "Internal audit report signed off.",
+        "lastVerified": "2026-05-11T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "area": 7,
+    "controllingOfficerId": "CO-DrugSupply-001",
+    "controls": [
+      {
+        "lawSection": "s.10-13",
+        "title": "Controlling Officer Appointment",
+        "status": "Compliant",
+        "description": "Verified appointment of CO-DrugSupply-001 as accountable officer.",
+        "lastVerified": "2026-01-14T00:00:00Z"
+      },
+      {
+        "lawSection": "s.30",
+        "title": "Warrant & Appropriation Check",
+        "status": "Warning",
+        "description": "Emergency drug supply top-up pending final warrant release.",
+        "lastVerified": "2026-06-05T00:00:00Z"
+      },
+      {
+        "lawSection": "s.14-19",
+        "title": "Internal Audit Review",
+        "status": "Compliant",
+        "description": "Quarterly stock audit completed.",
+        "lastVerified": "2026-05-07T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "area": 8,
+    "controllingOfficerId": "CO-Trade-001",
+    "controls": [
+      {
+        "lawSection": "s.10-13",
+        "title": "Controlling Officer Appointment",
+        "status": "Compliant",
+        "description": "Verified appointment of CO-Trade-001 as accountable officer.",
+        "lastVerified": "2026-01-09T00:00:00Z"
+      },
+      {
+        "lawSection": "s.30",
+        "title": "Warrant & Appropriation Check",
+        "status": "Compliant",
+        "description": "Trade facilitation budgets reconciled.",
+        "lastVerified": "2026-06-04T00:00:00Z"
+      },
+      {
+        "lawSection": "s.14-19",
+        "title": "Internal Audit Review",
+        "status": "Compliant",
+        "description": "Internal control testing passed.",
+        "lastVerified": "2026-05-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "area": 9,
+    "controllingOfficerId": "CO-Energy-001",
+    "controls": [
+      {
+        "lawSection": "s.10-13",
+        "title": "Controlling Officer Appointment",
+        "status": "Compliant",
+        "description": "Verified appointment of CO-Energy-001 as accountable officer.",
+        "lastVerified": "2026-01-13T00:00:00Z"
+      },
+      {
+        "lawSection": "s.30",
+        "title": "Warrant & Appropriation Check",
+        "status": "Warning",
+        "description": "Grid resilience allocations need supplementary release.",
+        "lastVerified": "2026-06-03T00:00:00Z"
+      },
+      {
+        "lawSection": "s.14-19",
+        "title": "Internal Audit Review",
+        "status": "Compliant",
+        "description": "Quarterly audit reviewed by Energy committee.",
+        "lastVerified": "2026-05-06T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "area": 10,
+    "controllingOfficerId": "CO-Infrastructure-001",
+    "controls": [
+      {
+        "lawSection": "s.10-13",
+        "title": "Controlling Officer Appointment",
+        "status": "Compliant",
+        "description": "Verified appointment of CO-Infrastructure-001 as accountable officer.",
+        "lastVerified": "2026-01-07T00:00:00Z"
+      },
+      {
+        "lawSection": "s.30",
+        "title": "Warrant & Appropriation Check",
+        "status": "Breach",
+        "description": "Several works packages are awaiting warrant top-up approval.",
+        "lastVerified": "2026-06-05T00:00:00Z"
+      },
+      {
+        "lawSection": "s.41-48",
+        "title": "Asset Management Control",
+        "status": "Warning",
+        "description": "Some road asset deeds remain pending transfer.",
+        "lastVerified": "2026-05-30T00:00:00Z"
+      }
+    ]
+  }
+]

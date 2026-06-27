@@ -1,0 +1,45 @@
+{
+  "instrumentId": "ZAM-PROC-ACT-2020",
+  "title": "The Public Procurement Act, 2020",
+  "category": "Procurement",
+  "sponsoringMinistry": "Ministry of Finance",
+  "effectiveDate": "2020-07-27T00:00:00Z",
+  "parts": [
+    {
+      "partNumber": "I",
+      "title": "Preliminary Provisions",
+      "sections": [
+        {
+          "sectionId": "s1",
+          "title": "Short title and commencement",
+          "content": "This Act may be cited as the Public Procurement Act, 2020, and shall come into operation on such date as the Minister may, by statutory instrument, appoint.",
+          "riskLevel": "Low"
+        },
+        {
+          "sectionId": "s3",
+          "title": "Application",
+          "content": "This Act applies to all procurement carried out by a procuring entity using public funds.",
+          "riskLevel": "Medium"
+        }
+      ]
+    },
+    {
+      "partNumber": "II",
+      "title": "The Zambia Public Procurement Authority",
+      "sections": [
+        {
+          "sectionId": "s5",
+          "title": "Continuation of Zambia Public Procurement Authority",
+          "content": "The Zambia Public Procurement Authority established under the repealed Act shall continue to exist as if established under this Act.",
+          "riskLevel": "Medium"
+        },
+        {
+          "sectionId": "s6",
+          "title": "Functions of Authority",
+          "content": "The functions of the Authority are to regulate and monitor public procurement in Zambia.",
+          "riskLevel": "High"
+        }
+      ]
+    }
+  ]
+}

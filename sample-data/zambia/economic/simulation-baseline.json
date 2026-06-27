@@ -1,0 +1,39 @@
+{
+  "ScenarioName": "Baseline",
+  "ScenarioDescription": "Balanced import replacement and export uplift across SMEs, farmers, and manufacturing.",
+  "BaselineImportValueUsd": 250000000,
+  "ImportDependencyRate": 68,
+  "LocalProductionUpliftRate": 25,
+  "ExportValueUpliftUsd": 75000000,
+  "ExportGrowthRate": 14.5,
+  "AverageTaxRate": 18,
+  "NewSmeCount": 14,
+  "NewFarmerGroupCount": 9,
+  "NewFactoryCount": 4,
+  "StarterPacks": [
+    {
+      "PackType": "SME",
+      "Title": "Import Replacement SME Cluster",
+      "TargetRegion": "Urban demand centres",
+      "CapitalRequired": 650000,
+      "ExpectedJobs": 84,
+      "TaxRevenue": 4.2
+    },
+    {
+      "PackType": "Manufacturing",
+      "Title": "Local Manufacturing Scale Pack",
+      "TargetRegion": "Industrial zones",
+      "CapitalRequired": 4200000,
+      "ExpectedJobs": 140,
+      "TaxRevenue": 6.8
+    },
+    {
+      "PackType": "Agro-processing",
+      "Title": "Farmer Aggregation Pack",
+      "TargetRegion": "Crop-producing districts",
+      "CapitalRequired": 1800000,
+      "ExpectedJobs": 72,
+      "TaxRevenue": 3.1
+    }
+  ]
+}

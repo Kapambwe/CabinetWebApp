@@ -1,0 +1,83 @@
+{
+  "countryName": "Republic of Botswana",
+  "mandates": [
+    {
+      "functionId": "F1",
+      "title": "Presidential Facilitation",
+      "description": "Supporting the Presidency with ceremonial, constitutional and national coordination duties.",
+      "icon": "account_balance",
+      "progress": 93.0,
+      "status": "Optimal"
+    },
+    {
+      "functionId": "F2",
+      "title": "Former Leaders Welfare",
+      "description": "Ensuring former Heads of State and families receive compliant welfare and health coverage.",
+      "icon": "family_restroom",
+      "progress": 98.0,
+      "status": "Compliant"
+    },
+    {
+      "functionId": "F3",
+      "title": "Cabinet Secretariat",
+      "description": "Organising Cabinet sessions, recording decisions, and transmitting directives to ministries.",
+      "icon": "history_edu",
+      "progress": 87.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F4",
+      "title": "Policy Translation",
+      "description": "Turning Cabinet outcomes into implementable policies and programmes.",
+      "icon": "policy",
+      "progress": 74.0,
+      "status": "In Progress"
+    },
+    {
+      "functionId": "F5",
+      "title": "Public Service Strategy",
+      "description": "Driving public service reform, coordination and whole-of-government delivery.",
+      "icon": "psychology",
+      "progress": 69.0,
+      "status": "Strategic"
+    },
+    {
+      "functionId": "F6",
+      "title": "Performance M&E",
+      "description": "Tracking service delivery performance across ministries and agencies.",
+      "icon": "analytics",
+      "progress": 81.0,
+      "status": "Data-Driven"
+    },
+    {
+      "functionId": "F7",
+      "title": "Arbitration & Inquiries",
+      "description": "Managing commissions of inquiry and inter-ministerial dispute resolution.",
+      "icon": "gavel",
+      "progress": 44.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F8",
+      "title": "Decentralisation Support",
+      "description": "Coordinating decentralisation policy rollout and support to districts.",
+      "icon": "explore",
+      "progress": 47.0,
+      "status": "Regional"
+    }
+  ],
+  "publicServicePerformance": {
+    "overallRating": 86.1,
+    "activeReforms": 10
+  },
+  "decentralization": {
+    "functionsDevolved": 38.0,
+    "localAuthoritiesImpacted": 57,
+    "implementationPhase": "Phase 2"
+  },
+  "welfare": {
+    "estatesCompliant": true,
+    "healthcareProvisionsActive": true,
+    "familiesSupported": 5
+  }
+}

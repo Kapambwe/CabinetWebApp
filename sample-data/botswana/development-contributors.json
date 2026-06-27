@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Debswana Diamond Company",
+    "type": 0,
+    "sector": "Mining",
+    "totalInvestmentKwacha": 1850000000.0,
+    "province": "Central",
+    "district": "Orapa",
+    "projects": [
+      {
+        "title": "Skills and STEM Scholarship Programme",
+        "linkedNdpPillarId": "ndp-1",
+        "linkedSdgNumber": 4,
+        "progress": 84.0
+      }
+    ]
+  },
+  {
+    "name": "Botswana Meat Commission",
+    "type": 0,
+    "sector": "Agriculture",
+    "totalInvestmentKwacha": 620000000.0,
+    "province": "Southern",
+    "district": "Lobatse",
+    "projects": [
+      {
+        "title": "Livestock Value Chain Upgrades",
+        "linkedNdpPillarId": "ndp-2",
+        "linkedSdgNumber": 2,
+        "progress": 67.0
+      }
+    ]
+  },
+  {
+    "name": "Bontleng Community Trust",
+    "type": 2,
+    "sector": "Social Protection",
+    "totalInvestmentKwacha": 98000000.0,
+    "province": "South-East",
+    "district": "Gaborone",
+    "projects": [
+      {
+        "title": "Urban Youth Skills Access",
+        "linkedNdpPillarId": "ndp-2",
+        "linkedSdgNumber": 8,
+        "progress": 91.0
+      }
+    ]
+  }
+]

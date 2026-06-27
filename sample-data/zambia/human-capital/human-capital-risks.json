@@ -1,0 +1,5 @@
+[
+  { "riskId": "RSK-001", "sector": "Health", "title": "Critical Insulin Stockout", "description": "Insulin stock at Chipata General has been zero for 5 days.", "severity": "Critical", "location": "Chipata", "detectedDate": "2026-05-20T10:00:00" },
+  { "riskId": "RSK-002", "sector": "Education", "title": "Teacher Strike Risk", "description": "High absenteeism observed in Copperbelt schools due to pending allowance issues.", "severity": "High", "location": "Copperbelt", "detectedDate": "2026-05-24T08:00:00" },
+  { "riskId": "RSK-003", "sector": "Health", "title": "MRI Failure at UTH", "description": "Main MRI machine at UTH is non-functional, affecting specialist diagnostics.", "severity": "High", "location": "Lusaka", "detectedDate": "2026-05-25T14:00:00" }
+]

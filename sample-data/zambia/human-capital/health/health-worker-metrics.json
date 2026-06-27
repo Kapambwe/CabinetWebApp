@@ -1,0 +1,5 @@
+[
+  { "workerId": "WKR-001", "name": "Dr. Chileshe Mulenga", "role": "Doctor", "hospitalId": "HOS-001", "attendanceRate": 95.0, "patientsSeen": 420, "productivityScore": 88.0 },
+  { "workerId": "WKR-002", "name": "Nurse Mary Banda", "role": "Nurse", "hospitalId": "HOS-001", "attendanceRate": 98.0, "patientsSeen": 1200, "productivityScore": 92.0 },
+  { "workerId": "WKR-010", "name": "Dr. Peter Phiri", "role": "Specialist", "hospitalId": "HOS-002", "attendanceRate": 75.0, "patientsSeen": 180, "productivityScore": 65.0 }
+]

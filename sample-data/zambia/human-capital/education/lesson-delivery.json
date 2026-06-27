@@ -1,0 +1,5 @@
+[
+  { "deliveryId": "DEL-001", "schoolId": "SCH-001", "subject": "Mathematics", "grade": "Grade 12", "date": "2026-05-25T08:00:00", "isConducted": true, "teacherId": "TCH-001" },
+  { "deliveryId": "DEL-002", "schoolId": "SCH-001", "subject": "Physics", "grade": "Grade 12", "date": "2026-05-25T10:00:00", "isConducted": false, "reasonForFailure": "Teacher on leave", "teacherId": "TCH-002" },
+  { "deliveryId": "DEL-003", "schoolId": "SCH-002", "subject": "English", "grade": "Grade 7", "date": "2026-05-25T09:00:00", "isConducted": true, "teacherId": "TCH-010" }
+]

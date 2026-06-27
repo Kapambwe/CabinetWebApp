@@ -1,0 +1,43 @@
+[
+  {
+    "tenderId": "TEN-2026-003",
+    "referenceNumber": "ZPPA/RDA/2026/12",
+    "title": "Chongwe Bridge Rehabilitation",
+    "description": "Emergency structural reinforcement and deck replacement for Chongwe Bridge.",
+    "procuringEntity": "Road Development Agency (RDA)",
+    "district": "Chongwe",
+    "estimatedValue": 12000000.0,
+    "currentStage": 4,
+    "status": 3,
+    "dateInitiated": "2025-11-20T00:00:00",
+    "plannedAwardDate": "2026-03-01T00:00:00",
+    "actualAwardDate": "2026-03-10T00:00:00",
+    "priorityArea": "Infrastructure",
+    "timeline": [
+      { "stage": 0, "plannedDate": "2025-11-20T00:00:00", "actualDate": "2025-11-20T00:00:00" },
+      { "stage": 1, "plannedDate": "2025-12-10T00:00:00", "actualDate": "2025-12-15T00:00:00" },
+      { "stage": 2, "plannedDate": "2026-01-15T00:00:00", "actualDate": "2026-01-15T00:00:00" },
+      { "stage": 3, "plannedDate": "2026-02-15T00:00:00", "actualDate": "2026-02-28T00:00:00" },
+      { "stage": 4, "plannedDate": "2026-03-01T00:00:00", "actualDate": "2026-03-10T00:00:00", "remarks": "Contract awarded to Lusaka Bridge Builders" }
+    ],
+    "bidders": [
+      { "name": "Lusaka Bridge Builders", "bidAmount": 11500000.0, "isTechnicalQualified": true, "technicalScore": 92.0, "isSuccessful": true },
+      { "name": "Southern Roads Ltd", "bidAmount": 12800000.0, "isTechnicalQualified": true, "technicalScore": 85.0, "isSuccessful": false }
+    ],
+    "committeeMeetings": [
+      {
+        "meetingId": "MTG-RDA-01",
+        "meetingDate": "2026-03-05T09:00:00",
+        "subject": "Final Selection Committee",
+        "venue": "RDA HQ, Boardroom 1",
+        "minutesSummary": "Final review of financial and technical evaluation reports.",
+        "decisionOutcome": "Lusaka Bridge Builders selected based on highest overall score.",
+        "quorumMet": true,
+        "attendees": [
+          { "name": "Eng. Chilufya Mutale", "position": "Director of Engineering", "ministry": "RDA", "isPresent": true },
+          { "name": "Sitwala Namutuwa", "position": "PDU Oversight", "ministry": "Cabinet Office", "isPresent": true }
+        ]
+      }
+    ]
+  }
+]

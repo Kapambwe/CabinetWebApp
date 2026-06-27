@@ -1,0 +1,29 @@
+[
+  {
+    "threatId": "THR-001",
+    "category": "Border Security",
+    "province": "Copperbelt",
+    "severity": 2,
+    "score": 82,
+    "rationale": "Congestion, repeated document anomalies, and customs delay concentration.",
+    "lastUpdated": "2026-06-06T00:00:00"
+  },
+  {
+    "threatId": "THR-002",
+    "category": "Strategic Logistics",
+    "province": "Central",
+    "severity": 3,
+    "score": 91,
+    "rationale": "Clustered theft events on mineral haulage corridor.",
+    "lastUpdated": "2026-06-06T00:00:00"
+  },
+  {
+    "threatId": "THR-003",
+    "category": "Public Order",
+    "province": "Lusaka",
+    "severity": 1,
+    "score": 68,
+    "rationale": "Service delivery frustration linked to visible project delay.",
+    "lastUpdated": "2026-06-05T00:00:00"
+  }
+]

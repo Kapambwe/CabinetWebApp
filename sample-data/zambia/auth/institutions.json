@@ -1,0 +1,18 @@
+[
+  {
+    "countrySlug": "zambia",
+    "countryName": "Zambia",
+    "institutionType": "presidency",
+    "folderName": "state-house",
+    "name": "The Presidency / State House",
+    "category": "Executive"
+  },
+  {
+    "countrySlug": "zambia",
+    "countryName": "Zambia",
+    "institutionType": "cabinet",
+    "folderName": "cabinet-office",
+    "name": "Cabinet Office",
+    "category": "Executive"
+  }
+]

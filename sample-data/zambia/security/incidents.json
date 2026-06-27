@@ -1,0 +1,60 @@
+[
+  {
+    "incidentId": "SEC-001",
+    "title": "Border congestion and suspected contraband route",
+    "incidentType": "Border Risk",
+    "province": "Copperbelt",
+    "district": "Chililabombwe",
+    "location": "Kasumbalesa Border Post",
+    "severity": 3,
+    "status": 2,
+    "reportedAt": "2026-06-04T09:00:00",
+    "leadAgency": "Zambia Revenue Authority",
+    "summary": "Abnormal truck queue length and repeated document discrepancies indicate a possible contraband facilitation pattern.",
+    "latitude": -12.212,
+    "longitude": 27.821,
+    "affectedAssets": [ "AST-001" ],
+    "agencyTasks": [
+      { "taskId": "TASK-001", "agency": "ZRA", "action": "Run enhanced cargo verification on flagged manifests", "owner": "Border Operations Lead", "dueDate": "2026-06-07T00:00:00", "status": "In Progress" },
+      { "taskId": "TASK-002", "agency": "Immigration", "action": "Audit repeated driver crossings", "owner": "Regional Immigration Officer", "dueDate": "2026-06-08T00:00:00", "status": "Assigned" }
+    ]
+  },
+  {
+    "incidentId": "SEC-002",
+    "title": "Public order risk around delayed water works",
+    "incidentType": "Civil Unrest",
+    "province": "Lusaka",
+    "district": "Kafue",
+    "location": "Kafue Estates",
+    "severity": 2,
+    "status": 1,
+    "reportedAt": "2026-06-05T14:00:00",
+    "leadAgency": "Zambia Police Service",
+    "summary": "Citizen complaints and local radio narratives point to planned demonstrations over delayed water rehabilitation works.",
+    "latitude": -15.769,
+    "longitude": 28.181,
+    "affectedAssets": [ "AST-004" ],
+    "agencyTasks": [
+      { "taskId": "TASK-003", "agency": "Council", "action": "Publish works update and contractor recovery plan", "owner": "Town Clerk", "dueDate": "2026-06-07T00:00:00", "status": "Assigned" }
+    ]
+  },
+  {
+    "incidentId": "SEC-003",
+    "title": "Copper haulage corridor theft cluster",
+    "incidentType": "Strategic Corridor",
+    "province": "Central",
+    "district": "Kabwe",
+    "location": "Great North Road corridor",
+    "severity": 4,
+    "status": 0,
+    "reportedAt": "2026-06-06T06:00:00",
+    "leadAgency": "Road Transport and Safety Agency",
+    "summary": "Three theft incidents on the same corridor segment suggest an organized logistics vulnerability.",
+    "latitude": -14.446,
+    "longitude": 28.446,
+    "affectedAssets": [ "AST-002", "AST-003" ],
+    "agencyTasks": [
+      { "taskId": "TASK-004", "agency": "Police", "action": "Deploy corridor patrol and checkpoint audit", "owner": "Provincial Command", "dueDate": "2026-06-07T00:00:00", "status": "New" }
+    ]
+  }
+]

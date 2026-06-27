@@ -1,0 +1,78 @@
+[
+  {
+    "breachId": "BR-001",
+    "ruleReference": "PFM Act s.30",
+    "sourceRecordId": "CON-001",
+    "sourceType": "Contract",
+    "description": "Contract variation risk without complete treasury concurrence evidence.",
+    "riskLevel": 2,
+    "responsibleOfficer": "Controlling Officer - ZRA",
+    "detectedAt": "2026-06-02T00:00:00",
+    "status": "Open",
+    "instrumentId": "ZAM-PFM-ACT-2018",
+    "sectionId": "s30"
+  },
+  {
+    "breachId": "BR-002",
+    "ruleReference": "Procurement Act 2020",
+    "sourceRecordId": "TENDER-HEALTH-002",
+    "sourceType": "Tender",
+    "description": "Evaluation stage exceeded planned timeline by more than 21 days.",
+    "riskLevel": 1,
+    "responsibleOfficer": "Head of Procurement",
+    "detectedAt": "2026-05-30T00:00:00",
+    "status": "Remediation Assigned",
+    "instrumentId": "ZAM-PROC-ACT-2020",
+    "sectionId": "s6"
+  },
+  {
+    "breachId": "BR-003",
+    "ruleReference": "Cabinet Procedure",
+    "sourceRecordId": "BILL-002",
+    "sourceType": "Bill",
+    "description": "Security classification annex missing legal review sign-off.",
+    "riskLevel": 1,
+    "responsibleOfficer": "Permanent Secretary - Home Affairs",
+    "detectedAt": "2026-06-04T00:00:00",
+    "status": "Open"
+  },
+  {
+    "breachId": "BR-004",
+    "ruleReference": "PFM Act s.30",
+    "sourceRecordId": "PMT-HEALTH-882",
+    "sourceType": "Payment",
+    "description": "Ministry of Health: Payment issued without valid Treasury Release Warrant.",
+    "riskLevel": 2,
+    "responsibleOfficer": "Controlling Officer - Ministry of Health",
+    "detectedAt": "2026-06-08T10:30:00",
+    "status": "Open",
+    "instrumentId": "ZAM-PFM-ACT-2018",
+    "sectionId": "s30"
+  },
+  {
+    "breachId": "BR-005",
+    "ruleReference": "CDF Act s.3",
+    "sourceRecordId": "CDF-LUSAKA-012",
+    "sourceType": "CDF Project",
+    "description": "Lusaka City Council: Project approved without evidence of community participation minutes.",
+    "riskLevel": 1,
+    "responsibleOfficer": "Town Clerk - Lusaka City Council",
+    "detectedAt": "2026-06-09T14:15:00",
+    "status": "Investigation Required",
+    "instrumentId": "ZAM-CDF-BILL-2023",
+    "sectionId": "s3"
+  },
+  {
+    "breachId": "BR-006",
+    "ruleReference": "Procurement Act s.6",
+    "sourceRecordId": "TND-ZAMMSA-009",
+    "sourceType": "Agency Tender",
+    "description": "ZAMMSA: Procurement method chosen (Direct) not justified under the Act thresholds.",
+    "riskLevel": 2,
+    "responsibleOfficer": "Director General - ZAMMSA",
+    "detectedAt": "2026-06-10T09:00:00",
+    "status": "Escalated",
+    "instrumentId": "ZAM-PROC-ACT-2020",
+    "sectionId": "s6"
+  }
+]

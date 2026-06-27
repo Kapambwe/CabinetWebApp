@@ -1,0 +1,124 @@
+{
+  "entities": [
+    {
+      "entityId": "dt-001",
+      "name": "University Teaching Hospital",
+      "type": 5,
+      "status": "Normal",
+      "healthScore": 92,
+      "province": "Lusaka",
+      "district": "Lusaka",
+      "realTimeSignals": [
+        { "label": "Bed Occupancy", "value": "68", "unit": "%", "lastUpdated": "2026-06-06T09:10:00" },
+        { "label": "Power Backup", "value": "Online", "unit": "Status", "lastUpdated": "2026-06-06T09:05:00" }
+      ],
+      "activeRisks": [
+        { "title": "Surgical backlog", "severity": "Medium", "impact": "Waiting times remain above target in elective theatres." }
+      ],
+      "metadata": { "owner": "Ministry of Health" }
+    },
+    {
+      "entityId": "dt-002",
+      "name": "Lusaka South MFEZ",
+      "type": 8,
+      "status": "Normal",
+      "healthScore": 78,
+      "province": "Lusaka",
+      "district": "Kafue",
+      "realTimeSignals": [
+        { "label": "Occupancy", "value": "82", "unit": "%", "lastUpdated": "2026-06-06T09:00:00" }
+      ],
+      "activeRisks": [
+        { "title": "Utility delay", "severity": "Low", "impact": "New tenant fit-out waiting on water connection." }
+      ],
+      "metadata": { "owner": "Ministry of Commerce" }
+    },
+    {
+      "entityId": "dt-003",
+      "name": "Kansanshi Copper Mine",
+      "type": 6,
+      "status": "Normal",
+      "healthScore": 85,
+      "province": "North-Western",
+      "district": "Solwezi",
+      "realTimeSignals": [
+        { "label": "Ore Throughput", "value": "94", "unit": "%", "lastUpdated": "2026-06-06T08:55:00" }
+      ],
+      "activeRisks": [
+        { "title": "Ventilation maintenance", "severity": "Medium", "impact": "Shaft maintenance window could constrain output." }
+      ],
+      "metadata": { "owner": "Mines and Minerals" }
+    },
+    {
+      "entityId": "dt-004",
+      "name": "Lusaka-Ndola Dual Carriageway",
+      "type": 3,
+      "status": "Critical",
+      "healthScore": 42,
+      "province": "Central",
+      "district": "Kabwe",
+      "realTimeSignals": [
+        { "label": "Progress", "value": "42", "unit": "%", "lastUpdated": "2026-06-06T08:30:00" }
+      ],
+      "activeRisks": [
+        { "title": "Design variation", "severity": "High", "impact": "Contractor claims and schedule slippage." }
+      ],
+      "metadata": { "owner": "Ministry of Infrastructure" }
+    },
+    {
+      "entityId": "dt-005",
+      "name": "Kafue Gorge Lower",
+      "type": 10,
+      "status": "Normal",
+      "healthScore": 98,
+      "province": "Southern",
+      "district": "Siavonga",
+      "realTimeSignals": [
+        { "label": "Generation", "value": "750", "unit": "MW", "lastUpdated": "2026-06-06T09:20:00" }
+      ],
+      "activeRisks": [],
+      "metadata": { "owner": "ZESCO" }
+    },
+    {
+      "entityId": "dt-006",
+      "name": "Chirundu Border Post",
+      "type": 9,
+      "status": "Warning",
+      "healthScore": 65,
+      "province": "Southern",
+      "district": "Siavonga",
+      "realTimeSignals": [
+        { "label": "Queue Length", "value": "148", "unit": "trucks", "lastUpdated": "2026-06-06T09:12:00" }
+      ],
+      "activeRisks": [
+        { "title": "Document mismatch spike", "severity": "High", "impact": "Longer clearance times and contraband exposure." }
+      ],
+      "metadata": { "owner": "ZRA" }
+    },
+    {
+      "entityId": "dt-007",
+      "name": "Ministry of Finance",
+      "type": 0,
+      "status": "Normal",
+      "healthScore": 88,
+      "province": "Lusaka",
+      "district": "Lusaka",
+      "realTimeSignals": [
+        { "label": "Budget Releases", "value": "On schedule", "unit": "Status", "lastUpdated": "2026-06-06T09:00:00" }
+      ],
+      "activeRisks": [],
+      "metadata": { "owner": "Treasury" }
+    }
+  ],
+  "relationships": [
+    { "sourceId": "dt-007", "targetId": "dt-004", "relationType": "Funds" },
+    { "sourceId": "dt-007", "targetId": "dt-002", "relationType": "Funds" },
+    { "sourceId": "dt-007", "targetId": "dt-005", "relationType": "Supplies" },
+    { "sourceId": "dt-006", "targetId": "dt-003", "relationType": "DependsOn" }
+  ],
+  "layers": [
+    { "name": "Healthcare", "entityCount": 45, "color": "#ef4444", "isVisible": true },
+    { "name": "Infrastructure", "entityCount": 120, "color": "#3b82f6", "isVisible": true },
+    { "name": "Industrial", "entityCount": 15, "color": "#8b5cf6", "isVisible": true }
+  ]
+}

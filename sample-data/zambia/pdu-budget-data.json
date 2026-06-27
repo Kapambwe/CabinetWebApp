@@ -1,0 +1,26 @@
+{
+  "ministryBudgets": {
+    "0": [
+      { "label": "Ministry of Agriculture", "allocatedKwacha": 1200000000.0, "spentKwacha": 890000000.0 },
+      { "label": "Ministry of Finance", "allocatedKwacha": 200000000.0, "spentKwacha": 180000000.0 },
+      { "label": "Ministry of Local Government", "allocatedKwacha": 100000000.0, "spentKwacha": 60000000.0 }
+    ],
+    "1": [
+      { "label": "Ministry of Health", "allocatedKwacha": 2500000000.0, "spentKwacha": 1800000000.0 },
+      { "label": "Ministry of Finance", "allocatedKwacha": 300000000.0, "spentKwacha": 280000000.0 },
+      { "label": "Ministry of Community Development", "allocatedKwacha": 120000000.0, "spentKwacha": 80000000.0 }
+    ]
+  },
+  "provinceBudgets": [
+    { "label": "Lusaka", "percentage": 0.22 },
+    { "label": "Copperbelt", "percentage": 0.18 },
+    { "label": "Eastern", "percentage": 0.12 },
+    { "label": "Western", "percentage": 0.08 },
+    { "label": "Northern", "percentage": 0.09 },
+    { "label": "Luapula", "percentage": 0.07 },
+    { "label": "Central", "percentage": 0.09 },
+    { "label": "North-Western", "percentage": 0.06 },
+    { "label": "Muchinga", "percentage": 0.05 },
+    { "label": "Southern", "percentage": 0.04 }
+  ]
+}

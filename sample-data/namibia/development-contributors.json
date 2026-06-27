@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Namdeb Holdings",
+    "type": 0,
+    "sector": "Mining",
+    "totalInvestmentKwacha": 1420000000.0,
+    "province": "Karas",
+    "district": "Oranjemund",
+    "projects": [
+      {
+        "title": "Local Supplier Development",
+        "linkedNdpPillarId": "ndp-1",
+        "linkedSdgNumber": 8,
+        "progress": 79.0
+      }
+    ]
+  },
+  {
+    "name": "Namibia Dairy Producers Association",
+    "type": 0,
+    "sector": "Agriculture",
+    "totalInvestmentKwacha": 510000000.0,
+    "province": "Otjozondjupa",
+    "district": "Okahandja",
+    "projects": [
+      {
+        "title": "Agro-processing Expansion",
+        "linkedNdpPillarId": "ndp-2",
+        "linkedSdgNumber": 2,
+        "progress": 63.0
+      }
+    ]
+  },
+  {
+    "name": "Swapo Party Youth Development Fund",
+    "type": 2,
+    "sector": "Social Protection",
+    "totalInvestmentKwacha": 87000000.0,
+    "province": "Khomas",
+    "district": "Windhoek",
+    "projects": [
+      {
+        "title": "TVET and Youth Placement Support",
+        "linkedNdpPillarId": "ndp-2",
+        "linkedSdgNumber": 4,
+        "progress": 88.0
+      }
+    ]
+  }
+]

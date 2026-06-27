@@ -1,0 +1,32 @@
+[
+  {
+    "OpinionId": "OP-001",
+    "Subject": "Procurement ownership disclosure constitutionality",
+    "RequestedBy": "Cabinet Office",
+    "AssignedCounsel": "Attorney General Chambers",
+    "RequestedAt": "2026-05-27T00:00:00Z",
+    "DueDate": "2026-06-10T00:00:00Z",
+    "Status": "Drafting",
+    "RiskLevel": "High"
+  },
+  {
+    "OpinionId": "OP-002",
+    "Subject": "Critical asset classification appeal rights",
+    "RequestedBy": "Ministry of Home Affairs",
+    "AssignedCounsel": "Solicitor General",
+    "RequestedAt": "2026-05-30T00:00:00Z",
+    "DueDate": "2026-06-14T00:00:00Z",
+    "Status": "Research",
+    "RiskLevel": "Medium"
+  },
+  {
+    "OpinionId": "OP-003",
+    "Subject": "Cyber incident reporting notice timing",
+    "RequestedBy": "Ministry of Technology and Science",
+    "AssignedCounsel": "Attorney General Chambers",
+    "RequestedAt": "2026-06-01T00:00:00Z",
+    "DueDate": "2026-06-18T00:00:00Z",
+    "Status": "Review",
+    "RiskLevel": "Medium"
+  }
+]

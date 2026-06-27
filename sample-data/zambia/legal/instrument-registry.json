@@ -1,0 +1,51 @@
+[
+  {
+    "instrumentId": "ZAM-PFM-ACT-2018",
+    "title": "The Public Finance Management Act, 2018",
+    "category": "Public Finance",
+    "path": "sample-data/zambia/legal/registry/zam-pfm-act-2018.json",
+    "type": "Act"
+  },
+  {
+    "instrumentId": "ZAM-PROC-ACT-2020",
+    "title": "The Public Procurement Act, 2020",
+    "category": "Procurement",
+    "path": "sample-data/zambia/legal/registry/zam-proc-act-2020.json",
+    "type": "Act"
+  },
+  {
+    "instrumentId": "ZAM-PPP-BILL-2023",
+    "title": "PPP BILL FINAL 28th July, 2023",
+    "category": "Infrastructure",
+    "path": "sample-data/zambia/legal/registry/zam-ppp-bill-2023.json",
+    "type": "Bill"
+  },
+  {
+    "instrumentId": "ZAM-CDF-BILL-2023",
+    "title": "The Constituency Development Fund (Amendment) Bill, 2023",
+    "category": "Local Government",
+    "path": "sample-data/zambia/legal/registry/zam-cdf-bill-2023.json",
+    "type": "Bill"
+  },
+  {
+    "instrumentId": "ZAM-MINING-ACT-2015",
+    "title": "The Mines and Minerals Development Act, 2015",
+    "category": "Mining & Natural Resources",
+    "path": "sample-data/zambia/legal/registry/zam-mining-act-2015.json",
+    "type": "Act"
+  },
+  {
+    "instrumentId": "ZAM-COMPANY-ACT-2017",
+    "title": "The Companies Act, 2017",
+    "category": "Corporate & Commercial",
+    "path": "sample-data/zambia/legal/registry/zam-company-act-2017.json",
+    "type": "Act"
+  },
+  {
+    "instrumentId": "ZAM-CB-ACT-2022",
+    "title": "The Bank of Zambia Act, 2022",
+    "category": "Banking & Finance",
+    "path": "sample-data/zambia/legal/registry/zam-cb-act-2022.json",
+    "type": "Act"
+  }
+]

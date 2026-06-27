@@ -1,0 +1,70 @@
+[
+  {
+    "anomalyId": "AN-001",
+    "title": "Severe Progress Lag: Eastern Province Healthcare",
+    "description": "Maternal health facility construction in Eastern Province is 24% behind the national average for Priority 2.",
+    "type": 0,
+    "severity": 2,
+    "priorityArea": 1,
+    "province": "Eastern",
+    "detectedDate": "2026-06-03T00:00:00",
+    "deviationValue": 24,
+    "recommendation": "Immediate audit of contractor mobilization and regional procurement delays."
+  },
+  {
+    "anomalyId": "AN-002",
+    "title": "Budget-Progress Mismatch: Livestock Exports",
+    "description": "Expenditure for Priority 6 (Livestock) reached 85% of annual allocation, while physical progress remains at 42%.",
+    "type": 1,
+    "severity": 3,
+    "priorityArea": 5,
+    "detectedDate": "2026-06-05T00:00:00",
+    "deviationValue": 43,
+    "recommendation": "Re-evaluate expenditure justifications and verify value-for-money at provincial vaccine hubs."
+  },
+  {
+    "anomalyId": "AN-003",
+    "title": "Data Inconsistency: FISP E-Voucher Redemption",
+    "description": "Ministry of Agriculture reports 98% redemption, while tracking at border posts indicates significant seed/fertilizer re-export activities.",
+    "type": 2,
+    "severity": 1,
+    "priorityArea": 0,
+    "detectedDate": "2026-06-01T00:00:00",
+    "deviationValue": 15,
+    "recommendation": "Cross-reference INRIS digital ID data with FISP redemption logs to detect fraudulent claims."
+  },
+  {
+    "anomalyId": "AN-004",
+    "title": "Geographic Outlier: Western Province Energy",
+    "description": "Western Province electrification progress is 35% lower than similarly funded projects in Luapula and Northern provinces.",
+    "type": 4,
+    "severity": 2,
+    "priorityArea": 9,
+    "province": "Western",
+    "detectedDate": "2026-06-04T00:00:00",
+    "deviationValue": 35,
+    "recommendation": "Investigate logistical constraints in flood-prone areas and review REA project oversight."
+  },
+  {
+    "anomalyId": "AN-005",
+    "title": "Stagnation: Mining Local Content Regulations",
+    "description": "Priority 4 (Mining) local content metrics have shown zero movement for 4 consecutive reporting periods.",
+    "type": 5,
+    "severity": 1,
+    "priorityArea": 3,
+    "detectedDate": "2026-05-27T00:00:00",
+    "deviationValue": 0,
+    "recommendation": "Cabinet Office intervention required to finalize cross-ministerial regulatory alignment."
+  },
+  {
+    "anomalyId": "AN-006",
+    "title": "Milestone Delay: Lusaka-Ndola Dual Carriageway",
+    "description": "Three consecutive milestones related to 'Phase 3: Pavement Layers' have missed their target dates by > 45 days.",
+    "type": 3,
+    "severity": 3,
+    "priorityArea": 10,
+    "detectedDate": "2026-06-05T12:00:00",
+    "deviationValue": 45,
+    "recommendation": "High-level meeting with Macro-Oceans Investment Consortium to address cash-flow bottlenecks."
+  }
+]

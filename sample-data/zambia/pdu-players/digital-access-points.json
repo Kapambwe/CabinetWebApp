@@ -1,0 +1,14 @@
+[
+  { "name": "SmartZambia Hub — Lusaka Central", "pointType": "SmartZambia Hub", "province": "Lusaka", "district": "Lusaka", "operationalStatus": "Operational", "usersPerMonth": 4500, "connectivityType": "Fiber", "serviceProvider": "Airtel Zambia" },
+  { "name": "e-Government Center — Kitwe", "pointType": "e-Government Center", "province": "Copperbelt", "district": "Kitwe", "operationalStatus": "Operational", "usersPerMonth": 3200, "connectivityType": "Fiber", "serviceProvider": "ZAMTEL" },
+  { "name": "ICT Lab — University of Zambia", "pointType": "ICT Lab", "province": "Lusaka", "district": "Lusaka", "operationalStatus": "Operational", "usersPerMonth": 2800, "connectivityType": "Fiber", "serviceProvider": "Airtel Zambia" },
+  { "name": "Community WiFi — Chipata", "pointType": "Community WiFi", "province": "Eastern", "district": "Chipata", "operationalStatus": "Operational", "usersPerMonth": 1800, "connectivityType": "4G", "serviceProvider": "MTN Zambia" },
+  { "name": "SmartZambia Hub — Ndola", "pointType": "SmartZambia Hub", "province": "Copperbelt", "district": "Ndola", "operationalStatus": "Offline", "usersPerMonth": 0, "connectivityType": "Fiber", "serviceProvider": "ZAMTEL" },
+  { "name": "e-Government Center — Livingstone", "pointType": "e-Government Center", "province": "Southern", "district": "Livingstone", "operationalStatus": "Operational", "usersPerMonth": 2100, "connectivityType": "4G", "serviceProvider": "Airtel Zambia" },
+  { "name": "ICT Lab — Copperbelt University", "pointType": "ICT Lab", "province": "Copperbelt", "district": "Kitwe", "operationalStatus": "Operational", "usersPerMonth": 2400, "connectivityType": "Fiber", "serviceProvider": "Airtel Zambia" },
+  { "name": "Community WiFi — Kasama", "pointType": "Community WiFi", "province": "Northern", "district": "Kasama", "operationalStatus": "Under Installation", "usersPerMonth": 0, "connectivityType": "Satellite", "serviceProvider": "ZAMTEL" },
+  { "name": "SmartZambia Hub — Solwezi", "pointType": "SmartZambia Hub", "province": "North-Western", "district": "Solwezi", "operationalStatus": "Operational", "usersPerMonth": 1600, "connectivityType": "4G", "serviceProvider": "MTN Zambia" },
+  { "name": "e-Government Center — Mongu", "pointType": "e-Government Center", "province": "Western", "district": "Mongu", "operationalStatus": "Offline", "usersPerMonth": 0, "connectivityType": "Satellite", "serviceProvider": "ZAMTEL" },
+  { "name": "Community WiFi — Mansa", "pointType": "Community WiFi", "province": "Luapula", "district": "Mansa", "operationalStatus": "Operational", "usersPerMonth": 980, "connectivityType": "3G", "serviceProvider": "MTN Zambia" },
+  { "name": "ICT Lab — Chinsali Secondary", "pointType": "ICT Lab", "province": "Muchinga", "district": "Chinsali", "operationalStatus": "Under Installation", "usersPerMonth": 0, "connectivityType": "Satellite", "serviceProvider": "ZAMTEL" }
+]

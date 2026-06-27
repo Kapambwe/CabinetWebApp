@@ -1,0 +1,3 @@
+[
+  { "fromHospitalId": "HOS-002", "toHospitalId": "HOS-001", "avgDelayMinutes": 180, "bottleneckDescription": "Ambulance maintenance backlog." }
+]

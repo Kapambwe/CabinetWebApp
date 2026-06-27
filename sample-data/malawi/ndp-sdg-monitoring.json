@@ -1,0 +1,77 @@
+{
+  "overallNdpProgress": 35.8,
+  "overallSdgProgress": 52.4,
+  "pillars": [
+    {
+      "pillarId": "mwp-1",
+      "number": 1,
+      "title": "Agricultural Productivity and Commercialization",
+      "description": "Transforming agriculture from subsistence to a highly productive commercial sector.",
+      "progress": 42.0,
+      "color": "#28a745",
+      "icon": "bi bi-flower1",
+      "objectives": [
+        {
+          "objectiveId": "obj-mwp-1.1",
+          "title": "Increase Mega-Farms output",
+          "progress": 30.0,
+          "targets": [
+            { "targetId": "tg-mwp-1.1.1", "title": "Maize output from Mega-Farms", "currentValue": 50000, "targetValue": 200000, "unit": "tonnes" }
+          ]
+        }
+      ]
+    },
+    {
+      "pillarId": "mwp-2",
+      "number": 2,
+      "title": "Industrialization",
+      "description": "Focusing on mining and manufacturing for structural transformation.",
+      "progress": 28.5,
+      "color": "#007bff",
+      "icon": "bi bi-buildings"
+    },
+    {
+      "pillarId": "mwp-3",
+      "number": 3,
+      "title": "Urbanization",
+      "description": "Developing world-class urban centers and secondary cities.",
+      "progress": 31.2,
+      "color": "#fd7e14",
+      "icon": "bi bi-houses"
+    }
+  ],
+  "sdgGoals": [
+    { "number": 1, "title": "No Poverty", "icon": "bi bi-piggy-bank", "color": "#E5243B", "progress": 40.0, "targetsOnTrack": 2, "totalTargets": 7 },
+    { "number": 6, "title": "Clean Water and Sanitation", "icon": "bi bi-droplet", "color": "#26BDE2", "progress": 68.0, "targetsOnTrack": 5, "totalTargets": 8 }
+  ],
+  "provinceScores": [
+    {
+      "provinceName": "Central Region",
+      "ndpAlignment": 75.0,
+      "sdgProgress": 62.0,
+      "totalContributors": 88,
+      "districts": [
+        {
+          "districtName": "Lilongwe District",
+          "progress": 78.0,
+          "constituencies": [
+            {
+              "constituencyName": "Lilongwe City Center",
+              "progress": 85.0,
+              "wards": [
+                { "wardName": "Area 18", "progress": 88.0, "activeProjects": 15 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "provinceName": "Southern Region",
+      "ndpAlignment": 68.0,
+      "sdgProgress": 55.0,
+      "totalContributors": 120,
+      "districts": []
+    }
+  ]
+}

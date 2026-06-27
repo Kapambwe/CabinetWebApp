@@ -1,0 +1,330 @@
+[
+  {
+    "ComplaintId": "CMP-ZM-2026-001",
+    "ReferenceNumber": "ZM-CMP-2026-001",
+    "Category": "Health",
+    "Title": "Medicine Shortage in Chipata",
+    "Description": "Essential antibiotics are not available at the district clinic for 3 weeks.",
+    "DateSubmitted": "2026-05-13T00:00:00Z",
+    "Status": "Escalated",
+    "Urgency": "Critical",
+    "Province": "Eastern",
+    "District": "Chipata",
+    "Constituency": "Chipata Central",
+    "Ward": "Kapata",
+    "AssignedAgency": "ZAMMSA",
+    "BudgetLine": "MOH-2026-DRUG-EMERGENCY",
+    "ResolutionCost": 450000.0,
+    "EscalationHistory": [
+      {
+        "Level": 1,
+        "ActionBy": "Clinic Manager",
+        "ActionDate": "2026-05-18T00:00:00Z",
+        "Notes": "Stock out reported.",
+        "IsCurrent": false
+      },
+      {
+        "Level": 2,
+        "ActionBy": "District Health Office",
+        "ActionDate": "2026-05-23T00:00:00Z",
+        "Notes": "Request sent to ZAMMSA.",
+        "IsCurrent": false
+      },
+      {
+        "Level": 5,
+        "ActionBy": "PDU Health Lead",
+        "ActionDate": "2026-06-05T00:00:00Z",
+        "Notes": "Escalated to Cabinet for emergency procurement.",
+        "IsCurrent": true
+      }
+    ]
+  },
+  {
+    "ComplaintId": "CMP-ZM-2026-002",
+    "ReferenceNumber": "ZM-CMP-2026-002",
+    "Category": "Infrastructure",
+    "Title": "Bridge Damage - Kafue",
+    "Description": "Small bridge near secondary school is structurally unsound after heavy rains.",
+    "DateSubmitted": "2026-05-28T00:00:00Z",
+    "Status": "InProgress",
+    "Urgency": "High",
+    "Province": "Lusaka",
+    "District": "Kafue",
+    "Constituency": "Kafue Central",
+    "Ward": "Shikoswe",
+    "AssignedAgency": "RDA",
+    "BudgetLine": "RDA-MAINT-2026-B04",
+    "ResolutionCost": 1200000.0,
+    "EscalationHistory": [
+      {
+        "Level": 1,
+        "ActionBy": "Ward Councilor",
+        "ActionDate": "2026-05-29T00:00:00Z",
+        "Notes": "Inspection requested.",
+        "IsCurrent": false
+      },
+      {
+        "Level": 2,
+        "ActionBy": "RDA Regional Eng",
+        "ActionDate": "2026-06-02T00:00:00Z",
+        "Notes": "Structural assessment in progress.",
+        "IsCurrent": true
+      }
+    ]
+  },
+  {
+    "ComplaintId": "CMP-ZM-2026-004",
+    "ReferenceNumber": "ZM-CMP-2026-004",
+    "Category": "Environment",
+    "Title": "Illegal Sand Mining in Kabulonga",
+    "Description": "Ongoing illegal sand mining near the river bank is causing erosion.",
+    "DateSubmitted": "2026-06-04T00:00:00Z",
+    "Status": "Received",
+    "Urgency": "Medium",
+    "Province": "Lusaka",
+    "District": "Lusaka",
+    "Constituency": "Lusaka Central",
+    "Ward": "Kabulonga",
+    "AssignedAgency": "WARMA",
+    "EscalationHistory": []
+  },
+  {
+    "ComplaintId": "CMP-ZM-2026-005",
+    "ReferenceNumber": "ZM-CMP-2026-005",
+    "Category": "Agriculture",
+    "Title": "FISP E-Voucher Delay",
+    "Description": "Farmers in Monze have not received e-vouchers despite the planting season approaching.",
+    "DateSubmitted": "2026-05-20T00:00:00Z",
+    "Status": "InProgress",
+    "Urgency": "High",
+    "Province": "Southern",
+    "District": "Monze",
+    "Constituency": "Monze Central",
+    "Ward": "Monze Urban",
+    "AssignedAgency": "Ministry of Agriculture",
+    "BudgetLine": "MOA-2026-FISP",
+    "EscalationHistory": [
+      {
+        "Level": 1,
+        "ActionBy": "District Agriculture Officer",
+        "ActionDate": "2026-05-22T00:00:00Z",
+        "Notes": "System delay at Smart Zambia identified.",
+        "IsCurrent": true
+      }
+    ]
+  },
+  {
+    "ComplaintId": "CMP-ZM-2026-006",
+    "ReferenceNumber": "ZM-CMP-2026-006",
+    "Category": "Education",
+    "Title": "Teacher Shortage at Mporokoso Secondary",
+    "Description": "Over 500 students but only 8 teachers available for core subjects.",
+    "DateSubmitted": "2026-05-15T00:00:00Z",
+    "Status": "Escalated",
+    "Urgency": "High",
+    "Province": "Northern",
+    "District": "Mporokoso",
+    "Constituency": "Mporokoso",
+    "Ward": "Mporokoso Central",
+    "AssignedAgency": "Teaching Service Commission",
+    "EscalationHistory": [
+      {
+        "Level": 1,
+        "ActionBy": "Head Teacher",
+        "ActionDate": "2026-05-16T00:00:00Z",
+        "Notes": "Reported to DEBS.",
+        "IsCurrent": false
+      },
+      {
+        "Level": 2,
+        "ActionBy": "Provincial Education Officer",
+        "ActionDate": "2026-06-01T00:00:00Z",
+        "Notes": "Escalated to PDU for recruitment priority.",
+        "IsCurrent": true
+      }
+    ]
+  },
+  {
+    "ComplaintId": "CMP-ZM-2026-007",
+    "ReferenceNumber": "ZM-CMP-2026-007",
+    "Category": "Water",
+    "Title": "Borehole Contamination in Kitwe",
+    "Description": "Reports of water contamination near a mining waste site.",
+    "DateSubmitted": "2026-06-01T00:00:00Z",
+    "Status": "InProgress",
+    "Urgency": "Critical",
+    "Province": "Copperbelt",
+    "District": "Kitwe",
+    "Constituency": "Nkana",
+    "Ward": "Mindolo",
+    "AssignedAgency": "ZEMA",
+    "EscalationHistory": [
+      {
+        "Level": 1,
+        "ActionBy": "Community Health Lead",
+        "ActionDate": "2026-06-02T00:00:00Z",
+        "Notes": "Water samples collected for testing.",
+        "IsCurrent": true
+      }
+    ]
+  },
+  {
+    "ComplaintId": "CMP-ZM-2026-008",
+    "ReferenceNumber": "ZM-CMP-2026-008",
+    "Category": "Energy",
+    "Title": "Transformer Fault - Solwezi",
+    "Description": "Frequent power surges destroying household appliances in the Kansanshi area.",
+    "DateSubmitted": "2026-06-03T00:00:00Z",
+    "Status": "Assigned",
+    "Urgency": "Medium",
+    "Province": "North-Western",
+    "District": "Solwezi",
+    "Constituency": "Solwezi Central",
+    "Ward": "Kansanshi",
+    "AssignedAgency": "ZESCO",
+    "EscalationHistory": []
+  },
+  {
+    "ComplaintId": "CMP-ZM-2026-009",
+    "ReferenceNumber": "ZM-CMP-2026-009",
+    "Category": "Health",
+    "Title": "Lack of Ambulance in Mumbwa",
+    "Description": "The district hospital has no working ambulance, forcing patients to hire private transport.",
+    "DateSubmitted": "2026-05-10T00:00:00Z",
+    "Status": "Resolved",
+    "Urgency": "High",
+    "Province": "Central",
+    "District": "Mumbwa",
+    "Constituency": "Mumbwa",
+    "Ward": "Mumbwa Central",
+    "AssignedAgency": "Ministry of Health",
+    "DateResolved": "2026-06-01T00:00:00Z",
+    "ResolutionSummary": "New ambulance deployed from provincial headquarters.",
+    "ResolutionCost": 1200000.0,
+    "EscalationHistory": []
+  },
+  {
+    "ComplaintId": "CMP-ZM-2026-010",
+    "ReferenceNumber": "ZM-CMP-2026-010",
+    "Category": "Agriculture",
+    "Title": "Armyworm Outbreak - Mkushi",
+    "Description": "Reports of armyworm infestation destroying early maize crops.",
+    "DateSubmitted": "2026-06-05T00:00:00Z",
+    "Status": "InProgress",
+    "Urgency": "Critical",
+    "Province": "Central",
+    "District": "Mkushi",
+    "Constituency": "Mkushi South",
+    "Ward": "Mkushi North",
+    "AssignedAgency": "Disaster Management and Mitigation Unit",
+    "EscalationHistory": [
+      {
+        "Level": 1,
+        "ActionBy": "Agricultural Inspector",
+        "ActionDate": "2026-06-06T00:00:00Z",
+        "Notes": "Pesticide distribution initiated.",
+        "IsCurrent": true
+      }
+    ]
+  },
+  {
+    "ComplaintId": "CMP-ZM-2026-011",
+    "ReferenceNumber": "ZM-CMP-2026-011",
+    "Category": "Infrastructure",
+    "Title": "Poor Road State - Mansa",
+    "Description": "Main road connecting to the market is impassable for heavy trucks.",
+    "DateSubmitted": "2026-05-25T00:00:00Z",
+    "Status": "InProgress",
+    "Urgency": "Medium",
+    "Province": "Luapula",
+    "District": "Mansa",
+    "Constituency": "Mansa Central",
+    "Ward": "Mansa Urban",
+    "AssignedAgency": "Mansa Municipal Council",
+    "EscalationHistory": []
+  },
+  {
+    "ComplaintId": "CMP-ZM-2026-012",
+    "ReferenceNumber": "ZM-CMP-2026-012",
+    "Category": "Security",
+    "Title": "Rising Crime Rate in Chinsali",
+    "Description": "Community concerned over increasing cases of burglary during night hours.",
+    "DateSubmitted": "2026-06-02T00:00:00Z",
+    "Status": "InProgress",
+    "Urgency": "High",
+    "Province": "Muchinga",
+    "District": "Chinsali",
+    "Constituency": "Chinsali",
+    "Ward": "Chinsali Central",
+    "AssignedAgency": "Zambia Police",
+    "EscalationHistory": [
+      {
+        "Level": 1,
+        "ActionBy": "Community Policing Unit",
+        "ActionDate": "2026-06-04T00:00:00Z",
+        "Notes": "Night patrols increased.",
+        "IsCurrent": true
+      }
+    ]
+  },
+  {
+    "ComplaintId": "CMP-ZM-2026-013",
+    "ReferenceNumber": "ZM-CMP-2026-013",
+    "Category": "Mining",
+    "Title": "Unpaid Mineral Royalties - Kalumbila",
+    "Description": "Small scale miners reporting delays in royalty payments from the central government.",
+    "DateSubmitted": "2026-05-12T00:00:00Z",
+    "Status": "Resolved",
+    "Urgency": "Medium",
+    "Province": "North-Western",
+    "District": "Kalumbila",
+    "Constituency": "Kalumbila",
+    "Ward": "Kalumbila",
+    "AssignedAgency": "Ministry of Mines",
+    "DateResolved": "2026-06-02T00:00:00Z",
+    "ResolutionSummary": "Backlog of payments cleared for the first quarter.",
+    "ResolutionCost": 8500000.0,
+    "EscalationHistory": []
+  },
+  {
+    "ComplaintId": "CMP-ZM-2026-014",
+    "ReferenceNumber": "ZM-CMP-2026-014",
+    "Category": "Health",
+    "Title": "Unfinished Clinic - Mongu",
+    "Description": "Construction of the new maternity wing has stalled for over a year.",
+    "DateSubmitted": "2026-05-01T00:00:00Z",
+    "Status": "Escalated",
+    "Urgency": "High",
+    "Province": "Western",
+    "District": "Mongu",
+    "Constituency": "Mongu Central",
+    "Ward": "Mongu Urban",
+    "AssignedAgency": "Infrastructure Development Unit",
+    "EscalationHistory": [
+      {
+        "Level": 3,
+        "ActionBy": "Provincial Infrastructure Head",
+        "ActionDate": "2026-06-01T00:00:00Z",
+        "Notes": "Contractor default identified; legal action initiated.",
+        "IsCurrent": true
+      }
+    ]
+  },
+  {
+    "ComplaintId": "CMP-ZM-2026-015",
+    "ReferenceNumber": "ZM-CMP-2026-015",
+    "Category": "Education",
+    "Title": "Delayed School Desks - Sesheke",
+    "Description": "Primary school students still sitting on the floor 6 months after CDF approval.",
+    "DateSubmitted": "2026-05-20T00:00:00Z",
+    "Status": "InProgress",
+    "Urgency": "Medium",
+    "Province": "Western",
+    "District": "Sesheke",
+    "Constituency": "Sesheke",
+    "Ward": "Sesheke Central",
+    "AssignedAgency": "Local Government Service Commission",
+    "BudgetLine": "CDF-2026-SESHEKE",
+    "EscalationHistory": []
+  }
+]

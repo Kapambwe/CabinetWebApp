@@ -1,0 +1,5 @@
+[
+  { "schoolId": "SCH-001", "grade": "Grade 12", "averageScore": 72.5, "passRate": 88.0, "attendanceRate": 94.0, "dropoutRisk": 2.5 },
+  { "schoolId": "SCH-001", "grade": "Grade 10", "averageScore": 68.2, "passRate": 82.5, "attendanceRate": 91.0, "dropoutRisk": 4.2 },
+  { "schoolId": "SCH-002", "grade": "Grade 7", "averageScore": 62.0, "passRate": 75.0, "attendanceRate": 88.0, "dropoutRisk": 8.5 }
+]

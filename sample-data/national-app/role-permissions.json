@@ -1,0 +1,76 @@
+{
+  "roles": [
+    {
+      "name": "President",
+      "description": "Head of State and Government",
+      "permissions": [
+        "Executive.ViewPresidentialDashboard",
+        "Executive.ViewOversight",
+        "Executive.IssueDirectives",
+        "Executive.ManageEscalations",
+        "Executive.ViewBriefingReports",
+        "Pdu.ViewDashboard",
+        "National.ViewNationalDashboard",
+        "National.ViewNationalMap",
+        "National.ViewSdgNational",
+        "Sectoral.ViewHumanCapital",
+        "Strategic.ViewSecurityLegal",
+        "Strategic.ViewEconomicIndustrial",
+        "Cabinet.ViewCabinetDecisions"
+      ]
+    },
+    {
+      "name": "ChiefOfStaff",
+      "description": "Executive oversight and management",
+      "permissions": [
+        "Executive.ViewOversight",
+        "Executive.ManageEscalations",
+        "Executive.ViewBriefingReports",
+        "Advisors.ChiefOfStaff",
+        "Cabinet.ViewCabinetDecisions",
+        "Cabinet.ViewMemosAndDirectives",
+        "Pdu.ViewDashboard",
+        "Pdu.MonitorProjects"
+      ]
+    },
+    {
+      "name": "PduDirector",
+      "description": "Head of Presidential Delivery Unit",
+      "permissions": [
+        "Pdu.ViewDashboard",
+        "Pdu.ManagePriorities",
+        "Pdu.MonitorProjects",
+        "Pdu.MonitorProcurement",
+        "Pdu.ManageSystems",
+        "Pdu.ViewDrillDown"
+      ]
+    },
+    {
+      "name": "EconomicAdvisor",
+      "description": "Strategic economic guidance",
+      "permissions": [
+        "Advisors.Economic",
+        "Strategic.ViewEconomicIndustrial",
+        "Strategic.RunEconomicSimulations",
+        "National.ViewNationalDashboard"
+      ]
+    },
+    {
+      "name": "HealthAdvisor",
+      "description": "Sectoral health oversight",
+      "permissions": [
+        "Sectoral.ViewHealthIntelligence",
+        "Sectoral.ViewHumanCapital"
+      ]
+    },
+    {
+      "name": "LegalAdvisor",
+      "description": "Attorney General / Legal Counsel",
+      "permissions": [
+        "Advisors.Legal",
+        "Strategic.ViewSecurityLegal",
+        "Cabinet.ViewMous"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "instrumentId": "ZAM-PFM-ACT-2018",
+  "title": "The Public Finance Management Act, 2018",
+  "category": "Public Finance",
+  "sponsoringMinistry": "Ministry of Finance",
+  "effectiveDate": "2018-01-01T00:00:00Z",
+  "parts": [
+    {
+      "partNumber": "I",
+      "title": "Preliminary Provisions",
+      "sections": [
+        {
+          "sectionId": "s1",
+          "title": "Short title and commencement",
+          "content": "This Act may be cited as the Public Finance Management Act, 2018, and shall come into operation on such date as the Minister may, by statutory instrument, appoint.",
+          "riskLevel": "Low"
+        }
+      ]
+    },
+    {
+      "partNumber": "II",
+      "title": "Management of Public Finances",
+      "sections": [
+        {
+          "sectionId": "s4",
+          "title": "Establishment of Treasury",
+          "content": "(1) There is established the Treasury which shall consist of— (a) the Minister; (b) the Secretary to the Treasury; and (c) the Department of the Ministry responsible for public finance management.",
+          "riskLevel": "Medium"
+        },
+        {
+          "sectionId": "s6",
+          "title": "Secretary to Treasury",
+          "content": "(1) There shall be a Secretary to the Treasury who shall be a public officer and the chief executive officer of the Treasury. (2) The Secretary to the Treasury shall be appointed by the President on the recommendation of the Civil Service Commission.",
+          "riskLevel": "Medium"
+        },
+        {
+          "sectionId": "s10",
+          "title": "Controlling officers",
+          "content": "(1) The Secretary to the Treasury shall, for each financial year, designate in writing, controlling officers for the purposes of this Act.",
+          "riskLevel": "High"
+        }
+      ]
+    },
+    {
+      "partNumber": "III",
+      "title": "Control of Public Finances",
+      "sections": [
+        {
+          "sectionId": "s30",
+          "title": "Releases of funds",
+          "content": "(1) The Secretary to the Treasury shall as soon as the Appropriation Act has been passed by National Assembly or a warrant has been issued by the President under the Constitution— (a) cause to be released from the Consolidated Fund the amounts becoming payable during the ensuing month of statutory and Constitutional expenditure; (b) receive an annual consolidated cash and procurement plan from each controlling officer; and (c) release from the Consolidated Fund amounts not exceeding in total the sums applied by the Appropriation Acts.",
+          "rules": ["RULE-001"],
+          "riskLevel": "High"
+        }
+      ]
+    }
+  ]
+}

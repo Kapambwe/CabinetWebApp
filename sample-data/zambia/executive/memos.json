@@ -1,0 +1,56 @@
+{
+  "memos": [
+    {
+      "memoId": "MEM-001",
+      "title": "Q2 Economic Outlook Briefing",
+      "summary": "Quarterly macroeconomic outlook and revenue risks.",
+      "content": "Detailed memo content omitted in sample data.",
+      "authorName": "Dr. Jito Kayumba",
+      "authorTitle": "Chief Economic Advisor",
+      "dateCreated": "2026-05-30T00:00:00",
+      "dateAcknowledged": "2026-05-31T00:00:00",
+      "status": 3,
+      "attachments": [],
+      "reviewTrail": [],
+      "linkedDirectiveId": null
+    },
+    {
+      "memoId": "MEM-002",
+      "title": "Infrastructure Bottleneck Recovery Plan",
+      "summary": "Remedial actions for delayed corridor and bridge works.",
+      "content": "Detailed memo content omitted in sample data.",
+      "authorName": "Hon. Bradford Machila",
+      "authorTitle": "Ministerial Advisor",
+      "dateCreated": "2026-06-05T00:00:00",
+      "status": 1,
+      "attachments": [],
+      "reviewTrail": [],
+      "linkedDirectiveId": null
+    }
+  ],
+  "directives": [
+    {
+      "directiveId": "DIR-2026-001",
+      "title": "Emergency Procurement of High-Volume Water Pumps",
+      "description": "Immediate procurement for drought mitigation in Southern Province.",
+      "leadAgency": "Ministry of Agriculture",
+      "responsibleOfficer": "Permanent Secretary",
+      "dateIssued": "2026-05-31T00:00:00",
+      "deadline": "2026-06-08T00:00:00",
+      "progress": 12,
+      "status": "Active",
+      "isDigitallySigned": true,
+      "signerDid": "did:gov:zambia:presidency:hh-001",
+      "digitalSignature": "0x8823...33f2",
+      "dateSigned": "2026-05-31T00:00:00",
+      "auditTrail": [
+        {
+          "timestamp": "2026-05-31T00:00:00",
+          "action": "Signed",
+          "performedBy": "President",
+          "details": "Digitally signed using DID did:gov:zambia:presidency:hh-001"
+        }
+      ]
+    }
+  ]
+}

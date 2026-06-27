@@ -1,0 +1,83 @@
+{
+  "countryName": "Republic of Namibia",
+  "mandates": [
+    {
+      "functionId": "F1",
+      "title": "Presidential Facilitation",
+      "description": "Supporting the Presidency with constitutional, ceremonial and national coordination duties.",
+      "icon": "account_balance",
+      "progress": 92.0,
+      "status": "Optimal"
+    },
+    {
+      "functionId": "F2",
+      "title": "Former Leaders Welfare",
+      "description": "Maintaining welfare and healthcare support for former Heads of State and families.",
+      "icon": "family_restroom",
+      "progress": 97.0,
+      "status": "Compliant"
+    },
+    {
+      "functionId": "F3",
+      "title": "Cabinet Secretariat",
+      "description": "Coordinating Cabinet business, decisions and follow-up across ministries.",
+      "icon": "history_edu",
+      "progress": 86.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F4",
+      "title": "Policy Translation",
+      "description": "Turning executive decisions into actionable policies and implementation schedules.",
+      "icon": "policy",
+      "progress": 73.0,
+      "status": "In Progress"
+    },
+    {
+      "functionId": "F5",
+      "title": "Public Service Strategy",
+      "description": "Leading service delivery reform and government-wide performance coordination.",
+      "icon": "psychology",
+      "progress": 68.0,
+      "status": "Strategic"
+    },
+    {
+      "functionId": "F6",
+      "title": "Performance M&E",
+      "description": "Monitoring overall public service performance and reform delivery.",
+      "icon": "analytics",
+      "progress": 82.0,
+      "status": "Data-Driven"
+    },
+    {
+      "functionId": "F7",
+      "title": "Arbitration & Inquiries",
+      "description": "Handling commissions of inquiry and inter-ministerial arbitration matters.",
+      "icon": "gavel",
+      "progress": 41.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F8",
+      "title": "Decentralisation Support",
+      "description": "Supporting decentralised delivery and regional coordination.",
+      "icon": "explore",
+      "progress": 46.0,
+      "status": "Regional"
+    }
+  ],
+  "publicServicePerformance": {
+    "overallRating": 85.4,
+    "activeReforms": 11
+  },
+  "decentralization": {
+    "functionsDevolved": 35.0,
+    "localAuthoritiesImpacted": 121,
+    "implementationPhase": "Phase 2"
+  },
+  "welfare": {
+    "estatesCompliant": true,
+    "healthcareProvisionsActive": true,
+    "familiesSupported": 4
+  }
+}

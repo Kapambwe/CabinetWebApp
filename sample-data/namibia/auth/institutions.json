@@ -1,0 +1,18 @@
+[
+  {
+    "countrySlug": "namibia",
+    "countryName": "Namibia",
+    "institutionType": "presidency",
+    "folderName": "state-house",
+    "name": "The Presidency / State House",
+    "category": "Executive"
+  },
+  {
+    "countrySlug": "namibia",
+    "countryName": "Namibia",
+    "institutionType": "cabinet",
+    "folderName": "cabinet-office",
+    "name": "Cabinet Office",
+    "category": "Executive"
+  }
+]

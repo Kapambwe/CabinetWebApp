@@ -1,0 +1,76 @@
+[
+  {
+    "violationId": "m17c1d8f-4c4b-4e6a-a8d1-30b0c7e4f001",
+    "applicationId": "legal-intelligence",
+    "tenantId": "88888888-8888-8888-8888-888888888888",
+    "countryCode": "MW",
+    "ruleSetCode": "LEGAL-WF-01",
+    "ruleCode": "WF-LEGAL-REVIEW",
+    "decision": "Review",
+    "severity": "Medium",
+    "message": "Cabinet submission requires legal review before tabling.",
+    "source": {
+      "sourceApp": "CompanyApp.Government.NationalApp",
+      "sourcePage": "/legal/bills/3",
+      "sourceEntityType": "CabinetPaper",
+      "sourceEntityId": "CABP-MW-021"
+    },
+    "lawReference": {
+      "lawCode": "CABINET-GUIDE",
+      "lawVersion": "2025",
+      "effectiveDate": "2025-01-01",
+      "sections": ["s.5", "s.11"]
+    },
+    "workflowReference": {
+      "workflowCode": "LEGAL-REVIEW",
+      "workflowInstanceId": "WF-MW-5001",
+      "workflowStepCode": "REVIEW",
+      "workflowTaskId": "TASK-MW-401"
+    },
+    "workflowCode": "LEGAL-REVIEW",
+    "ownerRole": "Legal Drafting",
+    "dedupeKey": "MW|LEGAL-WF-01|WF-LEGAL-REVIEW|CABP-MW-021",
+    "requiredEvidence": [],
+    "defaultActions": ["Assign legal counsel", "Log review outcome"],
+    "escalationTargets": ["Legal Drafting"],
+    "status": "Open",
+    "createdAtUtc": "2026-06-02T13:40:00Z"
+  },
+  {
+    "violationId": "m17c1d8f-4c4b-4e6a-a8d1-30b0c7e4f002",
+    "applicationId": "cabinet-oversight",
+    "tenantId": "99999999-9999-9999-9999-999999999999",
+    "countryCode": "MW",
+    "ruleSetCode": "CAB-WF-02",
+    "ruleCode": "WF-ACTION-OVERDUE",
+    "decision": "Review",
+    "severity": "High",
+    "message": "Assigned cabinet action has passed its due date without a completion update.",
+    "source": {
+      "sourceApp": "CompanyApp.Government.NationalApp",
+      "sourcePage": "/cabinet-command-center",
+      "sourceEntityType": "ActionItem",
+      "sourceEntityId": "ACT-MW-015"
+    },
+    "lawReference": {
+      "lawCode": "CABINET-CTRL",
+      "lawVersion": "2026",
+      "effectiveDate": "2026-01-01",
+      "sections": ["s.7", "s.12"]
+    },
+    "workflowReference": {
+      "workflowCode": "CABINET-TRACKING",
+      "workflowInstanceId": "WF-MW-9001",
+      "workflowStepCode": "FOLLOW_UP",
+      "workflowTaskId": "TASK-MW-110"
+    },
+    "workflowCode": "CABINET-TRACKING",
+    "ownerRole": "Cabinet Secretariat",
+    "dedupeKey": "MW|CAB-WF-02|WF-ACTION-OVERDUE|ACT-MW-015",
+    "requiredEvidence": [],
+    "defaultActions": ["Follow up with ministry", "Escalate overdue action"],
+    "escalationTargets": ["Cabinet Secretariat"],
+    "status": "WorkflowStarted",
+    "createdAtUtc": "2026-06-05T15:10:00Z"
+  }
+]

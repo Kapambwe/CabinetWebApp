@@ -1,0 +1,184 @@
+{
+  "populationInDigitalEconomy": 52,
+  "targetPercentage": 80,
+  "zampostDigitalHubs": 109,
+  "targetDigitalHubs": 200,
+  "citizensConnected": 520000,
+  "targetCitizensConnected": 800000,
+  "internetPenetrationPercentage": 38,
+  "mobileMoneyUsers": 9500000,
+  "digitalLiteracyTrainees": 185000,
+  "budgetKwacha": 1200000000,
+  "budgetSpentKwacha": 660000000,
+  "hubStatuses": [
+    {
+      "name": "Lusaka Central Post Office Hub",
+      "province": "Lusaka",
+      "district": "Lusaka",
+      "status": 1,
+      "citizensServed": 15200,
+      "servicesAvailable": [
+        "Internet Access",
+        "Digital Literacy Training",
+        "Government Services",
+        "Mobile Money"
+      ],
+      "openedDate": "2024-03-15"
+    },
+    {
+      "name": "Kitwe Main Post Office Hub",
+      "province": "Copperbelt",
+      "district": "Kitwe",
+      "status": 1,
+      "citizensServed": 12800,
+      "servicesAvailable": [
+        "Internet Access",
+        "Digital Literacy Training",
+        "E-Commerce Support"
+      ],
+      "openedDate": "2024-05-20"
+    },
+    {
+      "name": "Chipata Post Office Hub",
+      "province": "Eastern",
+      "district": "Chipata",
+      "status": 1,
+      "citizensServed": 8500,
+      "servicesAvailable": [
+        "Internet Access",
+        "Digital Literacy Training",
+        "Government Services"
+      ],
+      "openedDate": "2024-08-10"
+    },
+    {
+      "name": "Solwezi Digital Hub",
+      "province": "North-Western",
+      "district": "Solwezi",
+      "status": 1,
+      "citizensServed": 6200,
+      "servicesAvailable": [
+        "Internet Access",
+        "Digital Literacy Training"
+      ],
+      "openedDate": "2025-01-15"
+    },
+    {
+      "name": "Senanga Solar-Powered Hub",
+      "province": "Western",
+      "district": "Senanga",
+      "status": 0,
+      "citizensServed": 0,
+      "servicesAvailable": [
+        "Internet Access",
+        "Digital Literacy Training",
+        "Solar Charging"
+      ],
+      "openedDate": null
+    }
+  ],
+  "provincialData": [
+    {
+      "province": "Central",
+      "digitalHubs": 12,
+      "citizensConnected": 48000,
+      "internetPenetrationPercentage": 35,
+      "digitalLiteracyTrainees": 16500
+    },
+    {
+      "province": "Copperbelt",
+      "digitalHubs": 18,
+      "citizensConnected": 85000,
+      "internetPenetrationPercentage": 52,
+      "digitalLiteracyTrainees": 28000
+    },
+    {
+      "province": "Eastern",
+      "digitalHubs": 10,
+      "citizensConnected": 42000,
+      "internetPenetrationPercentage": 28,
+      "digitalLiteracyTrainees": 15200
+    },
+    {
+      "province": "Luapula",
+      "digitalHubs": 8,
+      "citizensConnected": 28000,
+      "internetPenetrationPercentage": 22,
+      "digitalLiteracyTrainees": 10500
+    },
+    {
+      "province": "Lusaka",
+      "digitalHubs": 22,
+      "citizensConnected": 120000,
+      "internetPenetrationPercentage": 65,
+      "digitalLiteracyTrainees": 35000
+    },
+    {
+      "province": "Muchinga",
+      "digitalHubs": 7,
+      "citizensConnected": 25000,
+      "internetPenetrationPercentage": 20,
+      "digitalLiteracyTrainees": 9800
+    },
+    {
+      "province": "Northern",
+      "digitalHubs": 10,
+      "citizensConnected": 45000,
+      "internetPenetrationPercentage": 25,
+      "digitalLiteracyTrainees": 18000
+    },
+    {
+      "province": "North-Western",
+      "digitalHubs": 8,
+      "citizensConnected": 38000,
+      "internetPenetrationPercentage": 30,
+      "digitalLiteracyTrainees": 14500
+    },
+    {
+      "province": "Southern",
+      "digitalHubs": 9,
+      "citizensConnected": 52000,
+      "internetPenetrationPercentage": 38,
+      "digitalLiteracyTrainees": 20500
+    },
+    {
+      "province": "Western",
+      "digitalHubs": 5,
+      "citizensConnected": 37000,
+      "internetPenetrationPercentage": 18,
+      "digitalLiteracyTrainees": 17000
+    }
+  ],
+  "milestones": [
+    {
+      "responsibleOfficer": "Director General - ZAMPOST",
+      "description": "Transformed 109 post offices into Digital Transformation Centres.",
+      "status": 5,
+      "completedDate": "2025-11-30T00:00:00",
+      "dueDate": "2025-12-31T00:00:00",
+      "department": "ZAMPOST",
+      "milestoneId": "di-milestone-1",
+      "title": "109 ZAMPOST Digital Hubs Operational"
+    },
+    {
+      "responsibleOfficer": "PS Technology",
+      "description": "Connect 1.5 million citizens to digital financial services.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2026-12-31T00:00:00",
+      "department": "Ministry of Technology",
+      "milestoneId": "di-milestone-2",
+      "title": "1.5 Million Citizens in Digital Economy"
+    },
+    {
+      "responsibleOfficer": "Director - ICT Development",
+      "description": "Achieve 50% national internet penetration rate.",
+      "status": 1,
+      "completedDate": null,
+      "dueDate": "2027-12-31T00:00:00",
+      "department": "Ministry of Technology",
+      "milestoneId": "di-milestone-3",
+      "title": "50% Internet Penetration"
+    }
+  ]
+}

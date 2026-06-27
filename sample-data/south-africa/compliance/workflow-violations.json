@@ -1,0 +1,76 @@
+[
+  {
+    "violationId": "s17c1d8f-4c4b-4e6a-a8d1-30b0c7e4f001",
+    "applicationId": "pdu-procurement",
+    "tenantId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "countryCode": "ZA",
+    "ruleSetCode": "PFM-WF-01",
+    "ruleCode": "WF-APPROVAL-MISSING",
+    "decision": "Block",
+    "severity": "High",
+    "message": "Procurement approval is required before the payment can be released.",
+    "source": {
+      "sourceApp": "CompanyApp.Government.NationalApp",
+      "sourcePage": "/pdu/procurement",
+      "sourceEntityType": "PaymentRequest",
+      "sourceEntityId": "PAY-ZA-8001"
+    },
+    "lawReference": {
+      "lawCode": "PFM-ACT",
+      "lawVersion": "2024",
+      "effectiveDate": "2024-01-01",
+      "sections": ["s.10", "s.30"]
+    },
+    "workflowReference": {
+      "workflowCode": "PROCUREMENT-APPROVAL",
+      "workflowInstanceId": "WF-ZA-8001",
+      "workflowStepCode": "PROCUREMENT_REVIEW",
+      "workflowTaskId": "TASK-ZA-221"
+    },
+    "workflowCode": "PROCUREMENT-APPROVAL",
+    "ownerRole": "Supply Chain",
+    "dedupeKey": "ZA|PFM-WF-01|WF-APPROVAL-MISSING|PAY-ZA-8001",
+    "requiredEvidence": [],
+    "defaultActions": ["Obtain approval", "Update treasury status"],
+    "escalationTargets": ["Supply Chain", "Treasury"],
+    "status": "Open",
+    "createdAtUtc": "2026-05-31T10:00:00Z"
+  },
+  {
+    "violationId": "s17c1d8f-4c4b-4e6a-a8d1-30b0c7e4f002",
+    "applicationId": "cabinet-oversight",
+    "tenantId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "countryCode": "ZA",
+    "ruleSetCode": "CAB-WF-03",
+    "ruleCode": "WF-MINUTE-LATE",
+    "decision": "Review",
+    "severity": "Medium",
+    "message": "Cabinet meeting minutes have not been uploaded within the required window.",
+    "source": {
+      "sourceApp": "CompanyApp.Government.NationalApp",
+      "sourcePage": "/cabinet-command-center",
+      "sourceEntityType": "CabinetMinute",
+      "sourceEntityId": "MIN-ZA-042"
+    },
+    "lawReference": {
+      "lawCode": "CAB-NOTE",
+      "lawVersion": "2025",
+      "effectiveDate": "2025-01-01",
+      "sections": ["s.12"]
+    },
+    "workflowReference": {
+      "workflowCode": "CABINET-TRACKING",
+      "workflowInstanceId": "WF-ZA-9042",
+      "workflowStepCode": "MINUTES_UPLOAD",
+      "workflowTaskId": "TASK-ZA-123"
+    },
+    "workflowCode": "CABINET-TRACKING",
+    "ownerRole": "Cabinet Secretariat",
+    "dedupeKey": "ZA|CAB-WF-03|WF-MINUTE-LATE|MIN-ZA-042",
+    "requiredEvidence": [],
+    "defaultActions": ["Upload minutes", "Notify Cabinet Secretary"],
+    "escalationTargets": ["Cabinet Secretariat"],
+    "status": "WorkflowStarted",
+    "createdAtUtc": "2026-06-04T09:00:00Z"
+  }
+]

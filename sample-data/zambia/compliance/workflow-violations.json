@@ -1,0 +1,124 @@
+[
+  {
+    "violationId": "8f3c1d8f-4c4b-4e6a-a8d1-30b0c7e4f001",
+    "applicationId": "pdu-financial-inclusion",
+    "tenantId": "11111111-1111-1111-1111-111111111111",
+    "countryCode": "ZM",
+    "ruleSetCode": "PFM-WF-01",
+    "ruleCode": "WF-COMMITTEE-APPROVAL",
+    "decision": "Block",
+    "severity": "High",
+    "message": "Cabinet committee approval is required before disbursing the requested funds.",
+    "source": {
+      "sourceApp": "CompanyApp.Government.NationalApp",
+      "sourcePage": "/pdu/financial-inclusion",
+      "sourceEntityType": "DisbursementRequest",
+      "sourceEntityId": "DISB-ZM-0001"
+    },
+    "lawReference": {
+      "lawCode": "PFM-ACT",
+      "lawVersion": "2024",
+      "effectiveDate": "2024-01-01",
+      "sections": ["s.10", "s.13", "s.30"]
+    },
+    "workflowReference": {
+      "workflowCode": "FIN-APPROVAL",
+      "workflowInstanceId": "WF-ZM-1001",
+      "workflowStepCode": "CABINET_REVIEW",
+      "workflowTaskId": "TASK-ZM-501"
+    },
+    "workflowCode": "FIN-APPROVAL",
+    "ownerRole": "Cabinet Secretariat",
+    "dedupeKey": "ZM|PFM-WF-01|WF-COMMITTEE-APPROVAL|DISB-ZM-0001",
+    "requiredEvidence": [
+      {
+        "evidenceId": "EV-ZM-001",
+        "evidenceType": "CabinetMinute",
+        "documentId": "CAB-MIN-2026-04-11",
+        "fileHash": "sha256:zm-cabinet-001",
+        "chainOfCustodyId": "COC-ZM-001"
+      }
+    ],
+    "defaultActions": ["Escalate to Cabinet Secretariat", "Request committee approval"],
+    "escalationTargets": ["Cabinet Secretariat", "PDU Oversight"],
+    "status": "Open",
+    "createdAtUtc": "2026-05-29T08:30:00Z"
+  },
+  {
+    "violationId": "8f3c1d8f-4c4b-4e6a-a8d1-30b0c7e4f002",
+    "applicationId": "pdu-project-management",
+    "tenantId": "22222222-2222-2222-2222-222222222222",
+    "countryCode": "ZM",
+    "ruleSetCode": "PFM-WF-03",
+    "ruleCode": "WF-STATUS-STALE",
+    "decision": "Review",
+    "severity": "Medium",
+    "message": "Project progress has not been updated for more than 14 days.",
+    "source": {
+      "sourceApp": "CompanyApp.Government.NationalApp",
+      "sourcePage": "/pdu/projects",
+      "sourceEntityType": "Project",
+      "sourceEntityId": "PRJ-ZM-2044"
+    },
+    "lawReference": {
+      "lawCode": "PFM-ACT",
+      "lawVersion": "2024",
+      "effectiveDate": "2024-01-01",
+      "sections": ["s.4", "s.31"]
+    },
+    "workflowReference": {
+      "workflowCode": "PROJECT-TRACKING",
+      "workflowInstanceId": "WF-ZM-2044",
+      "workflowStepCode": "IMPLEMENTATION",
+      "workflowTaskId": "TASK-ZM-777"
+    },
+    "workflowCode": "PROJECT-TRACKING",
+    "ownerRole": "Project Monitoring Unit",
+    "dedupeKey": "ZM|PFM-WF-03|WF-STATUS-STALE|PRJ-ZM-2044",
+    "requiredEvidence": [
+      {
+        "evidenceId": "EV-ZM-004",
+        "evidenceType": "ProgressReport",
+        "documentId": "PRG-REPORT-2044-Q2",
+        "fileHash": "sha256:zm-prog-004",
+        "chainOfCustodyId": "COC-ZM-004"
+      }
+    ],
+    "defaultActions": ["Request progress update", "Escalate to monitoring lead"],
+    "escalationTargets": ["Project Monitoring Unit"],
+    "status": "WorkflowStarted",
+    "createdAtUtc": "2026-06-02T14:45:00Z"
+  },
+  {
+    "violationId": "8f3c1d8f-4c4b-4e6a-a8d1-30b0c7e4f003",
+    "applicationId": "legal-intelligence",
+    "tenantId": "33333333-3333-3333-3333-333333333333",
+    "countryCode": "ZM",
+    "ruleSetCode": "LEGAL-WF-02",
+    "ruleCode": "WF-WORKFLOW-MISSING",
+    "decision": "Review",
+    "severity": "Low",
+    "message": "The linked workflow definition is missing for this legal review record.",
+    "source": {
+      "sourceApp": "CompanyApp.Government.NationalApp",
+      "sourcePage": "/legal/bills/1",
+      "sourceEntityType": "BillReview",
+      "sourceEntityId": "BILL-ZM-009"
+    },
+    "lawReference": {
+      "lawCode": "LEG-REV",
+      "lawVersion": "2026",
+      "effectiveDate": "2026-01-01",
+      "sections": ["s.2"]
+    },
+    "workflowReference": null,
+    "workflowCode": "LEGAL-REVIEW",
+    "ownerRole": "Legal Drafting",
+    "dedupeKey": "ZM|LEGAL-WF-02|WF-WORKFLOW-MISSING|BILL-ZM-009",
+    "requiredEvidence": [],
+    "defaultActions": ["Create workflow definition", "Assign legal reviewer"],
+    "escalationTargets": ["Legal Drafting"],
+    "status": "WorkflowMissing",
+    "createdAtUtc": "2026-06-04T09:15:00Z"
+  }
+]

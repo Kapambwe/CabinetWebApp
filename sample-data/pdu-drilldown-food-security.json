@@ -1,0 +1,485 @@
+{
+  "nationalData": {
+    "locationName": "Zambia",
+    "canDrillDown": true,
+    "dataDate": "2026-02-19T00:00:00",
+    "budgetAllocated": 1900000000,
+    "locationCode": "ZM",
+    "level": 0,
+    "unit": "Farmers",
+    "totalValue": 1245000,
+    "budgetSpent": 855000000,
+    "metricName": "FISP Beneficiaries"
+  },
+  "priorityArea": 0,
+  "provincialData": [
+    {
+      "level": 1,
+      "locationName": "Central Province",
+      "responsibleOfficer": {
+        "title": "Provincial Agriculture Coordinator",
+        "phone": "+260 211 123 001",
+        "type": 3,
+        "department": "Extension Services - Central",
+        "province": "Central",
+        "email": "john.banda@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "John Banda",
+        "performance": {
+          "completionRate": 90.0,
+          "completedActivities": 45,
+          "daysAverageDelay": 3,
+          "overdueActivities": 2,
+          "totalActivities": 50,
+          "performanceRating": "Excellent",
+          "budgetUtilization": 85.5,
+          "pendingActivities": 3
+        },
+        "position": "Senior Agricultural Officer",
+        "officerId": "OFC-CP-001"
+      },
+      "value": 185000,
+      "locationCode": "ZM-01",
+      "budgetSpent": 125000000,
+      "budgetAllocated": 280000000
+    },
+    {
+      "level": 1,
+      "locationName": "Copperbelt Province",
+      "responsibleOfficer": {
+        "title": "Provincial Agriculture Coordinator",
+        "phone": "+260 212 123 002",
+        "type": 3,
+        "department": "Extension Services - Copperbelt",
+        "province": "Copperbelt",
+        "email": "mary.mwape@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "Mary Mwape",
+        "performance": {
+          "completionRate": 84.4,
+          "completedActivities": 38,
+          "daysAverageDelay": 5,
+          "overdueActivities": 2,
+          "totalActivities": 45,
+          "performanceRating": "Good",
+          "budgetUtilization": 78.2,
+          "pendingActivities": 5
+        },
+        "position": "Senior Agricultural Officer",
+        "officerId": "OFC-CB-001"
+      },
+      "value": 145000,
+      "locationCode": "ZM-02",
+      "budgetSpent": 95000000,
+      "budgetAllocated": 220000000
+    },
+    {
+      "level": 1,
+      "locationName": "Eastern Province",
+      "responsibleOfficer": {
+        "title": "Provincial Agriculture Coordinator",
+        "phone": "+260 216 123 003",
+        "type": 3,
+        "department": "Extension Services - Eastern",
+        "province": "Eastern",
+        "email": "peter.phiri@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "Peter Phiri",
+        "performance": {
+          "completionRate": 90.9,
+          "completedActivities": 50,
+          "daysAverageDelay": 2,
+          "overdueActivities": 1,
+          "totalActivities": 55,
+          "performanceRating": "Excellent",
+          "budgetUtilization": 82.0,
+          "pendingActivities": 4
+        },
+        "position": "Senior Agricultural Officer",
+        "officerId": "OFC-EP-001"
+      },
+      "value": 165000,
+      "locationCode": "ZM-03",
+      "budgetSpent": 115000000,
+      "budgetAllocated": 250000000
+    },
+    {
+      "level": 1,
+      "locationName": "Luapula Province",
+      "responsibleOfficer": {
+        "title": "Provincial Agriculture Coordinator",
+        "phone": "+260 214 123 004",
+        "type": 3,
+        "department": "Extension Services - Luapula",
+        "province": "Luapula",
+        "email": "grace.mulenga@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "Grace Mulenga",
+        "performance": {
+          "completionRate": 83.3,
+          "completedActivities": 35,
+          "daysAverageDelay": 4,
+          "overdueActivities": 2,
+          "totalActivities": 42,
+          "performanceRating": "Good",
+          "budgetUtilization": 76.5,
+          "pendingActivities": 5
+        },
+        "position": "Senior Agricultural Officer",
+        "officerId": "OFC-LP-001"
+      },
+      "value": 125000,
+      "locationCode": "ZM-04",
+      "budgetSpent": 85000000,
+      "budgetAllocated": 190000000
+    },
+    {
+      "level": 1,
+      "locationName": "Lusaka Province",
+      "responsibleOfficer": {
+        "title": "Provincial Agriculture Coordinator",
+        "phone": "+260 211 123 005",
+        "type": 3,
+        "department": "Extension Services - Lusaka",
+        "province": "Lusaka",
+        "email": "david.chansa@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "David Chansa",
+        "performance": {
+          "completionRate": 84.2,
+          "completedActivities": 32,
+          "daysAverageDelay": 3,
+          "overdueActivities": 2,
+          "totalActivities": 38,
+          "performanceRating": "Good",
+          "budgetUtilization": 72.8,
+          "pendingActivities": 4
+        },
+        "position": "Senior Agricultural Officer",
+        "officerId": "OFC-LK-001"
+      },
+      "value": 95000,
+      "locationCode": "ZM-05",
+      "budgetSpent": 65000000,
+      "budgetAllocated": 140000000
+    },
+    {
+      "level": 1,
+      "locationName": "Muchinga Province",
+      "responsibleOfficer": {
+        "title": "Provincial Agriculture Coordinator",
+        "phone": "+260 215 123 006",
+        "type": 3,
+        "department": "Extension Services - Muchinga",
+        "province": "Muchinga",
+        "email": "sarah.tembo@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "Sarah Tembo",
+        "performance": {
+          "completionRate": 87.5,
+          "completedActivities": 35,
+          "daysAverageDelay": 3,
+          "overdueActivities": 2,
+          "totalActivities": 40,
+          "performanceRating": "Good",
+          "budgetUtilization": 79.0,
+          "pendingActivities": 3
+        },
+        "position": "Senior Agricultural Officer",
+        "officerId": "OFC-MP-001"
+      },
+      "value": 105000,
+      "locationCode": "ZM-06",
+      "budgetSpent": 75000000,
+      "budgetAllocated": 160000000
+    },
+    {
+      "level": 1,
+      "locationName": "Northern Province",
+      "responsibleOfficer": {
+        "title": "Provincial Agriculture Coordinator",
+        "phone": "+260 213 123 007",
+        "type": 3,
+        "department": "Extension Services - Northern",
+        "province": "Northern",
+        "email": "james.sakala@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "James Sakala",
+        "performance": {
+          "completionRate": 87.5,
+          "completedActivities": 42,
+          "daysAverageDelay": 3,
+          "overdueActivities": 2,
+          "totalActivities": 48,
+          "performanceRating": "Good",
+          "budgetUtilization": 80.5,
+          "pendingActivities": 4
+        },
+        "position": "Senior Agricultural Officer",
+        "officerId": "OFC-NP-001"
+      },
+      "value": 135000,
+      "locationCode": "ZM-07",
+      "budgetSpent": 95000000,
+      "budgetAllocated": 205000000
+    },
+    {
+      "level": 1,
+      "locationName": "North-Western Province",
+      "responsibleOfficer": {
+        "title": "Provincial Agriculture Coordinator",
+        "phone": "+260 218 123 008",
+        "type": 3,
+        "department": "Extension Services - North-Western",
+        "province": "North-Western",
+        "email": "catherine.mwanza@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "Catherine Mwanza",
+        "performance": {
+          "completionRate": 80.0,
+          "completedActivities": 28,
+          "daysAverageDelay": 5,
+          "overdueActivities": 2,
+          "totalActivities": 35,
+          "performanceRating": "Satisfactory",
+          "budgetUtilization": 70.5,
+          "pendingActivities": 5
+        },
+        "position": "Senior Agricultural Officer",
+        "officerId": "OFC-NW-001"
+      },
+      "value": 85000,
+      "locationCode": "ZM-08",
+      "budgetSpent": 55000000,
+      "budgetAllocated": 130000000
+    },
+    {
+      "level": 1,
+      "locationName": "Southern Province",
+      "responsibleOfficer": {
+        "title": "Provincial Agriculture Coordinator",
+        "phone": "+260 213 123 009",
+        "type": 3,
+        "department": "Extension Services - Southern",
+        "province": "Southern",
+        "email": "george.siame@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "George Siame",
+        "performance": {
+          "completionRate": 92.3,
+          "completedActivities": 48,
+          "daysAverageDelay": 2,
+          "overdueActivities": 1,
+          "totalActivities": 52,
+          "performanceRating": "Excellent",
+          "budgetUtilization": 88.0,
+          "pendingActivities": 3
+        },
+        "position": "Senior Agricultural Officer",
+        "officerId": "OFC-SP-001"
+      },
+      "value": 155000,
+      "locationCode": "ZM-09",
+      "budgetSpent": 105000000,
+      "budgetAllocated": 235000000
+    },
+    {
+      "level": 1,
+      "locationName": "Western Province",
+      "responsibleOfficer": {
+        "title": "Provincial Agriculture Coordinator",
+        "phone": "+260 217 123 010",
+        "type": 3,
+        "department": "Extension Services - Western",
+        "province": "Western",
+        "email": "patrick.mwale@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "Patrick Mwale",
+        "performance": {
+          "completionRate": 80.0,
+          "completedActivities": 24,
+          "daysAverageDelay": 4,
+          "overdueActivities": 2,
+          "totalActivities": 30,
+          "performanceRating": "Satisfactory",
+          "budgetUtilization": 68.5,
+          "pendingActivities": 4
+        },
+        "position": "Senior Agricultural Officer",
+        "officerId": "OFC-WP-001"
+      },
+      "value": 50000,
+      "locationCode": "ZM-10",
+      "budgetSpent": 40000000,
+      "budgetAllocated": 90000000
+    }
+  ],
+  "districtData": [
+    {
+      "locationName": "Kabwe District",
+      "locationCode": "ZM-01-01",
+      "budgetAllocated": 68000000,
+      "responsibleOfficer": {
+        "title": "District Agriculture Coordinator",
+        "phone": "+260 211 234 001",
+        "type": 4,
+        "department": "Extension Services - Kabwe",
+        "province": "Central",
+        "email": "moses.chilufya@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "Moses Chilufya",
+        "performance": {
+          "completionRate": 88.0,
+          "completedActivities": 22,
+          "daysAverageDelay": 2,
+          "overdueActivities": 1,
+          "totalActivities": 25,
+          "performanceRating": "Good",
+          "budgetUtilization": 82.0,
+          "pendingActivities": 2
+        },
+        "position": "Agriculture Officer",
+        "district": "Kabwe",
+        "officerId": "OFC-KB-001"
+      },
+      "provinceName": "Central Province",
+      "level": 2,
+      "value": 45000,
+      "provinceCode": "ZM-01",
+      "budgetSpent": 32000000
+    },
+    {
+      "locationName": "Chibombo District",
+      "locationCode": "ZM-01-02",
+      "budgetAllocated": 57000000,
+      "responsibleOfficer": {
+        "title": "District Agriculture Coordinator",
+        "phone": "+260 211 234 002",
+        "type": 4,
+        "department": "Extension Services - Chibombo",
+        "province": "Central",
+        "email": "ruth.mutale@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "Ruth Mutale",
+        "performance": {
+          "completionRate": 90.9,
+          "completedActivities": 20,
+          "daysAverageDelay": 1,
+          "overdueActivities": 1,
+          "totalActivities": 22,
+          "performanceRating": "Excellent",
+          "budgetUtilization": 85.0,
+          "pendingActivities": 1
+        },
+        "position": "Agriculture Officer",
+        "district": "Chibombo",
+        "officerId": "OFC-CB-002"
+      },
+      "provinceName": "Central Province",
+      "level": 2,
+      "value": 38000,
+      "provinceCode": "ZM-01",
+      "budgetSpent": 26000000
+    },
+    {
+      "locationName": "Kapiri Mposhi District",
+      "locationCode": "ZM-01-03",
+      "budgetAllocated": 63000000,
+      "responsibleOfficer": {
+        "title": "District Agriculture Coordinator",
+        "phone": "+260 211 234 003",
+        "type": 4,
+        "department": "Extension Services - Kapiri Mposhi",
+        "province": "Central",
+        "email": "andrew.zulu@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "Andrew Zulu",
+        "performance": {
+          "completionRate": 87.5,
+          "completedActivities": 21,
+          "daysAverageDelay": 3,
+          "overdueActivities": 1,
+          "totalActivities": 24,
+          "performanceRating": "Good",
+          "budgetUtilization": 80.0,
+          "pendingActivities": 2
+        },
+        "position": "Agriculture Officer",
+        "district": "Kapiri Mposhi",
+        "officerId": "OFC-KM-001"
+      },
+      "provinceName": "Central Province",
+      "level": 2,
+      "value": 42000,
+      "provinceCode": "ZM-01",
+      "budgetSpent": 29000000
+    },
+    {
+      "locationName": "Mkushi District",
+      "locationCode": "ZM-01-04",
+      "budgetAllocated": 52000000,
+      "responsibleOfficer": {
+        "title": "District Agriculture Coordinator",
+        "phone": "+260 211 234 004",
+        "type": 4,
+        "department": "Extension Services - Mkushi",
+        "province": "Central",
+        "email": "elizabeth.banda@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "Elizabeth Banda",
+        "performance": {
+          "completionRate": 90.0,
+          "completedActivities": 18,
+          "daysAverageDelay": 2,
+          "overdueActivities": 1,
+          "totalActivities": 20,
+          "performanceRating": "Good",
+          "budgetUtilization": 83.5,
+          "pendingActivities": 1
+        },
+        "position": "Agriculture Officer",
+        "district": "Mkushi",
+        "officerId": "OFC-MK-001"
+      },
+      "provinceName": "Central Province",
+      "level": 2,
+      "value": 35000,
+      "provinceCode": "ZM-01",
+      "budgetSpent": 24000000
+    },
+    {
+      "locationName": "Serenje District",
+      "locationCode": "ZM-01-05",
+      "budgetAllocated": 40000000,
+      "responsibleOfficer": {
+        "title": "District Agriculture Coordinator",
+        "phone": "+260 211 234 005",
+        "type": 4,
+        "department": "Extension Services - Serenje",
+        "province": "Central",
+        "email": "francis.mbewe@moagric.gov.zm",
+        "ministry": "Ministry of Agriculture",
+        "name": "Francis Mbewe",
+        "performance": {
+          "completionRate": 83.3,
+          "completedActivities": 15,
+          "daysAverageDelay": 4,
+          "overdueActivities": 1,
+          "totalActivities": 18,
+          "performanceRating": "Satisfactory",
+          "budgetUtilization": 75.0,
+          "pendingActivities": 2
+        },
+        "position": "Agriculture Officer",
+        "district": "Serenje",
+        "officerId": "OFC-SR-001"
+      },
+      "provinceName": "Central Province",
+      "level": 2,
+      "value": 25000,
+      "provinceCode": "ZM-01",
+      "budgetSpent": 14000000
+    }
+  ],
+  "priorityName": "Food Security"
+}

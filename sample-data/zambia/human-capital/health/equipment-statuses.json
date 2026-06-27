@@ -1,0 +1,6 @@
+[
+  { "equipmentId": "EQP-001", "name": "MRI Machine", "hospitalId": "HOS-001", "status": "Functional", "lastServiced": "2026-03-15T00:00:00" },
+  { "equipmentId": "EQP-002", "name": "X-Ray Machine", "hospitalId": "HOS-001", "status": "Maintenance", "lastServiced": "2026-01-10T00:00:00" },
+  { "equipmentId": "EQP-010", "name": "Oxygen Plant", "hospitalId": "HOS-002", "status": "Functional", "lastServiced": "2026-04-20T00:00:00" },
+  { "equipmentId": "EQP-020", "name": "CT Scanner", "hospitalId": "HOS-003", "status": "Non-Functional", "lastServiced": "2025-11-05T00:00:00" }
+]

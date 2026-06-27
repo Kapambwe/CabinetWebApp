@@ -1,0 +1,33 @@
+{
+  "countryName": "Zimbabwe",
+  "roles": [
+    {
+      "roleId": "PRES",
+      "roleName": "President",
+      "users": [
+        { "userId": "ZWE-001", "name": "Emmerson Mnangagwa", "email": "president@opc.gov.zw" }
+      ]
+    },
+    {
+      "roleId": "STC",
+      "roleName": "Chief Secretary to President & Cabinet",
+      "users": [
+        { "userId": "ZWE-002", "name": "Misheck Sibanda", "email": "chiefsecretary@opc.gov.zw" }
+      ]
+    },
+    {
+      "roleId": "PDU_DIR",
+      "roleName": "Head of Monitoring & Evaluation",
+      "users": [
+        { "userId": "ZWE-003", "name": "Mary Mubi", "email": "evaluation@opc.gov.zw" }
+      ]
+    },
+    {
+      "roleId": "LEGAL_ADV",
+      "roleName": "Permanent Secretary (Legal)",
+      "users": [
+        { "userId": "ZWE-004", "name": "Virginia Mabhiza", "email": "legal@justice.gov.zw" }
+      ]
+    }
+  ]
+}

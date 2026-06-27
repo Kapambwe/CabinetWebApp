@@ -1,0 +1,12 @@
+[
+  { "province": "Lusaka", "districts": [ "Lusaka", "Kafue", "Chongwe", "Luangwa", "Chilanga" ] },
+  { "province": "Copperbelt", "districts": [ "Ndola", "Kitwe", "Mufulira", "Chingola", "Luanshya", "Kalulushi" ] },
+  { "province": "Eastern", "districts": [ "Chipata", "Petauke", "Katete", "Lundazi", "Nyimba" ] },
+  { "province": "Northern", "districts": [ "Kasama", "Mbala", "Mpika", "Chinsali", "Mungwi" ] },
+  { "province": "Southern", "districts": [ "Livingstone", "Choma", "Monze", "Mazabuka", "Kalomo" ] },
+  { "province": "Western", "districts": [ "Mongu", "Kaoma", "Senanga", "Sesheke", "Kalabo" ] },
+  { "province": "Central", "districts": [ "Kabwe", "Mumbwa", "Serenje", "Mkushi", "Chibombo" ] },
+  { "province": "North-Western", "districts": [ "Solwezi", "Mwinilunga", "Kasempa", "Zambezi", "Kabompo" ] },
+  { "province": "Luapula", "districts": [ "Mansa", "Samfya", "Nchelenge", "Kawambwa", "Mwense" ] },
+  { "province": "Muchinga", "districts": [ "Chinsali", "Isoka", "Mpika", "Shiwang'andu", "Nakonde" ] }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "tenderId": "TEN-2026-002",
+    "referenceNumber": "ZPPA/MOE/2026/05",
+    "title": "100MW Solar Park Development",
+    "description": "Design and construction of grid-scale solar facility in Central Province.",
+    "procuringEntity": "Ministry of Energy / ZESCO",
+    "district": "Kafue",
+    "estimatedValue": 85000000.0,
+    "currentStage": 1,
+    "status": 1,
+    "dateInitiated": "2026-02-01T00:00:00",
+    "plannedAwardDate": "2026-08-01T00:00:00",
+    "priorityArea": "Energy Resilience",
+    "timeline": [
+      { "stage": 0, "plannedDate": "2026-02-01T00:00:00", "actualDate": "2026-02-05T00:00:00", "remarks": "Cabinet approval received" },
+      { "stage": 1, "plannedDate": "2026-03-01T00:00:00", "actualDate": "2026-04-15T00:00:00", "remarks": "Delayed advertisement due to technical spec review" }
+    ],
+    "bidders": [],
+    "committeeMeetings": [
+      {
+        "meetingId": "MTG-MOE-01",
+        "meetingDate": "2026-02-25T14:00:00",
+        "subject": "Pre-bid Specification Review",
+        "venue": "ZESCO Boardroom",
+        "minutesSummary": "Discussion on technical requirements for the 100MW solar park.",
+        "decisionOutcome": "Specifications amended to include battery storage requirements.",
+        "quorumMet": true,
+        "attendees": [
+          { "name": "Mary Tembo", "position": "Director of Energy", "ministry": "MOE", "isPresent": true },
+          { "name": "Peter Nkonde", "position": "Project Manager", "ministry": "ZESCO", "isPresent": true }
+        ]
+      }
+    ]
+  }
+]

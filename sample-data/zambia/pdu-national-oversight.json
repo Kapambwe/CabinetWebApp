@@ -1,0 +1,216 @@
+{
+  "reportDate": "2026-06-07T00:00:00Z",
+  "nationalAverageProgress": 74.5,
+  "provincialBreakdown": [
+    {
+      "provinceName": "Lusaka",
+      "overallHealthScore": 88,
+      "activeProjects": 34,
+      "delayedProjects": 4,
+      "priorityStatuses": {
+        "FoodSecurity": "OnTrack",
+        "QualityHealthcare": "OnTrack",
+        "CDF": "OnTrack",
+        "Mining": "OnTrack",
+        "DigitalInclusion": "AtRisk",
+        "Livestock": "OnTrack",
+        "DigitalIdentity": "OnTrack",
+        "DrugSupply": "OnTrack",
+        "TradeFacilitation": "AtRisk",
+        "EnergyResilience": "OnTrack",
+        "Infrastructure": "AtRisk"
+      }
+    },
+    {
+      "provinceName": "Copperbelt",
+      "overallHealthScore": 92,
+      "activeProjects": 31,
+      "delayedProjects": 3,
+      "priorityStatuses": {
+        "FoodSecurity": "OnTrack",
+        "QualityHealthcare": "OnTrack",
+        "CDF": "OnTrack",
+        "Mining": "OnTrack",
+        "DigitalInclusion": "OnTrack",
+        "Livestock": "OnTrack",
+        "DigitalIdentity": "OnTrack",
+        "DrugSupply": "OnTrack",
+        "TradeFacilitation": "AtRisk",
+        "EnergyResilience": "OnTrack",
+        "Infrastructure": "OnTrack"
+      }
+    },
+    {
+      "provinceName": "Eastern",
+      "overallHealthScore": 76,
+      "activeProjects": 27,
+      "delayedProjects": 6,
+      "priorityStatuses": {
+        "FoodSecurity": "AtRisk",
+        "QualityHealthcare": "OnTrack",
+        "CDF": "OnTrack",
+        "Mining": "NotStarted",
+        "DigitalInclusion": "AtRisk",
+        "Livestock": "OnTrack",
+        "DigitalIdentity": "OnTrack",
+        "DrugSupply": "AtRisk",
+        "TradeFacilitation": "OnTrack",
+        "EnergyResilience": "OnTrack",
+        "Infrastructure": "AtRisk"
+      }
+    },
+    {
+      "provinceName": "Western",
+      "overallHealthScore": 71,
+      "activeProjects": 24,
+      "delayedProjects": 7,
+      "priorityStatuses": {
+        "FoodSecurity": "AtRisk",
+        "QualityHealthcare": "AtRisk",
+        "CDF": "OnTrack",
+        "Mining": "NotStarted",
+        "DigitalInclusion": "AtRisk",
+        "Livestock": "OnTrack",
+        "DigitalIdentity": "AtRisk",
+        "DrugSupply": "AtRisk",
+        "TradeFacilitation": "OnTrack",
+        "EnergyResilience": "OnTrack",
+        "Infrastructure": "AtRisk"
+      }
+    },
+    {
+      "provinceName": "Northern",
+      "overallHealthScore": 73,
+      "activeProjects": 25,
+      "delayedProjects": 6,
+      "priorityStatuses": {
+        "FoodSecurity": "AtRisk",
+        "QualityHealthcare": "OnTrack",
+        "CDF": "OnTrack",
+        "Mining": "NotStarted",
+        "DigitalInclusion": "AtRisk",
+        "Livestock": "OnTrack",
+        "DigitalIdentity": "OnTrack",
+        "DrugSupply": "AtRisk",
+        "TradeFacilitation": "OnTrack",
+        "EnergyResilience": "OnTrack",
+        "Infrastructure": "AtRisk"
+      }
+    },
+    {
+      "provinceName": "Luapula",
+      "overallHealthScore": 74,
+      "activeProjects": 23,
+      "delayedProjects": 6,
+      "priorityStatuses": {
+        "FoodSecurity": "AtRisk",
+        "QualityHealthcare": "OnTrack",
+        "CDF": "OnTrack",
+        "Mining": "NotStarted",
+        "DigitalInclusion": "AtRisk",
+        "Livestock": "OnTrack",
+        "DigitalIdentity": "OnTrack",
+        "DrugSupply": "AtRisk",
+        "TradeFacilitation": "OnTrack",
+        "EnergyResilience": "OnTrack",
+        "Infrastructure": "AtRisk"
+      }
+    },
+    {
+      "provinceName": "Central",
+      "overallHealthScore": 80,
+      "activeProjects": 29,
+      "delayedProjects": 5,
+      "priorityStatuses": {
+        "FoodSecurity": "OnTrack",
+        "QualityHealthcare": "OnTrack",
+        "CDF": "OnTrack",
+        "Mining": "OnTrack",
+        "DigitalInclusion": "OnTrack",
+        "Livestock": "OnTrack",
+        "DigitalIdentity": "OnTrack",
+        "DrugSupply": "OnTrack",
+        "TradeFacilitation": "OnTrack",
+        "EnergyResilience": "OnTrack",
+        "Infrastructure": "AtRisk"
+      }
+    },
+    {
+      "provinceName": "North-Western",
+      "overallHealthScore": 69,
+      "activeProjects": 20,
+      "delayedProjects": 8,
+      "priorityStatuses": {
+        "FoodSecurity": "AtRisk",
+        "QualityHealthcare": "AtRisk",
+        "CDF": "OnTrack",
+        "Mining": "OnTrack",
+        "DigitalInclusion": "AtRisk",
+        "Livestock": "OnTrack",
+        "DigitalIdentity": "AtRisk",
+        "DrugSupply": "AtRisk",
+        "TradeFacilitation": "AtRisk",
+        "EnergyResilience": "OnTrack",
+        "Infrastructure": "AtRisk"
+      }
+    },
+    {
+      "provinceName": "Muchinga",
+      "overallHealthScore": 70,
+      "activeProjects": 21,
+      "delayedProjects": 7,
+      "priorityStatuses": {
+        "FoodSecurity": "AtRisk",
+        "QualityHealthcare": "OnTrack",
+        "CDF": "OnTrack",
+        "Mining": "NotStarted",
+        "DigitalInclusion": "AtRisk",
+        "Livestock": "OnTrack",
+        "DigitalIdentity": "OnTrack",
+        "DrugSupply": "AtRisk",
+        "TradeFacilitation": "OnTrack",
+        "EnergyResilience": "OnTrack",
+        "Infrastructure": "AtRisk"
+      }
+    },
+    {
+      "provinceName": "Southern",
+      "overallHealthScore": 83,
+      "activeProjects": 28,
+      "delayedProjects": 4,
+      "priorityStatuses": {
+        "FoodSecurity": "OnTrack",
+        "QualityHealthcare": "OnTrack",
+        "CDF": "OnTrack",
+        "Mining": "NotStarted",
+        "DigitalInclusion": "OnTrack",
+        "Livestock": "OnTrack",
+        "DigitalIdentity": "OnTrack",
+        "DrugSupply": "OnTrack",
+        "TradeFacilitation": "OnTrack",
+        "EnergyResilience": "OnTrack",
+        "Infrastructure": "AtRisk"
+      }
+    }
+  ],
+  "criticalEscalations": [
+    {
+      "description": "MRI Procurement delayed in Eastern Province due to spec conflict",
+      "actor": "MOH Procurement",
+      "date": "2026-06-05T12:00:00Z",
+      "priorityArea": "QualityHealthcare"
+    },
+    {
+      "description": "Maize moisture content high in Southern Province, storage at capacity",
+      "actor": "FRA Inspector",
+      "date": "2026-06-06T12:00:00Z",
+      "priorityArea": "FoodSecurity"
+    },
+    {
+      "description": "Bridge structural failure reported on Lusaka-Mongu road",
+      "actor": "RDA Inspector",
+      "date": "2026-06-07T00:00:00Z",
+      "priorityArea": "Infrastructure"
+    }
+  ]
+}

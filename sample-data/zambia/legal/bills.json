@@ -1,0 +1,117 @@
+[
+  {
+    "BillId": "BILL-001",
+    "Title": "Public Procurement Amendment Bill",
+    "SponsoringMinistry": "Ministry of Finance",
+    "CurrentStage": "CommitteeStage",
+    "RiskLevel": "High",
+    "IntroducedDate": "2026-04-02T00:00:00Z",
+    "ExpectedCommencementDate": "2026-08-21T00:00:00Z",
+    "PolicyObjective": "Strengthen procurement transparency and beneficial ownership disclosure.",
+    "Risks": [
+      {
+        "RiskId": "LR-001",
+        "Category": "Implementation",
+        "Level": "High",
+        "Description": "Backend registers are not yet integrated for ownership checks.",
+        "Mitigation": "Phase commencement by procurement category."
+      }
+    ],
+    "Obligations": [
+      {
+        "ObligationId": "OBL-001",
+        "Description": "Publish procurement beneficial ownership regulations",
+        "ResponsibleInstitution": "Ministry of Finance",
+        "DueDate": "2026-09-10T00:00:00Z",
+        "Status": "Pending"
+      }
+    ]
+  },
+  {
+    "BillId": "BILL-002",
+    "Title": "Critical Infrastructure Protection Bill",
+    "SponsoringMinistry": "Ministry of Home Affairs",
+    "CurrentStage": "CabinetReview",
+    "RiskLevel": "Medium",
+    "IntroducedDate": "2026-05-02T00:00:00Z",
+    "ExpectedCommencementDate": "2026-09-19T00:00:00Z",
+    "PolicyObjective": "Create legal basis for strategic asset classification and protection duties.",
+    "Risks": [
+      {
+        "RiskId": "LR-002",
+        "Category": "Constitutional",
+        "Level": "Medium",
+        "Description": "Information restriction clauses require rights-balancing review.",
+        "Mitigation": "Add public interest and appeal safeguards."
+      },
+      {
+        "RiskId": "LR-003",
+        "Category": "Operational",
+        "Level": "Low",
+        "Description": "Agency coordination may slow designation of protected assets.",
+        "Mitigation": "Publish standard inter-agency templates and thresholds."
+      }
+    ],
+    "Obligations": [
+      {
+        "ObligationId": "OBL-002",
+        "Description": "Issue implementation guidelines for protected asset classification",
+        "ResponsibleInstitution": "Ministry of Home Affairs",
+        "DueDate": "2026-10-01T00:00:00Z",
+        "Status": "Draft"
+      }
+    ]
+  },
+  {
+    "BillId": "BILL-003",
+    "Title": "Cybersecurity Incident Reporting Bill",
+    "SponsoringMinistry": "Ministry of Technology and Science",
+    "CurrentStage": "Drafting",
+    "RiskLevel": "Medium",
+    "IntroducedDate": "2026-05-17T00:00:00Z",
+    "ExpectedCommencementDate": null,
+    "PolicyObjective": "Require critical operators to report cyber incidents within statutory timelines.",
+    "Risks": [
+      {
+        "RiskId": "LR-004",
+        "Category": "Implementation",
+        "Level": "Medium",
+        "Description": "Reporting thresholds need alignment with sector-specific regulators.",
+        "Mitigation": "Align the bill schedule with regulator guidance notes."
+      }
+    ],
+    "Obligations": []
+  },
+  {
+    "BillId": "BILL-004",
+    "Title": "Public Private Partnership Bill, 2023",
+    "SponsoringMinistry": "Ministry of Finance",
+    "CurrentStage": "CabinetReview",
+    "RiskLevel": "High",
+    "IntroducedDate": "2023-07-28T00:00:00Z",
+    "ExpectedCommencementDate": "2026-12-01T00:00:00Z",
+    "PolicyObjective": "Promote infrastructure development through structured PPPs.",
+    "Risks": [
+      {
+        "RiskId": "LR-005",
+        "Category": "Fiscal",
+        "Level": "High",
+        "Description": "Contingent liabilities from guarantees need Treasury approval.",
+        "Mitigation": "Mandatory fiscal risk assessment by Treasury."
+      }
+    ],
+    "Obligations": []
+  },
+  {
+    "BillId": "BILL-005",
+    "Title": "Constituency Development Fund (Amendment) Bill, 2023",
+    "SponsoringMinistry": "Ministry of Local Government",
+    "CurrentStage": "ParliamentFirstReading",
+    "RiskLevel": "Medium",
+    "IntroducedDate": "2023-11-15T00:00:00Z",
+    "ExpectedCommencementDate": "2026-01-01T00:00:00Z",
+    "PolicyObjective": "Streamline CDF project approvals and community participation.",
+    "Risks": [],
+    "Obligations": []
+  }
+]

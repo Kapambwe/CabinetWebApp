@@ -1,0 +1,3 @@
+[
+  { "hospitalId": "HOS-001", "equipmentTypes": [ "X-Ray", "CT Scanner" ], "correlationFactor": "Power fluctuations in Western District." }
+]

@@ -1,0 +1,5 @@
+[
+  { "testId": "TEST-001", "ruleId": "RULE-001", "result": "Exceptions Found", "recordsTested": 24, "exceptionsFound": 1, "testedAt": "2026-06-06T00:00:00" },
+  { "testId": "TEST-002", "ruleId": "RULE-002", "result": "Exceptions Found", "recordsTested": 18, "exceptionsFound": 1, "testedAt": "2026-06-06T00:00:00" },
+  { "testId": "TEST-003", "ruleId": "RULE-003", "result": "Exceptions Found", "recordsTested": 8, "exceptionsFound": 1, "testedAt": "2026-06-06T00:00:00" }
+]

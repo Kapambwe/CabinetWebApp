@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Energy Crisis: Load Shedding Exceeding 8 Hours in Western Province",
+    "message": "Western Province experiencing extended load shedding due to low Kariba Dam water levels. ZESCO implementing emergency rationing protocols affecting 25,000 households.",
+    "severity": 3,
+    "priorityArea": 9,
+    "createdDate": "2025-12-15T08:30:00Z",
+    "isRead": false,
+    "source": "Ministry of Energy",
+    "actionRequired": "Expedite deployment of emergency diesel generators and accelerate Serenje Solar Farm commissioning."
+  },
+  {
+    "id": 2,
+    "title": "CDF Utilization Below 50% in 28 Constituencies",
+    "message": "28 constituencies in Northern, Luapula, and Muchinga provinces have CDF utilization rates below 50%. Technical support teams recommended for deployment.",
+    "severity": 1,
+    "priorityArea": 2,
+    "createdDate": "2025-12-10T14:20:00Z",
+    "isRead": false,
+    "source": "Ministry of Local Government and Rural Development",
+    "actionRequired": "Deploy CDF technical support officers and fast-track procurement approvals in underperforming constituencies."
+  },
+  {
+    "id": 3,
+    "title": "Drug Supply: Chronic Disease Medicines Below 70% Threshold",
+    "message": "Essential chronic disease medicines (diabetes, hypertension) availability has dropped to 68% in 4 provinces due to supply chain disruptions. ZAMMSA coordinating emergency procurement.",
+    "severity": 2,
+    "priorityArea": 7,
+    "createdDate": "2025-12-08T11:45:00Z",
+    "isRead": true,
+    "source": "Ministry of Health / ZAMMSA",
+    "actionRequired": "Authorize emergency procurement of chronic disease medicines and activate regional distribution hubs."
+  },
+  {
+    "id": 4,
+    "title": "Foot-and-Mouth Disease Outbreak Near Namwala Compartment",
+    "message": "Suspected FMD outbreak detected 15km from Namwala disease-free compartment boundary. Veterinary response team deployed. Movement restrictions imposed in affected area.",
+    "severity": 3,
+    "priorityArea": 5,
+    "createdDate": "2025-12-12T06:15:00Z",
+    "isRead": false,
+    "source": "Ministry of Fisheries and Livestock",
+    "actionRequired": "Implement emergency vaccination ring around Namwala compartment and enforce 30-day movement ban."
+  },
+  {
+    "id": 5,
+    "title": "INRIS System Downtime Scheduled for Maintenance",
+    "message": "INRIS digital identity system scheduled for 48-hour maintenance window from December 20-22. All registration centers will be temporarily offline. Daily registrations of 8,500 will be affected.",
+    "severity": 0,
+    "priorityArea": 6,
+    "createdDate": "2025-12-14T09:00:00Z",
+    "isRead": true,
+    "source": "Ministry of Home Affairs and Internal Security",
+    "actionRequired": "Notify all provincial registration centers and prepare offline registration backup procedures."
+  },
+  {
+    "id": 6,
+    "title": "Copper Production Milestone: KCM Exceeds Monthly Target",
+    "message": "Konkola Copper Mines reported 8,500 tonnes monthly production in November 2025, exceeding the 7,000-tonne monthly target. Year-on-year increase of 366% confirmed.",
+    "severity": 0,
+    "priorityArea": 3,
+    "createdDate": "2025-12-05T16:30:00Z",
+    "isRead": true,
+    "source": "Ministry of Mines and Minerals Development",
+    "actionRequired": "None - positive development. Update quarterly production dashboard."
+  },
+  {
+    "id": 7,
+    "title": "Infrastructure: Lusaka-Ndola Dual Carriageway Contractor Delays",
+    "message": "Phase 2 of the Lusaka-Ndola Dual Carriageway experiencing 3-month delay due to contractor financing challenges. Current completion at 32% against 40% planned.",
+    "severity": 2,
+    "priorityArea": 10,
+    "createdDate": "2025-12-11T13:00:00Z",
+    "isRead": false,
+    "source": "Ministry of Infrastructure, Housing and Urban Development",
+    "actionRequired": "Convene project steering committee meeting and review contractor payment schedule restructuring."
+  },
+  {
+    "id": 8,
+    "title": "Digital Hubs: Connectivity Issues in 12 Rural Hubs",
+    "message": "12 ZamPost digital hubs in Western and North-Western provinces experiencing intermittent connectivity due to fibre optic cable damage. Estimated 15,000 citizens affected.",
+    "severity": 1,
+    "priorityArea": 4,
+    "createdDate": "2025-12-13T10:15:00Z",
+    "isRead": false,
+    "source": "Ministry of Technology and Science / ZICTA",
+    "actionRequired": "Coordinate with ZICTA and Zamtel for emergency fibre repair and deploy satellite backup connectivity."
+  },
+  {
+    "id": 9,
+    "title": "FISP 2025/26 Season: 98.5% E-Voucher Redemption Achieved",
+    "message": "Farmer Input Support Programme achieved 98.5% e-voucher redemption rate for the 2025/26 farming season, with 1,000,000 farmers receiving inputs through 973 registered agro-dealers.",
+    "severity": 0,
+    "priorityArea": 0,
+    "createdDate": "2025-12-02T08:00:00Z",
+    "isRead": true,
+    "source": "Ministry of Agriculture",
+    "actionRequired": "None - programme target exceeded. Prepare end-of-season distribution report."
+  },
+  {
+    "id": 10,
+    "title": "Nakonde Border Post Construction Ahead of Schedule",
+    "message": "Nakonde One-Stop Border Post construction reached 55% completion, 5% ahead of the revised schedule. Tanzania counterpart construction also on track for March 2027 completion.",
+    "severity": 0,
+    "priorityArea": 8,
+    "createdDate": "2025-12-09T15:45:00Z",
+    "isRead": true,
+    "source": "Ministry of Commerce, Trade and Industry",
+    "actionRequired": "None - positive development. Continue monthly progress monitoring."
+  }
+]

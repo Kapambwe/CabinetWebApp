@@ -1,0 +1,151 @@
+{
+  "Zones": [
+    { 
+      "ZoneId": "Z001", 
+      "Name": "Lusaka South MFEZ", 
+      "Province": "Lusaka", 
+      "District": "Lusaka",
+      "OccupancyRate": 85.5, 
+      "InvestorCommitmentsUsd": 245000000,
+      "JobsCreated": 1500,
+      "ExportOutputUsd": 45000000,
+      "RiskLevel": "Low",
+      "ComplianceStatus": "Compliant",
+      "PrimaryConstraint": "Energy Load Shedding"
+    },
+    { "ZoneId": "Z002", "Name": "Copperbelt MFEZ", "Province": "Copperbelt", "District": "Chambishi", "OccupancyRate": 70, "JobsCreated": 2200 },
+    { "ZoneId": "Z003", "Name": "Chambishi MFEZ", "Province": "Copperbelt", "District": "Kalulushi", "OccupancyRate": 90, "JobsCreated": 3000 },
+    { "ZoneId": "Z004", "Name": "Solwezi Industrial Park", "Province": "North-Western", "District": "Solwezi", "OccupancyRate": 60, "JobsCreated": 800 },
+    { "ZoneId": "Z005", "Name": "Livingstone Industrial Park", "Province": "Southern", "District": "Livingstone", "OccupancyRate": 55, "JobsCreated": 450 }
+  ],
+  "Factories": [
+    { "FactoryId": "F001", "Name": "Zambia Sugar PLC", "Sector": "Agro-processing", "Province": "Southern", "ActualOutput": 850, "InstalledCapacity": 1000, "UptimeRate": 0.95, "MainConstraint": "Raw material supply", "RiskLevel": "Medium" },
+    { "FactoryId": "F002", "Name": "Chilanga Cement", "Sector": "Construction", "Province": "Lusaka", "ActualOutput": 900, "InstalledCapacity": 950, "UptimeRate": 0.98, "MainConstraint": "Energy cost", "RiskLevel": "Low" },
+    { "FactoryId": "F003", "Name": "Dairy Gold", "Sector": "Agro-processing", "Province": "Lusaka", "ActualOutput": 400, "InstalledCapacity": 600, "UptimeRate": 0.85, "MainConstraint": "Cold chain logistics", "RiskLevel": "High" },
+    { "FactoryId": "F004", "Name": "Copperbelt Steel", "Sector": "Manufacturing", "Province": "Copperbelt", "ActualOutput": 300, "InstalledCapacity": 500, "UptimeRate": 0.75, "MainConstraint": "Scrap metal availability", "RiskLevel": "Medium" },
+    { "FactoryId": "F005", "Name": "Zambia Breweries", "Sector": "Manufacturing", "Province": "Lusaka", "ActualOutput": 950, "InstalledCapacity": 980, "UptimeRate": 0.99, "MainConstraint": "Water quality", "RiskLevel": "Low" }
+  ],
+  "Smes": [
+    { "SmeId": "S001", "Name": "Lusaka Green Tech", "Sector": "Tech", "Province": "Lusaka", "Employees": 15, "MonthlyTurnover": 250000, "RegistrationStatus": "Active", "CreditScore": 750, "ExportReadiness": 0.45 },
+    { "SmeId": "S002", "Name": "Copperbelt Logistics", "Sector": "Logistics", "Province": "Copperbelt", "Employees": 25, "MonthlyTurnover": 450000, "RegistrationStatus": "Active", "CreditScore": 650, "ExportReadiness": 0.30 },
+    { "SmeId": "S003", "Name": "Southern Agro Solutions", "Sector": "Agro", "Province": "Southern", "Employees": 10, "MonthlyTurnover": 180000, "RegistrationStatus": "Active", "CreditScore": 800, "ExportReadiness": 0.60 },
+    { "SmeId": "S004", "Name": "North-Western Supplies", "Sector": "Trading", "Province": "North-Western", "Employees": 8, "MonthlyTurnover": 120000, "RegistrationStatus": "Review", "CreditScore": 700, "ExportReadiness": 0.20 },
+    { "SmeId": "S005", "Name": "Eastern Artisans", "Sector": "Manufacturing", "Province": "Eastern", "Employees": 12, "MonthlyTurnover": 95000, "RegistrationStatus": "Active", "CreditScore": 600, "ExportReadiness": 0.15 }
+  ],
+  "Investments": [
+    { 
+      "ProjectId": "I001", "ProjectName": "Solar Farm Project", "Investor": "SunPower", "Sector": "Energy", "PipelineStage": "Implementation", "RelationshipOwner": "Ministry of Energy", 
+      "CommitmentUsd": 5000000, "JobsPledged": 200, "JobsCreated": 45, "Status": "Active", "LandStatus": "Secured", "EnergyStatus": "Connected", "LicensingStatus": "Complete", 
+      "IncentiveStatus": "Approved", "Bottleneck": "None", "RiskLevel": "Low" 
+    },
+    { "ProjectId": "I002", "ProjectName": "New Processing Plant", "Investor": "GlobalAgro", "Sector": "Agro-processing", "PipelineStage": "Pre-Feasibility", "CommitmentUsd": 12000000, "RiskLevel": "Medium", "Status": "Review" },
+    { "ProjectId": "I003", "ProjectName": "Logistics Hub", "Investor": "TransAfrica", "Sector": "Logistics", "PipelineStage": "Approval", "CommitmentUsd": 8000000, "RiskLevel": "Low", "Status": "Approved" },
+    { "ProjectId": "I004", "ProjectName": "Mining Tech Upgrades", "Investor": "MineCorp", "Sector": "Mining", "PipelineStage": "Exploration", "CommitmentUsd": 15000000, "RiskLevel": "High", "Status": "Critical" },
+    { "ProjectId": "I005", "ProjectName": "Water Treatment Facility", "Investor": "AquaPure", "Sector": "Utilities", "PipelineStage": "Feasibility", "CommitmentUsd": 3000000, "RiskLevel": "Medium", "Status": "Pending" }
+  ],
+  "SubstitutionOpportunities": [
+    { "OpportunityId": "SUB-001", "Product": "Nitrogenous Fertilizer", "ImportDependencyRate": 95.0, "ForexLeakageUsd": 180000000, "LocalProductionPotentialRate": 40.0, "TimeToSubstitutionMonths": 24, "PriorityDistricts": "Chambishi, Kafue" },
+    { "OpportunityId": "SUB-002", "Product": "Solar PV Modules", "ImportDependencyRate": 100.0, "ForexLeakageUsd": 45000000, "LocalProductionPotentialRate": 60.0, "TimeToSubstitutionMonths": 12, "PriorityDistricts": "Lusaka South MFEZ" },
+    { "OpportunityId": "SUB-003", "Product": "Industrial Chemicals", "ImportDependencyRate": 85.0, "ForexLeakageUsd": 60000000, "LocalProductionPotentialRate": 30.0, "TimeToSubstitutionMonths": 18, "PriorityDistricts": "Ndola, Kitwe" },
+    { "OpportunityId": "SUB-004", "Product": "Edible Oils (Soya/Sunflower)", "ImportDependencyRate": 70.0, "ForexLeakageUsd": 90000000, "LocalProductionPotentialRate": 85.0, "TimeToSubstitutionMonths": 14, "PriorityDistricts": "Mkushi, Mpongwe" },
+    { "OpportunityId": "SUB-005", "Product": "Light Electrical Goods", "ImportDependencyRate": 90.0, "ForexLeakageUsd": 35000000, "LocalProductionPotentialRate": 50.0, "TimeToSubstitutionMonths": 10, "PriorityDistricts": "Lusaka, Kitwe" }
+  ],
+  "ExportMarkets": [
+    { "MarketId": "EXP-001", "Destination": "DR Congo", "ProductCategory": "Beef & Agro-products", "ExportValueUsd": 125000000, "GrowthRate": 15.5, "MarketAccessRequirement": "SPS Certification" },
+    { "MarketId": "EXP-002", "Destination": "USA (AGOA)", "ProductCategory": "Textiles & Hand-picked Honey", "ExportValueUsd": 12000000, "GrowthRate": 8.2, "MarketAccessRequirement": "Social Compliance / AGOA Visa" },
+    { "MarketId": "EXP-003", "Destination": "European Union", "ProductCategory": "Organic Blueberries", "ExportValueUsd": 28000000, "GrowthRate": 22.0, "MarketAccessRequirement": "GlobalGAP / Organic Cert" },
+    { "MarketId": "EXP-004", "Destination": "South Africa", "ProductCategory": "Processed Foods", "ExportValueUsd": 55000000, "GrowthRate": 5.0, "MarketAccessRequirement": "Retail Quality Standards" }
+  ],
+  "ZeroTariffOpportunities": [
+    { "OpportunityId": "ZERO-001", "Market": "Nigeria (AfCFTA)", "Product": "Copper Cables", "Agreement": "AfCFTA", "PotentialExportValueUsd": 45000000 },
+    { "OpportunityId": "ZERO-002", "Market": "Kenya (COMESA)", "Product": "Sugar & Confectionery", "Agreement": "COMESA FTA", "PotentialExportValueUsd": 30000000 },
+    { "OpportunityId": "ZERO-003", "Market": "China", "Product": "Value-added Minerals", "Agreement": "Duty-Free Treatment", "PotentialExportValueUsd": 150000000 }
+  ],
+  "ForexReceipts": [
+    { "ReceiptId": "FRX-001", "Exporter": "Kansanshi Mining PLC", "ReceiptValueUsd": 450000000, "RetentionRate": 100.0, "CurrencyRisk": "Low" },
+    { "ReceiptId": "FRX-002", "Exporter": "Zambeef Products", "ReceiptValueUsd": 12000000, "RetentionRate": 100.0, "CurrencyRisk": "Medium" },
+    { "ReceiptId": "FRX-003", "Exporter": "Metal Fabricators (ZAMEFA)", "ReceiptValueUsd": 35000000, "RetentionRate": 100.0, "CurrencyRisk": "Low" }
+  ],
+  "MarketReadinesses": [
+    { "EntityId": "F001", "Market": "Regional (SADC)", "ReadinessScore": 92.0, "ComplianceGap": "None" },
+    { "EntityId": "F003", "Market": "EU (Dairy)", "ReadinessScore": 65.0, "ComplianceGap": "Sanitary standards alignment" },
+    { "EntityId": "S005", "Market": "Global (Artisanal)", "ReadinessScore": 45.0, "ComplianceGap": "Packaging & Branding" }
+  ],
+  "CorridorPerformances": [
+    { "CorridorId": "COR-001", "CorridorName": "Lobito Atlantic Rail", "AverageTransitHours": 72.0, "LogisticsCostIndex": 0.85, "MainBottleneck": "Rolling stock availability" },
+    { "CorridorId": "COR-002", "CorridorName": "Dar-es-Salaam Road", "AverageTransitHours": 168.0, "LogisticsCostIndex": 1.25, "MainBottleneck": "Nakonde border congestion" },
+    { "CorridorId": "COR-003", "CorridorName": "Beira Corridor", "AverageTransitHours": 120.0, "LogisticsCostIndex": 1.10, "MainBottleneck": "Port terminal efficiency" }
+  ],
+  "Farmers": [
+    { "FarmerId": "FAR-001", "Name": "Central Soya Outgrowers", "Province": "Central", "District": "Mkushi", "Crop": "Soya Beans", "YieldPerHectare": 2.8, "MarginPerHectare": 4500, "ProcessorLinkage": "260 Brands" },
+    { "FarmerId": "FAR-002", "Name": "Western Livestock Cluster", "Province": "Western", "District": "Mongu", "Crop": "Beef", "YieldPerHectare": 0, "MarginPerHectare": 1200, "ProcessorLinkage": "Zambeef" },
+    { "FarmerId": "FAR-003", "Name": "Southern Grain Group", "Province": "Southern", "District": "Choma", "Crop": "Maize", "YieldPerHectare": 5.5, "MarginPerHectare": 3200, "ProcessorLinkage": "National Milling" }
+  ],
+  "CropMargins": [
+    { "FarmerId": "FAR-001", "Crop": "Soya Beans", "GrossMarginPerHectare": 4500, "MarketPriceRealizationRate": 92.0 },
+    { "FarmerId": "FAR-003", "Crop": "Maize", "GrossMarginPerHectare": 3200, "MarketPriceRealizationRate": 85.0 }
+  ],
+  "InputAccesses": [
+    { "FarmerId": "FAR-001", "InputType": "Certified Seed", "AccessRate": 95.0, "Constraint": "None" },
+    { "FarmerId": "FAR-003", "InputType": "Fertilizer", "AccessRate": 60.0, "Constraint": "Logistics delays" }
+  ],
+  "AggregationRoutes": [
+    { "RouteId": "R-MKU-01", "District": "Mkushi", "Aggregator": "Mkushi Aggregation Hub", "Processor": "260 Brands", "AverageTransitHours": 4.5 }
+  ],
+  "ProcessorLinkages": [
+    { "LinkageId": "LNK-001", "Processor": "260 Brands", "Product": "Soya Flour/Milk", "LinkedFarmers": 1250, "ContractFulfilmentRate": 88.5 },
+    { "LinkageId": "LNK-002", "Processor": "Zambeef", "Product": "Beef Processing", "LinkedFarmers": 3400, "ContractFulfilmentRate": 75.0 }
+  ],
+  "RevenueVariances": [
+    { "VarianceId": "REV-001", "Category": "Mining Royalties", "Target": 4500000000, "Actual": 4200000000, "LeakageSignal": "Under-reporting on gold by-products", "RiskLevel": "High" },
+    { "VarianceId": "REV-002", "Category": "Manufacturing CIT", "Target": 850000000, "Actual": 890000000, "LeakageSignal": "None", "RiskLevel": "Low" },
+    { "VarianceId": "REV-003", "Category": "Export Duties", "Target": 120000000, "Actual": 95000000, "LeakageSignal": "Smuggling at small border posts", "RiskLevel": "Medium" }
+  ],
+  "EmploymentMetrics": [
+    { "MetricId": "EMP-001", "Sector": "Agro-processing", "Province": "Central", "JobsCreated": 2500, "FemaleJobs": 1200, "YouthJobs": 1500, "EvidenceSource": "NAPSA / ZRA returns" },
+    { "MetricId": "EMP-002", "Sector": "Manufacturing", "Province": "Copperbelt", "JobsCreated": 4800, "FemaleJobs": 900, "YouthJobs": 2200, "EvidenceSource": "MFEZ returns" }
+  ],
+  "RevenueStreams": [
+    { "StreamId": "STR-001", "Category": "Direct Taxes", "Target": 5000000000, "Actual": 4850000000 },
+    { "StreamId": "STR-002", "Category": "Customs & Excise", "Target": 2500000000, "Actual": 2600000000 }
+  ],
+  "RoyaltyLeakageSignals": [
+    { "SignalId": "SIG-001", "Commodity": "Gold", "EstimatedLeakage": 15000000, "Signal": "Export volumes exceed verified production", "RiskLevel": "High" }
+  ],
+  "JobsCreatedEvidence": [
+    { "EvidenceId": "EVI-001", "SourceType": "NAPSA", "SourceId": "REG-2026-001", "JobsVerified": 1250, "VerificationMethod": "Contribution verification" }
+  ],
+  "FarmerContracts": [
+    { "ContractId": "FCON-001", "Aggregator": "Mkushi Hub", "Commodity": "Soya Beans", "Province": "Central", "FarmerCount": 5200, "ContractedVolumeTonnes": 15000, "DeliveredVolumeTonnes": 13200, "QualityAcceptanceRate": 94.0, "OnTimeDeliveryRate": 85.0, "PaymentCompletionRate": 98.0, "Buyer": "260 Brands", "MainBottleneck": "Moisture content management", "RiskLevel": "Low" },
+    { "ContractId": "FCON-002", "Aggregator": "Southern Grain", "Commodity": "Maize", "Province": "Southern", "FarmerCount": 8500, "ContractedVolumeTonnes": 45000, "DeliveredVolumeTonnes": 38000, "QualityAcceptanceRate": 88.0, "OnTimeDeliveryRate": 72.0, "PaymentCompletionRate": 100.0, "Buyer": "National Milling", "MainBottleneck": "Transport availability", "RiskLevel": "Medium" }
+  ],
+  "AggregationContracts": [
+    { "ContractId": "ACON-001", "ProductCategory": "Electrical Components", "LeadAggregator": "Lusaka SME Cluster", "SmallBusinessCount": 45, "ContractedUnits": 100000, "DeliveredUnits": 85000, "DefectRate": 1.2, "OnTimeDeliveryRate": 92.0, "LocalInputShare": 65.0, "Buyer": "LS MFEZ Tenant", "MainBottleneck": "Working capital constraints", "RiskLevel": "Medium" }
+  ],
+  "Bottlenecks": [
+    { "BottleneckId": "BOT-001", "SourceType": "Investment", "SourceId": "I001", "Category": "Energy", "Description": "11kV line upgrade delayed by utility provider", "ResponsibleInstitution": "ZESCO", "RecommendedAction": "Fast-track connection under MFEZ priority status", "RiskLevel": "High" },
+    { "BottleneckId": "BOT-002", "SourceType": "Manufacturing", "SourceId": "F001", "Category": "Logistics", "Description": "Shortage of specialized rail wagons for sugar export", "ResponsibleInstitution": "Zambia Railways", "RecommendedAction": "Reassign wagons from lower priority routes", "RiskLevel": "Medium" }
+  ],
+  "ProductionLines": [
+    { "LineId": "PL-001", "FactoryId": "F001", "Product": "Refined Sugar", "UtilizationRate": 92.5, "DowntimeHours": 12, "DowntimeCause": "Routine maintenance" }
+  ],
+  "InputConstraints": [
+    { "ConstraintId": "CON-001", "FactoryId": "F001", "Input": "Coal", "ConstraintType": "Supply", "SeverityScore": 0.3 }
+  ],
+  "ExportShipments": [
+    { "ShipmentId": "SHP-001", "MarketId": "EXP-001", "Product": "Frozen Beef", "Corridor": "Road", "ValueUsd": 250000, "Status": "At Border" }
+  ],
+  "TradeBarriers": [
+    { "BarrierId": "BAR-001", "Market": "South Africa", "BarrierType": "Technical", "Description": "Specific labelling requirements for processed foods", "RiskLevel": "Medium" }
+  ],
+  "FinanceRequests": [
+    { "RequestId": "REQ-001", "SmeId": "S001", "AmountRequested": 500000, "FinanceType": "Working Capital", "Status": "In Review" }
+  ],
+  "CorridorMetrics": [
+    { "CorridorId": "COR-001", "Name": "Lobito", "FreightCostIndex": 0.85, "BorderDelayHours": 4.0, "EnergyReliabilityRate": 98.0, "Bottleneck": "Rolling stock" }
+  ],
+  "LogisticsDelays": [
+    { "DelayId": "DLY-001", "Corridor": "Dar Corridor", "Node": "Nakonde Border", "Cause": "System failure at customs", "DelayHours": 48.0, "RiskLevel": "Critical" },
+    { "DelayId": "DLY-002", "Corridor": "Southern Corridor", "Node": "Chirundu Bridge", "Cause": "Heavy traffic volume", "DelayHours": 12.0, "RiskLevel": "Medium" }
+  ]
+}

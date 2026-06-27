@@ -1,0 +1,6 @@
+[
+  { "hospitalId": "HOS-001", "name": "University Teaching Hospital", "type": "Specialist", "province": "Lusaka", "district": "Lusaka", "constituency": "Lusaka Central", "ward": "Kamwala", "bedCapacity": 1600, "bedOccupancy": 1380, "drugAvailability": 85.0, "mortalityRate": 4.2 },
+  { "hospitalId": "HOS-002", "name": "Ndola Central Hospital", "type": "General", "province": "Copperbelt", "district": "Ndola", "constituency": "Ndola Central", "ward": "Ward 6", "bedCapacity": 600, "bedOccupancy": 520, "drugAvailability": 78.0, "mortalityRate": 5.1 },
+  { "hospitalId": "HOS-003", "name": "Chipata General Hospital", "type": "General", "province": "Eastern", "district": "Chipata", "constituency": "Chipata Central", "ward": "Kapata", "bedCapacity": 280, "bedOccupancy": 245, "drugAvailability": 65.0, "mortalityRate": 6.8 },
+  { "hospitalId": "HOS-004", "name": "Kafue District Hospital", "type": "District", "province": "Lusaka", "district": "Kafue", "constituency": "Kafue Central", "ward": "Shikoswe", "bedCapacity": 120, "bedOccupancy": 95, "drugAvailability": 72.0, "mortalityRate": 4.5 }
+]

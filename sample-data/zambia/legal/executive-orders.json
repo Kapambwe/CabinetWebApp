@@ -1,0 +1,29 @@
+[
+  {
+    "orderId": "EO-001",
+    "title": "Enhanced Protection of Strategic Border Assets",
+    "subjectArea": "Security",
+    "responsibleMinistry": "Ministry of Home Affairs",
+    "status": "Legal Review",
+    "riskLevel": 2,
+    "draftedAt": "2026-05-31T00:00:00",
+    "approvalSteps": [
+      { "stepId": "EOS-001", "stepName": "Security Advisor Review", "approver": "Security Advisor", "approvedAt": "2026-06-01T00:00:00", "status": "Approved" },
+      { "stepId": "EOS-002", "stepName": "Attorney General Review", "approver": "Attorney General", "status": "Pending" }
+    ],
+    "assignments": [
+      { "assignmentId": "EOA-001", "institution": "ZRA", "actionRequired": "Implement enhanced border screening protocol", "dueDate": "2026-06-20T00:00:00", "status": "Pending" }
+    ]
+  },
+  {
+    "orderId": "EO-002",
+    "title": "Critical Corridor Patrol Coordination Directive",
+    "subjectArea": "Strategic Logistics",
+    "responsibleMinistry": "Ministry of Transport and Logistics",
+    "status": "Draft",
+    "riskLevel": 1,
+    "draftedAt": "2026-06-04T00:00:00",
+    "approvalSteps": [],
+    "assignments": []
+  }
+]

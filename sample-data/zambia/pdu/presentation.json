@@ -1,0 +1,82 @@
+{
+  "priorityPreviews": [
+    { "number": 1, "title": "Food Security", "ministry": "Agriculture", "icon": "bi bi-grain", "color": "#28a745" },
+    { "number": 2, "title": "Healthcare", "ministry": "Health", "icon": "bi bi-heart-pulse", "color": "#dc3545" },
+    { "number": 3, "title": "CDF", "ministry": "Local Government", "icon": "bi bi-building", "color": "#17a2b8" },
+    { "number": 4, "title": "Mining", "ministry": "Mines & Minerals", "icon": "bi bi-gem", "color": "#ffc107" },
+    { "number": 5, "title": "Digital Inclusion", "ministry": "Technology & Science", "icon": "bi bi-wifi", "color": "#6f42c1" },
+    { "number": 6, "title": "Livestock", "ministry": "Fisheries & Livestock", "icon": "bi bi-coin", "color": "#fd7e14" },
+    { "number": 7, "title": "Digital Identity", "ministry": "Home Affairs", "icon": "bi bi-person-badge", "color": "#20c997" },
+    { "number": 8, "title": "Drug Supply", "ministry": "Health", "icon": "bi bi-capsule", "color": "#e83e8c" },
+    { "number": 9, "title": "Trade Facilitation", "ministry": "Commerce & Trade", "icon": "bi bi-truck", "color": "#007bff" },
+    { "number": 10, "title": "Energy Resilience", "ministry": "Energy", "icon": "bi bi-lightning-charge", "color": "#ffc107" },
+    { "number": 11, "title": "Infrastructure", "ministry": "Infrastructure & Housing", "icon": "bi bi-hammer", "color": "#6c757d" }
+  ],
+  "nationalMapProjects": [
+    { "name": "Lusaka Farm Block Irrigation", "description": "500 hectares under irrigation", "priorityArea": 0, "province": "Lusaka", "district": "Chongwe", "constituency": "Chongwe Central", "ward": "Ward 1", "budgetKwacha": 45000000, "progress": 65, "status": "In Progress" },
+    { "name": "Copperbelt Wheat Production", "description": "Rain-fed wheat expansion", "priorityArea": 0, "province": "Copperbelt", "district": "Kitwe", "constituency": "Kitwe South", "ward": "Ward 4", "budgetKwacha": 32000000, "progress": 40, "status": "In Progress" },
+    { "name": "Southern Province Maize Storage", "description": "5000MT storage facility", "priorityArea": 0, "province": "Southern", "district": "Choma", "constituency": "Choma Central", "ward": "Ward 2", "budgetKwacha": 18000000, "progress": 85, "status": "Completed" },
+    { "name": "Lusaka Maternal Health Centre", "description": "100-bed maternity wing", "priorityArea": 1, "province": "Lusaka", "district": "Lusaka", "constituency": "Lusaka Central", "ward": "Kamwala", "budgetKwacha": 75000000, "progress": 70, "status": "In Progress" },
+    { "name": "Eastern Blood Collection Centre", "description": "Regional blood bank", "priorityArea": 1, "province": "Eastern", "district": "Chipata", "constituency": "Chipata Central", "ward": "Kapata", "budgetKwacha": 22000000, "progress": 90, "status": "Completed" },
+    { "name": "Kabwe Secondary School", "description": "4 classroom blocks + lab", "priorityArea": 2, "province": "Central", "district": "Kabwe", "constituency": "Kabwe Rural", "ward": "Ward 5", "budgetKwacha": 8500000, "progress": 55, "status": "In Progress" },
+    { "name": "Solwezi Community Health Post", "description": "Rural health post construction", "priorityArea": 2, "province": "North-Western", "district": "Solwezi", "constituency": "Solwezi East", "ward": "Ward 3", "budgetKwacha": 5200000, "progress": 75, "status": "In Progress" },
+    { "name": "Konkola Copper Mine Expansion", "description": "Production capacity increase", "priorityArea": 3, "province": "Copperbelt", "district": "Chililabombwe", "constituency": "Chililabombwe Central", "ward": "Ward 1", "budgetKwacha": 1250000000, "progress": 35, "status": "In Progress" },
+    { "name": "Lumwana Super Pit", "description": "Double production capacity", "priorityArea": 3, "province": "North-Western", "district": "Solwezi", "constituency": "Solwezi Central", "ward": "Ward 2", "budgetKwacha": 850000000, "progress": 28, "status": "In Progress" },
+    { "name": "Ndola-Sakania Road", "description": "120km road rehabilitation", "priorityArea": 10, "province": "Copperbelt", "district": "Ndola", "constituency": "Ndola Central", "ward": "Ward 6", "budgetKwacha": 320000000, "progress": 48, "status": "In Progress" },
+    { "name": "Lusaka-Kafue Railway", "description": "85km railway development", "priorityArea": 10, "province": "Lusaka", "district": "Kafue", "constituency": "Kafue Central", "ward": "Shikoswe", "budgetKwacha": 580000000, "progress": 22, "status": "In Progress" },
+    { "name": "Lusaka Solar Farm", "description": "100MW solar capacity", "priorityArea": 9, "province": "Lusaka", "district": "Lusaka", "constituency": "Lusaka West", "ward": "Ward 8", "budgetKwacha": 450000000, "progress": 60, "status": "In Progress" },
+    { "name": "Livingstone Mini Hydro", "description": "25MW hydroelectric", "priorityArea": 9, "province": "Southern", "district": "Livingstone", "constituency": "Livingstone Central", "ward": "Ward 1", "budgetKwacha": 180000000, "progress": 45, "status": "In Progress" }
+  ],
+  "sdgGoals": [
+    { "number": 1, "title": "No Poverty", "icon": "bi bi-piggy-bank", "color": "#E5243B", "progress": 45, "targetsOnTrack": 3, "totalTargets": 7, "pduPriorityLink": "CDF (#3), Food Security (#1)" },
+    { "number": 2, "title": "Zero Hunger", "icon": "bi bi-grain", "color": "#DDA63A", "progress": 48, "targetsOnTrack": 4, "totalTargets": 8, "pduPriorityLink": "Food Security (#1), Livestock (#6)" },
+    { "number": 3, "title": "Good Health", "icon": "bi bi-heart-pulse", "color": "#4C9F38", "progress": 75, "targetsOnTrack": 9, "totalTargets": 12, "pduPriorityLink": "Healthcare (#2), Drug Supply (#8)" },
+    { "number": 4, "title": "Quality Education", "icon": "bi bi-book", "color": "#C5192D", "progress": 62, "targetsOnTrack": 5, "totalTargets": 10, "pduPriorityLink": "CDF (#3)" },
+    { "number": 5, "title": "Gender Equality", "icon": "bi bi-gender-ambiguous", "color": "#FF3A21", "progress": 58, "targetsOnTrack": 4, "totalTargets": 9, "pduPriorityLink": "All Priorities (Cross-cutting)" },
+    { "number": 6, "title": "Clean Water", "icon": "bi bi-droplet", "color": "#26BDE2", "progress": 52, "targetsOnTrack": 3, "totalTargets": 8, "pduPriorityLink": "Food Security (#1 - Irrigation)" },
+    { "number": 7, "title": "Clean Energy", "icon": "bi bi-lightning", "color": "#FCC30B", "progress": 55, "targetsOnTrack": 4, "totalTargets": 5, "pduPriorityLink": "Energy Resilience (#10)" },
+    { "number": 8, "title": "Economic Growth", "icon": "bi bi-graph-up", "color": "#A21942", "progress": 72, "targetsOnTrack": 8, "totalTargets": 12, "pduPriorityLink": "Mining (#4), All Priorities" },
+    { "number": 9, "title": "Industry & Innovation", "icon": "bi bi-gear", "color": "#FD6925", "progress": 50, "targetsOnTrack": 4, "totalTargets": 8, "pduPriorityLink": "Infrastructure (#11), Digital (#5)" },
+    { "number": 10, "title": "Reduced Inequalities", "icon": "bi bi-arrow-left-right", "color": "#DD1367", "progress": 48, "targetsOnTrack": 5, "totalTargets": 10, "pduPriorityLink": "CDF (#3), All Priorities" },
+    { "number": 11, "title": "Sustainable Cities", "icon": "bi bi-building", "color": "#FD9D24", "progress": 45, "targetsOnTrack": 4, "totalTargets": 10, "pduPriorityLink": "Infrastructure (#11)" },
+    { "number": 12, "title": "Responsible Consumption", "icon": "bi bi-recycle", "color": "#BF8B2E", "progress": 42, "targetsOnTrack": 3, "totalTargets": 11, "pduPriorityLink": "All Priorities" },
+    { "number": 13, "title": "Climate Action", "icon": "bi bi-cloud-sun", "color": "#3F7E44", "progress": 50, "targetsOnTrack": 3, "totalTargets": 5, "pduPriorityLink": "Energy (#10), Food Security (#1)" },
+    { "number": 14, "title": "Life Below Water", "icon": "bi bi-water", "color": "#0A97D9", "progress": 35, "targetsOnTrack": 2, "totalTargets": 10, "pduPriorityLink": "N/A (Landlocked)" },
+    { "number": 15, "title": "Life on Land", "icon": "bi bi-tree", "color": "#56C02B", "progress": 48, "targetsOnTrack": 5, "totalTargets": 12, "pduPriorityLink": "Food Security (#1), Livestock (#6)" },
+    { "number": 16, "title": "Peace & Justice", "icon": "bi bi-shield-check", "color": "#00689D", "progress": 60, "targetsOnTrack": 7, "totalTargets": 12, "pduPriorityLink": "Digital Identity (#7)" },
+    { "number": 17, "title": "Partnerships", "icon": "bi bi-people", "color": "#19486A", "progress": 65, "targetsOnTrack": 12, "totalTargets": 19, "pduPriorityLink": "All Priorities" }
+  ],
+  "sdgIndicators": [
+    { "sdg": "SDG 1", "sdgColor": "#E5243B", "indicator": "Poverty Rate (%)", "baseline": "60.5%", "current": "54.2%", "target": "40.0%", "progress": 30, "pduImpacts": ["CDF", "Food Security"] },
+    { "sdg": "SDG 2", "sdgColor": "#DDA63A", "indicator": "Food Production Index", "baseline": "100", "current": "118", "target": "150", "progress": 36, "pduImpacts": ["Priority #1: Food Security", "45% Progress"] },
+    { "sdg": "SDG 3", "sdgColor": "#4C9F38", "indicator": "Maternal Mortality (per 100K)", "baseline": "278", "current": "120", "target": "100", "progress": 88, "pduImpacts": ["Priority #2: Healthcare", "70% Progress"] },
+    { "sdg": "SDG 3", "sdgColor": "#4C9F38", "indicator": "Essential Medicine Availability (%)", "baseline": "35%", "current": "82%", "target": "70%", "progress": 100, "pduImpacts": ["Priority #8: Drug Supply", "TARGET EXCEEDED"] },
+    { "sdg": "SDG 4", "sdgColor": "#C5192D", "indicator": "Secondary School Bursaries (000s)", "baseline": "45", "current": "130.6", "target": "200", "progress": 55, "pduImpacts": ["Priority #3: CDF", "63% Progress"] },
+    { "sdg": "SDG 7", "sdgColor": "#FCC30B", "indicator": "Electricity Access (%)", "baseline": "45%", "current": "52%", "target": "66%", "progress": 33, "pduImpacts": ["Priority #10: Energy", "50% Progress"] },
+    { "sdg": "SDG 8", "sdgColor": "#A21942", "indicator": "GDP Growth Rate (%)", "baseline": "-2.8%", "current": "6.4%", "target": "7.0%", "progress": 91, "pduImpacts": ["ALL PDU Priorities", "+9.2pp improvement"] },
+    { "sdg": "SDG 9", "sdgColor": "#FD6925", "indicator": "Infrastructure Quality Index", "baseline": "3.2", "current": "4.1", "target": "6.0%", "progress": 32, "pduImpacts": ["Priority #11: Infrastructure", "50% Progress"] }
+  ],
+  "sdgMapProjects": [
+    { "title": "Lusaka Solar Hub", "sdgTag": "SDG 7 (Energy)", "province": "Lusaka", "lat": -15.4167, "lon": 28.2833, "progress": 85, "description": "Large-scale photovoltaic integration feeding national grid." },
+    { "title": "Copperbelt Water Plant", "sdgTag": "SDG 6 (Water)", "province": "Copperbelt", "lat": -12.8167, "lon": 28.2, "progress": 62, "description": "Modernized water treatment and distribution for Kitwe/Ndola." },
+    { "title": "Choma Agriculture Lab", "sdgTag": "SDG 2 (Hunger)", "province": "Southern", "lat": -16.8167, "lon": 26.9833, "progress": 45, "description": "Soil testing and seed research facility for small-scale farmers." },
+    { "title": "Kasama Rural Clinic", "sdgTag": "SDG 3 (Health)", "province": "Northern", "lat": -10.2128, "lon": 31.1808, "progress": 78, "description": "Primary healthcare expansion with maternal health focus." },
+    { "title": "Chipata Secondary School", "sdgTag": "SDG 4 (Education)", "province": "Eastern", "lat": -13.6333, "lon": 32.65, "progress": 90, "description": "New secondary school complex with science laboratory." },
+    { "title": "Solwezi Skills Centre", "sdgTag": "SDG 8 (Growth)", "province": "North-Western", "lat": -12.1833, "lon": 26.4, "progress": 33, "description": "Vocational training for mining and supporting industries." }
+  ],
+  "auditReferrals": [
+    { "lawSection": "s.30", "title": "Unauthorised Expenditure - Road Project", "ministry": "Infrastructure", "status": "Investigation", "riskScore": 85, "referralApp": "FinancialCrimeApp" },
+    { "lawSection": "s.41", "title": "Missing Asset Titles - Healthcare", "ministry": "Health", "status": "Draft Recommendation", "riskScore": 62, "referralApp": "AuditingApp" },
+    { "lawSection": "s.73", "title": "False Information Submission", "ministry": "Agriculture", "status": "Prosecution Referral", "riskScore": 94, "referralApp": "LawOrder" }
+  ],
+  "cabinetDecisions": [
+    { "decisionId": "CAB-26-001", "title": "Expansion of National Grain Storage Capacity", "leadMinistry": "Agriculture", "deadline": "2026-12-06T00:00:00", "progress": 45, "status": "In Progress" },
+    { "decisionId": "CAB-26-042", "title": "Rollout of National Digital ID (INRIS Phase 2)", "leadMinistry": "Home Affairs", "deadline": "2026-05-06T00:00:00", "progress": 100, "status": "Completed" },
+    { "decisionId": "CAB-26-088", "title": "Emergency Bridge Infrastructure Recovery", "leadMinistry": "Infrastructure", "deadline": "2026-06-20T00:00:00", "progress": 22, "status": "Overdue" }
+  ],
+  "policyProposals": [
+    { "referenceNumber": "POL-2026-012", "title": "Revised National Energy Policy (2026)", "ministry": "Energy", "currentStage": "Cabinet Committee", "pfmCleared": true, "status": "Under Review" },
+    { "referenceNumber": "POL-2026-045", "title": "Agricultural Value Chain Incentives", "ministry": "Agriculture", "currentStage": "Legal Drafting", "pfmCleared": false, "status": "Draft" },
+    { "referenceNumber": "POL-2026-008", "title": "Universal Health Coverage Framework", "ministry": "Health", "currentStage": "Cabinet Agenda", "pfmCleared": true, "status": "Approved" }
+  ]
+}

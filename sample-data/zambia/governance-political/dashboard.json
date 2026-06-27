@@ -1,0 +1,155 @@
+{
+  "councilsTracked": 6,
+  "ministriesTracked": 6,
+  "agenciesTracked": 5,
+  "permitsTracked": 12,
+  "soesTracked": 4,
+  "activeCitizenSignals": 5,
+  "activeCampaignPromises": 4,
+  "activeMisinformationFlags": 2,
+  "highRiskItems": 12,
+  "councils": [
+    { "councilId": "COU-LUSAKA", "councilName": "Lusaka City Council", "province": "Lusaka", "district": "Lusaka", "revenueTargetKwacha": 420000000, "revenueCollectedKwacha": 365000000, "serviceDeliveryScore": 74, "riskLevel": 1, "topIssue": "Delayed ward service response" },
+    { "councilId": "COU-KITWE", "councilName": "Kitwe City Council", "province": "Copperbelt", "district": "Kitwe", "revenueTargetKwacha": 260000000, "revenueCollectedKwacha": 211000000, "serviceDeliveryScore": 69, "riskLevel": 2, "topIssue": "Market levy leakage" },
+    { "councilId": "COU-CHOMA", "councilName": "Choma Municipal Council", "province": "Southern", "district": "Choma", "revenueTargetKwacha": 88000000, "revenueCollectedKwacha": 76500000, "serviceDeliveryScore": 81, "riskLevel": 0, "topIssue": "Road maintenance backlog" },
+    { "councilId": "COU-NDOLA", "councilName": "Ndola City Council", "province": "Copperbelt", "district": "Ndola", "revenueTargetKwacha": 180000000, "revenueCollectedKwacha": 150000000, "serviceDeliveryScore": 72, "riskLevel": 1, "topIssue": "Solid waste management" },
+    { "councilId": "COU-LIVINGSTONE", "councilName": "Livingstone City Council", "province": "Southern", "district": "Livingstone", "revenueTargetKwacha": 120000000, "revenueCollectedKwacha": 115000000, "serviceDeliveryScore": 85, "riskLevel": 0, "topIssue": "Tourism infrastructure maintenance" },
+    { "councilId": "COU-SOLWEZI", "councilName": "Solwezi Municipal Council", "province": "North-Western", "district": "Solwezi", "revenueTargetKwacha": 310000000, "revenueCollectedKwacha": 240000000, "serviceDeliveryScore": 65, "riskLevel": 2, "topIssue": "Rapid urbanization strain" }
+  ],
+  "wardServices": [
+    { "wardId": "WARD-LUS-01", "wardName": "Kamwala", "councilId": "COU-LUSAKA", "garbageCollectionRate": 78, "roadMaintenanceScore": 71, "lightingReliability": 66, "waterCoordinationScore": 73, "complaintClosureRate": 61, "riskLevel": 1, "bottleneck": "Collection truck downtime" },
+    { "wardId": "WARD-KIT-04", "wardName": "Ndeke", "councilId": "COU-KITWE", "garbageCollectionRate": 64, "roadMaintenanceScore": 58, "lightingReliability": 49, "waterCoordinationScore": 62, "complaintClosureRate": 55, "riskLevel": 2, "bottleneck": "Streetlight maintenance and contractor delay" },
+    { "wardId": "WARD-CHO-02", "wardName": "Choma Central", "councilId": "COU-CHOMA", "garbageCollectionRate": 86, "roadMaintenanceScore": 79, "lightingReliability": 72, "waterCoordinationScore": 81, "complaintClosureRate": 74, "riskLevel": 0, "bottleneck": "Drainage clearance" },
+    { "wardId": "WARD-NDO-01", "wardName": "Kansenshi", "councilId": "COU-NDOLA", "garbageCollectionRate": 72, "roadMaintenanceScore": 65, "lightingReliability": 60, "waterCoordinationScore": 70, "complaintClosureRate": 68, "riskLevel": 1, "bottleneck": "Equipment availability" },
+    { "wardId": "WARD-LIV-03", "wardName": "Victoria Falls", "councilId": "COU-LIVINGSTONE", "garbageCollectionRate": 95, "roadMaintenanceScore": 88, "lightingReliability": 90, "waterCoordinationScore": 92, "complaintClosureRate": 85, "riskLevel": 0, "bottleneck": "None" },
+    { "wardId": "WARD-SOL-05", "wardName": "Kyalumina", "councilId": "COU-SOLWEZI", "garbageCollectionRate": 55, "roadMaintenanceScore": 45, "lightingReliability": 40, "waterCoordinationScore": 50, "complaintClosureRate": 48, "riskLevel": 2, "bottleneck": "Unplanned settlement expansion" }
+  ],
+  "councilRevenueStreams": [
+    { "streamId": "REV-LUS-01", "councilId": "COU-LUSAKA", "streamType": "Property rates", "budgetedKwacha": 180000000, "collectedKwacha": 154000000, "trend": "Up", "riskLevel": 1 },
+    { "streamId": "REV-KIT-02", "councilId": "COU-KITWE", "streamType": "Market levies", "budgetedKwacha": 88000000, "collectedKwacha": 63000000, "trend": "Down", "riskLevel": 2 },
+    { "streamId": "REV-CHO-03", "councilId": "COU-CHOMA", "streamType": "Business permits", "budgetedKwacha": 21000000, "collectedKwacha": 18500000, "trend": "Stable", "riskLevel": 0 },
+    { "streamId": "REV-NDO-01", "councilId": "COU-NDOLA", "streamType": "Commercial Levies", "budgetedKwacha": 65000000, "collectedKwacha": 55000000, "trend": "Stable", "riskLevel": 1 },
+    { "streamId": "REV-LIV-01", "councilId": "COU-LIVINGSTONE", "streamType": "Tourism Levies", "budgetedKwacha": 45000000, "collectedKwacha": 42000000, "trend": "Up", "riskLevel": 0 },
+    { "streamId": "REV-SOL-01", "councilId": "COU-SOLWEZI", "streamType": "Property rates", "budgetedKwacha": 120000000, "collectedKwacha": 85000000, "trend": "Down", "riskLevel": 2 }
+  ],
+  "councilRisks": [
+    { "riskId": "CR-001", "councilId": "COU-KITWE", "category": "Revenue leakage", "description": "Market and levy collections are below plan", "recommendedAction": "Digitize collection and reconcile vendor rolls", "riskLevel": 2 },
+    { "riskId": "CR-002", "councilId": "COU-LUSAKA", "category": "Service backlog", "description": "Complaint closures lag ward intake", "recommendedAction": "Ring-fence rapid-response teams", "riskLevel": 1 },
+    { "riskId": "CR-003", "councilId": "COU-SOLWEZI", "category": "Planning Control", "description": "High rate of illegal construction in peri-urban areas", "recommendedAction": "Deploy drone surveillance and increase inspectorate", "riskLevel": 2 }
+  ],
+  "ministries": [
+    { "ministryId": "MIN-FIN", "ministryName": "Ministry of Finance", "leadMinister": "Minister of Finance", "budgetKwacha": 38000000000, "expenditureKwacha": 29700000000, "targetsMetRate": 76, "complaintResolutionRate": 68, "procurementRisk": 42, "riskLevel": 1, "priorityArea": "CDF / revenue" },
+    { "ministryId": "MIN-LGR", "ministryName": "Ministry of Local Government", "leadMinister": "Minister of Local Government", "budgetKwacha": 9400000000, "expenditureKwacha": 7800000000, "targetsMetRate": 71, "complaintResolutionRate": 59, "procurementRisk": 57, "riskLevel": 2, "priorityArea": "Councils / CDF" },
+    { "ministryId": "MIN-HOME", "ministryName": "Ministry of Home Affairs", "leadMinister": "Minister of Home Affairs", "budgetKwacha": 11200000000, "expenditureKwacha": 9700000000, "targetsMetRate": 79, "complaintResolutionRate": 81, "procurementRisk": 33, "riskLevel": 0, "priorityArea": "Licensing / security" },
+    { "ministryId": "MIN-HEALTH", "ministryName": "Ministry of Health", "leadMinister": "Minister of Health", "budgetKwacha": 16500000000, "expenditureKwacha": 14200000000, "targetsMetRate": 82, "complaintResolutionRate": 75, "procurementRisk": 65, "riskLevel": 1, "priorityArea": "Drug Supply Chain" },
+    { "ministryId": "MIN-EDU", "ministryName": "Ministry of Education", "leadMinister": "Minister of Education", "budgetKwacha": 18200000000, "expenditureKwacha": 16800000000, "targetsMetRate": 85, "complaintResolutionRate": 80, "procurementRisk": 38, "riskLevel": 0, "priorityArea": "Teacher Deployment" },
+    { "ministryId": "MIN-AGRI", "ministryName": "Ministry of Agriculture", "leadMinister": "Minister of Agriculture", "budgetKwacha": 12400000000, "expenditureKwacha": 11100000000, "targetsMetRate": 68, "complaintResolutionRate": 55, "procurementRisk": 72, "riskLevel": 2, "priorityArea": "FISP / Extension" }
+  ],
+  "agencies": [
+    { "agencyId": "AG-ZRA", "agencyName": "Zambia Revenue Authority", "parentMinistry": "MIN-FIN", "inspectionsCompleted": 14220, "serviceTurnaroundHours": 19, "complianceRate": 86, "riskLevel": 1, "mainConstraint": "Border valuation review queues" },
+    { "agencyId": "AG-PACRA", "agencyName": "PACRA", "parentMinistry": "MIN-COM", "inspectionsCompleted": 7320, "serviceTurnaroundHours": 36, "complianceRate": 78, "riskLevel": 0, "mainConstraint": "Digital filing backlog" },
+    { "agencyId": "AG-RTSA", "agencyName": "Road Transport and Safety Agency", "parentMinistry": "MIN-TRANS", "inspectionsCompleted": 11500, "serviceTurnaroundHours": 24, "complianceRate": 73, "riskLevel": 1, "mainConstraint": "Permit renewal queue" },
+    { "agencyId": "AG-ZEMA", "agencyName": "Zambia Environmental Management Agency", "parentMinistry": "MIN-GREEN", "inspectionsCompleted": 3400, "serviceTurnaroundHours": 120, "complianceRate": 65, "riskLevel": 2, "mainConstraint": "EIA processing bottlenecks" },
+    { "agencyId": "AG-WARMA", "agencyName": "Water Resources Management Authority", "parentMinistry": "MIN-WATER", "inspectionsCompleted": 2100, "serviceTurnaroundHours": 72, "complianceRate": 82, "riskLevel": 0, "mainConstraint": "Field monitoring equipment" }
+  ],
+  "institutionRisks": [
+    { "riskId": "IR-001", "institutionName": "Lusaka City Council", "institutionType": "Council", "category": "Revenue risk", "description": "Own-source revenue underperformance", "ownerRole": "Town Clerk", "riskLevel": 2 },
+    { "riskId": "IR-002", "institutionName": "ZRA", "institutionType": "Agency", "category": "Compliance risk", "description": "Valuation and scanner backlog", "ownerRole": "Commissioner General", "riskLevel": 1 },
+    { "riskId": "IR-003", "institutionName": "Ministry of Local Government", "institutionType": "Ministry", "category": "Delivery risk", "description": "Councils lagging on service delivery interventions", "ownerRole": "Permanent Secretary", "riskLevel": 2 },
+    { "riskId": "IR-004", "institutionName": "ZEMA", "institutionType": "Agency", "category": "Operational risk", "description": "Severe EIA assessment backlog delaying national projects", "ownerRole": "Director General", "riskLevel": 3 },
+    { "riskId": "IR-005", "institutionName": "Ministry of Agriculture", "institutionType": "Ministry", "category": "Procurement risk", "description": "Fertilizer distribution delays reported across 3 provinces", "ownerRole": "Permanent Secretary", "riskLevel": 2 }
+  ],
+  "permitApplications": [
+    { "permitId": "PERMIT-001", "permitType": "Business Registration", "applicant": "Urban Hardware Ltd", "location": "Lusaka", "submittedAt": "2026-05-31T00:00:00Z", "status": "In Review", "daysOpen": 6, "riskLevel": 0, "concern": "Waiting on name clearance" },
+    { "permitId": "PERMIT-002", "permitType": "Construction Permit", "applicant": "Ndola Schools Project", "location": "Copperbelt", "submittedAt": "2026-05-19T00:00:00Z", "status": "Backlog", "daysOpen": 18, "riskLevel": 2, "concern": "Land-use approval outstanding" },
+    { "permitId": "PERMIT-003", "permitType": "Mining Permit", "applicant": "Northwest Minerals", "location": "North-Western", "submittedAt": "2026-05-25T00:00:00Z", "status": "Pending", "daysOpen": 12, "riskLevel": 1, "concern": "Environmental clearance pending" },
+    { "permitId": "PERMIT-004", "permitType": "Water Abstraction", "applicant": "Mkushi Farm Block", "location": "Central", "submittedAt": "2026-05-20T00:00:00Z", "status": "Approved", "daysOpen": 15, "riskLevel": 0, "concern": "None" },
+    { "permitId": "PERMIT-005", "permitType": "Investment License", "applicant": "Global Auto Assembly", "location": "Lusaka South MFEZ", "submittedAt": "2026-05-28T00:00:00Z", "status": "Pending", "daysOpen": 9, "riskLevel": 1, "concern": "ZDA incentive committee review" }
+  ],
+  "licenseRecords": [
+    { "licenseId": "LIC-001", "licenseType": "Liquor License", "holder": "Copperbelt Retail Holdings", "authority": "Kitwe Council", "expiryDate": "2026-08-06T00:00:00Z", "renewalDueDays": 60, "complianceStatus": "Valid", "riskLevel": 0 },
+    { "licenseId": "LIC-002", "licenseType": "Transport Operator License", "holder": "Zed Logistics", "authority": "RTSA", "expiryDate": "2026-06-26T00:00:00Z", "renewalDueDays": 20, "complianceStatus": "Renewal due", "riskLevel": 1 },
+    { "licenseId": "LIC-003", "licenseType": "Environmental Clearance", "holder": "Northwest Minerals", "authority": "ZEMA", "expiryDate": "2026-07-06T00:00:00Z", "renewalDueDays": 32, "complianceStatus": "Inspection due", "riskLevel": 2 },
+    { "licenseId": "LIC-004", "licenseType": "Manufacturing License", "holder": "Trade Kings Group", "authority": "Ministry of Commerce", "expiryDate": "2027-01-15T00:00:00Z", "renewalDueDays": 224, "complianceStatus": "Valid", "riskLevel": 0 }
+  ],
+  "permitBacklogs": [
+    { "backlogId": "BL-001", "region": "Lusaka", "permitType": "Business Registration", "count": 420, "averageDaysOpen": 9.4, "riskLevel": 1, "bottleneck": "Name clearance review" },
+    { "backlogId": "BL-002", "region": "Copperbelt", "permitType": "Construction Permit", "count": 265, "averageDaysOpen": 17.6, "riskLevel": 2, "bottleneck": "Planning approval queue" },
+    { "backlogId": "BL-003", "region": "National", "permitType": "Environmental Impact Assessment", "count": 185, "averageDaysOpen": 45.2, "riskLevel": 3, "bottleneck": "Technical review committee frequency" }
+  ],
+  "licenseRiskSignals": [
+    { "signalId": "LRS-001", "licenseType": "Transport Operator License", "location": "Copperbelt", "concern": "Renewal spikes and expired operator records", "recommendedAction": "Auto-remind holders and tighten vetting", "riskLevel": 1 },
+    { "signalId": "LRS-002", "licenseType": "Mining Permit", "location": "North-Western", "concern": "Environmental compliance documentation incomplete", "recommendedAction": "Escalate joint review with environment authority", "riskLevel": 2 },
+    { "signalId": "LRS-003", "licenseType": "Liquor License", "location": "Lusaka", "concern": "High volume of unrenewed licenses in CBD", "recommendedAction": "Deploy council inspection blitz", "riskLevel": 1 }
+  ],
+  "permitEconomicImpacts": [
+    { "impactId": "PEI-001", "permitType": "Business Registration", "annualValueKwacha": 3800000000, "jobsEnabled": 28400, "investorsAffected": 4100, "riskLevel": 0, "note": "Formalization effect on SMEs" },
+    { "impactId": "PEI-002", "permitType": "Construction Permit", "annualValueKwacha": 7200000000, "jobsEnabled": 11200, "investorsAffected": 630, "riskLevel": 1, "note": "Delays affect project start dates" },
+    { "impactId": "PEI-003", "permitType": "EIA Approval", "annualValueKwacha": 15000000000, "jobsEnabled": 8500, "investorsAffected": 120, "riskLevel": 2, "note": "Major capital projects held up" }
+  ],
+  "sentimentSignals": [
+    { "signalId": "SS-001", "constituency": "Lusaka Central", "province": "Lusaka", "channel": "Social", "score": 62, "trend": "Improving", "issue": "Road and drainage work", "riskLevel": 1 },
+    { "signalId": "SS-002", "constituency": "Kabwe Central", "province": "Central", "channel": "Call Center", "score": 41, "trend": "Deteriorating", "issue": "Water outages", "riskLevel": 2 },
+    { "signalId": "SS-003", "constituency": "Bwana Mkubwa", "province": "Copperbelt", "channel": "Town Hall", "score": 55, "trend": "Stable", "issue": "Youth employment schemes", "riskLevel": 1 },
+    { "signalId": "SS-004", "constituency": "Choma Central", "province": "Southern", "channel": "Radio Phone-in", "score": 38, "trend": "Deteriorating", "issue": "Farmer Input Support distribution", "riskLevel": 3 }
+  ],
+  "mediaNarratives": [
+    { "narrativeId": "MN-001", "source": "Daily Mail", "headline": "Council turns around waste collection in Lusaka", "category": "Service delivery", "impact": "Positive", "publishedAt": "2026-06-05T12:00:00Z", "summary": "Positive story on local authority service improvements.", "isMisinformation": false },
+    { "narrativeId": "MN-002", "source": "Social Media", "headline": "False claim about permit fees increase", "category": "Licensing", "impact": "Negative", "publishedAt": "2026-06-05T20:00:00Z", "summary": "Claims require clarification from authorities.", "isMisinformation": true },
+    { "narrativeId": "MN-003", "source": "Zambia Daily Nation", "headline": "New copper smelter to bring 2,000 jobs", "category": "Economy", "impact": "Positive", "publishedAt": "2026-06-06T08:30:00Z", "summary": "Highlighting foreign direct investment success.", "isMisinformation": false },
+    { "narrativeId": "MN-004", "source": "WhatsApp Groups", "headline": "Hospitals out of essential drugs nationwide", "category": "Health", "impact": "Negative", "publishedAt": "2026-06-06T14:15:00Z", "summary": "Exaggerated claims of drug shortages causing panic.", "isMisinformation": true }
+  ],
+  "misinformationSignals": [
+    { "signalId": "MIS-001", "platform": "Facebook", "claim": "Permit fees doubled overnight", "severity": "High", "reachEstimate": 125000, "status": "Active", "recommendedResponse": "Publish fee schedule and rebuttal" },
+    { "signalId": "MIS-002", "platform": "WhatsApp", "claim": "Countrywide drug shortage at all clinics", "severity": "Critical", "reachEstimate": 450000, "status": "Active", "recommendedResponse": "Ministry of Health to publish ZAMMSA stock levels" }
+  ],
+  "campaignPromises": [
+    { "promiseId": "CP-001", "title": "Deliver 100 streetlights", "constituency": "Lusaka Central", "owner": "MP Lusaka Central", "commitmentDate": "2026-03-06T00:00:00Z", "progress": 82, "status": "On Track", "budgetKwacha": 12000000, "evidence": "Installed in five wards" },
+    { "promiseId": "CP-002", "title": "Open market shelter expansion", "constituency": "Kitwe East", "owner": "MP Kitwe East", "commitmentDate": "2026-01-06T00:00:00Z", "progress": 44, "status": "In Progress", "budgetKwacha": 8500000, "evidence": "Procurement completed" },
+    { "promiseId": "CP-003", "title": "New district hospital wing", "constituency": "Solwezi West", "owner": "MP Solwezi West", "commitmentDate": "2025-11-15T00:00:00Z", "progress": 95, "status": "On Track", "budgetKwacha": 45000000, "evidence": "Roofing complete, equipment ordered" },
+    { "promiseId": "CP-004", "title": "Youth skills training center", "constituency": "Livingstone", "owner": "MP Livingstone", "commitmentDate": "2026-02-10T00:00:00Z", "progress": 15, "status": "At Risk", "budgetKwacha": 5000000, "evidence": "Land dispute delaying foundation" }
+  ],
+  "constituencyRisks": [
+    { "constituencyId": "CONS-LUS-01", "constituencyName": "Lusaka Central", "province": "Lusaka", "grievanceScore": 54, "serviceDeliveryScore": 68, "politicalRiskScore": 43, "topGrievance": "Drainage and road repair", "responseStatus": "Council follow-up" },
+    { "constituencyId": "CONS-KAB-01", "constituencyName": "Kabwe Central", "province": "Central", "grievanceScore": 71, "serviceDeliveryScore": 49, "politicalRiskScore": 66, "topGrievance": "Water service outages", "responseStatus": "Escalated to ministry" }
+  ],
+  "soeProfiles": [
+    { "soeId": "SOE-ZESCO", "name": "ZESCO", "sector": "Energy", "boardChair": "Mr. Energy Chair", "financialHealthScore": 67, "dividendContributionKwacha": 0, "debtExposureKwacha": 18500000000, "serviceReliabilityScore": 72, "riskLevel": 2, "mainRisk": "Debt and reliability pressure" },
+    { "soeId": "SOE-ZAMTEL", "name": "ZAMTEL", "sector": "Telecoms", "boardChair": "Ms. Telecom Chair", "financialHealthScore": 78, "dividendContributionKwacha": 120000000, "debtExposureKwacha": 3400000000, "serviceReliabilityScore": 84, "riskLevel": 1, "mainRisk": "Capex execution" },
+    { "soeId": "SOE-IDC", "name": "Industrial Development Corp", "sector": "Investment", "boardChair": "Hon. Minister", "financialHealthScore": 85, "dividendContributionKwacha": 450000000, "debtExposureKwacha": 5200000000, "serviceReliabilityScore": 90, "riskLevel": 0, "mainRisk": "Subsidiary performance drag" },
+    { "soeId": "SOE-INDENI", "name": "INDENI Energy", "sector": "Oil & Gas", "boardChair": "Dr. Oil Chair", "financialHealthScore": 55, "dividendContributionKwacha": 0, "debtExposureKwacha": 2100000000, "serviceReliabilityScore": 60, "riskLevel": 2, "mainRisk": "Transition to OMC model delays" }
+  ],
+  "soeFinancialMetrics": [
+    { "metricId": "SOEF-001", "soeId": "SOE-ZESCO", "revenueKwacha": 9400000000, "profitLossKwacha": -1200000000, "subsidyKwacha": 2100000000, "debtEquityRatio": 4.8, "boardGovernanceScore": 52, "riskLevel": 2 },
+    { "metricId": "SOEF-002", "soeId": "SOE-ZAMTEL", "revenueKwacha": 2400000000, "profitLossKwacha": 310000000, "subsidyKwacha": 0, "debtEquityRatio": 1.2, "boardGovernanceScore": 76, "riskLevel": 1 },
+    { "metricId": "SOEF-003", "soeId": "SOE-IDC", "revenueKwacha": 15000000000, "profitLossKwacha": 850000000, "subsidyKwacha": 0, "debtEquityRatio": 0.8, "boardGovernanceScore": 88, "riskLevel": 0 },
+    { "metricId": "SOEF-004", "soeId": "SOE-INDENI", "revenueKwacha": 1800000000, "profitLossKwacha": -450000000, "subsidyKwacha": 300000000, "debtEquityRatio": 2.5, "boardGovernanceScore": 60, "riskLevel": 2 }
+  ],
+  "citizenSignals": [
+    { "signalId": "CS-001", "channel": "Complaints Portal", "constituency": "Lusaka Central", "province": "Lusaka", "category": "Waste collection", "severity": 1, "status": "Open", "assignedInstitution": "Lusaka City Council" },
+    { "signalId": "CS-002", "channel": "Call Center", "constituency": "Kabwe Central", "province": "Central", "category": "Water outage", "severity": 2, "status": "In Progress", "assignedInstitution": "Council / Water Utility" },
+    { "signalId": "CS-003", "channel": "Social Media", "constituency": "Ndola Central", "province": "Copperbelt", "category": "Potholes", "severity": 1, "status": "Open", "assignedInstitution": "Ndola City Council" },
+    { "signalId": "CS-004", "channel": "Town Hall", "constituency": "Livingstone", "province": "Southern", "category": "Street Lighting", "severity": 0, "status": "Resolved", "assignedInstitution": "Livingstone City Council" },
+    { "signalId": "CS-005", "channel": "SMS Hotline", "constituency": "Solwezi West", "province": "North-Western", "category": "Clinic Drug Shortage", "severity": 3, "status": "Escalated", "assignedInstitution": "Ministry of Health" }
+  ],
+  "citizenSegments": [
+    { "segmentId": "SEG-001", "name": "Urban Service Users", "demographic": "Urban households", "complaintVolume": 1240, "satisfactionScore": 61, "trend": "Improving", "riskLevel": 1 },
+    { "segmentId": "SEG-002", "name": "Rural Service Users", "demographic": "Rural wards", "complaintVolume": 980, "satisfactionScore": 48, "trend": "Deteriorating", "riskLevel": 2 },
+    { "segmentId": "SEG-003", "name": "SME Operators", "demographic": "Small business owners", "complaintVolume": 450, "satisfactionScore": 55, "trend": "Stable", "riskLevel": 1 },
+    { "segmentId": "SEG-004", "name": "Youth Demographic", "demographic": "Citizens 18-35", "complaintVolume": 890, "satisfactionScore": 42, "trend": "Deteriorating", "riskLevel": 2 }
+  ],
+  "complaintResolutionEvidence": [
+    { "evidenceId": "CRE-001", "complaintId": "CS-001", "actionTaken": "Waste contractor deployed", "evidenceSummary": "Collection logs and geo-tagged photos", "dateClosed": "2026-06-04T00:00:00Z", "verifiedBy": "Ward officer" },
+    { "evidenceId": "CRE-002", "complaintId": "CS-002", "actionTaken": "Pipeline repair and tanker schedule", "evidenceSummary": "Utility work order and citizen callback", "dateClosed": "2026-06-05T00:00:00Z", "verifiedBy": "District officer" }
+  ],
+  "institutionComplaintPerformance": [
+    { "institutionId": "INST-LCC", "institutionName": "Lusaka City Council", "openComplaints": 84, "averageResolutionDays": 8.5, "closureRate": 71, "riskLevel": 1, "mainGap": "Backlog at ward level" },
+    { "institutionId": "INST-KCC", "institutionName": "Kitwe City Council", "openComplaints": 112, "averageResolutionDays": 13.2, "closureRate": 54, "riskLevel": 2, "mainGap": "Field response capacity" },
+    { "institutionId": "INST-MOH", "institutionName": "Ministry of Health", "openComplaints": 245, "averageResolutionDays": 18.4, "closureRate": 48, "riskLevel": 2, "mainGap": "Procurement latency for drugs" },
+    { "institutionId": "INST-RTSA", "institutionName": "RTSA", "openComplaints": 45, "averageResolutionDays": 3.2, "closureRate": 89, "riskLevel": 0, "mainGap": "System uptime" }
+  ],
+  "publicFeedbackLoops": [
+    { "loopId": "FL-001", "complaintId": "CS-001", "institution": "Lusaka City Council", "actionTaken": "Collection crew dispatched", "citizenNotified": true, "verified": true, "status": "Closed" },
+    { "loopId": "FL-002", "complaintId": "CS-002", "institution": "Water Utility", "actionTaken": "Repair scheduled", "citizenNotified": true, "verified": false, "status": "In Progress" }
+  ]
+}

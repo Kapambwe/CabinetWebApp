@@ -1,0 +1,30 @@
+[
+  {
+    "assetId": "AST-001",
+    "protectionLevel": "Enhanced screening",
+    "responsibleAgency": "ZRA / Immigration",
+    "lastDrillDate": "2026-05-07T00:00:00",
+    "readinessAssessment": "Partial readiness: digital clearance dependency degraded."
+  },
+  {
+    "assetId": "AST-002",
+    "protectionLevel": "Critical corridor patrol",
+    "responsibleAgency": "Police / RTSA",
+    "lastDrillDate": "2026-04-22T00:00:00",
+    "readinessAssessment": "Readiness gap: patrol coverage is insufficient for night haulage."
+  },
+  {
+    "assetId": "AST-003",
+    "protectionLevel": "Restricted technical access",
+    "responsibleAgency": "ZESCO",
+    "lastDrillDate": "2026-04-07T00:00:00",
+    "readinessAssessment": "Stable."
+  },
+  {
+    "assetId": "AST-004",
+    "protectionLevel": "Community liaison",
+    "responsibleAgency": "Local Authority",
+    "lastDrillDate": "2026-03-08T00:00:00",
+    "readinessAssessment": "Requires public communication plan."
+  }
+]

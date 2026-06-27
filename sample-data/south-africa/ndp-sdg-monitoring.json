@@ -1,0 +1,101 @@
+{
+  "overallNdpProgress": 61.8,
+  "overallSdgProgress": 66.4,
+  "pillars": [
+    {
+      "pillarId": "sa-ndp-1",
+      "number": 1,
+      "title": "Economic Reconstruction and Industrialisation",
+      "description": "Restoring growth through energy reliability, logistics improvement, and industrial expansion.",
+      "progress": 58.0,
+      "color": "#0d6efd",
+      "icon": "bi bi-graph-up-arrow",
+      "objectives": [
+        {
+          "objectiveId": "sa-obj-1.1",
+          "title": "Stabilise electricity supply and grid resilience",
+          "progress": 54.0,
+          "targets": [
+            { "targetId": "sa-tg-1.1.1", "title": "Megawatts recovered", "currentValue": 2800, "targetValue": 5000, "unit": "MW", "deadline": "2027-03-31T00:00:00" }
+          ]
+        }
+      ]
+    },
+    {
+      "pillarId": "sa-ndp-2",
+      "number": 2,
+      "title": "Social Protection and Human Development",
+      "description": "Improving public services, housing, health, and educational outcomes.",
+      "progress": 67.0,
+      "color": "#198754",
+      "icon": "bi bi-people-fill",
+      "objectives": []
+    },
+    {
+      "pillarId": "sa-ndp-3",
+      "number": 3,
+      "title": "Capable State and Governance",
+      "description": "Building a professional public administration and accountable institutions.",
+      "progress": 60.5,
+      "color": "#6610f2",
+      "icon": "bi bi-shield-check",
+      "objectives": []
+    }
+  ],
+  "sdgGoals": [
+    { "number": 1, "title": "No Poverty", "icon": "bi bi-wallet2", "color": "#E5243B", "progress": 49.0, "targetsOnTrack": 4, "totalTargets": 8 },
+    { "number": 8, "title": "Decent Work and Economic Growth", "icon": "bi bi-briefcase", "color": "#A21942", "progress": 62.0, "targetsOnTrack": 6, "totalTargets": 10 },
+    { "number": 9, "title": "Industry, Innovation and Infrastructure", "icon": "bi bi-building", "color": "#FD6925", "progress": 61.0, "targetsOnTrack": 5, "totalTargets": 9 },
+    { "number": 13, "title": "Climate Action", "icon": "bi bi-tree", "color": "#3F7E44", "progress": 55.0, "targetsOnTrack": 3, "totalTargets": 7 }
+  ],
+  "provinceScores": [
+    {
+      "provinceName": "Gauteng",
+      "ndpAlignment": 79.0,
+      "sdgProgress": 74.0,
+      "totalContributors": 182,
+      "districts": [
+        {
+          "districtName": "Johannesburg",
+          "progress": 82.0,
+          "constituencies": [
+            {
+              "constituencyName": "Johannesburg Central",
+              "progress": 84.0,
+              "wards": [
+                { "wardName": "Braamfontein", "progress": 86.0, "activeProjects": 18 },
+                { "wardName": "Newtown", "progress": 81.0, "activeProjects": 12 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "provinceName": "KwaZulu-Natal",
+      "ndpAlignment": 72.0,
+      "sdgProgress": 63.0,
+      "totalContributors": 143,
+      "districts": [
+        {
+          "districtName": "eThekwini",
+          "progress": 68.0,
+          "constituencies": []
+        }
+      ]
+    },
+    {
+      "provinceName": "Western Cape",
+      "ndpAlignment": 75.0,
+      "sdgProgress": 70.0,
+      "totalContributors": 96,
+      "districts": [
+        {
+          "districtName": "Cape Town",
+          "progress": 77.0,
+          "constituencies": []
+        }
+      ]
+    }
+  ]
+}

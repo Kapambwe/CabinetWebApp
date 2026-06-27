@@ -1,0 +1,76 @@
+[
+  {
+    "violationId": "n17c1d8f-4c4b-4e6a-a8d1-30b0c7e4f001",
+    "applicationId": "pdu-financial-inclusion",
+    "tenantId": "66666666-6666-6666-6666-666666666666",
+    "countryCode": "NA",
+    "ruleSetCode": "PFM-WF-02",
+    "ruleCode": "WF-EVIDENCE-MISSING",
+    "decision": "Block",
+    "severity": "High",
+    "message": "Disbursement evidence is missing for the linked social inclusion package.",
+    "source": {
+      "sourceApp": "CompanyApp.Government.NationalApp",
+      "sourcePage": "/pdu/financial-inclusion",
+      "sourceEntityType": "GrantDisbursement",
+      "sourceEntityId": "GRANT-NA-0102"
+    },
+    "lawReference": {
+      "lawCode": "PFM-ACT",
+      "lawVersion": "2024",
+      "effectiveDate": "2024-01-01",
+      "sections": ["s.13", "s.30"]
+    },
+    "workflowReference": {
+      "workflowCode": "GRANT-APPROVAL",
+      "workflowInstanceId": "WF-NA-3001",
+      "workflowStepCode": "EVIDENCE_REVIEW",
+      "workflowTaskId": "TASK-NA-601"
+    },
+    "workflowCode": "GRANT-APPROVAL",
+    "ownerRole": "Social Development",
+    "dedupeKey": "NA|PFM-WF-02|WF-EVIDENCE-MISSING|GRANT-NA-0102",
+    "requiredEvidence": [],
+    "defaultActions": ["Attach evidence", "Escalate to finance controller"],
+    "escalationTargets": ["Finance Controller", "Social Development"],
+    "status": "Open",
+    "createdAtUtc": "2026-05-28T10:15:00Z"
+  },
+  {
+    "violationId": "n17c1d8f-4c4b-4e6a-a8d1-30b0c7e4f002",
+    "applicationId": "pdu-project-management",
+    "tenantId": "77777777-7777-7777-7777-777777777777",
+    "countryCode": "NA",
+    "ruleSetCode": "PDU-WF-07",
+    "ruleCode": "WF-STATUS-OUTDATED",
+    "decision": "Review",
+    "severity": "Low",
+    "message": "Infrastructure project status has not been refreshed after the last site visit.",
+    "source": {
+      "sourceApp": "CompanyApp.Government.NationalApp",
+      "sourcePage": "/pdu/projects",
+      "sourceEntityType": "InfrastructureProject",
+      "sourceEntityId": "INF-NA-0010"
+    },
+    "lawReference": {
+      "lawCode": "PDU-CTRL",
+      "lawVersion": "2026",
+      "effectiveDate": "2026-01-01",
+      "sections": ["s.8"]
+    },
+    "workflowReference": {
+      "workflowCode": "PROJECT-TRACKING",
+      "workflowInstanceId": "WF-NA-4101",
+      "workflowStepCode": "MONITORING",
+      "workflowTaskId": "TASK-NA-210"
+    },
+    "workflowCode": "PROJECT-TRACKING",
+    "ownerRole": "Project Monitoring Unit",
+    "dedupeKey": "NA|PDU-WF-07|WF-STATUS-OUTDATED|INF-NA-0010",
+    "requiredEvidence": [],
+    "defaultActions": ["Refresh status", "Request latest site note"],
+    "escalationTargets": ["Project Monitoring Unit"],
+    "status": "WorkflowStarted",
+    "createdAtUtc": "2026-06-01T08:20:00Z"
+  }
+]

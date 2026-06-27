@@ -1,0 +1,71 @@
+[
+  {
+    "violationId": "z17c1d8f-4c4b-4e6a-a8d1-30b0c7e4f001",
+    "applicationId": "pdu-financial-inclusion",
+    "tenantId": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+    "countryCode": "ZW",
+    "ruleSetCode": "PFM-WF-02",
+    "ruleCode": "WF-EVIDENCE-MISSING",
+    "decision": "Block",
+    "severity": "High",
+    "message": "Disbursement evidence is missing for the linked social support package.",
+    "source": {
+      "sourceApp": "CompanyApp.Government.NationalApp",
+      "sourcePage": "/pdu/financial-inclusion",
+      "sourceEntityType": "GrantDisbursement",
+      "sourceEntityId": "GRANT-ZW-0201"
+    },
+    "lawReference": {
+      "lawCode": "PFM-ACT",
+      "lawVersion": "2024",
+      "effectiveDate": "2024-01-01",
+      "sections": ["s.13", "s.30"]
+    },
+    "workflowReference": {
+      "workflowCode": "GRANT-APPROVAL",
+      "workflowInstanceId": "WF-ZW-3001",
+      "workflowStepCode": "EVIDENCE_REVIEW",
+      "workflowTaskId": "TASK-ZW-601"
+    },
+    "workflowCode": "GRANT-APPROVAL",
+    "ownerRole": "Social Development",
+    "dedupeKey": "ZW|PFM-WF-02|WF-EVIDENCE-MISSING|GRANT-ZW-0201",
+    "requiredEvidence": [],
+    "defaultActions": ["Attach evidence", "Escalate to finance controller"],
+    "escalationTargets": ["Finance Controller", "Social Development"],
+    "status": "Open",
+    "createdAtUtc": "2026-05-28T10:15:00Z"
+  },
+  {
+    "violationId": "z17c1d8f-4c4b-4e6a-a8d1-30b0c7e4f002",
+    "applicationId": "legal-intelligence",
+    "tenantId": "dddddddd-dddd-dddd-dddd-dddddddddddd",
+    "countryCode": "ZW",
+    "ruleSetCode": "LEGAL-WF-02",
+    "ruleCode": "WF-WORKFLOW-MISSING",
+    "decision": "Review",
+    "severity": "Low",
+    "message": "The linked workflow definition is missing for this legal review record.",
+    "source": {
+      "sourceApp": "CompanyApp.Government.NationalApp",
+      "sourcePage": "/legal/bills/2",
+      "sourceEntityType": "BillReview",
+      "sourceEntityId": "BILL-ZW-017"
+    },
+    "lawReference": {
+      "lawCode": "LEG-REV",
+      "lawVersion": "2026",
+      "effectiveDate": "2026-01-01",
+      "sections": ["s.2"]
+    },
+    "workflowReference": null,
+    "workflowCode": "LEGAL-REVIEW",
+    "ownerRole": "Legal Drafting",
+    "dedupeKey": "ZW|LEGAL-WF-02|WF-WORKFLOW-MISSING|BILL-ZW-017",
+    "requiredEvidence": [],
+    "defaultActions": ["Create workflow definition", "Assign legal reviewer"],
+    "escalationTargets": ["Legal Drafting"],
+    "status": "WorkflowMissing",
+    "createdAtUtc": "2026-06-04T09:15:00Z"
+  }
+]

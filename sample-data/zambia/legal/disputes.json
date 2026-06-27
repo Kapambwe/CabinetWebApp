@@ -1,0 +1,18 @@
+[
+  {
+    "DisputeId": "DSP-001",
+    "SourceRecordId": "CON-001",
+    "Parties": "ZRA vs SecureScan Africa Ltd",
+    "Forum": "Contract escalation committee",
+    "Status": "Pre-dispute notice",
+    "RiskLevel": "Medium"
+  },
+  {
+    "DisputeId": "DSP-002",
+    "SourceRecordId": "TRT-001",
+    "Parties": "Zambia vs DRC Border Working Group",
+    "Forum": "Joint implementation committee",
+    "Status": "Open",
+    "RiskLevel": "Low"
+  }
+]

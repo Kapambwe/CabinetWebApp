@@ -1,0 +1,88 @@
+{
+  "countryName": "Republic of Malawi",
+  "mandates": [
+    {
+      "functionId": "F1",
+      "title": "Presidential Facilitation",
+      "description": "Supporting constitutional duties, state events, and executive coordination.",
+      "icon": "account_balance",
+      "progress": 88.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F2",
+      "title": "Cabinet Secretariat",
+      "description": "Managing Cabinet scheduling, decisions, and implementation follow-up.",
+      "icon": "history_edu",
+      "progress": 84.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F3",
+      "title": "Public Sector Reform",
+      "description": "Coordinating public service modernization and accountability reforms.",
+      "icon": "analytics",
+      "progress": 71.0,
+      "status": "Strategic"
+    },
+    {
+      "functionId": "F4",
+      "title": "Economic Coordination",
+      "description": "Aligning agriculture, energy, and trade delivery priorities.",
+      "icon": "policy",
+      "progress": 64.0,
+      "status": "In Progress"
+    },
+    {
+      "functionId": "F5",
+      "title": "Decentralisation Support",
+      "description": "Supporting district-level service delivery and devolution.",
+      "icon": "explore",
+      "progress": 59.0,
+      "status": "Regional"
+    },
+    {
+      "functionId": "F6",
+      "title": "Protocol and Welfare",
+      "description": "Providing welfare and protocol support to former leaders.",
+      "icon": "family_restroom",
+      "progress": 96.0,
+      "status": "Compliant"
+    },
+    {
+      "functionId": "F7",
+      "title": "Arbitration and Inquiries",
+      "description": "Managing commissions of inquiry and inter-agency arbitration.",
+      "icon": "gavel",
+      "progress": 47.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F8",
+      "title": "Performance Monitoring",
+      "description": "Tracking delivery across ministries and agencies.",
+      "icon": "psychology",
+      "progress": 72.0,
+      "status": "Data-Driven"
+    }
+  ],
+  "publicServicePerformance": {
+    "overallRating": 77.8,
+    "activeReforms": 15,
+    "sectoralBreakdown": [
+      { "sectorName": "Health", "performance": 74.0 },
+      { "sectorName": "Education", "performance": 79.0 },
+      { "sectorName": "Agriculture", "performance": 78.0 }
+    ]
+  },
+  "decentralization": {
+    "functionsDevolved": 34.0,
+    "localAuthoritiesImpacted": 81,
+    "implementationPhase": "Phase 2"
+  },
+  "welfare": {
+    "estatesCompliant": true,
+    "healthcareProvisionsActive": true,
+    "familiesSupported": 5
+  }
+}

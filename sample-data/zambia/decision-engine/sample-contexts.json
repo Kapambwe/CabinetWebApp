@@ -1,0 +1,71 @@
+[
+  {
+    "contextId": "ctx-001",
+    "decisionType": "service_delivery",
+    "timestamp": "2026-06-06T08:30:00Z",
+    "serviceArea": "Business Licensing",
+    "metrics": {
+      "processing_time": 12.5,
+      "satisfaction": 68,
+      "budget_utilization": 78,
+      "impact_score": 0.82
+    },
+    "primaryEntityId": "licensing-001",
+    "entityType": 6,
+    "relatedEntities": [
+      { "entityId": "licensing-001", "type": 6, "relationshipType": "Service", "relationshipStrength": 1.0 }
+    ],
+    "historicalData": {
+      "lastQuarterProcessingTime": 15.2,
+      "lastQuarterSatisfaction": 63
+    },
+    "networkContext": {
+      "nodeCount": 3,
+      "edgeCount": 2,
+      "nodes": [
+        { "nodeId": "licensing-001", "type": 6, "properties": { "name": "Business Licensing" } },
+        { "nodeId": "finance-001", "type": 1, "properties": { "name": "Ministry of Finance" } }
+      ],
+      "edges": [
+        { "sourceId": "finance-001", "targetId": "licensing-001", "relationType": "Oversight", "weight": 0.8 }
+      ]
+    }
+  },
+  {
+    "contextId": "ctx-002",
+    "decisionType": "bottleneck_resolution",
+    "timestamp": "2026-06-06T08:45:00Z",
+    "serviceArea": "Land Registry",
+    "metrics": {
+      "processing_time": 18,
+      "satisfaction": 62,
+      "impact_score": 0.91
+    },
+    "primaryEntityId": "land-001",
+    "entityType": 6,
+    "relatedEntities": [
+      { "entityId": "land-001", "type": 6, "relationshipType": "Service", "relationshipStrength": 1.0 }
+    ],
+    "historicalData": {
+      "queueLengthTrend": "Rising"
+    }
+  },
+  {
+    "contextId": "ctx-003",
+    "decisionType": "target_achievement",
+    "timestamp": "2026-06-06T09:00:00Z",
+    "serviceArea": "All Departments",
+    "metrics": {
+      "achievement_rate": 78.2,
+      "impact_score": 0.65
+    },
+    "primaryEntityId": "government-001",
+    "entityType": 0,
+    "relatedEntities": [
+      { "entityId": "government-001", "type": 0, "relationshipType": "Umbrella", "relationshipStrength": 1.0 }
+    ],
+    "historicalData": {
+      "quarterlyAchievementRate": 74.6
+    }
+  }
+]

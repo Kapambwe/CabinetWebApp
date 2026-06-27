@@ -1,0 +1,5 @@
+[
+  { "hospitalId": "HOS-001", "overallScore": 92.5, "rating": "Excellent" },
+  { "hospitalId": "HOS-002", "overallScore": 78.0, "rating": "Good" },
+  { "hospitalId": "HOS-003", "overallScore": 55.4, "rating": "Poor" }
+]

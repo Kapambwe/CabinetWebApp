@@ -1,0 +1,44 @@
+[
+  {
+    "TreatyId": "TRT-001",
+    "Title": "Regional One-Stop Border Post Cooperation Agreement",
+    "Partner": "DRC",
+    "LeadMinistry": "Ministry of Commerce, Trade and Industry",
+    "SignedDate": "2024-06-06T00:00:00Z",
+    "RenewalDate": "2026-12-03T00:00:00Z",
+    "Status": "Active",
+    "RiskLevel": "High",
+    "Milestones": [
+      {
+        "MilestoneId": "TM-001",
+        "Title": "Joint border operating protocol review",
+        "DueDate": "2026-07-06T00:00:00Z",
+        "Status": "At Risk"
+      },
+      {
+        "MilestoneId": "TM-002",
+        "Title": "Reconcile border post uptime reporting",
+        "DueDate": "2026-07-20T00:00:00Z",
+        "Status": "Pending"
+      }
+    ]
+  },
+  {
+    "TreatyId": "TRT-002",
+    "Title": "SADC Critical Infrastructure Information Sharing MOU",
+    "Partner": "SADC Secretariat",
+    "LeadMinistry": "Ministry of Home Affairs",
+    "SignedDate": "2025-06-06T00:00:00Z",
+    "RenewalDate": "2027-06-06T00:00:00Z",
+    "Status": "Active",
+    "RiskLevel": "Medium",
+    "Milestones": [
+      {
+        "MilestoneId": "TM-003",
+        "Title": "Table quarterly shared-risk summary",
+        "DueDate": "2026-07-12T00:00:00Z",
+        "Status": "On Track"
+      }
+    ]
+  }
+]

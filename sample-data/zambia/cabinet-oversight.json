@@ -1,0 +1,83 @@
+{
+  "countryName": "Republic of Zambia",
+  "mandates": [
+    {
+      "functionId": "F1",
+      "title": "Presidential Facilitation",
+      "description": "Ensuring the Presidency is facilitated to perform ceremonial, constitutional and other national duties.",
+      "icon": "account_balance",
+      "progress": 95.0,
+      "status": "Optimal"
+    },
+    {
+      "functionId": "F2",
+      "title": "Former Presidents Welfare",
+      "description": "Ensuring that the Former Presidents and families are well taken care of (Estates & Healthcare).",
+      "icon": "family_restroom",
+      "progress": 100.0,
+      "status": "Compliant"
+    },
+    {
+      "functionId": "F3",
+      "title": "Cabinet Secretariat",
+      "description": "Arranging Cabinet meetings, recording proceedings, and conveying decisions to line Ministries.",
+      "icon": "history_edu",
+      "progress": 88.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F4",
+      "title": "Policy Translation",
+      "description": "Translating Cabinet decisions into Government policies and programmes for institutional implementation.",
+      "icon": "policy",
+      "progress": 72.0,
+      "status": "In Progress"
+    },
+    {
+      "functionId": "F5",
+      "title": "Public Service Strategy",
+      "description": "Spearheading the strategic vision of the Public Service and coordinating Government-wide reforms.",
+      "icon": "psychology",
+      "progress": 65.0,
+      "status": "Strategic"
+    },
+    {
+      "functionId": "F6",
+      "title": "Performance M&E",
+      "description": "Monitoring and evaluating the overall performance of the Public Service.",
+      "icon": "analytics",
+      "progress": 84.0,
+      "status": "Data-Driven"
+    },
+    {
+      "functionId": "F7",
+      "title": "Arbitration & Inquiries",
+      "description": "Overseeing Commissions of Inquiry and arbitrating appeals from contending Ministries and Agencies.",
+      "icon": "gavel",
+      "progress": 40.0,
+      "status": "Active"
+    },
+    {
+      "functionId": "F8",
+      "title": "National Decentralisation",
+      "description": "Implementation of the National Decentralisation Policy and functions devolution.",
+      "icon": "explore",
+      "progress": 42.0,
+      "status": "Regional"
+    }
+  ],
+  "publicServicePerformance": {
+    "overallRating": 88.4,
+    "activeReforms": 12
+  },
+  "decentralization": {
+    "functionsDevolved": 42.0,
+    "localAuthoritiesImpacted": 116,
+    "implementationPhase": "Phase 2"
+  },
+  "welfare": {
+    "estatesCompliant": true,
+    "healthcareProvisionsActive": true,
+    "familiesSupported": 6
+  }
+}

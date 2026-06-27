@@ -1,0 +1,8 @@
+[
+  { "predecessorId": 2, "successorId": 3, "type": 0 },
+  { "predecessorId": 3, "successorId": 4, "type": 0 },
+  { "predecessorId": 11, "successorId": 12, "type": 0 },
+  { "predecessorId": 12, "successorId": 13, "type": 0 },
+  { "predecessorId": 21, "successorId": 22, "type": 0 },
+  { "predecessorId": 22, "successorId": 23, "type": 1 }
+]

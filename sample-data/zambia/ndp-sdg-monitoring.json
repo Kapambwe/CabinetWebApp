@@ -1,0 +1,98 @@
+{
+  "overallNdpProgress": 42.5,
+  "overallSdgProgress": 58.2,
+  "pillars": [
+    {
+      "pillarId": "ndp-1",
+      "number": 1,
+      "title": "Economic Transformation and Job Creation",
+      "description": "Industrialization, agriculture value chains, and mining sector optimization.",
+      "progress": 38.5,
+      "color": "#007bff",
+      "icon": "bi bi-graph-up-arrow",
+      "objectives": [
+        {
+          "objectiveId": "obj-1.1",
+          "title": "Increase mining production to 3 million metric tonnes",
+          "progress": 25.0,
+          "targets": [
+            { "targetId": "tg-1.1.1", "title": "Annual copper output", "currentValue": 800000, "targetValue": 3000000, "unit": "tonnes" }
+          ]
+        }
+      ]
+    },
+    {
+      "pillarId": "ndp-2",
+      "number": 2,
+      "title": "Human and Social Development",
+      "description": "Health, education, and social protection services.",
+      "progress": 62.0,
+      "color": "#28a745",
+      "icon": "bi bi-people-fill",
+      "objectives": []
+    }
+  ],
+  "sdgGoals": [
+    {
+      "number": 3,
+      "title": "Good Health and Well-being",
+      "icon": "bi bi-heart-pulse",
+      "color": "#4C9F38",
+      "progress": 75.0,
+      "targetsOnTrack": 9,
+      "totalTargets": 12
+    },
+    {
+      "number": 4,
+      "title": "Quality Education",
+      "icon": "bi bi-book",
+      "color": "#C5192D",
+      "progress": 62.5,
+      "targetsOnTrack": 6,
+      "totalTargets": 10
+    }
+  ],
+  "provinceScores": [
+    {
+      "provinceName": "Lusaka",
+      "ndpAlignment": 85.0,
+      "sdgProgress": 78.5,
+      "totalContributors": 145,
+      "districts": [
+        {
+          "districtName": "Lusaka District",
+          "progress": 82.0,
+          "constituencies": [
+            {
+              "constituencyName": "Lusaka Central",
+              "progress": 88.0,
+              "wards": [
+                { "wardName": "Kamwala", "progress": 92.0, "activeProjects": 12 },
+                { "wardName": "Kabulonga", "progress": 85.0, "activeProjects": 8 }
+              ]
+            }
+          ]
+        },
+        {
+          "districtName": "Kafue District",
+          "progress": 65.0,
+          "constituencies": []
+        }
+      ]
+    },
+    {
+      "provinceName": "Copperbelt",
+      "ndpAlignment": 72.0,
+      "sdgProgress": 65.0,
+      "totalContributors": 210,
+      "districts": []
+    },
+    {
+      "provinceName": "Eastern",
+      "ndpAlignment": 55.0,
+      "sdgProgress": 48.0,
+      "totalContributors": 85,
+      "districts": []
+    }
+  ]
+}

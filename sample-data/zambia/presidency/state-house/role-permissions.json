@@ -1,0 +1,55 @@
+{
+  "roles": [
+    {
+      "name": "President",
+      "permissions": [
+        "Executive.ViewPresidentialDashboard",
+        "Executive.ViewOversight",
+        "Executive.IssueDirectives",
+        "Executive.ManageEscalations",
+        "Pdu.ViewDashboard",
+        "National.ViewNationalDashboard",
+        "Cabinet.ViewMous"
+      ]
+    },
+    {
+      "name": "Chief of Staff",
+      "permissions": [
+        "Executive.ViewOversight",
+        "Executive.ManageEscalations",
+        "Advisors.ChiefOfStaff",
+        "Cabinet.ViewCabinetDecisions",
+        "Cabinet.ViewMous"
+      ]
+    },
+    {
+      "name": "Economic Advisor",
+      "permissions": [
+        "Advisors.Economic",
+        "Strategic.ViewEconomicIndustrial",
+        "Strategic.RunEconomicSimulations"
+      ]
+    },
+    {
+      "name": "Legal Advisor",
+      "permissions": [
+        "Advisors.Legal",
+        "Strategic.ViewSecurityLegal",
+        "Cabinet.ViewMous"
+      ]
+    },
+    {
+      "name": "Security Advisor",
+      "permissions": [
+        "Advisors.Security",
+        "Strategic.ViewSecurityLegal"
+      ]
+    },
+    {
+      "name": "System Administrator",
+      "permissions": [
+        "ALL"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "ExposureId": "EXP-001",
+    "SourceRecordId": "CON-001",
+    "ExposureType": "Service credit claim",
+    "EstimatedValue": 5200000,
+    "RiskLevel": "High",
+    "Summary": "Scanner downtime could trigger payment withholding dispute."
+  },
+  {
+    "ExposureId": "EXP-002",
+    "SourceRecordId": "CON-002",
+    "ExposureType": "Delay damages",
+    "EstimatedValue": 2800000,
+    "RiskLevel": "Medium",
+    "Summary": "Pilot deployment slippage could produce time-based claims."
+  }
+]

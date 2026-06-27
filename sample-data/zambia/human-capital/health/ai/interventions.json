@@ -1,0 +1,3 @@
+[
+  { "hospitalId": "HOS-001", "action": "Authorize emergency procurement of Insulin", "expectedOutcome": "Zero stock-out within 72 hours." }
+]

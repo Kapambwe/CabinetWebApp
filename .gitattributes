@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.js binary
+*.dll binary
+*.wasm binary
+*.blat binary
+*.dat binary
+*.json binary
+*.css binary
+*.html binary

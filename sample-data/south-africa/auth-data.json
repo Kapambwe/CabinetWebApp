@@ -1,0 +1,47 @@
+{
+  "countryName": "South Africa",
+  "roles": [
+    {
+      "roleId": "PRES",
+      "roleName": "President",
+      "users": [
+        { "userId": "ZAF-001", "name": "Cyril Ramaphosa", "email": "president@presidency.gov.za" }
+      ]
+    },
+    {
+      "roleId": "COS",
+      "roleName": "Chief of Staff",
+      "users": [
+        { "userId": "ZAF-002", "name": "Roshene Singh", "email": "cos@presidency.gov.za" }
+      ]
+    },
+    {
+      "roleId": "STC",
+      "roleName": "Director General (STC)",
+      "users": [
+        { "userId": "ZAF-003", "name": "Phindile Baleni", "email": "dg@presidency.gov.za" }
+      ]
+    },
+    {
+      "roleId": "ECON_ADV",
+      "roleName": "Economic Advisor",
+      "users": [
+        { "userId": "ZAF-004", "name": "Trudi Makhaya", "email": "trudi@presidency.gov.za" }
+      ]
+    },
+    {
+      "roleId": "LEGAL_ADV",
+      "roleName": "Legal Advisor",
+      "users": [
+        { "userId": "ZAF-005", "name": "Nokane Mansaba", "email": "legal@presidency.gov.za" }
+      ]
+    },
+    {
+      "roleId": "SEC_ADV",
+      "roleName": "Security Advisor",
+      "users": [
+        { "userId": "ZAF-006", "name": "Sydney Mufamadi", "email": "security@presidency.gov.za" }
+      ]
+    }
+  ]
+}

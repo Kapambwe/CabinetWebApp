@@ -1,0 +1,44 @@
+[
+  {
+    "employeeId": "ZAM-001",
+    "name": "His Excellency Hakainde Hichilema",
+    "position": "President",
+    "email": "president@statehouse.gov.zm",
+    "department": "Executive"
+  },
+  {
+    "employeeId": "ZAM-002",
+    "name": "Hon. Bradford Machila",
+    "position": "Chief of Staff",
+    "email": "cos@statehouse.gov.zm",
+    "department": "Executive"
+  },
+  {
+    "employeeId": "ZAM-005",
+    "name": "Dr. Jito Kayumba",
+    "position": "Economic Advisor",
+    "email": "jito.kayumba@statehouse.gov.zm",
+    "department": "Economic Affairs"
+  },
+  {
+    "employeeId": "ZAM-006",
+    "name": "Attorney General",
+    "position": "Legal Advisor",
+    "email": "legal@statehouse.gov.zm",
+    "department": "Legal Affairs"
+  },
+  {
+    "employeeId": "ZAM-007",
+    "name": "National Security Advisor",
+    "position": "Security Advisor",
+    "email": "security@statehouse.gov.zm",
+    "department": "Security"
+  },
+  {
+    "employeeId": "ZAM-ADM-SH",
+    "name": "Admin User",
+    "position": "System Administrator",
+    "email": "admin@gov.zm",
+    "department": "IT & Governance"
+  }
+]

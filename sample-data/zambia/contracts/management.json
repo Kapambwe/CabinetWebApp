@@ -1,0 +1,1028 @@
+{
+  "Contracts": [
+    {
+      "ContractId": "CON-EXP-BEEF-DRC-001",
+      "ContractCode": "EXP-BEEF-DRC-001",
+      "Title": "Beef Export Supply Contract to DRC",
+      "ContractType": "Export",
+      "LeadMinistry": "Business Ministry",
+      "OwningAgency": "Export Promotion Office",
+      "Counterparty": "DRC Meat Importers Consortium",
+      "TargetCountry": "DRC",
+      "TargetProduct": "Beef",
+      "TargetRegion": "Copperbelt",
+      "ContractValue": 8500000,
+      "StartDate": "2026-04-07T00:00:00Z",
+      "EndDate": "2027-04-07T00:00:00Z",
+      "Status": "Active",
+      "Deliverables": [
+        {
+          "Title": "Monthly beef shipments",
+          "Description": "Supply chilled beef to Kinshasa buyers",
+          "UnitOfMeasure": "Tonnes",
+          "TargetQuantity": 180,
+          "ActualQuantity": 124,
+          "DueDate": "2026-06-27T00:00:00Z",
+          "Status": "On Track"
+        },
+        {
+          "Title": "Quality certification",
+          "Description": "Maintain veterinary and export compliance",
+          "UnitOfMeasure": "Certificate",
+          "TargetQuantity": 1,
+          "ActualQuantity": 1,
+          "DueDate": "2026-06-12T00:00:00Z",
+          "Status": "Complete"
+        }
+      ],
+      "PerformanceMetrics": [
+        { "MetricName": "Applications", "BaselineValue": 12, "CurrentValue": 31, "TargetValue": 50, "UnitOfMeasure": "Applicants" },
+        { "MetricName": "Fulfilment", "BaselineValue": 40, "CurrentValue": 69, "TargetValue": 100, "UnitOfMeasure": "Percent" },
+        { "MetricName": "Export value", "BaselineValue": 2500000, "CurrentValue": 5100000, "TargetValue": 8500000, "UnitOfMeasure": "USD" }
+      ],
+      "Bottlenecks": [
+        {
+          "BottleneckType": "Cold Chain",
+          "Severity": "Medium",
+          "Summary": "Refrigerated transport capacity is limited on peak shipping weeks",
+          "RootCause": "Insufficient cold-chain trucks",
+          "RecommendedAction": "Add shared cold-chain fleet",
+          "ResponsibleInstitution": "Logistics Agency",
+          "IsResolved": false
+        }
+      ]
+    },
+    {
+      "ContractId": "CON-EXP-GOAT-GULF-001",
+      "ContractCode": "EXP-GOAT-GULF-001",
+      "Title": "Goat Export Contract to Gulf Countries",
+      "ContractType": "Export",
+      "LeadMinistry": "Ministry of Agriculture",
+      "OwningAgency": "Livestock Export Unit",
+      "Counterparty": "Gulf Livestock Traders",
+      "TargetCountry": "Gulf Countries",
+      "TargetProduct": "Goat",
+      "TargetRegion": "Southern",
+      "ContractValue": 5200000,
+      "StartDate": "2026-03-07T00:00:00Z",
+      "EndDate": "2027-03-07T00:00:00Z",
+      "Status": "Active",
+      "Deliverables": [
+        {
+          "Title": "Monthly live goat supply",
+          "Description": "Meet export demand through aggregation and quarantine",
+          "UnitOfMeasure": "Head",
+          "TargetQuantity": 3200,
+          "ActualQuantity": 1900,
+          "DueDate": "2026-07-07T00:00:00Z",
+          "Status": "At Risk"
+        },
+        {
+          "Title": "Quarantine certification",
+          "Description": "Maintain health and export permits",
+          "UnitOfMeasure": "Certificate",
+          "TargetQuantity": 1,
+          "ActualQuantity": 1,
+          "DueDate": "2026-06-17T00:00:00Z",
+          "Status": "Complete"
+        }
+      ],
+      "PerformanceMetrics": [
+        { "MetricName": "Applications", "BaselineValue": 8, "CurrentValue": 19, "TargetValue": 35, "UnitOfMeasure": "Applicants" },
+        { "MetricName": "Fulfilment", "BaselineValue": 28, "CurrentValue": 59, "TargetValue": 100, "UnitOfMeasure": "Percent" },
+        { "MetricName": "Export value", "BaselineValue": 1200000, "CurrentValue": 3100000, "TargetValue": 5200000, "UnitOfMeasure": "USD" }
+      ],
+      "Bottlenecks": [
+        {
+          "BottleneckType": "Finance",
+          "Severity": "High",
+          "Summary": "Working capital for aggregation is too low",
+          "RootCause": "Delayed buyer advances",
+          "RecommendedAction": "Introduce revolving aggregation credit",
+          "ResponsibleInstitution": "Ministry of Finance",
+          "IsResolved": false
+        }
+      ]
+    },
+    {
+      "ContractId": "CON-SUP-GOV-GOODS-001",
+      "ContractCode": "SUP-GOV-GOODS-001",
+      "Title": "Government Goods Supply Contract",
+      "ContractType": "Supplier",
+      "LeadMinistry": "Ministry of Finance",
+      "OwningAgency": "Public Procurement Office",
+      "Counterparty": "Zambia Supplier Cooperative",
+      "TargetCountry": "Domestic",
+      "TargetProduct": "Office and Institutional Goods",
+      "TargetRegion": "Lusaka",
+      "ContractValue": 3800000,
+      "StartDate": "2026-05-07T00:00:00Z",
+      "EndDate": "2027-05-07T00:00:00Z",
+      "Status": "Monitoring",
+      "Deliverables": [
+        {
+          "Title": "Monthly supply batches",
+          "Description": "Supply approved goods to public institutions",
+          "UnitOfMeasure": "Batch",
+          "TargetQuantity": 48,
+          "ActualQuantity": 22,
+          "DueDate": "2026-06-22T00:00:00Z",
+          "Status": "On Track"
+        }
+      ],
+      "PerformanceMetrics": [
+        { "MetricName": "Applications", "BaselineValue": 22, "CurrentValue": 44, "TargetValue": 60, "UnitOfMeasure": "Applicants" },
+        { "MetricName": "Fulfilment", "BaselineValue": 35, "CurrentValue": 52, "TargetValue": 100, "UnitOfMeasure": "Percent" },
+        { "MetricName": "Local value capture", "BaselineValue": 55, "CurrentValue": 71, "TargetValue": 85, "UnitOfMeasure": "Percent" }
+      ],
+      "Bottlenecks": [
+        {
+          "BottleneckType": "Approval",
+          "Severity": "Medium",
+          "Summary": "Supplier approvals take too long across departments",
+          "RootCause": "Manual review chain",
+          "RecommendedAction": "Digitise approval workflow",
+          "ResponsibleInstitution": "Ministry of Finance",
+          "IsResolved": false
+        }
+      ]
+    },
+    {
+      "ContractId": "CON-GOLD-AGG-001",
+      "ContractCode": "GOLD-AGG-001",
+      "Title": "National Gold Reserve Aggregation Contract",
+      "ContractType": "Supply",
+      "LeadMinistry": "Ministry of Mines",
+      "OwningAgency": "Bank of Zambia / ZCCM-IH",
+      "Counterparty": "Small Scale Mining Sector",
+      "TargetCountry": "Domestic",
+      "TargetProduct": "Gold (99.9% Purity)",
+      "TargetRegion": "Central",
+      "ContractValue": 12000000,
+      "StartDate": "2026-02-07T00:00:00Z",
+      "EndDate": "2027-02-07T00:00:00Z",
+      "Status": "Active",
+      "Deliverables": [],
+      "PerformanceMetrics": [
+        { "MetricName": "Fulfilment", "CurrentValue": 42, "TargetValue": 100, "UnitOfMeasure": "Percent" },
+        { "MetricName": "Commitment", "CurrentValue": 88, "TargetValue": 100, "UnitOfMeasure": "Percent" }
+      ],
+      "Bottlenecks": []
+    },
+    {
+      "ContractId": "CON-MINE-LNK-001",
+      "ContractCode": "MINE-LNK-001",
+      "Title": "Mining Equipment and Industrial Parts Linkage",
+      "ContractType": "Supplier",
+      "LeadMinistry": "Ministry of Mines",
+      "OwningAgency": "Industrial Supply Desk",
+      "Counterparty": "Solwezi Industrial Parts",
+      "TargetCountry": "Domestic",
+      "TargetProduct": "Mining equipment and industrial parts",
+      "TargetRegion": "North-Western",
+      "ContractValue": 6400000,
+      "StartDate": "2026-01-07T00:00:00Z",
+      "EndDate": "2027-01-07T00:00:00Z",
+      "Status": "Active",
+      "Deliverables": [
+        {
+          "Title": "Quarterly industrial supply batches",
+          "Description": "Provide mining spares and industrial consumables",
+          "UnitOfMeasure": "Batch",
+          "TargetQuantity": 16,
+          "ActualQuantity": 5,
+          "DueDate": "2026-07-07T00:00:00Z",
+          "Status": "At Risk"
+        }
+      ],
+      "PerformanceMetrics": [
+        { "MetricName": "Fulfilment", "CurrentValue": 42, "TargetValue": 100, "UnitOfMeasure": "Percent" },
+        { "MetricName": "Commitment", "CurrentValue": 88, "TargetValue": 100, "UnitOfMeasure": "Percent" }
+      ],
+      "Bottlenecks": [
+        {
+          "BottleneckType": "Logistics",
+          "Severity": "Medium",
+          "Summary": "Delivery windows for remote mine sites are inconsistent",
+          "RootCause": "Fleet planning gaps",
+          "RecommendedAction": "Coordinate shared regional dispatch",
+          "ResponsibleInstitution": "Industrial Supply Desk",
+          "IsResolved": false
+        }
+      ]
+    }
+  ],
+  "StarterPackRequirements": [
+    {
+      "RequirementId": "REQ-BEEF-DRC-001",
+      "ContractId": "CON-EXP-BEEF-DRC-001",
+      "PackName": "Beef Export Starter Pack",
+      "PackType": "Export",
+      "Sector": "Livestock",
+      "TargetMarket": "DRC export buyers",
+      "Description": "Enable farmers and aggregators to supply export-grade beef.",
+      "MinimumCapital": 450000,
+      "RequiredSkills": [ "Herd management", "Animal health handling", "Aggregation and logistics" ],
+      "RequiredInputs": [ "Livestock transport", "Cold chain", "Veterinary support" ],
+      "RequiredEquipment": [ "Weighing scale", "Chiller access", "Loading equipment" ],
+      "RequiredDocuments": [ "Business registration", "Tax compliance", "Export contract", "Veterinary clearance" ],
+      "RequiredPermits": [ "Veterinary permit", "Export permit" ],
+      "RequiredCredentials": [ "Business registration certificate", "Veterinary compliance credential" ],
+      "EligibleApplicantTypes": [ "Farmer group", "Cooperative", "SME aggregator" ],
+      "EligibilityRules": [
+        { "RuleName": "Minimum Capital", "FieldName": "capital", "Operator": ">=", "ExpectedValue": "450000", "FailureMessage": "Capital below required threshold" },
+        { "RuleName": "Registered Business", "FieldName": "isRegistered", "Operator": "==", "ExpectedValue": "true", "FailureMessage": "Business must be registered" }
+      ]
+    },
+    {
+      "RequirementId": "REQ-GOAT-GULF-001",
+      "ContractId": "CON-EXP-GOAT-GULF-001",
+      "PackName": "Goat Export Starter Pack",
+      "PackType": "Export",
+      "Sector": "Livestock",
+      "TargetMarket": "Gulf buyers",
+      "Description": "Enable livestock suppliers to meet export demand for goats.",
+      "MinimumCapital": 280000,
+      "RequiredSkills": [ "Herd aggregation", "Livestock grading", "Export documentation" ],
+      "RequiredInputs": [ "Holding pens", "Transport crates", "Feed support" ],
+      "RequiredEquipment": [ "Scales", "Ear tag kit", "Quarantine handling tools" ],
+      "RequiredDocuments": [ "Business registration", "Tax clearance", "Health certificate" ],
+      "RequiredPermits": [ "Veterinary permit", "Export clearance" ],
+      "RequiredCredentials": [ "Business registration certificate", "Export compliance credential" ],
+      "EligibleApplicantTypes": [ "Farmer group", "Cooperative", "SME aggregator" ],
+      "EligibilityRules": [
+        { "RuleName": "Livestock Experience", "FieldName": "experienceYears", "Operator": ">=", "ExpectedValue": "2", "FailureMessage": "Insufficient livestock experience" }
+      ]
+    },
+    {
+      "RequirementId": "REQ-GOV-GOODS-001",
+      "ContractId": "CON-SUP-GOV-GOODS-001",
+      "PackName": "Government Supplier Pack",
+      "PackType": "Supplier",
+      "Sector": "General Supply",
+      "TargetMarket": "Public institutions",
+      "Description": "Help SMEs and manufacturers supply goods to ministries and agencies.",
+      "MinimumCapital": 120000,
+      "RequiredSkills": [ "Stock control", "Procurement response", "Delivery scheduling" ],
+      "RequiredInputs": [ "Working capital", "Warehouse space", "Transport arrangement" ],
+      "RequiredEquipment": [ "Inventory system", "Packaging equipment" ],
+      "RequiredDocuments": [ "Business registration", "Tax compliance", "Supplier registration" ],
+      "RequiredPermits": [ "Local authority permit" ],
+      "RequiredCredentials": [ "Business registration certificate", "Supplier compliance credential" ],
+      "EligibleApplicantTypes": [ "SME", "Manufacturer", "Cooperative" ],
+      "EligibilityRules": [
+        { "RuleName": "Tax Compliance", "FieldName": "isTaxCompliant", "Operator": "==", "ExpectedValue": "true", "FailureMessage": "Tax compliance required" }
+      ]
+    },
+    {
+      "RequirementId": "REQ-GOLD-PACK-001",
+      "ContractId": "CON-GOLD-AGG-001",
+      "PackName": "Gold Aggregation Pack",
+      "PackType": "Supply",
+      "Sector": "Mining",
+      "TargetMarket": "National reserve aggregation",
+      "Description": "Aggregate compliant small-scale gold into the national reserve.",
+      "MinimumCapital": 300000,
+      "RequiredSkills": [ "Mineral aggregation", "Compliance handling", "Chain of custody" ],
+      "RequiredInputs": [ "Collection points", "Security transport", "Testing tools" ],
+      "RequiredEquipment": [ "Weighing scale", "Security bags" ],
+      "RequiredDocuments": [ "Business registration", "Tax compliance", "Mineral purchase permit" ],
+      "RequiredPermits": [ "Minerals trading permit" ],
+      "RequiredCredentials": [ "Reserve aggregation credential" ],
+      "EligibleApplicantTypes": [ "Cooperative", "SME", "Aggregator" ],
+      "EligibilityRules": [
+        { "RuleName": "Registered Entity", "FieldName": "isRegistered", "Operator": "==", "ExpectedValue": "true", "FailureMessage": "Entity must be registered" }
+      ]
+    },
+    {
+      "RequirementId": "REQ-MINE-LNK-001",
+      "ContractId": "CON-MINE-LNK-001",
+      "PackName": "Mining Supply Linkage Pack",
+      "PackType": "Supplier",
+      "Sector": "Mining Equipment",
+      "TargetMarket": "Mining operations",
+      "Description": "Support SMEs that supply industrial parts to mining operations.",
+      "MinimumCapital": 200000,
+      "RequiredSkills": [ "Inventory planning", "Industrial parts sourcing", "Dispatch coordination" ],
+      "RequiredInputs": [ "Working capital", "Warehouse space", "Transport arrangement" ],
+      "RequiredEquipment": [ "Inventory system", "Packaging equipment" ],
+      "RequiredDocuments": [ "Business registration", "Tax compliance", "Supplier registration" ],
+      "RequiredPermits": [ "Local authority permit" ],
+      "RequiredCredentials": [ "Supplier compliance credential" ],
+      "EligibleApplicantTypes": [ "SME", "Manufacturer" ],
+      "EligibilityRules": [
+        { "RuleName": "Tax Compliance", "FieldName": "isTaxCompliant", "Operator": "==", "ExpectedValue": "true", "FailureMessage": "Tax compliance required" }
+      ]
+    },
+    {
+      "RequirementId": "SP-001",
+      "ContractId": "CON-SUP-GOV-GOODS-001",
+      "PackName": "Import Replacement SME Cluster",
+      "PackType": "SME",
+      "Sector": "Industrial Replacement",
+      "TargetMarket": "Urban demand centres",
+      "Description": "High-impact cluster for local SMEs to replace imported light manufactured goods.",
+      "MinimumCapital": 250000,
+      "RequiredSkills": [ "Light manufacturing", "Quality control", "Supply chain management" ],
+      "RequiredInputs": [ "Raw materials", "Energy", "Labour" ],
+      "RequiredEquipment": [ "Processing machinery", "Packaging tools" ],
+      "RequiredDocuments": [ "Business registration", "Tax compliance", "Standard compliance" ],
+      "RequiredPermits": [ "Manufacturing permit" ],
+      "RequiredCredentials": [ "SME Compliance Credential" ],
+      "EligibleApplicantTypes": [ "SME", "Cooperative" ],
+      "EligibilityRules": [
+        { "RuleName": "Minimum Capital", "FieldName": "capital", "Operator": ">=", "ExpectedValue": "250000", "FailureMessage": "Capital below required threshold" }
+      ]
+    },
+    {
+      "RequirementId": "SP-002",
+      "ContractId": "CON-MINE-LNK-001",
+      "PackName": "Local Manufacturing Scale Pack",
+      "PackType": "Manufacturing",
+      "Sector": "Industrial",
+      "TargetMarket": "Industrial zones",
+      "Description": "Scaling local manufacturing capacity to meet industrial demand.",
+      "MinimumCapital": 1200000,
+      "RequiredSkills": [ "Industrial engineering", "Operations management", "Export compliance" ],
+      "RequiredInputs": [ "Industrial inputs", "Technical expertise" ],
+      "RequiredEquipment": [ "Heavy machinery", "Testing equipment" ],
+      "RequiredDocuments": [ "Industrial license", "EIA report", "Tax compliance" ],
+      "RequiredPermits": [ "Industrial permit", "Environmental clearance" ],
+      "RequiredCredentials": [ "Industrial Quality Credential" ],
+      "EligibleApplicantTypes": [ "Manufacturer", "SME" ],
+      "EligibilityRules": [
+        { "RuleName": "Minimum Capital", "FieldName": "capital", "Operator": ">=", "ExpectedValue": "1200000", "FailureMessage": "Capital below required threshold" }
+      ]
+    },
+    {
+      "RequirementId": "SP-003",
+      "ContractId": "CON-EXP-BEEF-DRC-001",
+      "PackName": "Farmer Aggregation Pack",
+      "PackType": "Agro-processing",
+      "Sector": "Agriculture",
+      "TargetMarket": "Crop-producing districts",
+      "Description": "Aggregating smallholder farmers into high-value agro-processing chains.",
+      "MinimumCapital": 600000,
+      "RequiredSkills": [ "Agro-processing", "Aggregation logistics", "Food safety" ],
+      "RequiredInputs": [ "Agricultural produce", "Packaging materials" ],
+      "RequiredEquipment": [ "Dryers", "Milling equipment", "Storage silos" ],
+      "RequiredDocuments": [ "Cooperative registration", "Health certificate", "Tax compliance" ],
+      "RequiredPermits": [ "Agro-processing license" ],
+      "RequiredCredentials": [ "Agro-compliance Credential" ],
+      "EligibleApplicantTypes": [ "Cooperative", "Farmer group" ],
+      "EligibilityRules": [
+        { "RuleName": "Minimum Capital", "FieldName": "capital", "Operator": ">=", "ExpectedValue": "600000", "FailureMessage": "Capital below required threshold" }
+      ]
+    }
+  ],
+  "RoutingRules": [
+    {
+      "RuleId": "ROUTE-BEEF-DRC-001",
+      "Ministry": "Ministry of Agriculture",
+      "Agency": "Livestock Export Unit",
+      "ContractType": "Export",
+      "PackType": "Export",
+      "ProductCategory": "Beef",
+      "Region": "Copperbelt",
+      "Priority": 1,
+      "IsActive": true
+    },
+    {
+      "RuleId": "ROUTE-GOAT-GULF-001",
+      "Ministry": "Ministry of Agriculture",
+      "Agency": "Livestock Export Unit",
+      "ContractType": "Export",
+      "PackType": "Export",
+      "ProductCategory": "Goat",
+      "Region": "Southern",
+      "Priority": 1,
+      "IsActive": true
+    },
+    {
+      "RuleId": "ROUTE-GOV-GOODS-001",
+      "Ministry": "Ministry of Finance",
+      "Agency": "Public Procurement Office",
+      "ContractType": "Supplier",
+      "PackType": "Supplier",
+      "ProductCategory": "Office and Institutional Goods",
+      "Region": "Lusaka",
+      "Priority": 1,
+      "IsActive": true
+    },
+    {
+      "RuleId": "ROUTE-GOLD-001",
+      "Ministry": "Ministry of Mines",
+      "Agency": "Bank of Zambia / ZCCM-IH",
+      "ContractType": "Supply",
+      "PackType": "Supply",
+      "ProductCategory": "Mining",
+      "Region": "Central",
+      "Priority": 1,
+      "IsActive": true
+    },
+    {
+      "RuleId": "ROUTE-MINE-LNK-001",
+      "Ministry": "Ministry of Mines",
+      "Agency": "Industrial Supply Desk",
+      "ContractType": "Supplier",
+      "PackType": "Supplier",
+      "ProductCategory": "Mining Equipment",
+      "Region": "North-Western",
+      "Priority": 1,
+      "IsActive": true
+    }
+  ],
+  "Applications": [
+    {
+      "ApplicationId": "APP-BEEF-001",
+      "ContractId": "CON-EXP-BEEF-DRC-001",
+      "RequirementId": "REQ-BEEF-DRC-001",
+      "ApplicantId": "APPL-001",
+      "ApplicantName": "Mwamba Livestock Group",
+      "ApplicantType": "Farmer group",
+      "SubmittedFromRegion": "Copperbelt",
+      "SubmittedFromDistrict": "Mufulira",
+      "SelectedMinistry": "Ministry of Agriculture",
+      "SelectedAgency": "Livestock Export Unit",
+      "Status": "Approved",
+      "ImplementationStage": "Started",
+      "ReviewedAt": "2026-06-04T00:00:00Z",
+      "ReviewedBy": "Export Approval Desk",
+      "ReviewNotes": "Meets livestock and export readiness requirements",
+      "Responses": [
+        { "FieldLabel": "Capital Ready", "FieldType": "yesno", "FieldValue": "Yes", "IsRequired": true },
+        { "FieldLabel": "Livestock Count", "FieldType": "number", "FieldValue": "420", "IsRequired": true }
+      ],
+      "UploadedDocuments": [ "business-registration.pdf", "vet-clearance.pdf" ],
+      "SupportingEvidence": [
+        {
+          "EvidenceId": "NAT-EVD-BEEF-001A",
+          "ApplicationId": "APP-BEEF-001",
+          "EvidenceType": "PdfDocument",
+          "Title": "Business Registration Certificate",
+          "FileName": "business-registration.pdf",
+          "MimeType": "application/pdf",
+          "VerificationStatus": "Verified",
+          "ReviewedBy": "Ministry Evidence Desk",
+          "ReviewedAt": "2026-06-05T00:00:00Z",
+          "ReviewNotes": "Document accepted by responsible agency."
+        },
+        {
+          "EvidenceId": "NAT-EVD-BEEF-001B",
+          "ApplicationId": "APP-BEEF-001",
+          "EvidenceType": "WalletVerifiableCredential",
+          "Title": "Veterinary Compliance Credential",
+          "WalletCredentialId": "WAL-CRED-VET-001",
+          "CredentialType": "VeterinaryComplianceCredential",
+          "IssuerDid": "did:web:issuer.gov.zm",
+          "HolderDid": "did:web:wallet.customer.local",
+          "CredentialHash": "sha256:wal-cred-vet-001-credential-hash",
+          "ProofKeyId": "did:web:issuer.gov.zm#keys-1",
+          "ProofHash": "sha256:wal-cred-vet-001-proof-hash",
+          "ProofSignature": "sig:vet-001",
+          "ProofMethod": "Ed25519Signature2020",
+          "HashProofVerified": true,
+          "VerificationStatus": "Verified",
+          "ReviewedBy": "Credential Verification Service",
+          "ReviewedAt": "2026-06-05T00:00:00Z",
+          "ReviewNotes": "Credential hash proof matched issuer key."
+        }
+      ]
+    },
+    {
+      "ApplicationId": "APP-GOAT-001",
+      "ContractId": "CON-EXP-GOAT-GULF-001",
+      "RequirementId": "REQ-GOAT-GULF-001",
+      "ApplicantId": "APPL-002",
+      "ApplicantName": "Southern Goat Cooperative",
+      "ApplicantType": "Cooperative",
+      "SubmittedFromRegion": "Southern",
+      "SubmittedFromDistrict": "Choma",
+      "SelectedMinistry": "Ministry of Agriculture",
+      "SelectedAgency": "Livestock Export Unit",
+      "Status": "Submitted",
+      "ImplementationStage": "Not Started",
+      "Responses": [
+        { "FieldLabel": "Capital Ready", "FieldType": "yesno", "FieldValue": "No", "IsRequired": true },
+        { "FieldLabel": "Livestock Experience Years", "FieldType": "number", "FieldValue": "3", "IsRequired": true }
+      ],
+      "UploadedDocuments": [ "cooperative-certificate.pdf" ],
+      "SupportingEvidence": [
+        {
+          "EvidenceId": "NAT-EVD-GOAT-001A",
+          "ApplicationId": "APP-GOAT-001",
+          "EvidenceType": "PdfDocument",
+          "Title": "Cooperative Certificate",
+          "FileName": "cooperative-certificate.pdf",
+          "MimeType": "application/pdf",
+          "VerificationStatus": "PendingReview",
+          "ReviewNotes": "Pending agency evidence review."
+        },
+        {
+          "EvidenceId": "NAT-EVD-GOAT-001B",
+          "ApplicationId": "APP-GOAT-001",
+          "EvidenceType": "WalletVerifiableCredential",
+          "Title": "Tax Clearance Credential",
+          "WalletCredentialId": "WAL-CRED-TAX-002",
+          "CredentialType": "TaxClearanceCredential",
+          "IssuerDid": "did:web:issuer.gov.zm",
+          "HolderDid": "did:web:wallet.customer.local",
+          "CredentialHash": "sha256:wal-cred-tax-002-credential-hash",
+          "ProofKeyId": "did:web:issuer.gov.zm#keys-1",
+          "ProofMethod": "Ed25519Signature2020",
+          "HashProofVerified": false,
+          "VerificationStatus": "PendingReview",
+          "ReviewNotes": "Credential proof is missing or awaiting verification."
+        }
+      ]
+    },
+    {
+      "ApplicationId": "APP-GOV-001",
+      "ContractId": "CON-SUP-GOV-GOODS-001",
+      "RequirementId": "REQ-GOV-GOODS-001",
+      "ApplicantId": "APPL-003",
+      "ApplicantName": "Lusaka Office Supplies Ltd",
+      "ApplicantType": "SME",
+      "SubmittedFromRegion": "Lusaka",
+      "SubmittedFromDistrict": "Lusaka",
+      "SelectedMinistry": "Ministry of Finance",
+      "SelectedAgency": "Public Procurement Office",
+      "Status": "In Review",
+      "ImplementationStage": "Not Started",
+      "Responses": [
+        { "FieldLabel": "Registered Business", "FieldType": "yesno", "FieldValue": "Yes", "IsRequired": true },
+        { "FieldLabel": "Annual Turnover", "FieldType": "number", "FieldValue": "2500000", "IsRequired": false }
+      ],
+      "UploadedDocuments": [ "tax-clearance.pdf", "registration-certificate.pdf" ],
+      "SupportingEvidence": [
+        {
+          "EvidenceId": "NAT-EVD-GOV-001A",
+          "ApplicationId": "APP-GOV-001",
+          "EvidenceType": "PdfDocument",
+          "Title": "Tax Clearance PDF",
+          "FileName": "tax-clearance.pdf",
+          "MimeType": "application/pdf",
+          "VerificationStatus": "Verified",
+          "ReviewedBy": "Ministry Evidence Desk",
+          "ReviewedAt": "2026-06-05T00:00:00Z",
+          "ReviewNotes": "Document accepted by responsible agency."
+        },
+        {
+          "EvidenceId": "NAT-EVD-GOV-001B",
+          "ApplicationId": "APP-GOV-001",
+          "EvidenceType": "PdfDocument",
+          "Title": "Registration Certificate",
+          "FileName": "registration-certificate.pdf",
+          "MimeType": "application/pdf",
+          "VerificationStatus": "Verified",
+          "ReviewedBy": "Ministry Evidence Desk",
+          "ReviewedAt": "2026-06-05T00:00:00Z",
+          "ReviewNotes": "Document accepted by responsible agency."
+        },
+        {
+          "EvidenceId": "NAT-EVD-GOV-001C",
+          "ApplicationId": "APP-GOV-001",
+          "EvidenceType": "WalletVerifiableCredential",
+          "Title": "Supplier Compliance Credential",
+          "WalletCredentialId": "WAL-CRED-SUP-003",
+          "CredentialType": "SupplierComplianceCredential",
+          "IssuerDid": "did:web:issuer.gov.zm",
+          "HolderDid": "did:web:wallet.customer.local",
+          "CredentialHash": "sha256:wal-cred-sup-003-credential-hash",
+          "ProofKeyId": "did:web:issuer.gov.zm#keys-1",
+          "ProofHash": "sha256:wal-cred-sup-003-proof-hash",
+          "ProofSignature": "sig:sup-003",
+          "ProofMethod": "Ed25519Signature2020",
+          "HashProofVerified": true,
+          "VerificationStatus": "Verified",
+          "ReviewedBy": "Credential Verification Service",
+          "ReviewedAt": "2026-06-05T00:00:00Z",
+          "ReviewNotes": "Credential hash proof matched issuer key."
+        }
+      ]
+    },
+    {
+      "ApplicationId": "APP-GOLD-001",
+      "ContractId": "CON-GOLD-AGG-001",
+      "RequirementId": "REQ-GOLD-PACK-001",
+      "ApplicantId": "APPL-GOLD-001",
+      "ApplicantName": "Mumbwa Miners Coop",
+      "ApplicantType": "Cooperative",
+      "SubmittedFromRegion": "Central",
+      "SubmittedFromDistrict": "Mumbwa",
+      "Status": "Approved",
+      "ImplementationStage": "Started",
+      "CommitmentScore": 88.5,
+      "DiligenceLevel": "Diligent",
+      "AssignedExtensionOfficer": "Officer Chanda",
+      "LastFieldVisit": "2026-06-05T00:00:00Z",
+      "ProjectedProfitability": 15.2,
+      "SimulationSuccessProbability": 94.0
+    },
+    {
+      "ApplicationId": "APP-MINE-LNK-001",
+      "ContractId": "CON-MINE-LNK-001",
+      "RequirementId": "REQ-MINE-LNK-001",
+      "ApplicantId": "APPL-MINE-001",
+      "ApplicantName": "Solwezi Industrial Parts",
+      "ApplicantType": "SME",
+      "SubmittedFromRegion": "North-Western",
+      "SubmittedFromDistrict": "Solwezi",
+      "Status": "Approved",
+      "ImplementationStage": "Started",
+      "CommitmentScore": 42.0,
+      "DiligenceLevel": "Lagging",
+      "AssignedExtensionOfficer": "Officer Mulenga",
+      "LastFieldVisit": "2026-05-28T00:00:00Z",
+      "ProjectedProfitability": 8.5,
+      "SimulationSuccessProbability": 65.0
+    },
+    {
+      "ApplicationId": "APP-SP001-001",
+      "ContractId": "CON-SUP-GOV-GOODS-001",
+      "RequirementId": "SP-001",
+      "ApplicantId": "APPL-004",
+      "ApplicantName": "Kitwe Light Mfg Ltd",
+      "ApplicantType": "SME",
+      "SubmittedFromRegion": "Copperbelt",
+      "SubmittedFromDistrict": "Kitwe",
+      "SelectedMinistry": "Business Ministry",
+      "Status": "Approved",
+      "ImplementationStage": "Started",
+      "SubmittedAt": "2026-06-08T00:00:00Z"
+    },
+    {
+      "ApplicationId": "APP-SP002-001",
+      "ContractId": "CON-MINE-LNK-001",
+      "RequirementId": "SP-002",
+      "ApplicantId": "APPL-005",
+      "ApplicantName": "Ndola Industrial Heavy",
+      "ApplicantType": "Manufacturer",
+      "SubmittedFromRegion": "Copperbelt",
+      "SubmittedFromDistrict": "Ndola",
+      "SelectedMinistry": "Ministry of Mines",
+      "Status": "In Review",
+      "ImplementationStage": "Not Started",
+      "SubmittedAt": "2026-06-10T00:00:00Z"
+    },
+    {
+      "ApplicationId": "APP-SP003-001",
+      "ContractId": "CON-EXP-BEEF-DRC-001",
+      "RequirementId": "SP-003",
+      "ApplicantId": "APPL-006",
+      "ApplicantName": "Chongwe Farmer Union",
+      "ApplicantType": "Cooperative",
+      "SubmittedFromRegion": "Lusaka",
+      "SubmittedFromDistrict": "Chongwe",
+      "SelectedMinistry": "Ministry of Agriculture",
+      "Status": "Submitted",
+      "ImplementationStage": "Not Started",
+      "SubmittedAt": "2026-06-11T00:00:00Z"
+    }
+  ],
+  "Workflows": [
+    {
+      "WorkflowId": "WF-APP-BEEF-001",
+      "ReferenceId": "APP-BEEF-001",
+      "ReferenceType": "StarterPackApplication",
+      "WorkflowName": "Beef Export Starter Pack Approval",
+      "CurrentStep": "Credential Issuance",
+      "Status": "Approved",
+      "Steps": [
+        {
+          "StepId": "WF-APP-BEEF-001-1",
+          "WorkflowId": "WF-APP-BEEF-001",
+          "StepName": "Ministry Review",
+          "AssignedToRole": "Officer",
+          "AssignedToInstitution": "Ministry of Agriculture",
+          "Sequence": 1,
+          "Status": "Complete",
+          "AssignedAt": "2026-06-01T00:00:00Z",
+          "DueAt": "2026-06-02T00:00:00Z",
+          "CompletedAt": "2026-06-02T00:00:00Z"
+        },
+        {
+          "StepId": "WF-APP-BEEF-001-2",
+          "WorkflowId": "WF-APP-BEEF-001",
+          "StepName": "Finance Confirmation",
+          "AssignedToRole": "Approver",
+          "AssignedToInstitution": "Ministry of Finance",
+          "Sequence": 2,
+          "Status": "Complete",
+          "AssignedAt": "2026-06-02T00:00:00Z",
+          "DueAt": "2026-06-03T00:00:00Z",
+          "CompletedAt": "2026-06-03T00:00:00Z"
+        },
+        {
+          "StepId": "WF-APP-BEEF-001-3",
+          "WorkflowId": "WF-APP-BEEF-001",
+          "StepName": "Credential Issuance",
+          "AssignedToRole": "Issuer",
+          "AssignedToInstitution": "Customer Wallet",
+          "Sequence": 3,
+          "Status": "Complete",
+          "AssignedAt": "2026-06-03T00:00:00Z",
+          "DueAt": "2026-06-04T00:00:00Z",
+          "CompletedAt": "2026-06-04T00:00:00Z"
+        }
+      ],
+      "Decisions": [
+        {
+          "WorkflowId": "WF-APP-BEEF-001",
+          "StepId": "WF-APP-BEEF-001-1",
+          "DecisionBy": "Agriculture Desk",
+          "DecisionRole": "Officer",
+          "Outcome": "Approved",
+          "Notes": "Eligibility met"
+        },
+        {
+          "WorkflowId": "WF-APP-BEEF-001",
+          "StepId": "WF-APP-BEEF-001-2",
+          "DecisionBy": "Finance Desk",
+          "DecisionRole": "Approver",
+          "Outcome": "Approved",
+          "Notes": "Budget impact acceptable"
+        }
+      ]
+    },
+    {
+      "WorkflowId": "WF-APP-GOAT-001",
+      "ReferenceId": "APP-GOAT-001",
+      "ReferenceType": "StarterPackApplication",
+      "WorkflowName": "Goat Export Starter Pack Approval",
+      "CurrentStep": "Finance Review",
+      "Status": "In Review",
+      "Steps": [
+        {
+          "StepId": "WF-APP-GOAT-001-1",
+          "WorkflowId": "WF-APP-GOAT-001",
+          "StepName": "Ministry Review",
+          "AssignedToRole": "Officer",
+          "AssignedToInstitution": "Ministry of Agriculture",
+          "Sequence": 1,
+          "Status": "Complete",
+          "AssignedAt": "2026-06-03T00:00:00Z",
+          "DueAt": "2026-06-04T00:00:00Z",
+          "CompletedAt": "2026-06-05T00:00:00Z"
+        },
+        {
+          "StepId": "WF-APP-GOAT-001-2",
+          "WorkflowId": "WF-APP-GOAT-001",
+          "StepName": "Finance Confirmation",
+          "AssignedToRole": "Approver",
+          "AssignedToInstitution": "Ministry of Finance",
+          "Sequence": 2,
+          "Status": "Pending",
+          "AssignedAt": "2026-06-04T00:00:00Z",
+          "DueAt": "2026-06-05T00:00:00Z",
+          "SlaHours": 24
+        }
+      ]
+    },
+    {
+      "WorkflowId": "WF-APP-GOV-001",
+      "ReferenceId": "APP-GOV-001",
+      "ReferenceType": "StarterPackApplication",
+      "WorkflowName": "Government Supplier Pack Approval",
+      "CurrentStep": "Evidence Review",
+      "Status": "In Review",
+      "Steps": [
+        {
+          "StepId": "WF-APP-GOV-001-1",
+          "WorkflowId": "WF-APP-GOV-001",
+          "StepName": "Procurement Review",
+          "AssignedToRole": "Procurement Officer",
+          "AssignedToInstitution": "Ministry of Finance",
+          "Sequence": 1,
+          "Status": "Complete",
+          "AssignedAt": "2026-06-02T00:00:00Z",
+          "DueAt": "2026-06-03T00:00:00Z",
+          "CompletedAt": "2026-06-03T00:00:00Z"
+        },
+        {
+          "StepId": "WF-APP-GOV-001-2",
+          "WorkflowId": "WF-APP-GOV-001",
+          "StepName": "Evidence Review",
+          "AssignedToRole": "Compliance Officer",
+          "AssignedToInstitution": "Public Procurement Office",
+          "Sequence": 2,
+          "Status": "InProgress",
+          "AssignedAt": "2026-06-03T00:00:00Z",
+          "DueAt": "2026-06-05T00:00:00Z",
+          "SlaHours": 48
+        }
+      ]
+    }
+  ],
+  "DigitalCredentials": [
+    {
+      "CredentialId": "CRED-BIZ-001",
+      "CredentialType": "BusinessRegistrationCertificate",
+      "IssuerInstitution": "Ministry of Finance",
+      "BeneficiaryId": "APPL-001",
+      "BeneficiaryName": "Mwamba Livestock Group",
+      "ReferenceNumber": "BR-2026-0001",
+      "Status": "Active",
+      "ExpiryDate": "2027-05-07T00:00:00Z",
+      "LifecycleStatus": "Active",
+      "IssuanceWorkflowId": "WF-APP-BEEF-001",
+      "VerificationCode": "VER-001",
+      "ProofUrl": "wallet://credentials/BR-2026-0001"
+    },
+    {
+      "CredentialId": "CRED-EXP-001",
+      "CredentialType": "ExportPermit",
+      "IssuerInstitution": "Ministry of Agriculture",
+      "BeneficiaryId": "APPL-001",
+      "BeneficiaryName": "Mwamba Livestock Group",
+      "ReferenceNumber": "EXP-2026-001",
+      "Status": "Active",
+      "ExpiryDate": "2026-06-30T00:00:00Z",
+      "LifecycleStatus": "RenewalDue",
+      "IssuanceWorkflowId": "WF-APP-BEEF-001",
+      "VerificationCode": "VER-002",
+      "ProofUrl": "wallet://credentials/EXP-2026-001"
+    },
+    {
+      "CredentialId": "CRED-SUP-001",
+      "CredentialType": "SupplierComplianceCredential",
+      "IssuerInstitution": "Ministry of Finance",
+      "BeneficiaryId": "APPL-003",
+      "BeneficiaryName": "Lusaka Office Supplies Ltd",
+      "ReferenceNumber": "SUP-2026-001",
+      "Status": "Revoked",
+      "ExpiryDate": "2026-11-07T00:00:00Z",
+      "RevokedAt": "2026-06-05T00:00:00Z",
+      "RevocationReason": "Supplier compliance document was superseded by a newer verification.",
+      "LifecycleStatus": "Revoked",
+      "IssuanceWorkflowId": "WF-APP-GOV-001",
+      "VerificationCode": "VER-003",
+      "ProofUrl": "wallet://credentials/SUP-2026-001"
+    }
+  ],
+  "WalletCredentials": [
+    {
+      "WalletCredentialId": "WAL-CRED-BIZ-001",
+      "WalletOwnerId": "APPL-001",
+      "WalletOwnerName": "Mwamba Livestock Group",
+      "CredentialId": "CRED-BIZ-001",
+      "CredentialType": "BusinessRegistrationCertificate",
+      "IssuerInstitution": "Ministry of Finance",
+      "DisplayTitle": "Business Registration Certificate - Mwamba Livestock Group",
+      "Status": "Delivered",
+      "AddedAt": "2026-06-05T00:00:00Z",
+      "LastVerifiedAt": "2026-06-06T00:00:00Z",
+      "ExpiryDate": "2027-05-07T00:00:00Z",
+      "DeliveryReference": "WALLET-DEL-0001"
+    },
+    {
+      "WalletCredentialId": "WAL-CRED-EXP-001",
+      "WalletOwnerId": "APPL-001",
+      "WalletOwnerName": "Mwamba Livestock Group",
+      "CredentialId": "CRED-EXP-001",
+      "CredentialType": "ExportPermit",
+      "IssuerInstitution": "Ministry of Agriculture",
+      "DisplayTitle": "Export Permit - Beef DRC Contract",
+      "Status": "Delivered",
+      "AddedAt": "2026-06-06T00:00:00Z",
+      "LastVerifiedAt": "2026-06-07T00:00:00Z",
+      "ExpiryDate": "2026-06-30T00:00:00Z",
+      "DeliveryReference": "WALLET-DEL-0002"
+    },
+    {
+      "WalletCredentialId": "WAL-CRED-SUP-001",
+      "WalletOwnerId": "APPL-003",
+      "WalletOwnerName": "Lusaka Office Supplies Ltd",
+      "CredentialId": "CRED-SUP-001",
+      "CredentialType": "SupplierComplianceCredential",
+      "IssuerInstitution": "Ministry of Finance",
+      "DisplayTitle": "Supplier Compliance Credential - Government Goods Contract",
+      "Status": "DeliveryFailed",
+      "AddedAt": "2026-06-05T00:00:00Z",
+      "ExpiryDate": "2026-11-07T00:00:00Z",
+      "DeliveryReference": "WALLET-DEL-0003",
+      "DeliveryFailureReason": "Wallet endpoint rejected revoked credential update."
+    }
+  ],
+  "CredentialLifecycleAlerts": [
+    {
+      "AlertId": "CLA-EXP-001",
+      "CredentialId": "CRED-EXP-001",
+      "WalletCredentialId": "WAL-CRED-EXP-001",
+      "AlertType": "RenewalDue",
+      "Severity": "Medium",
+      "Summary": "Export permit expires within 30 days and renewal should start before the next shipment cycle.",
+      "ResponsibleInstitution": "Ministry of Agriculture",
+      "RaisedAt": "2026-06-06T00:00:00Z",
+      "IsResolved": false
+    },
+    {
+      "AlertId": "CLA-SUP-001",
+      "CredentialId": "CRED-SUP-001",
+      "WalletCredentialId": "WAL-CRED-SUP-001",
+      "AlertType": "RevokedCredential",
+      "Severity": "High",
+      "Summary": "Supplier compliance credential was revoked and the wallet delivery update failed.",
+      "ResponsibleInstitution": "Ministry of Finance",
+      "RaisedAt": "2026-06-05T00:00:00Z",
+      "IsResolved": false
+    }
+  ],
+  "ApplicantProfiles": [
+    {
+      "ApplicantId": "APPL-001",
+      "ApplicantName": "Mwamba Livestock Group",
+      "ApplicantType": "Farmer group",
+      "BusinessName": "Mwamba Livestock Group",
+      "RegistrationNumber": "BRN-2024-00891",
+      "Province": "Copperbelt",
+      "District": "Mufulira",
+      "PhoneNumber": "+260 977 110 001",
+      "Email": "admin@mwambalivestock.example",
+      "IsRegistered": true,
+      "IsTaxCompliant": true,
+      "WalletCredentials": [
+        {
+          "WalletCredentialId": "WAL-CRED-BIZ-001",
+          "WalletOwnerId": "APPL-001",
+          "WalletOwnerName": "Mwamba Livestock Group",
+          "CredentialId": "CRED-BIZ-001",
+          "CredentialType": "BusinessRegistrationCertificate",
+          "IssuerInstitution": "Ministry of Finance",
+          "DisplayTitle": "Business Registration Certificate - Mwamba Livestock Group",
+          "Status": "Delivered",
+          "AddedAt": "2026-06-05T00:00:00Z",
+          "LastVerifiedAt": "2026-06-06T00:00:00Z",
+          "ExpiryDate": "2027-05-07T00:00:00Z",
+          "DeliveryReference": "WALLET-DEL-0001"
+        },
+        {
+          "WalletCredentialId": "WAL-CRED-EXP-001",
+          "WalletOwnerId": "APPL-001",
+          "WalletOwnerName": "Mwamba Livestock Group",
+          "CredentialId": "CRED-EXP-001",
+          "CredentialType": "ExportPermit",
+          "IssuerInstitution": "Ministry of Agriculture",
+          "DisplayTitle": "Export Permit - Beef DRC Contract",
+          "Status": "Delivered",
+          "AddedAt": "2026-06-06T00:00:00Z",
+          "LastVerifiedAt": "2026-06-07T00:00:00Z",
+          "ExpiryDate": "2026-06-30T00:00:00Z",
+          "DeliveryReference": "WALLET-DEL-0002"
+        }
+      ]
+    },
+    {
+      "ApplicantId": "APPL-002",
+      "ApplicantName": "Southern Goat Cooperative",
+      "ApplicantType": "Cooperative",
+      "BusinessName": "Southern Goat Cooperative",
+      "RegistrationNumber": "COOP-2023-00421",
+      "Province": "Southern",
+      "District": "Choma",
+      "PhoneNumber": "+260 955 220 002",
+      "Email": "secretary@southerngoats.example",
+      "IsRegistered": true,
+      "IsTaxCompliant": false
+    },
+    {
+      "ApplicantId": "APPL-003",
+      "ApplicantName": "Lusaka Office Supplies Ltd",
+      "ApplicantType": "SME",
+      "BusinessName": "Lusaka Office Supplies Ltd",
+      "RegistrationNumber": "PACRA-2019-07712",
+      "Province": "Lusaka",
+      "District": "Lusaka",
+      "PhoneNumber": "+260 966 330 003",
+      "Email": "contracts@lusakaofficesupplies.example",
+      "IsRegistered": true,
+      "IsTaxCompliant": true
+    },
+    {
+      "ApplicantId": "APPL-GOLD-001",
+      "ApplicantName": "Mumbwa Miners Coop",
+      "ApplicantType": "Cooperative",
+      "BusinessName": "Mumbwa Miners Coop",
+      "RegistrationNumber": "COOP-2025-00911",
+      "Province": "Central",
+      "District": "Mumbwa",
+      "PhoneNumber": "+260 977 440 001",
+      "Email": "chair@mumbwaminers.example",
+      "IsRegistered": true,
+      "IsTaxCompliant": true
+    },
+    {
+      "ApplicantId": "APPL-MINE-001",
+      "ApplicantName": "Solwezi Industrial Parts",
+      "ApplicantType": "SME",
+      "BusinessName": "Solwezi Industrial Parts",
+      "RegistrationNumber": "PACRA-2022-01591",
+      "Province": "North-Western",
+      "District": "Solwezi",
+      "PhoneNumber": "+260 977 550 001",
+      "Email": "ops@solweziindustrial.example",
+      "IsRegistered": true,
+      "IsTaxCompliant": true
+    }
+  ]
+}

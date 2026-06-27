@@ -1,0 +1,63 @@
+{
+  "instrumentId": "ZAM-MINING-ACT-2015",
+  "title": "The Mines and Minerals Development Act, 2015",
+  "category": "Mining & Natural Resources",
+  "sponsoringMinistry": "Ministry of Mines and Minerals Development",
+  "effectiveDate": "2015-08-14T00:00:00Z",
+  "parts": [
+    {
+      "partNumber": "I",
+      "title": "Preliminary",
+      "sections": [
+        {
+          "sectionId": "s1",
+          "title": "Short title and commencement",
+          "content": "This Act may be cited as the Mines and Minerals Development Act, 2015, and shall come into operation on such date as the Minister may, by statutory instrument, appoint.",
+          "riskLevel": "Low"
+        },
+        {
+          "sectionId": "s2",
+          "title": "Interpretation",
+          "content": "In this Act, unless the context otherwise requires— 'base metal' means a non-precious metal that is either common or more chemically active, or both common and chemically active; 'mineral' means any substance occurring naturally in or on the earth or in or under water and which was formed by or subjected to a geological process...",
+          "riskLevel": "Low"
+        }
+      ]
+    },
+    {
+      "partNumber": "II",
+      "title": "Administration",
+      "sections": [
+        {
+          "sectionId": "s5",
+          "title": "Director of Mines",
+          "content": "The Public Service Commission shall appoint as public officers a Director of Mines, a Director of Geological Survey, a Director of Mines Safety and a Director of Mining Cadastre.",
+          "riskLevel": "Medium"
+        }
+      ]
+    },
+    {
+      "partNumber": "III",
+      "title": "Mining Rights and Non-Mining Rights",
+      "sections": [
+        {
+          "sectionId": "s12",
+          "title": "Prohibition of mining without mining right",
+          "content": "A person shall not prospect for minerals or carry on mining operations except under the authority of a mining right or mineral processing licence granted under this Act.",
+          "rules": ["MIN-001"],
+          "riskLevel": "Critical",
+          "jsonRule": "{\n  \"ruleId\": \"MIN-001\",\n  \"targetEntity\": \"MiningOperator\",\n  \"condition\": {\n    \"operator\": \"AND\",\n    \"rules\": [\n      {\n        \"field\": \"operationStatus\",\n        \"operator\": \"EQUAL\",\n        \"value\": \"ACTIVE\"\n      },\n      {\n        \"field\": \"hasValidMiningRight\",\n        \"operator\": \"EQUAL\",\n        \"value\": false\n      }\n    ]\n  },\n  \"action\": \"TriggerViolation\",\n  \"severity\": \"Critical\"\n}",
+          "evaluationCount": 4215
+        },
+        {
+          "sectionId": "s22",
+          "title": "Application for large-scale mining licence",
+          "content": "An application for a large-scale mining licence shall be made to the Director of Mining Cadastre in the prescribed form upon payment of the prescribed fee.",
+          "riskLevel": "High",
+          "rules": ["MIN-002"],
+          "jsonRule": "{\n  \"ruleId\": \"MIN-002\",\n  \"targetEntity\": \"LicenceApplication\",\n  \"condition\": {\n    \"operator\": \"AND\",\n    \"rules\": [\n      {\n        \"field\": \"applicationType\",\n        \"operator\": \"EQUAL\",\n        \"value\": \"LARGE_SCALE\"\n      },\n      {\n        \"field\": \"feePaid\",\n        \"operator\": \"EQUAL\",\n        \"value\": false\n      }\n    ]\n  },\n  \"action\": \"RejectApplication\",\n  \"severity\": \"High\"\n}",
+          "evaluationCount": 892
+        }
+      ]
+    }
+  ]
+}

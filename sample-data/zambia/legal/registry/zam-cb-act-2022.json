@@ -1,0 +1,60 @@
+{
+  "instrumentId": "ZAM-CB-ACT-2022",
+  "title": "The Bank of Zambia Act, 2022",
+  "category": "Banking & Finance",
+  "sponsoringMinistry": "Ministry of Finance and National Planning",
+  "effectiveDate": "2022-08-12T00:00:00Z",
+  "parts": [
+    {
+      "partNumber": "I",
+      "title": "Preliminary",
+      "sections": [
+        {
+          "sectionId": "s1",
+          "title": "Short title and commencement",
+          "content": "This Act may be cited as the Bank of Zambia Act, 2022, and shall come into operation on the date appointed by the Minister by statutory instrument.",
+          "riskLevel": "Low"
+        }
+      ]
+    },
+    {
+      "partNumber": "II",
+      "title": "The Bank of Zambia",
+      "sections": [
+        {
+          "sectionId": "s4",
+          "title": "Establishment of Bank",
+          "content": "The Bank of Zambia established under the repealed Act continues to exist as a body corporate with perpetual succession and a common seal.",
+          "riskLevel": "Low"
+        },
+        {
+          "sectionId": "s5",
+          "title": "Functions of Bank",
+          "content": "The functions of the Bank are to formulate and implement monetary and supervisory policies that will ensure the maintenance of price and financial systems stability so as to promote balanced macro-economic development.",
+          "riskLevel": "Medium"
+        }
+      ]
+    },
+    {
+      "partNumber": "IV",
+      "title": "Monetary Unit and Legal Tender",
+      "sections": [
+        {
+          "sectionId": "s22",
+          "title": "Monetary unit",
+          "content": "The monetary unit of the Republic is the Kwacha, which shall be divided into one hundred Ngwee.",
+          "riskLevel": "Low"
+        },
+        {
+          "sectionId": "s23",
+          "title": "Legal tender",
+          "content": "Notes and coins issued by the Bank shall be legal tender in the Republic for the payment of any amount.",
+          "rules": ["FIN-TENDER-001"],
+          "riskLevel": "High",
+          "jsonRule": "{\n  \"ruleId\": \"FIN-TENDER-001\",\n  \"targetEntity\": \"Transaction\",\n  \"condition\": {\n    \"operator\": \"AND\",\n    \"rules\": [\n      { \"field\": \"currency\", \"operator\": \"NOT_EQUAL\", \"value\": \"ZMW\" },\n      { \"field\": \"isDomesticTransaction\", \"operator\": \"EQUAL\", \"value\": true },\n      { \"field\": \"hasExemption\", \"operator\": \"EQUAL\", \"value\": false }\n    ]\n  },\n  \"action\": \"FlagCurrencyViolation\",\n  \"severity\": \"High\"\n}",
+          "evaluationCount": 98500
+        }
+      ]
+    }
+  ]
+}

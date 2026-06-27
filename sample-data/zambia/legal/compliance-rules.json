@@ -1,0 +1,36 @@
+[
+  {
+    "ruleId": "RULE-001",
+    "ruleReference": "PFM Act s.30",
+    "title": "Commitment control",
+    "appliesTo": "Contracts, projects, procurement",
+    "testDescription": "Verify commitment has budget authority and approval evidence.",
+    "instrumentId": "ZAM-PFM-ACT-2018",
+    "sectionId": "s30"
+  },
+  {
+    "ruleId": "RULE-002",
+    "ruleReference": "Procurement Act 2020",
+    "title": "Tender lifecycle timeliness",
+    "appliesTo": "Tender records",
+    "testDescription": "Detect stage delays and missing committee evidence.",
+    "instrumentId": "ZAM-PROC-ACT-2020",
+    "sectionId": "s6"
+  },
+  {
+    "ruleId": "RULE-003",
+    "ruleReference": "Cabinet Procedure",
+    "title": "Legal review before Cabinet",
+    "appliesTo": "Bills and policy submissions",
+    "testDescription": "Verify legal opinion before final Cabinet consideration."
+  },
+  {
+    "ruleId": "RULE-004",
+    "ruleReference": "CDF Act s.3",
+    "title": "Community Participation Evidence",
+    "appliesTo": "CDF Projects",
+    "testDescription": "Verify minutes of community consultation exist and are signed off for all CDF projects.",
+    "instrumentId": "ZAM-CDF-BILL-2023",
+    "sectionId": "s3"
+  }
+]

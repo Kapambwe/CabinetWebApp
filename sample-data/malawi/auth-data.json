@@ -1,0 +1,40 @@
+{
+  "countryName": "Malawi",
+  "roles": [
+    {
+      "roleId": "PRES",
+      "roleName": "President",
+      "users": [
+        { "userId": "MWI-001", "name": "Lazarus Chakwera", "email": "president@statehouse.gov.mw" }
+      ]
+    },
+    {
+      "roleId": "COS",
+      "roleName": "Chief of Staff",
+      "users": [
+        { "userId": "MWI-002", "name": "Prince Kapondamgaga", "email": "cos@statehouse.gov.mw" }
+      ]
+    },
+    {
+      "roleId": "STC",
+      "roleName": "Secretary to President & Cabinet",
+      "users": [
+        { "userId": "MWI-003", "name": "Colleen Zamba", "email": "spc@opc.gov.mw" }
+      ]
+    },
+    {
+      "roleId": "ECON_ADV",
+      "roleName": "Economic Advisor",
+      "users": [
+        { "userId": "MWI-004", "name": "Chancellor Kaferapanjira", "email": "economic@statehouse.gov.mw" }
+      ]
+    },
+    {
+      "roleId": "LEGAL_ADV",
+      "roleName": "Legal Advisor",
+      "users": [
+        { "userId": "MWI-005", "name": "Thabo Chakaka Nyirenda", "email": "ag@justice.gov.mw" }
+      ]
+    }
+  ]
+}

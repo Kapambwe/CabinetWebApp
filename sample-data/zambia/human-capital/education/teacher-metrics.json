@@ -1,0 +1,5 @@
+[
+  { "teacherId": "TCH-001", "name": "John Banda", "schoolId": "SCH-001", "attendanceRate": 98.5, "punctualityRate": 95.0, "lessonsTaught": 42, "lessonsPlanned": 42 },
+  { "teacherId": "TCH-002", "name": "Mary Phiri", "schoolId": "SCH-001", "attendanceRate": 75.0, "punctualityRate": 82.0, "lessonsTaught": 30, "lessonsPlanned": 40 },
+  { "teacherId": "TCH-010", "name": "Samuel Mwale", "schoolId": "SCH-002", "attendanceRate": 92.0, "punctualityRate": 88.0, "lessonsTaught": 35, "lessonsPlanned": 38 }
+]

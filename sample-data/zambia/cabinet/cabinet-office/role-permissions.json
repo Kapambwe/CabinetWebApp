@@ -1,0 +1,30 @@
+{
+  "roles": [
+    {
+      "name": "Senior M&E Officer",
+      "permissions": [
+        "Cabinet.ViewCabinetDecisions",
+        "Cabinet.ViewMemosAndDirectives",
+        "Pdu.ViewDashboard",
+        "Pdu.MonitorProjects"
+      ]
+    },
+    {
+      "name": "Secretary to the Cabinet",
+      "permissions": [
+        "Executive.ViewOversight",
+        "Executive.ManageEscalations",
+        "Cabinet.ViewCabinetDecisions",
+        "Cabinet.ViewMemosAndDirectives",
+        "Cabinet.ViewMous",
+        "Pdu.ViewDashboard"
+      ]
+    },
+    {
+      "name": "System Administrator",
+      "permissions": [
+        "ALL"
+      ]
+    }
+  ]
+}

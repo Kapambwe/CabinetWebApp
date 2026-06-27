@@ -1,0 +1,5 @@
+[
+  { "drugId": "DRG-001", "name": "Amoxicillin", "hospitalId": "HOS-001", "stockLevel": 1200, "reorderLevel": 500, "status": "Adequate", "expiryDate": "2027-01-15T00:00:00" },
+  { "drugId": "DRG-002", "name": "Paracetamol", "hospitalId": "HOS-001", "stockLevel": 150, "reorderLevel": 1000, "status": "Low", "expiryDate": "2026-08-20T00:00:00" },
+  { "drugId": "DRG-010", "name": "Insulin", "hospitalId": "HOS-003", "stockLevel": 0, "reorderLevel": 200, "status": "Stockout", "expiryDate": "2026-03-10T00:00:00" }
+]

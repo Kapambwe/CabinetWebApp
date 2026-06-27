@@ -1,0 +1,33 @@
+{
+  "instrumentId": "ZAM-PPP-BILL-2023",
+  "title": "The Public-Private Partnership Bill, 2023",
+  "category": "Infrastructure",
+  "sponsoringMinistry": "Ministry of Finance",
+  "effectiveDate": "2023-07-27T00:00:00Z",
+  "parts": [
+    {
+      "partNumber": "I",
+      "title": "Preliminary Provisions",
+      "sections": [
+        {
+          "sectionId": "s1",
+          "title": "Short title and commencement",
+          "content": "This Act may be cited as the Public-Private Partnership Act, 2023, and shall come into operation on such date as the Minister may, by statutory instrument, appoint.",
+          "riskLevel": "Low"
+        }
+      ]
+    },
+    {
+      "partNumber": "II",
+      "title": "The Public-Private Partnership Office",
+      "sections": [
+        {
+          "sectionId": "s6",
+          "title": "Establishment of Public-Private Partnership Office",
+          "content": "There is established the Public-Private Partnership Office which shall be a department in the Ministry responsible for finance.",
+          "riskLevel": "Medium"
+        }
+      ]
+    }
+  ]
+}

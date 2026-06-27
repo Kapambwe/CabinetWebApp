@@ -1,0 +1,35 @@
+[
+  {
+    "ContractId": "CON-001",
+    "Title": "National Border Scanner Maintenance Contract",
+    "Counterparty": "SecureScan Africa Ltd",
+    "ResponsibleInstitution": "ZRA",
+    "ContractValue": 42000000,
+    "EffectiveDate": "2025-10-06T00:00:00Z",
+    "ExpiryDate": "2027-06-06T00:00:00Z",
+    "RiskLevel": "High",
+    "Status": "Performance concern"
+  },
+  {
+    "ContractId": "CON-002",
+    "Title": "Critical Corridor Surveillance Pilot",
+    "Counterparty": "RoadSafe Systems",
+    "ResponsibleInstitution": "RTSA",
+    "ContractValue": 18500000,
+    "EffectiveDate": "2026-03-06T00:00:00Z",
+    "ExpiryDate": "2027-03-06T00:00:00Z",
+    "RiskLevel": "Medium",
+    "Status": "Active"
+  },
+  {
+    "ContractId": "CON-003",
+    "Title": "Border Gate Network Support Services",
+    "Counterparty": "NetOps Zambia",
+    "ResponsibleInstitution": "Ministry of Home Affairs",
+    "ContractValue": 12650000,
+    "EffectiveDate": "2026-01-15T00:00:00Z",
+    "ExpiryDate": "2026-12-31T00:00:00Z",
+    "RiskLevel": "Low",
+    "Status": "Active"
+  }
+]
