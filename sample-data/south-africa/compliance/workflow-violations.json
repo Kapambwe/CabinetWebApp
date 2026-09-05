@@ -1,6 +1,6 @@
 [
   {
-    "violationId": "s17c1d8f-4c4b-4e6a-a8d1-30b0c7e4f001",
+    "violationId": "c17c1d8f-4c4b-4e6a-a8d1-30b0c7e4f001",
     "applicationId": "pdu-procurement",
     "tenantId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
     "countryCode": "ZA",
@@ -37,7 +37,7 @@
     "createdAtUtc": "2026-05-31T10:00:00Z"
   },
   {
-    "violationId": "s17c1d8f-4c4b-4e6a-a8d1-30b0c7e4f002",
+    "violationId": "c17c1d8f-4c4b-4e6a-a8d1-30b0c7e4f002",
     "applicationId": "cabinet-oversight",
     "tenantId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
     "countryCode": "ZA",

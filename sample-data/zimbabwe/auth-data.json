@@ -28,6 +28,13 @@
       "users": [
         { "userId": "ZWE-004", "name": "Virginia Mabhiza", "email": "legal@justice.gov.zw" }
       ]
+    },
+    {
+      "roleId": "SYS_ADM",
+      "roleName": "System Administrator",
+      "users": [
+        { "userId": "ZWE-ADM", "name": "Admin User", "email": "admin@gov.zw" }
+      ]
     }
   ]
 }

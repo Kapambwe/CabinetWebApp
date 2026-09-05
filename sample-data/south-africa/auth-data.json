@@ -42,6 +42,13 @@
       "users": [
         { "userId": "ZAF-006", "name": "Sydney Mufamadi", "email": "security@presidency.gov.za" }
       ]
+    },
+    {
+      "roleId": "SYS_ADM",
+      "roleName": "System Administrator",
+      "users": [
+        { "userId": "ZAF-ADM", "name": "Admin User", "email": "admin@gov.za" }
+      ]
     }
   ]
 }

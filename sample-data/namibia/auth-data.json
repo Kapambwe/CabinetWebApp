@@ -14,6 +14,13 @@
       "users": [
         { "userId": "NAM-002", "name": "Barry Shimotwikeni", "email": "cos@op.gov.na" }
       ]
+    },
+    {
+      "roleId": "SYS_ADM",
+      "roleName": "System Administrator",
+      "users": [
+        { "userId": "NAM-ADM", "name": "Admin User", "email": "admin@gov.na" }
+      ]
     }
   ]
 }

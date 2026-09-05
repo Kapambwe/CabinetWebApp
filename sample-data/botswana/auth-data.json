@@ -14,6 +14,13 @@
       "users": [
         { "userId": "BWA-002", "name": "Matshidiso Bokowe", "email": "cos@gov.bw" }
       ]
+    },
+    {
+      "roleId": "SYS_ADM",
+      "roleName": "System Administrator",
+      "users": [
+        { "userId": "BWA-ADM", "name": "Admin User", "email": "admin@gov.bw" }
+      ]
     }
   ]
 }

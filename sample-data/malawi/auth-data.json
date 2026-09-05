@@ -35,6 +35,13 @@
       "users": [
         { "userId": "MWI-005", "name": "Thabo Chakaka Nyirenda", "email": "ag@justice.gov.mw" }
       ]
+    },
+    {
+      "roleId": "SYS_ADM",
+      "roleName": "System Administrator",
+      "users": [
+        { "userId": "MWI-ADM", "name": "Admin User", "email": "admin@gov.mw" }
+      ]
     }
   ]
 }
